@@ -1,0 +1,446 @@
+/* ============================================================
+   scriptedfantasy.net — Stylesheet
+   Mobile-first, semantic, optimized for readability & scrapers
+   ============================================================ */
+
+:root {
+  --color-bg: #fff;
+  --color-text: #333;
+  --color-text-muted: #888;
+  --color-link: #111;
+  --color-link-hover: #555;
+  --color-accent: #d6006e;
+  --color-border: #e0e0e0;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  --font-heading: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  --max-width: 640px;
+  --spacing-section: 3rem;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  line-height: 1.7;
+  padding: 2rem 1.25rem;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ---- Header ---- */
+
+header.site-header {
+  margin-bottom: var(--spacing-section);
+}
+
+header.site-header h1 {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--color-link);
+  margin-bottom: 0.25rem;
+}
+
+header.site-header time {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
+/* ---- Bio ---- */
+
+.bio {
+  margin-bottom: var(--spacing-section);
+}
+
+.bio p {
+  margin-bottom: 1rem;
+}
+
+.bio p:last-child {
+  margin-bottom: 0;
+}
+
+/* ---- Links ---- */
+
+a {
+  color: var(--color-link);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+  transition: color 0.15s ease;
+}
+
+a:hover {
+  color: var(--color-link-hover);
+}
+
+/* ---- Section headings ---- */
+
+.section-title {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--color-link);
+  margin-bottom: 1.5rem;
+}
+
+/* ---- Content sections ---- */
+
+section.content-section {
+  margin-bottom: var(--spacing-section);
+  border-top: 1px solid var(--color-border);
+  padding-top: 2rem;
+}
+
+.section-title {
+  margin-top: 1rem;
+}
+
+/* ---- Year groups ---- */
+
+.year-group {
+  margin-bottom: 1.5rem;
+}
+
+.year-label {
+  font-family: var(--font-heading);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  margin-bottom: 0.5rem;
+}
+
+/* ---- Item list (projects, selected works) ---- */
+
+.item-list {
+  list-style: none;
+}
+
+.item-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0.4rem 0;
+  gap: 1rem;
+}
+
+.item-list li a {
+  flex: 1;
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.item-list time {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.badge-new {
+  display: inline-block;
+  font-family: var(--font-heading);
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-left: 0.5rem;
+  vertical-align: middle;
+}
+
+/* ---- Sub-category labels (Curating, Writing, Speaking) ---- */
+
+.sub-category {
+  font-family: var(--font-heading);
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.sub-category:first-child {
+  margin-top: 0;
+}
+
+/* ---- Accordion (details/summary) ---- */
+
+.accordion {}
+
+.accordion summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.4rem 0;
+  gap: 0.75rem;
+  cursor: pointer;
+  list-style: none;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.accordion summary::-webkit-details-marker {
+  display: none;
+}
+
+.accordion summary::marker {
+  content: '';
+}
+
+/* ---- Title ---- */
+
+.accordion-title {
+  flex: 1;
+  min-width: 0;
+  color: var(--color-link);
+  text-decoration: none;
+  position: relative;
+}
+
+/* Background slide-in on hover */
+.accordion summary {
+  position: relative;
+  z-index: 0;
+}
+
+.accordion summary::before {
+  content: '';
+  position: absolute;
+  inset: 0 -0.75rem;
+  background: #f0f0f0;
+  border-radius: 4px;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 200ms ease-out;
+  z-index: -1;
+}
+
+.accordion summary:hover::before,
+.accordion[open] summary::before {
+  transform: scaleX(1);
+}
+
+.accordion summary time {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.accordion summary:hover .accordion-title {
+  color: var(--color-link-hover);
+}
+
+/* ---- Content reveal animation ---- */
+
+:root {
+  interpolate-size: allow-keywords;
+}
+
+.accordion-content {
+  padding: 0 0 0;
+  overflow: hidden;
+  opacity: 0;
+  height: 0;
+  transition: height 250ms ease-out, opacity 200ms ease-out, padding 250ms ease-out;
+}
+
+.accordion[open] .accordion-content {
+  opacity: 1;
+  height: auto;
+  padding: 0.75rem 0 1.5rem;
+}
+
+@supports not (interpolate-size: allow-keywords) {
+  .accordion-content {
+    height: auto;
+    opacity: 1;
+    overflow: visible;
+    padding: 0.75rem 0 1.5rem;
+  }
+}
+
+.accordion-content p {
+  margin-bottom: 1rem;
+}
+
+.accordion-content p:last-child {
+  margin-bottom: 0;
+}
+
+.accordion-content h3 {
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-link);
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.accordion-content figure {
+  margin: 1.5rem 0;
+}
+
+.accordion-content figure img,
+.accordion-content figure video {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.accordion-content figure figcaption {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  margin-top: 0.5rem;
+}
+
+/* ---- Contact line ---- */
+
+.contact {
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+}
+
+/* ---- Detail page layout ---- */
+
+.detail-nav {
+  margin-bottom: 2rem;
+}
+
+.detail-nav a {
+  font-family: var(--font-heading);
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.detail-nav a:hover {
+  color: var(--color-link);
+}
+
+.detail-nav .arrow {
+  font-size: 1rem;
+}
+
+.detail-main {}
+
+.detail-main header {
+  margin-bottom: 2rem;
+}
+
+.detail-main header h1 {
+  font-family: var(--font-heading);
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: var(--color-link);
+  line-height: 1.3;
+  margin-bottom: 0.5rem;
+}
+
+.detail-main header time {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
+.detail-main h2 {
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--color-link);
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.detail-main p {
+  margin-bottom: 1.25rem;
+}
+
+.detail-main figure {
+  margin: 2rem 0;
+}
+
+.detail-main figure img,
+.detail-main figure video {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.detail-main figure figcaption {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  margin-top: 0.5rem;
+}
+
+/* ---- Responsive: mobile-first already, enhance for wide screens ---- */
+
+@media (max-width: 600px) {
+  body {
+    padding: 1.5rem 1rem;
+  }
+
+  .item-list li {
+    flex-wrap: wrap;
+    gap: 0.25rem;
+  }
+
+  .item-list li a {
+    white-space: normal;
+    flex-basis: 100%;
+  }
+
+  .item-list time {
+    font-size: 0.8rem;
+  }
+
+  .accordion summary {
+    flex-wrap: wrap;
+    gap: 0.25rem;
+  }
+
+  .accordion-title {
+    flex-basis: 100%;
+  }
+
+  .detail-main header h1 {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    padding: 4rem 2rem;
+  }
+}
+
+/* ---- Print styles ---- */
+
+@media print {
+  body {
+    max-width: 100%;
+  }
+
+  .badge-new {
+    border: 1px solid #111;
+    padding: 0 0.25rem;
+  }
+}
