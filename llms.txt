@@ -4,7 +4,7 @@
 
 ## About
 
-Recently founded Contxt.art to bring conversational intelligence to exhibitions worldwide — AI-native tooling for museums, galleries, and exhibitors.
+Recently founded Contxt.art — an applied intelligence lab for art and culture. Researches data and discourse across institutions, themes and geographies, and distills it into citation-grounded, applied knowledge: living archives that help people map the connections between artworks, artists, movements and ideas.
 
 Previously co-founding artistic director at 1OF1, a globally active art collection and collaborative studio supporting digital native artists and forward-thinking art institutions (2022–2024). Built a 40M USD collection. Collaborated with MoMA NYC, M+ Hong Kong, Serpentine Galleries London, Castello di Rivoli, Crystal Bridges. Projects with Beeple, Refik Anadol, Holly Herndon & Mat Dryhurst, Urs Fischer, Sasha Stiles.
 
@@ -14,7 +14,7 @@ Also makes and releases music under the name Ethimm (since 2012).
 
 ## Companies
 
-- **Contxt** (2025–present) — https://contxt.art — Conversational intelligence for exhibitions worldwide.
+- **Contxt** (2025–present) — https://contxt.art — Applied intelligence lab for art and culture. Research across institutions, themes and geographies, distilled into citation-grounded living archives.
 - **1OF1** (2022–2024) — Co-founding artistic and managing director. 40M USD art collection. MoMA, M+, Serpentine, Castello di Rivoli, Crystal Bridges.
 - **Projekt Interim** (2011–2019) — Switzerland's largest temporary real-estate provider. 3000 tenants, 150 properties.
 
