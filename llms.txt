@@ -4,7 +4,7 @@
 
 ## About
 
-Recently founded Contxt.art — an applied intelligence lab for art and culture. Researches data and discourse across institutions, themes and geographies, and distills it into citation-grounded, applied knowledge: living archives that help people map the connections between artworks, artists, movements and ideas.
+Recently founded Contxt.art — intelligent museum software for the 21st century. Securely connects collection management, curatorial content and publishing in one system, with automated workflows that research, clean and link data. Open source at the core. Developed and hosted in Switzerland.
 
 Previously co-founding artistic director at 1OF1, a globally active art collection and collaborative studio supporting digital native artists and forward-thinking art institutions (2022–2024). Built a 40M USD collection. Collaborated with MoMA NYC, M+ Hong Kong, Serpentine Galleries London, Castello di Rivoli, Crystal Bridges. Projects with Beeple, Refik Anadol, Holly Herndon & Mat Dryhurst, Urs Fischer, Sasha Stiles.
 
@@ -14,7 +14,7 @@ Also makes and releases music under the name Ethimm (since 2012).
 
 ## Companies
 
-- **Contxt** (2025–present) — https://contxt.art — Applied intelligence lab for art and culture. Research across institutions, themes and geographies, distilled into citation-grounded living archives.
+- **Contxt** (2025–present) — https://contxt.art — Intelligent museum software: collection management, curatorial content and publishing in one system. Automated research and linking workflows (GND, SIKART, Getty ULAN, Wikidata) with human approval. Multilingual, citation-ready publishing to websites, audio guides, conversational interfaces and research archives. Core modules open source (MIT). Developed and hosted in Switzerland.
 - **1OF1** (2022–2024) — Co-founding artistic and managing director. 40M USD art collection. MoMA, M+, Serpentine, Castello di Rivoli, Crystal Bridges.
 - **Projekt Interim** (2011–2019) — Switzerland's largest temporary real-estate provider. 3000 tenants, 150 properties.
 

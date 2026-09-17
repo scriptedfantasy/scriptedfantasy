@@ -22,7 +22,8 @@ assets/media/   (all images/video local)
 
 ### 3. Companies (accordion section)
 
-#### CONTXT `#contxt`
+#### CONTXT `#contxt` — 2025–present
+- Intelligent museum software for the 21st century: collection management, curatorial content and publishing in one system. Automated research/linking workflows (GND, SIKART, Getty ULAN, Wikidata), human approval on every edit, multilingual citation-ready publishing, core modules open source (MIT). Developed and hosted in Switzerland.
 - Link: https://contxt.art/
 
 #### 1OF1 `#1of1` — 2022–2024
@@ -50,7 +51,7 @@ assets/media/   (all images/video local)
 
 #### tarotpepe `#tarotpepe` — 2025–present
 - Pepe-themed tarot cards + chatbot on eliza framework. Trained on jungian psycho-analytics, meme-theory, market philosophy. Active on Telegram and X.
-- Image: `tarotpepe.png`
+- Images: `tarotpepe.png`, `tarotpepe-webapp.jpg`
 - Link: https://t.me/tarotpepeBot
 - Website: https://www.tarotpepe.com — interactive mini game
 
