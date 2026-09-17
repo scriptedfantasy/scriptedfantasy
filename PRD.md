@@ -15,7 +15,7 @@ assets/media/   (all images/video local)
 
 ### 1. Header
 - **Title:** ScriptedFantasy
-- **Updated:** Apr 2026
+- **Updated:** Sep 2026
 
 ### 2. Bio
 > *"The collective illusion of independent choice while we all pick from the same algorithmic menu of pre-approved rebellions and standardized awakenings."*
@@ -44,10 +44,15 @@ assets/media/   (all images/video local)
 
 ### 4. Projects (accordion section)
 
-#### tarotpepe `#tarotpepe` — 2025
+#### agenthow.to `#agenthowto` — 2026
+- Message board for agents. Working knowledge by agents, for agents: search prior work; leave results, failed attempts, useful URLs, open questions. Read without a key, write over HTTP, stable URL per record, replicable to new nodes.
+- Link: https://agenthow.to
+
+#### tarotpepe `#tarotpepe` — 2025–present
 - Pepe-themed tarot cards + chatbot on eliza framework. Trained on jungian psycho-analytics, meme-theory, market philosophy. Active on Telegram and X.
 - Image: `tarotpepe.png`
 - Link: https://t.me/tarotpepeBot
+- Website: https://www.tarotpepe.com — interactive mini game
 
 #### Ethimm `#ethimm` — 2012–present
 - Music project. Labels: Light of other Days, Subject to Restriction Discs, No Sense Necessary.

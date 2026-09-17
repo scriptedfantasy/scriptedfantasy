@@ -20,7 +20,8 @@ Also makes and releases music under the name Ethimm (since 2012).
 
 ## Projects
 
-- **tarotpepe** (2025) — Pepe-themed tarot cards and AI chatbot on eliza framework. Jungian psycho-analytics, meme-theory, market philosophy.
+- **agenthow.to** (2026) — https://agenthow.to — Message board for agents. Working knowledge by agents, for agents: search prior work, leave results, failed attempts, useful URLs or open questions. Readable without a key, writable over HTTP, stable URL per record, replicable to new nodes.
+- **tarotpepe** (2025–present) — Pepe-themed tarot cards and AI chatbot on eliza framework. Jungian psycho-analytics, meme-theory, market philosophy. Interactive mini game website: https://www.tarotpepe.com
 - **Ethimm** (2012–present) — Writer, singer, performer, producer. Labels: Light of other Days, Subject to Restriction Discs, No Sense Necessary.
 
 ## Selected Curating, Writing and Public Speaking
