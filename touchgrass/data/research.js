@@ -3959,6 +3959,41 @@ TG.research = {
           }
         }
       ]
+    },
+    {
+      "id": "A60",
+      "artist": "Mika Ben Amar",
+      "as_listed": [],
+      "name_note": "Sent by Lukas on 29.10.2026; not on the original brief.",
+      "practice": "Berlin-based artist who treats the internet as both medium and landscape, looking at the aesthetics, behaviours and infrastructure of online culture.",
+      "status": "longlist",
+      "notes": "",
+      "works": [
+        {
+          "title": "https://internet.flowers",
+          "year": "2025",
+          "medium": "Web work and Verse series: a Chrome extension she built scans every page she visits, and an AI model she trained finds and crops the flowers in its images",
+          "where": "internet.flowers; series on Verse",
+          "nature": [
+            "flora",
+            "garden"
+          ],
+          "why": "A digital garden grown from the flowers in the artist's own browsing history.",
+          "named_in_brief": true,
+          "verified": true,
+          "sources": [
+            "https://verse.works/series/https-internet-flowers-by-mika-ben-amar",
+            "https://internet.flowers/"
+          ],
+          "id": "W134",
+          "status": "candidate",
+          "image": {
+            "file": "images/W134.jpg",
+            "page": "https://verse.works/series/https-internet-flowers-by-mika-ben-amar",
+            "url": "https://versecontent.com/image/w1400/static%2F2d55fbbf-c1e4-4041-80f7-7de2ddc8eec3.jpeg@jpeg"
+          }
+        }
+      ]
     }
   ]
 };
