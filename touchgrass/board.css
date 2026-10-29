@@ -1,0 +1,60 @@
+/* Process board: one column of monospace text, black on white. The log borrows the layout of a play script. */
+:root {
+  --ink: #000;
+  --paper: #fff;
+  --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  --name: 9ch;
+  --step: 1.6em;
+  color-scheme: light;
+}
+
+html { background: var(--paper); }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font: 14px/1.55 var(--mono);
+  padding-block: 32px 64px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+
+main { max-width: 76ch; margin: 0 auto; display: grid; gap: calc(var(--step) * 2); overflow-wrap: anywhere; }
+section { display: grid; gap: var(--step); min-width: 0; }
+
+h1, h2, h3, p, ol, ul, pre { margin: 0; padding: 0; font: inherit; }
+h1, h2, h3, .who { text-transform: uppercase; letter-spacing: 0.06em; font-weight: 600; }
+h2::before { content: "== "; }
+h2::after { content: " =="; }
+a { color: var(--ink); text-underline-offset: 2px; }
+a:focus-visible, summary:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+
+/* log: numbered entries, speaker names set like a play script */
+.log { list-style: none; display: grid; gap: 0.9em; }
+.date { font-weight: 600; margin-top: var(--step); }
+.date:first-child { margin-top: 0; }
+.date::before { content: "-- "; }
+.date::after { content: " --"; }
+.entry { display: grid; grid-template-columns: 5ch var(--name) 1fr; }
+.entry > p, .say { min-width: 0; }
+.say { display: grid; gap: 0.4em; }
+.dir p { font-style: italic; }
+.open .say p::after { content: " _"; }
+summary { cursor: pointer; font-style: italic; }
+details pre { white-space: pre-wrap; padding: 0.4em 0 0 2ch; }
+
+/* longlist */
+.artists { list-style: none; display: grid; gap: 1.1em; }
+.artist-head { display: flex; justify-content: space-between; gap: 2ch; font-weight: 600; }
+.works { list-style: none; padding-left: 4ch; display: grid; gap: 0.3em; }
+.works li { padding-left: 2ch; text-indent: -2ch; }
+.works .links { display: block; text-indent: 0; }
+.works .links a + a { margin-left: 2ch; }
+.works.none { font-style: italic; padding-left: 4ch; }
+
+@media (max-width: 520px) {
+  .entry { grid-template-columns: 5ch 1fr; }
+  .entry .who:empty { display: none; }
+  .entry .say, .entry > p { grid-column: 2; }
+  .works, .works.none { padding-left: 2ch; }
+}
