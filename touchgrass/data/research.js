@@ -1539,7 +1539,12 @@ TG.research = {
             "https://rhizome.org/editorial/2021/aug/02/artist-profile-katherine-frazer/"
           ],
           "id": "W058",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W058.jpg",
+            "page": "https://katherinefrazer.com/ikebana_sketchbook.html",
+            "url": "https://katherinefrazer.com/assets/ikebana_sketchbook_1.png"
+          }
         },
         {
           "title": "∞ bouquet ∞ toss ∞ feeling, it's just for you",
@@ -1557,7 +1562,12 @@ TG.research = {
             "https://rhizome.org/editorial/2021/aug/02/artist-profile-katherine-frazer/"
           ],
           "id": "W059",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W059.jpg",
+            "page": "https://katherinefrazer.com/bouquet_toss.html",
+            "url": "https://katherinefrazer.com/assets/bouquet_toss.png"
+          }
         },
         {
           "title": "Magic Move 4",
@@ -1575,7 +1585,12 @@ TG.research = {
             "https://www.timessquarenyc.org/news-and-press-releases/times-square-arts-announces-spring-2023-midnight-moment-program"
           ],
           "id": "W060",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W060.jpg",
+            "page": "https://katherinefrazer.com/midnight_moment.html",
+            "url": "https://katherinefrazer.com/assets/midnight_moment_4.jpg"
+          }
         }
       ]
     },
@@ -1686,7 +1701,12 @@ TG.research = {
             "https://en.wikipedia.org/wiki/Sofia_Crespo"
           ],
           "id": "W064",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W064.jpg",
+            "page": "https://entangledothers.studio/beneath-the-neural-waves/",
+            "url": "https://entangledothers.studio/wp-content/uploads/2021/03/btnw_2-0_render_underwater.jpg"
+          }
         }
       ]
     },
@@ -1718,7 +1738,12 @@ TG.research = {
             "https://verse.works/artworks/5db28778-8077-47ed-b5af-b9bb57054ba9/931663151"
           ],
           "id": "W065",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W065.jpg",
+            "page": "https://verse.works/artworks/5db28778-8077-47ed-b5af-b9bb57054ba9/931663184",
+            "url": "https://versecontent.com/image/source/static%2Fuploads%2F0x29c9e04e05c5d261836e458bc5b779a7de3c58d6%2F20dfdd1a-981b-412f-aecd-0f74f91ec70e.png"
+          }
         },
         {
           "title": "Latentscapes",
@@ -1774,7 +1799,12 @@ TG.research = {
             "https://verisart.com/blog/certifying-a-pioneer-harold-cohens-aaron-at-art-basel-zero-10"
           ],
           "id": "W067",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W067.jpg",
+            "page": "https://www.sothebys.com/en/buy/_0309-06-i23-3370-a3e2",
+            "url": "https://sothebys-md.brightspotcdn.com/dims4/default/3193ec0/2147483647/strip/true/crop/5466x4914+0+0/resize/2048x1841!/quality/90/?url=http%3A%2F%2Fsothebys-brightspot.s3.amazonaws.com%2Fmedia-desk%2F8a%2Fc3%2F573c30f540749c480aef1bd1462d%2Fd2xz5-1-crop.jpg"
+          }
         },
         {
           "title": "AARON's Garden (series, e.g. AARON's Garden #4, #9)",
@@ -1882,7 +1912,12 @@ TG.research = {
             "https://spam-index.com/artists/cezar-mocan/"
           ],
           "id": "W071",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W071.jpg",
+            "page": "https://cezar.io/world-upstream",
+            "url": "https://cezar.io/assets/images/world-upstream/1.jpg"
+          }
         },
         {
           "title": "Arcadia Inc.",
@@ -1938,7 +1973,12 @@ TG.research = {
             "https://medium.com/@spenser.dickerson/disintegration-light-and-the-digital-bloom-with-david-lisser-4b5836dbb149"
           ],
           "id": "W073",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W073.jpg",
+            "page": "https://web.archive.org/web/20260310095826/https://load-gallery.com/artists/david-lisser",
+            "url": "https://framerusercontent.com/images/5S31dM9JM4zSW1SsM0RWOpYB1oQ.png"
+          }
         },
         {
           "title": "Flowers",
@@ -2011,7 +2051,12 @@ TG.research = {
             "https://19.piksel.no/2019/11/21/remembering-network/"
           ],
           "id": "W076",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W076.jpg",
+            "page": "https://gazelliarthouse.com/artworks/14110-sarah-friend-remembering-network-2019/",
+            "url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/gazelli/images/view/41a594f406d379fec42ca47d8a3bc3cbj/gazelliarthouse-sarah-friend-remembering-network-2019.jpg"
+          }
         },
         {
           "title": "Lifeforms",
@@ -2029,7 +2074,12 @@ TG.research = {
             "https://holo.mg/stream/sarah-friend-lifeforms-nft-blockchain-cryptoart"
           ],
           "id": "W077",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W077.jpg",
+            "page": "https://artthescience.com/magazine/?p=11834",
+            "url": "https://artthescience.com/magazine/wp-content/uploads/2021/12/Resize_lifeform3-small.jpg"
+          }
         }
       ]
     },
@@ -2073,7 +2123,12 @@ TG.research = {
             "https://www.yewknee.com/blog/herndon-dryhurst-studio-infinite-images-and-the-latent-camera"
           ],
           "id": "W078",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W078.jpg",
+            "page": "https://verse.works/artworks/f53bd4cb-92f5-47e8-980f-5cb9954e093f/1",
+            "url": "https://versecontent.com/image/w3840/static%2Fuploads%2F0x177c5a25b3b1e32e6e66ff4c243ce6f713d15ece%2F107c42ca-c43e-473e-b9fc-9e313b99f360.png@jpeg"
+          }
         }
       ]
     },
@@ -2130,7 +2185,12 @@ TG.research = {
             "https://verse.works/artworks/d32c5052-48b1-40de-9c7e-313bf98a9223/3"
           ],
           "id": "W080",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W080.jpg",
+            "page": "https://verse.works/artworks/d32c5052-48b1-40de-9c7e-313bf98a9223/1",
+            "url": "https://versecontent.com/image/w1400/static%2Fuploads%2F0xe5cb13e7af618cff8d0bc5657127d487ab8fcada%2Ffe012d9f-1985-4ea2-a37c-ab27a95aa2bb.png@jpeg"
+          }
         },
         {
           "title": "THE WIND ON MY LIPS AND IN MY HAIR",
@@ -2221,7 +2281,12 @@ TG.research = {
             "https://pindar-vanarman-xjyl.squarespace.com/feedback/tag/cezanne"
           ],
           "id": "W083",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W083.jpg",
+            "page": "https://newatlas.com/robot-art-2018-competition-winners-gallery/55548",
+            "url": "https://assets.newatlas.com/dims4/default/b1cdb03/2147483647/strip/true/crop/1200x960+0+0/resize/2880x2304!/format/webp/quality/90/?url=https%3A%2F%2Fnewatlas-brightspot.s3.ap-southeast-2.amazonaws.com%2Farchive%2Frobot-art-3.jpg"
+          }
         }
       ]
     },
