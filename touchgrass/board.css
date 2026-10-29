@@ -51,6 +51,8 @@ details pre { white-space: pre-wrap; padding: 0.4em 0 0 2ch; }
 .works .links { display: block; text-indent: 0; }
 .works .links a + a { margin-left: 2ch; }
 .works.none { font-style: italic; padding-left: 4ch; }
+.works .img { display: block; text-indent: 0; margin: 0.4em 0 0.6em; width: fit-content; }
+.works img { display: block; max-width: min(100%, 32ch); max-height: 32ch; height: auto; border: 1px solid var(--ink); }
 
 @media (max-width: 520px) {
   .entry { grid-template-columns: 5ch 1fr; }

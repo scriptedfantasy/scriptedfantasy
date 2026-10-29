@@ -40,7 +40,12 @@ TG.research = {
             "https://www.raster.art/artwork/once-upon-a-garden-by-linda-dounia-2022/about"
           ],
           "id": "W001",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W001.jpg",
+            "page": "https://www.vam.ac.uk/event/GnxBVLnLN2v/once-upon-a-garden-sept-oct-2026",
+            "url": "https://assets-cdn.vam.ac.uk/2026/07/31/16/35/06/4b4c0bbf-8c62-4aed-88e7-54282b2b8573/once-upon-a-garden-display-by-linda-dounia-rebeiz_640.jpg"
+          }
         },
         {
           "title": "Le Bouquet",
@@ -59,7 +64,12 @@ TG.research = {
             "https://www.raster.art/artwork/le-bouquet-by-linda-dounia/about"
           ],
           "id": "W002",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W002.jpg",
+            "page": "https://verse.works/series/le-bouquet-by-linda-dounia",
+            "url": "https://versecontent.com/image/w1400/static%2Fbp_uploads_a86f323f-deb5-4504-9909-1ba5876a388b.png@jpeg"
+          }
         },
         {
           "title": "Once Upon a Flower",
@@ -77,7 +87,12 @@ TG.research = {
             "https://lerandom.art/collection/once-upon-a-flower-a-0x02"
           ],
           "id": "W003",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W003.jpg",
+            "page": "https://www.artpoint.fr/artworks/once-upon-a-flower-1-linda-dounia",
+            "url": "https://image.mux.com/EjDWf2hPWeK9e9rAkfNRlPuttygeSLThsvFpeytrwyE/animated.gif?token=eyJhbGciOiJSUzI1NiJ9.eyJraWQiOiI1V01Qa2FZUDhseW9FbUswMUFnSGFXV2VXQUhwdkxRN0hCWWxPWm9RMjcwMVUiLCJzdWIiOiJFakRXZjJoUFdlSzllOXJBa2ZOUmxQdXR0eWdlU0xUaHN2RnBleXRyd3lFIiwiYXVkIjoiZyIsImV4cCI6MTc5MzkyODYwOX0.FQb2bjxib3inu3fqpYGQHq9i6C_sqOUroGE2sf5q3ABcl6xLUiyJiLH227qYyGEPofnZltX5gpSlrt-XIZ3_PKrEvTdtVCuBdxdNaUMOks_uRiubpcR9jeNrWJsuO9I8xBPS2u6nmWHSU9wjTICNtuP3ilhTR43iX_PHoUp-uujiacDV-_uNwmmusDVJAusdXWW9XiW19ggaRn8e82YXd3FnNr38YZzunfMUWlXQnJ4ROuCBDaGiZWG8Vw008ufeFeTJDiLvvEvGu7cjQmgwa1_QviInfXzlb7QH3SCh3HUlPMyqOX6z7pI-clL98o5fwVnd8JJr3ufBPvg5zzXQ0g"
+          }
         },
         {
           "title": "Flore Perdue",
@@ -98,7 +113,12 @@ TG.research = {
             "https://brightmoments.io/quarterly/linda-dounia"
           ],
           "id": "W004",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W004.jpg",
+            "page": "https://app.brightmoments.io/collections/flore-perdue",
+            "url": "https://cdn.sanity.io/images/2wyv4mh1/production/e1f4b39601d583c7697665060406bcf8dc4bbfea-1775x2400.png"
+          }
         }
       ]
     },
@@ -132,7 +152,12 @@ TG.research = {
             "https://www.itsnicethat.com/articles/anna-ridler-digital-art-280619"
           ],
           "id": "W005",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W005.jpg",
+            "page": "https://annaridler.com/mosaic-virus",
+            "url": "https://annaridler.com/content/works/mosaic-2019/block_2/0KH-Muc_Flowers-Forever_IMG_4628.jpg"
+          }
         },
         {
           "title": "Myriad (Tulips)",
@@ -151,7 +176,12 @@ TG.research = {
             "https://dam.org/museum/artists_ui/artists/ridler-anna/myriad"
           ],
           "id": "W006",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W006.jpg",
+            "page": "https://annaridler.com/myriad-tulips",
+            "url": "https://annaridler.com/content/works/myriad-tulips/block_1/DSC01064.webp"
+          }
         },
         {
           "title": "Bloemenveiling",
@@ -170,7 +200,12 @@ TG.research = {
             "https://en.wikipedia.org/wiki/Anna_Ridler"
           ],
           "id": "W007",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W007.jpg",
+            "page": "https://annaridler.com/bloemenveiling",
+            "url": "https://annaridler.com/content/works/bloemen/block_1/AR_KunsthalleZurich-DYOR-wallbywall-JulienGremaud-014_crop_web.jpg"
+          }
         },
         {
           "title": "The Black Tulip",
@@ -242,7 +277,12 @@ TG.research = {
             "https://www.lerandom.art/collection/infinite-petals-5x5-359"
           ],
           "id": "W010",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W010.jpg",
+            "page": "https://verse.works/series/infinite-petals-by-sarah-meyohas",
+            "url": "https://versecontent.com/image/w1400/static%2Fbp_uploads_8c2aa026-d577-41cb-adb5-902aee14a95a.jpg@jpeg"
+          }
         },
         {
           "title": "Bitchcoin",
@@ -329,7 +369,12 @@ TG.research = {
             "https://berlinscienceweek.com/programme/terra0-autonomous-forest-launch-event"
           ],
           "id": "W013",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W013.jpg",
+            "page": "https://www.las-art.foundation/explore/terra0-forest",
+            "url": "https://cdn.sanity.io/images/sp7kseaf/production-20-01-25/caefed6d251a468b0514d58a395a363831fe8430-9792x6528.jpg?rect=0,706,9792,5116&w=1200&h=627&fm=webp"
+          }
         },
         {
           "title": "terra0 (self-owning augmented forest)",
@@ -351,7 +396,12 @@ TG.research = {
             "https://www.designtransfer.udk-berlin.de/en/projekt/terra0/"
           ],
           "id": "W014",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W014.jpg",
+            "page": "https://weirdeconomies.com/contributions/the-development-of-terra0",
+            "url": "https://weirdeconomies.com/media/pages/contributions/the-development-of-terra0/79013cf76f-1766699358/terra0_forest_02.jpg"
+          }
         },
         {
           "title": "Flowertokens",
@@ -390,7 +440,12 @@ TG.research = {
             "https://www.frieze.com/article/terra0-profile-2023"
           ],
           "id": "W016",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W016.jpg",
+            "page": "https://terra0.medium.com/two-degrees-nft-5af1263bfcc",
+            "url": "https://miro.medium.com/v2/resize:fit:1200/1*pYg6uq7XCJb8MTw7pviAkg.jpeg"
+          }
         }
       ]
     },
@@ -424,7 +479,12 @@ TG.research = {
             "https://nguyenwahed.com/exhibitions/13-infinite-garden-leander-herzog/overview/"
           ],
           "id": "W017",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W017.jpg",
+            "page": "https://www.infinite-garden.xyz/",
+            "url": "https://www.infinite-garden.xyz/opengraph-image.jpeg?3f2102d76220658a"
+          }
         },
         {
           "title": "Alp",
@@ -506,7 +566,12 @@ TG.research = {
             "https://whitney.org/exhibitions/addie-wagenknecht-believe-me"
           ],
           "id": "W021",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W021.jpg",
+            "page": "https://whitney.org/exhibitions/addie-wagenknecht-believe-me",
+            "url": "https://whitneymedia.org/assets/image/819241/Screen_Shot_2017-07-11_at_10.13.14_AM.png"
+          }
         }
       ]
     },
@@ -540,7 +605,12 @@ TG.research = {
             "https://vimeo.com/657708598"
           ],
           "id": "W022",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W022.jpg",
+            "page": "https://www.koeniggalerie.com/blogs/exhibitions/refik-anadol-machine-hallucinations-nature-dreams",
+            "url": "http://www.koeniggalerie.com/cdn/shop/articles/2021_Refik-Anadol_Machine-Hallucinations-Nature-Dreams_KOENIG-GALERIE-NAVE_Berlin_c_Roman_Maerz-_13_13d7e1dc-d86f-46fc-8a74-d12431516d17.jpg?v=1767878466"
+          }
         },
         {
           "title": "Winds of Yawanawa",
@@ -562,7 +632,12 @@ TG.research = {
             "https://opensea.io/assets/ethereum/0x7a63d17f5a59bca04b6702f461b1f1a1c59b100b/1"
           ],
           "id": "W023",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W023.jpg",
+            "page": "https://exhibitions.phillips.com/products/winds-of-yawanawa-888-2023",
+            "url": "http://exhibitions.phillips.com/cdn/shop/files/210867_001.jpg?v=1727456913"
+          }
         },
         {
           "title": "Machine Hallucinations – Large Nature Model (LNM)",
@@ -583,7 +658,12 @@ TG.research = {
             "https://pilevneli.com/usr/library/documents/main/artists/29/refik_anadol_-2025.pdf"
           ],
           "id": "W024",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W024.jpg",
+            "page": "https://archinect.com/news/article/150412788/refik-anadol-creates-world-first-ai-model-trained-on-data-from-nature-instead-of-humans",
+            "url": "https://archinect.gumlet.io/uploads/24/249e87158f82482ec592fedb48dd57a2.png?fit=crop&auto=compress&format=&enlarge=true&crop=faces&w=1200&h=707"
+          }
         },
         {
           "title": "Glacier Dreams",
@@ -604,7 +684,12 @@ TG.research = {
             "https://www.ilightsingapore.gov.sg/installations/glacier-dreams"
           ],
           "id": "W025",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W025.jpg",
+            "page": "https://artdependence.com/articles/swiss-bank-julius-baer-is-donating-glacier-dreams-by-refik-anadol-to-the-kunsthaus-zuerich/",
+            "url": "https://artdependence.com/media/zdxjylfz/unnamed-2.jpg"
+          }
         }
       ]
     },
@@ -637,7 +722,12 @@ TG.research = {
             "https://www.myartbroker.com/artist-takashi-murakami/articles/takashi-murakami-nfts-flower-power"
           ],
           "id": "W026",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W026.jpg",
+            "page": "https://www.myartbroker.com/artist-takashi-murakami/articles/takashi-murakami-nfts-flower-power",
+            "url": "https://cdn.sanity.io/images/dqllnil6/production/47c6a670c42737c6ea4bdd8639522d49f351577d-800x798.jpg?rect=0,189,800,420&w=1200&h=630&fm=jpg&q=80&fit=crop"
+          }
         },
         {
           "title": "Murakami.Flowers Collectible Trading Card",
@@ -655,7 +745,12 @@ TG.research = {
             "https://www.highsnobiety.com/p/takashi-murakami-flower-trading-cards"
           ],
           "id": "W027",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W027.jpg",
+            "page": "https://www.highsnobiety.com/p/takashi-murakami-flower-trading-cards",
+            "url": "https://www.highsnobiety.com/static-assets/dato/1702486282-takashi-murakami-trading-cards-2.jpg"
+          }
         }
       ]
     },
@@ -688,7 +783,12 @@ TG.research = {
             "https://www.privacysalon.org/dag/out-game-flowers"
           ],
           "id": "W028",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W028.jpg",
+            "page": "https://www.jillmagid.com/projects/out-game-flowers",
+            "url": "https://jillmagid.com/api/image/images/out-game-flower-single.jpg"
+          }
         },
         {
           "title": "The Rose Garden",
@@ -758,7 +858,12 @@ TG.research = {
             "https://avantarte.com/products/beeple-the-tree-of-knowledge-triptych"
           ],
           "id": "W031",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W031.jpg",
+            "page": "https://theartnewspaper.com/2024/09/27/beeple-generative-tree-knowledge-non-profit-fundraiser-italian-tech-week",
+            "url": "https://cdn.sanity.io/images/cxgd3urn/production/f9447372bf40e329a15f3baccb3f3293cf5662e8-2000x1458.jpg?rect=0,129,2000,1200&w=1200&h=720&q=85&fit=crop&auto=format"
+          }
         },
         {
           "title": "S.2122",
@@ -832,7 +937,12 @@ TG.research = {
             "https://vogue.sg/the-noteworthy-nfts-displayed-at-the-venice-biennale-2022/"
           ],
           "id": "W034",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W034.jpg",
+            "page": "https://artblocks.io/project/233",
+            "url": "https://media-proxy.artblocks.io/1/0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270/233000000.png?t=1767497401"
+          }
         }
       ]
     },
@@ -867,7 +977,12 @@ TG.research = {
             "https://thisispaper.com/mag/mutant-garden-seeder-harm-van-den-dorpel"
           ],
           "id": "W035",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W035.jpg",
+            "page": "https://harmvandendorpel.com/news/prelaunch-mutant-garden-seeder-nft",
+            "url": "https://harm.work/api/og-image?url=https%3A%2F%2Fres.cloudinary.com%2Fleftgallery%2Fimage%2Fupload%2Fv1624352351%2Fxzgjtdom70igr8tcoxb0.png"
+          }
         },
         {
           "title": "Mutant Garden Autobreeder",
@@ -938,7 +1053,12 @@ TG.research = {
             "https://gazelliarthouse.com/artworks/13349-primavera-de-filippi-plantoid14-2023/"
           ],
           "id": "W038",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W038.jpg",
+            "page": "https://gazelliarthouse.com/artworks/13349-primavera-de-filippi-plantoid14-2023/",
+            "url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/gazelli/images/view/6737ff74e117774d75f41a5708b1cf84j/gazelliarthouse-primavera-de-filippi-plantoid14-2023.jpg"
+          }
         },
         {
           "title": "Arborithms",
@@ -957,7 +1077,12 @@ TG.research = {
             "https://gazelliarthouse.com/artworks/13349-primavera-de-filippi-plantoid14-2023/"
           ],
           "id": "W039",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W039.jpg",
+            "page": "https://gazell.io/products/arborithms",
+            "url": "http://gazell.io/cdn/shop/files/image_4_1_31a54717-f58d-427f-9235-3edbcce937b1.png?v=1741694345"
+          }
         },
         {
           "title": "Bespoke Seedling of an Imagined Future (Plantoid 15)",
@@ -975,7 +1100,12 @@ TG.research = {
             "https://www.sothebys.com/en/buy/auction/2024/r-evolutionaries-digital-art-through-the-decade/plantoid-14"
           ],
           "id": "W040",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W040.jpg",
+            "page": "https://www.sothebys.com/en/buy/auction/2024/r-evolutionaries-digital-art-through-the-decade/plantoid-14",
+            "url": "https://sothebys-md.brightspotcdn.com/dims4/default/dbfd53b/2147483647/strip/true/crop/3657x5486+0+0/resize/4096x6145!/quality/90/?url=http%3A%2F%2Fsothebys-brightspot.s3.amazonaws.com%2Fmedia-desk%2F7e%2F54%2Fc4033abb47cdb56be7ccbdd4d2b8%2Fdsc02865.jpg"
+          }
         }
       ]
     },
@@ -1077,7 +1207,12 @@ TG.research = {
             "https://storage.avant-galerie.com/static/Book_Artist_Avant_Galerie/Book_Robbie-Barrat-2025.pdf"
           ],
           "id": "W044",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W044.jpg",
+            "page": "https://gazell.io/products/landscapes-1",
+            "url": "http://gazell.io/cdn/shop/files/RB0007-image_1.jpg?v=1720093506"
+          }
         },
         {
           "title": "Gardening Software",
@@ -1095,7 +1230,12 @@ TG.research = {
             "https://art.gazelliarthouse.com/products/gardening-software"
           ],
           "id": "W045",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W045.jpg",
+            "page": "https://art.gazelliarthouse.com/products/gardening-software",
+            "url": "http://art.gazelliarthouse.com/cdn/shop/files/RB0012-2.jpg?v=1754566082"
+          }
         }
       ]
     },
@@ -1217,7 +1357,12 @@ TG.research = {
             "https://www.holo.mg/?p=81113"
           ],
           "id": "W050",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W050.jpg",
+            "page": "https://rightclicksave.com/article/on-the-new-evolution-of-generative-art",
+            "url": "https://assets.rcs-cdn.com/img/87f6d4f4-8dc6-4942-9176-8e98d99514de/f5f2c71ef6642a15?w=1280&f=jpeg&sig=0a1f7befb95bf1f9a01f4d41e625b8cb"
+          }
         },
         {
           "title": "The Lushtemples",
@@ -1466,7 +1611,12 @@ TG.research = {
             "https://gazelliarthouse.com/artworks/19872-sofia-crespo-critically-extant-2021-2022/"
           ],
           "id": "W061",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W061.jpg",
+            "page": "https://verse.works/series/critically-extant-by-sofia-crespo",
+            "url": "https://versecontent.com/image/w1400/static%2Fbp_uploads_4199d5d2-da38-43f3-b2e5-2f9264702577.jpg@jpeg"
+          }
         },
         {
           "title": "Neural Zoo",
@@ -1486,7 +1636,12 @@ TG.research = {
             "https://www.thisiscolossal.com/2020/09/sofia-crespo-ai-natural-history/"
           ],
           "id": "W062",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W062.jpg",
+            "page": "https://sofiacrespo.com/neural-zoo/",
+            "url": "https://sofiacrespo.com/wp-content/uploads/2024/08/SOFIA-CRESPO-2018-2022-neural-zoo-trinity_9542.jpg"
+          }
         },
         {
           "title": "Artificial Remnants",
@@ -1505,7 +1660,12 @@ TG.research = {
             "https://www.katevassgalerie.com/news/sofia-crespo-new-works-and-feature-on-superrare-editorial"
           ],
           "id": "W063",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W063.jpg",
+            "page": "https://www.katevassgalerie.com/news/sofia-crespo-new-works-and-feature-on-superrare-editorial",
+            "url": "http://static1.squarespace.com/static/63a2ce0664014f2264b055d4/63a310638988560bd8d0da22/63a313872a2f702a525e38ac/1671631771044/Screen+Shot+2020-06-04+at+2.00.39+PM.png?format=1500w"
+          }
         },
         {
           "title": "Beneath the Neural Waves",
@@ -1576,7 +1736,12 @@ TG.research = {
             "https://artistsarejerks-site.pages.dev/artists/helena-sarin"
           ],
           "id": "W066",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W066.jpg",
+            "page": "https://verse.works/series/latentscapes-by-helena-sarin",
+            "url": "https://versecontent.com/image/w1400/static%2Fbp_uploads_339a72fd-6b67-44f8-9bd1-763e99e2127d.png@jpeg"
+          }
         }
       ]
     },
@@ -1630,7 +1795,12 @@ TG.research = {
             "https://gazelliarthouse.com/artists/harold-cohen/biography"
           ],
           "id": "W068",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W068.jpg",
+            "page": "https://art.gazelliarthouse.com/products/aarons-garden",
+            "url": "http://art.gazelliarthouse.com/cdn/shop/files/HC0079-2.jpg?v=1754651026"
+          }
         },
         {
           "title": "Untitled (Jungle Drawings / Eden series)",
@@ -1650,7 +1820,12 @@ TG.research = {
             "https://whitney.org/exhibitions/harold-cohen-aaron?section=3"
           ],
           "id": "W069",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W069.jpg",
+            "page": "https://whitney.org/exhibitions/harold-cohen-aaron?section=3",
+            "url": "https://whitneymedia.org/assets/image/829164/RS73495_Harold-Cohen-AARON-for-KCat-2021_web.jpg"
+          }
         },
         {
           "title": "0305-03",
@@ -1668,7 +1843,12 @@ TG.research = {
             "https://api.vam.ac.uk/v2/object/O114802"
           ],
           "id": "W070",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W070.jpg",
+            "page": "https://collections.vam.ac.uk/item/O114802",
+            "url": "https://framemark.vam.ac.uk/collections/2010EL6973/full/!600,/0/default.jpg"
+          }
         }
       ]
     },
@@ -1720,7 +1900,12 @@ TG.research = {
             "https://artlecture.com/project/10904"
           ],
           "id": "W072",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W072.jpg",
+            "page": "https://www.lumenprize.com/2021-winners/student-award-winner",
+            "url": "http://static1.squarespace.com/static/65e7176a61627736e02f6c4a/65f474a6c9a7564c5ee0180e/65f474a6c9a7564c5ee01815/1710772540623/CezarMocan_ArcadiaInc_Still1%2Bcopy.jpg?format=1500w"
+          }
         }
       ]
     },
@@ -1803,7 +1988,12 @@ TG.research = {
             "https://www.electricartefacts.art/artwork/sarah-friend-gentle-automata-touching-grass"
           ],
           "id": "W075",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W075.jpg",
+            "page": "https://www.bitforms.art/artwork/gentle-automata-touching-grass",
+            "url": "https://www.bitforms.art/wp-content/uploads/2023/02/2_sf-gentle_automata_hr-scaled.jpg"
+          }
         },
         {
           "title": "Remembering Network",
@@ -1916,7 +2106,12 @@ TG.research = {
             "https://en.wikipedia.org/wiki/Sasha_Stiles"
           ],
           "id": "W079",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W079.jpg",
+            "page": "https://www.artforum.com/interviews/sasha-stiles-90255",
+            "url": "https://www.artforum.com/wp-content/uploads/2023/03/featured00_large-33.jpg?w=650"
+          }
         },
         {
           "title": "Three Excerpts from Every Poem Starts with a Seed",
@@ -1952,7 +2147,12 @@ TG.research = {
             "https://infiniteobjects.com/products/cadaf-stiles-the-wind-on-my-lips"
           ],
           "id": "W081",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W081.jpg",
+            "page": "https://infiniteobjects.com/products/cadaf-stiles-the-wind-on-my-lips",
+            "url": "http://infiniteobjects.com/cdn/shop/files/4_SashaStiles_TheWindinMyHair_situ.png?v=1729899004"
+          }
         }
       ]
     },
@@ -1984,7 +2184,12 @@ TG.research = {
             "https://www.lumenprize.com/impact-award-finalists-2024/niceaunties"
           ],
           "id": "W082",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W082.jpg",
+            "page": "https://thehouseoffineart.com/artworks/6399/",
+            "url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/hofa/images/view/45269bceb1511d7c0f9f3e7c89c0fd0fg.gif"
+          }
         }
       ]
     },
@@ -2118,7 +2323,12 @@ TG.research = {
             "https://gizmodo.com/bob-ross-processed-by-a-neural-network-is-the-most-soot-1794080760"
           ],
           "id": "W087",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W087.jpg",
+            "page": "https://www.engadget.com/2017-04-06-ai-on-joy-of-painting-on-lsd.html",
+            "url": "https://www.engadget.com/engadget/2017-04-06-ai-on-joy-of-painting-on-lsd/Screen+Shot+2017-04-06+at+1.33.03+PM.png.jpg"
+          }
         }
       ]
     },
@@ -2153,7 +2363,12 @@ TG.research = {
             "https://pmc.ncbi.nlm.nih.gov/articles/PMC7660416"
           ],
           "id": "W088",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W088.jpg",
+            "page": "https://obvious-art.com/collection-electric-dreams-of-ukiyo/",
+            "url": "https://cdn.sanity.io/images/ccct9dns/production/c09d339e274c0452aa931d2783d8a050d413df8f-1687x2500.webp"
+          }
         },
         {
           "title": "Parietal Burners (series, e.g. Parietal Burner #1, #2, #3)",
@@ -2243,7 +2458,12 @@ TG.research = {
             "https://tropeztropez.de/en/amelia-winger-bearskin-en/"
           ],
           "id": "W092",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W092.jpg",
+            "page": "https://tropeztropez.de/en/amelia-winger-bearskin-en/",
+            "url": "https://tropeztropez.de/wp-content/uploads/2024/05/DSC09623.jpg"
+          }
         },
         {
           "title": "Midnight & To Body",
@@ -2260,7 +2480,12 @@ TG.research = {
             "https://nxtmuseum.com/artist/midnight-to-body-amelia-winger-bearskin"
           ],
           "id": "W093",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W093.jpg",
+            "page": "https://nxtmuseum.com/artist/midnight-to-body-amelia-winger-bearskin",
+            "url": "https://admin.nxtmuseum.com/content/uploads/2024/05/Midnight-To-Body-by-Amelia-Winger-Bearskin-scaled.jpg"
+          }
         }
       ]
     },
@@ -2294,7 +2519,12 @@ TG.research = {
             "https://ocula.com/art-galleries/robilant-voena-london/exhibitions/daniel-ambrosi-ai-and-the-landscapes-of-capab/"
           ],
           "id": "W094",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W094.jpg",
+            "page": "https://www.theartnewspaper.com/2023/11/06/ai-captures-capability-brown-landscape",
+            "url": "https://cdn.sanity.io/images/cxgd3urn/production/a333e7826dd830864c4400354c7eed699df932ac-609x609.jpg?rect=0,123,609,365&w=1200&h=720&q=85&fit=crop&auto=format"
+          }
         },
         {
           "title": "Mining Nightfall (Quintet Cube)",
@@ -2312,7 +2542,12 @@ TG.research = {
             "https://www.1stdibs.com/nft/art/mining-nightfall-quintet-cube/id-n_A9W6l3UVHm"
           ],
           "id": "W095",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W095.jpg",
+            "page": "https://www.1stdibs.com/nft/art/mining-nightfall-quintet-cube/id-n_A9W6l3UVHm",
+            "url": "https://a.1stdibscdn.com/dist/nft/Daniel+Ambrosi/MiningNightfallQuintetCube_PosterFrame.jpg?disable=upscale&auto=webp&quality=60&width=768&format=jpg"
+          }
         },
         {
           "title": "Central Park (Dreamscapes)",
@@ -2332,7 +2567,12 @@ TG.research = {
             "https://www.meer.com/en/100248-central-park"
           ],
           "id": "W096",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W096.jpg",
+            "page": "https://www.meer.com/en/100248-central-park",
+            "url": "https://www.meer.com/attachments/45dbe6f98b6a81e2197496f005509746da73eea8/store/fill/860/645/ad9b5b06ac6435b073de4458ee1b456d890bc38d35815648071de9fe8359/Daniel-Ambrosi-Central-Park-exhibition-view-Courtesy-of-Robilant-plus-Voena-Gallery.jpg"
+          }
         }
       ]
     },
@@ -2365,7 +2605,12 @@ TG.research = {
             "https://thehouseoffineart.com/artists/271-jesse-woolston/works/5028"
           ],
           "id": "W097",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W097.jpg",
+            "page": "https://thehouseoffineart.com/artworks/5028",
+            "url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/hofa/images/view/05c7a3007aecd9a20df59250dfffa701g.gif"
+          }
         },
         {
           "title": "Cacophony in Placidity",
@@ -2463,7 +2708,12 @@ TG.research = {
             "https://medium.com/cortexlabs/the-artwork-%E7%89%A1%E4%B8%B9%E4%BA%ADr%C3%AAve%E4%B9%8B%E6%A0%87%E7%9B%AE%E8%9D%B6%E6%81%8B%E8%8A%B1-the-info-techs-penetration-of-song-ting-in-collaboration-with-136135f713fd"
           ],
           "id": "W101",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W101.jpg",
+            "page": "https://news.cgtn.com/news/2022-12-29/China-s-top-digital-artist-fuses-new-genre-with-traditional-culture--1g9GrbN7H8I/index.html",
+            "url": "https://video.cgtn.com/news/2022-12-29/China-s-top-digital-artist-fuses-new-genre-with-traditional-culture--1g9GrbN7H8I/video/53c485058aa145c4abb8890a597a54d9/53c485058aa145c4abb8890a597a54d9-750.png?t=20230116195332048"
+          }
         },
         {
           "title": "In A Peony's Dream",
@@ -2569,7 +2819,12 @@ TG.research = {
             "https://verse.works/series/neural-sediments-by-eko33"
           ],
           "id": "W104",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W104.jpg",
+            "page": "https://artblocks.io/collections/curated/projects/0x99a9b7c1116f9ceeb1652de04d5969cce509b069/418",
+            "url": "https://media-proxy.artblocks.io/1/0x99a9b7c1116f9ceeb1652de04d5969cce509b069/418000074.png"
+          }
         },
         {
           "title": "Delicate Season",
@@ -2618,7 +2873,12 @@ TG.research = {
             "https://thehouseoffineart.com/artists/287/"
           ],
           "id": "W106",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W106.jpg",
+            "page": "https://ucrarts.ucr.edu/ai-post-photography/roope-rainisto/",
+            "url": "https://ucrarts.ucr.edu/wp-content/uploads/2023/09/rainisto-4.jpg"
+          }
         },
         {
           "title": "AI landscapes (untitled collection: mountain peaks, gloomy lakes)",
@@ -2636,7 +2896,12 @@ TG.research = {
             "https://80.lv/articles/breathtaking-landscapes-made-by-an-ai"
           ],
           "id": "W107",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W107.jpg",
+            "page": "https://80.lv/articles/breathtaking-landscapes-made-by-an-ai",
+            "url": "https://cdn.80.lv/api/upload/meta/18208/images/61d5c088efd74/contain_1200x630.jpg"
+          }
         },
         {
           "title": "Symbiosis",
@@ -2696,7 +2961,12 @@ TG.research = {
             "https://www.dha.com.tr/kultur-sanat/sarp-kerem-yavuz-imzali-topkapinin-kedileri-trendyol-sanatta-2531296"
           ],
           "id": "W109",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W109.jpg",
+            "page": "https://www.dailysabah.com/arts/ai-driven-cats-of-topkapi-captures-istanbuls-iconic-street-cats/news",
+            "url": "https://idsb.tmgrup.com.tr/ly/uploads/images/2024/11/13/thumbs/800x531/354813.jpg"
+          }
         }
       ]
     },
@@ -2860,7 +3130,12 @@ TG.research = {
             "https://amateurphotographer.com/latest/photo-news/the-photo-of-a-potato-that-sold-for-e1m-over-a-few-glasses-of-wine"
           ],
           "id": "W115",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W115.jpg",
+            "page": "https://amp.cnn.com/cnn/style/article/potato-photo-million-euros",
+            "url": "https://media.cnn.com/api/v1/images/stellar/prod/160127131550-kevin-abosch-potato.jpg?q=x_0,y_0,h_900,w_1599,c_fill/w_800"
+          }
         }
       ]
     },
@@ -2892,7 +3167,12 @@ TG.research = {
             "https://verse.works/alkan-avcioglu"
           ],
           "id": "W116",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W116.jpg",
+            "page": "https://designyoutrust.com/2024/12/overpopulated-symphonies-the-striking-ai-photography-project-by-alkan-avcioglu/",
+            "url": "https://designyoutrust.com/wp-content/uploads/2024/12/Alkan-Avcioglu-Overpopulated-Symphonies-Symphony-No.-1-in-D-Major-Op.-3-Presto-Convergence-2023-Alkan-Avcioglu.jpg"
+          }
         },
         {
           "title": "Earth Misread",
@@ -2989,7 +3269,12 @@ TG.research = {
             "https://issues.org/sougwen-chung/"
           ],
           "id": "W120",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W120.jpg",
+            "page": "https://issues.org/sougwen-chung/",
+            "url": "https://issues.org/wp-content/uploads/2018/10/sougwen-2018_omniaPaintings_02-crop.jpg"
+          }
         }
       ]
     },
@@ -3022,7 +3307,12 @@ TG.research = {
             "https://www.zabludowiczcollection.com/displays/view/jake-elwes"
           ],
           "id": "W121",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W121.jpg",
+            "page": "https://gazelliarthouse.com/artworks/8260-jake-elwes-cusp-2019",
+            "url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/gazelli/images/view/6339c08cb69599adec999acb6040534cp/gazelliarthouse-jake-elwes-cusp-2019.png"
+          }
         }
       ]
     },
@@ -3104,7 +3394,12 @@ TG.research = {
             "https://cf-v3.seditionart.com/magazine/casey-reas-compressed-cinema"
           ],
           "id": "W124",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W124.jpg",
+            "page": "https://meer.com/en/52049-casey-reas",
+            "url": "https://www.meer.com/attachments/7a2a79ddd386378060d58e7472118f3a578ec353/store/fill/860/645/ac996f772ec5ab46bfdae2b496bf610b1d45e717c8b751c2429c231587c5/Casey-Reas-Courtesy-of-DAM-Gallery.jpg"
+          }
         },
         {
           "title": "Study for a Garden of Earthly Delights, No. 9",
@@ -3140,7 +3435,12 @@ TG.research = {
             "https://unitlondon.com/2024-04-19/casey-reas-garden-of-earthly-delights"
           ],
           "id": "W126",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W126.jpg",
+            "page": "https://unitlondon.com/2024-04-19/casey-reas-garden-of-earthly-delights",
+            "url": "https://res.cloudinary.com/unit-london/images/f_webp,q_auto/v1713441785/Casey-Reas-Earthly-Delights/Casey-Reas-Earthly-Delights.png?_i=AA"
+          }
         }
       ]
     },
@@ -3194,7 +3494,12 @@ TG.research = {
             "https://www.the-berliner.com/art/berl-berl-berghain-review/"
           ],
           "id": "W128",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W128.jpg",
+            "page": "https://www.wallpaper.com/art/jakob-kudsk-steensen-berl-berl-vr-exhibition-halle-am-berghain-berlin",
+            "url": "https://cdn.mos.cms.futurecdn.net/qpRxV8uv6PtNFoEcWoo8Nf-2560-80.jpg"
+          }
         },
         {
           "title": "RE-ANIMATED",
@@ -3233,7 +3538,12 @@ TG.research = {
             "https://www.serpentinegalleries.org/watch/azure-blue-damselflies-from-the-deep-listener-jakob-kudsk-steensen/"
           ],
           "id": "W130",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W130.jpg",
+            "page": "https://www.e-flux.com/announcements/275567/jakob-kudsk-steensenthe-deep-listener",
+            "url": "https://images.e-flux.com/test/9896e683-b0b0-4f6b-b954-0e20a5d0ff6f?width=1200&height=630"
+          }
         }
       ]
     },
@@ -3266,7 +3576,12 @@ TG.research = {
             "https://heni.com/news/article/trending-monica-rizzolli-the-generative-artist-whose-work-has-been-acquired-by-lacma"
           ],
           "id": "W131",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W131.jpg",
+            "page": "https://artblocks.io/project/159",
+            "url": "https://media-proxy.artblocks.io/1/0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270/159000810.png?t=1767495992"
+          }
         }
       ]
     }

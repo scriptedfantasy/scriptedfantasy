@@ -42,7 +42,9 @@ function renderLonglist() {
       const links = (w.sources || []).map(u =>
         `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(host(u))}</a>`).join('');
       const bits = [w.title + (w.year ? `, ${w.year}` : ''), w.where].filter(Boolean).map(esc).join('. ');
-      return `<li id="${esc(w.id)}">${w.verified ? '' : '* '}${bits}.${w.named_in_brief ? ' [brief]' : ''}<span class="links">${links}</span></li>`;
+      const img = w.image
+        ? `<a class="img" href="${esc(w.image.page)}" target="_blank" rel="noopener"><img src="/touchgrass/${esc(w.image.file)}" alt="${esc(w.title)}, ${esc(a.artist)}" loading="lazy"></a>` : '';
+      return `<li id="${esc(w.id)}">${w.verified ? '' : '* '}${bits}.${w.named_in_brief ? ' [brief]' : ''}<span class="links">${links}</span>${img}</li>`;
     }).join('');
     return `<li class="artist" id="${esc(a.id)}">
   <p class="artist-head"><span>${esc(a.id)} ${esc(a.artist)}</span><span>${esc(a.status)}</span></p>
@@ -52,6 +54,7 @@ function renderLonglist() {
 }
 
 const nWorks = artists.reduce((n, a) => n + a.works.length, 0);
+const nImages = artists.reduce((n, a) => n + a.works.filter(w => w.image).length, 0);
 const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -89,7 +92,7 @@ ${renderLog()}
 </section>
 <section aria-labelledby="h-long">
   <h2 id="h-long">Longlist</h2>
-  <p>${artists.length} artists, ${nWorks} works. [brief] = named by Lukas. * = not verified. Links go to the sources.</p>
+  <p>${artists.length} artists, ${nWorks} works, ${nImages} images. [brief] = named by Lukas. * = not verified. Links go to the sources. Each image links to the page it came from.</p>
   <ol class="artists">
 ${renderLonglist()}
   </ol>
@@ -99,4 +102,4 @@ ${renderLonglist()}
 </html>
 `;
 fs.writeFileSync(path.join(dir, 'index.html'), html);
-console.log(`touchgrass/index.html: ${log.length} log rows, ${artists.length} artists, ${nWorks} works`);
+console.log(`touchgrass/index.html: ${log.length} log rows, ${artists.length} artists, ${nWorks} works, ${nImages} images`);
