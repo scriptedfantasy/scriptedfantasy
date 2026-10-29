@@ -80,5 +80,8 @@ TG.log = [
   { dir: 'Claude sets the ten artists to out. Their 18 works leave the longlist and the wall; their names stay in a line under the longlist.' },
   { who: 'CLAUDE', say: 'Done. 49 artists and 115 works remain, 109 with an image.' },
   { who: 'LUKAS', say: 'verse.works/series/https-internet-flowers-by-mika-ben-amar' },
-  { who: 'CLAUDE', say: 'Added Mika Ben Amar, a new artist, with https://internet.flowers (2025): a digital garden of flowers that a model she trained crops from the images in her own browsing history.', open: true },
+  { who: 'CLAUDE', say: 'Added Mika Ben Amar, a new artist, with https://internet.flowers (2025): a digital garden of flowers that a model she trained crops from the images in her own browsing history.' },
+  { who: 'LUKAS', say: 'Do an extensive search. Find the group shows our artists have been in, and any artists not on the list who made work that relates to or depicts nature.' },
+  { dir: 'Claude sends six researchers through the 50 artists. They find 105 group shows, read the participant lists, and check every artist not on the list for a work about nature. Claude merges the results and drops duplicates.' },
+  { who: 'CLAUDE', say: '86 artists not on the list, 150 works, each with sources and the shows that link them to ours. They are under Leads below, with the shows. Tick the ones you want and send me the line. Also: Noper is noper, an AI video artist on Fellowship, born 1997. DeepBlack only appears in Christie\'s Augmented Intelligence, 2025.', open: true },
 ];

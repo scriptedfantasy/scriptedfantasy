@@ -8,7 +8,7 @@ const dir = __dirname;
 const ctx = { window: {} };
 ctx.window = ctx;
 vm.createContext(ctx);
-for (const f of ['brief.js', 'log.js', 'research.js']) {
+for (const f of ['brief.js', 'log.js', 'research.js', 'leads.js']) {
   vm.runInContext(fs.readFileSync(path.join(dir, 'data', f), 'utf8'), ctx, { filename: f });
 }
 const log = ctx.TG.log;
@@ -16,6 +16,7 @@ const log = ctx.TG.log;
 const artists = ctx.TG.research.artists.filter(a => a.status !== 'out');
 const outArtists = ctx.TG.research.artists.filter(a => a.status === 'out');
 const brief = ctx.TG.brief;
+const leads = ctx.TG.leads || { artists: [], shows: [] };
 
 function esc(s) {
   return String(s == null ? '' : s)
@@ -57,6 +58,32 @@ function renderLonglist() {
   ${works ? `<ul class="works">${works}</ul>` : '<p class="works none">no work found</p>'}
 </li>`;
   }).join('\n');
+}
+
+// Leads: artists found through group shows, for Lukas to tick and send back. Not on the wall until added.
+function renderLeads() {
+  return leads.artists.map(a => {
+    const works = a.works.map(w => {
+      const links = (w.sources || []).map(u =>
+        `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(host(u))}</a>`).join('');
+      const bits = [w.title + (w.year ? `, ${w.year}` : ''), w.what_it_shows].filter(Boolean).map(esc).join('. ');
+      return `<li>${bits}.<span class="links">${links}</span></li>`;
+    }).join('');
+    const via = a.via_shows.length
+      ? `<p class="via">${a.shown_with.length ? `With ${a.shown_with.map(esc).join(', ')} in` : 'In'} ${a.via_shows.map(esc).join('; ')}.</p>` : '';
+    return `<li class="artist lead" data-artist="${slug(a.artist)}">
+  <p class="artist-head"><label><input type="checkbox" value="${esc(a.artist)}"> ${esc(a.artist)}</label></p>
+  ${via}<ul class="works">${works}</ul>
+</li>`;
+  }).join('\n');
+}
+function renderShows() {
+  return leads.shows.map(s => {
+    const bits = [s.title + (s.year ? `, ${s.year}` : ''), s.venue].filter(Boolean).map(esc).join('. ');
+    const ours = s.our_artists.length ? ` With ${s.our_artists.map(esc).join(', ')}.` : '';
+    const link = s.url ? `<span class="links"><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(host(s.url))}</a></span>` : '';
+    return `<li>${bits}.${ours}${link}</li>`;
+  }).join('');
 }
 
 const nWorks = artists.reduce((n, a) => n + a.works.length, 0);
@@ -106,18 +133,50 @@ ${renderLonglist()}
   </ol>
 ${outArtists.length ? `  <details class="out"><summary>out, ${outArtists.length} artist${outArtists.length > 1 ? 's' : ''}</summary><p>${outArtists.map(a => esc(a.artist)).join(', ')}.</p></details>` : ''}
 </section>
+${leads.artists.length ? `<section aria-labelledby="h-leads">
+  <h2 id="h-leads">Leads</h2>
+  <p>${leads.artists.length} artists not on the list, found through ${leads.shows.length} group shows our artists were in. Each has at least one work about nature, with sources. Tick the ones to add and send Claude the line that appears.</p>
+  <ol class="artists leads">
+${renderLeads()}
+  </ol>
+  <div class="lead-out" hidden>
+    <textarea readonly rows="3"></textarea>
+    <p><button type="button" class="copy">copy</button></p>
+  </div>
+  <details class="shows"><summary>the ${leads.shows.length} group shows</summary><ul class="works">${renderShows()}</ul></details>
+</section>` : ''}
 </main>
 <script>
 // Artists unchecked on the wall are hidden here too, in this browser only, until Lukas sets them to out.
 (() => {
   let hide = [];
   try { hide = JSON.parse(localStorage.getItem('tg-hidden') || '[]'); } catch (e) {}
-  const items = [...document.querySelectorAll('.artists > [data-artist]')].filter(li => hide.includes(li.dataset.artist));
+  const items = [...document.querySelectorAll('.artists:not(.leads) > [data-artist]')].filter(li => hide.includes(li.dataset.artist));
   if (!items.length) return;
   items.forEach(li => { li.hidden = true; });
   const note = document.querySelector('.hidden-note');
   note.hidden = false;
   note.innerHTML = items.length + ' unchecked on the <a href="/touchgrass/wall/">wall</a>, hidden in this browser.';
+})();
+</script>
+<script>
+// Leads: ticked artists become one line for Lukas to send Claude, who adds them to the list.
+(() => {
+  const list = document.querySelector('.leads');
+  if (!list) return;
+  const out = document.querySelector('.lead-out');
+  const text = out.querySelector('textarea');
+  list.addEventListener('change', () => {
+    const names = [...list.querySelectorAll('input:checked')].map(b => b.value);
+    out.hidden = !names.length;
+    text.value = 'Touch Grass: add these leads: ' + names.join(', ') + '.';
+  });
+  out.querySelector('.copy').addEventListener('click', e => {
+    text.select();
+    (navigator.clipboard ? navigator.clipboard.writeText(text.value) : Promise.reject())
+      .catch(() => document.execCommand('copy'))
+      .then(() => { e.target.textContent = 'copied'; setTimeout(() => { e.target.textContent = 'copy'; }, 1500); });
+  });
 })();
 </script>
 </body>
@@ -201,4 +260,4 @@ ${renderWall()}
 fs.writeFileSync(path.join(dir, 'index.html'), html);
 fs.mkdirSync(path.join(dir, 'wall'), { recursive: true });
 fs.writeFileSync(path.join(dir, 'wall', 'index.html'), wallHtml);
-console.log(`touchgrass/index.html: ${log.length} log rows, ${artists.length} artists, ${nWorks} works, ${nImages} images. wall/index.html: ${nWorks} cells`);
+console.log(`touchgrass/index.html: ${log.length} log rows, ${artists.length} artists, ${nWorks} works, ${nImages} images, ${leads.artists.length} leads. wall/index.html: ${nWorks} cells`);

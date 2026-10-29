@@ -60,3 +60,20 @@ details pre { white-space: pre-wrap; padding: 0.4em 0 0 2ch; }
   .entry .say, .entry > p { grid-column: 2; }
   .works, .works.none { padding-left: 2ch; }
 }
+
+/* leads: artists to tick and send back */
+.lead .artist-head label { display: inline-flex; gap: 1ch; align-items: baseline; cursor: pointer; }
+.lead input, .lead-out { accent-color: var(--ink); }
+.via { padding-left: 4ch; font-style: italic; }
+.lead-out {
+  position: sticky; bottom: 0; display: grid; gap: 6px; padding: 10px 0;
+  background: var(--paper); border-top: 1px solid var(--ink);
+}
+.lead-out[hidden] { display: none; }
+.lead-out textarea { font: inherit; width: 100%; box-sizing: border-box; border: 1px solid var(--ink); padding: 6px; resize: vertical; }
+.lead-out button {
+  font: inherit; color: var(--ink); background: none; border: 0; padding: 0; cursor: pointer;
+  text-decoration: underline; text-underline-offset: 2px;
+}
+.shows .works { padding-left: 2ch; padding-top: 0.4em; }
+@media (max-width: 520px) { .via { padding-left: 2ch; } }
