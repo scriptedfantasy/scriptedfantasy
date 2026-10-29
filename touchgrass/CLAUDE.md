@@ -32,5 +32,5 @@ This folder is served at https://scriptedfantasy.net/touchgrass/ (GitHub Pages, 
 
 - Images: 125 of 131 works have one in `images/`, recorded as `image` on the work (file, page it came from, original URL; `screenshot: true` where it is a cropped screenshot). Every image was checked to show the work. Sites that refuse automated visits (403/429/bot checks) are not worked around; use other sources. No image found: W085 Csuri Hummingbird II, W099/W100/W102 Ting Song (ICME pages are text only), W103 Schwartz Alae, W105 Eko33 Delicate Season.
 - Fixed 29.10.2026 on Lukas's go: W074 "Flowers" moved to a new artist, David Young (not on the brief, status longlist); W012 is "Tall Grass (Hidden From View)", 2026; W020 is "Liberator Vases", 2016-; wrong source links replaced for W086, W098, W110-W112. Still open: W043, where Right Click Save captions a different image as "Saint Nazaire, 2021" than the artist's own site.
-- Growing the archive: more works by the current 58 artists, or new artists beyond the list. Waiting on Lukas.
-- Unconfirmed details: Linda Dounia "Once Upon a Flower" (ArtPoint and Le Random both show an image; title, year, platform still open), Harold Cohen 0309-06 (what the image shows), and the identities of Noper and DeepBlack.
+- Growing the archive: more works by the current 59 artists, or new artists beyond the list. Waiting on Lukas.
+- Unconfirmed details: Linda Dounia "Once Upon a Flower" (ArtPoint and Le Random both show an image; title, year, platform still open), and the identities of Noper and DeepBlack.
