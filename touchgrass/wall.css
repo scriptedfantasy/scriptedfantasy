@@ -27,6 +27,24 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--ink); outline-o
 .controls label { display: inline-flex; align-items: center; gap: 1ch; cursor: pointer; white-space: nowrap; }
 .controls input { accent-color: var(--ink); margin: 0; }
 .size { width: 14ch; }
+/* artist checkboxes: a panel under the bar */
+.pick summary { cursor: pointer; list-style: none; white-space: nowrap; text-decoration: underline; text-underline-offset: 2px; }
+.pick summary::-webkit-details-marker { display: none; }
+.pick-panel {
+  position: absolute; top: 100%; left: max(16px, env(safe-area-inset-left, 0px)); z-index: 3;
+  width: min(80ch, calc(100% - 32px)); max-height: 70vh; overflow: auto; box-sizing: border-box;
+  display: grid; gap: 10px; padding: 12px; background: var(--paper); border: 1px solid var(--ink);
+}
+.pick-all { display: flex; gap: 3ch; }
+.pick button {
+  font: inherit; color: var(--ink); background: none; border: 0; padding: 0; cursor: pointer;
+  text-decoration: underline; text-underline-offset: 2px;
+}
+.pick-list { list-style: none; margin: 0; padding: 0; columns: 22ch; column-gap: 3ch; }
+.pick-list label { display: flex; gap: 1ch; align-items: baseline; white-space: normal; padding: 1px 0; }
+.pick-out { display: grid; gap: 6px; border-top: 1px solid var(--ink); padding-top: 10px; }
+.pick-out[hidden], .artist[hidden] { display: none !important; }
+.pick-out textarea { font: inherit; width: 100%; box-sizing: border-box; border: 1px solid var(--ink); padding: 6px; resize: vertical; }
 .status { flex: 1 1 24ch; min-width: 0; text-align: right; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 
 /* the wall: one flat grid by default. Artist sections and their lists dissolve into it. */

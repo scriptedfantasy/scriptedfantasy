@@ -1,4 +1,4 @@
-// The wall sizes and groups its grid, names the work under the pointer, and opens one work large. Everything it shows is already in the HTML.
+// The wall sizes, groups and filters its grid, names the work under the pointer, and opens one work large. Everything it shows is already in the HTML.
 (() => {
   const list = document.querySelector('.wall');
   const screens = [...list.querySelectorAll('.screen')];
@@ -20,16 +20,58 @@
   size.addEventListener('input', () => { setSize(size.value); store('tg-wall-size', size.value); });
   group.addEventListener('change', () => { setGroup(group.checked); store('tg-wall-group', group.checked ? '1' : '0'); });
 
+  // Artist checkboxes. Unchecked artists are hidden in this browser (the board reads the same list);
+  // the page writes out a line for Lukas to send Claude, who sets them to out for everyone.
+  const pick = document.querySelector('.pick');
+  const boxes = [...pick.querySelectorAll('.pick-list input')];
+  const sections = [...list.querySelectorAll('.artist')];
+  const outBox = pick.querySelector('.pick-out');
+  const outText = outBox.querySelector('textarea');
+  let idle = status.dataset.idle;
+  function setHidden(hide) {
+    sections.forEach(sec => { sec.hidden = hide.includes(sec.dataset.artist); });
+    boxes.forEach(b => { b.checked = !hide.includes(b.value); });
+    pick.querySelector('.pick-n').textContent = `${boxes.length - hide.length}/${boxes.length}`;
+    const names = boxes.filter(b => !b.checked).map(b => b.parentElement.textContent.trim());
+    outBox.hidden = !names.length;
+    outText.value = `Touch Grass: set these artists to out: ${names.join(', ')}.`;
+    const shown = screens.filter(s => !s.closest('[hidden]'));
+    idle = `${shown.length} works. ${shown.filter(s => s.dataset.img).length} images.`;
+    show(null);
+    store('tg-hidden', JSON.stringify(hide));
+  }
+  const hidden = () => boxes.filter(b => !b.checked).map(b => b.value);
+  pick.addEventListener('change', e => { if (e.target.matches('.pick-list input')) setHidden(hidden()); });
+  pick.addEventListener('click', e => {
+    const all = e.target.closest('[data-all]');
+    if (all) setHidden(all.dataset.all === '1' ? [] : boxes.map(b => b.value));
+    if (e.target.closest('.copy')) {
+      outText.select();
+      (navigator.clipboard ? navigator.clipboard.writeText(outText.value) : Promise.reject())
+        .catch(() => document.execCommand('copy'))
+        .then(() => { e.target.textContent = 'copied'; setTimeout(() => { e.target.textContent = 'copy'; }, 1500); });
+    }
+  });
+  document.addEventListener('click', e => { if (pick.open && !pick.contains(e.target)) pick.open = false; });
+
   // Status bar: the caption of the screen under the pointer or focus.
-  const idle = status.dataset.idle;
-  const show = s => { status.textContent = s ? s.querySelector('.cap').textContent : idle; };
+  function show(s) { status.textContent = s ? s.querySelector('.cap').textContent : idle; }
+  let saved = [];
+  try { saved = JSON.parse(recall('tg-hidden') || '[]'); } catch (e) {}
+  setHidden(saved.filter(v => boxes.some(b => b.value === v)));
   list.addEventListener('pointerover', e => show(e.target.closest('.screen')));
   list.addEventListener('pointerleave', () => show(null));
   list.addEventListener('focusin', e => show(e.target.closest('.screen')));
   list.addEventListener('focusout', () => show(null));
 
-  // Viewer, driven by the URL hash so every work has its own link.
+  // Viewer, driven by the URL hash so every work has its own link. Prev and next skip hidden artists.
   let current = -1;
+  function step(by) {
+    for (let n = 1; n <= screens.length; n++) {
+      const i = (current + by * n + screens.length * n) % screens.length;
+      if (!screens[i].closest('[hidden]')) return open(i);
+    }
+  }
   function open(i) {
     const s = screens[i];
     if (!s) return;
@@ -66,11 +108,11 @@
   viewer.addEventListener('click', e => {
     if (e.target === viewer || e.target.closest('[data-close]')) return shut();
     const go = e.target.closest('[data-go]');
-    if (go) open((current + Number(go.dataset.go) + screens.length) % screens.length);
+    if (go) step(Number(go.dataset.go));
   });
   viewer.addEventListener('keydown', e => {
-    if (e.key === 'ArrowRight') open((current + 1) % screens.length);
-    if (e.key === 'ArrowLeft') open((current - 1 + screens.length) % screens.length);
+    if (e.key === 'ArrowRight') step(1);
+    if (e.key === 'ArrowLeft') step(-1);
   });
   viewer.addEventListener('close', shut);
   window.addEventListener('hashchange', fromHash);

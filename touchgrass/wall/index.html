@@ -15,12 +15,77 @@
   <div class="controls">
     <label>size <input type="range" class="size" min="40" max="480" step="4" value="120"></label>
     <label><input type="checkbox" class="group"> by artist</label>
+    <details class="pick">
+      <summary>artists <span class="pick-n">52/52</span></summary>
+      <div class="pick-panel">
+        <p class="pick-all"><button type="button" data-all="1">all</button><button type="button" data-all="0">none</button></p>
+        <ul class="pick-list">
+          <li><label><input type="checkbox" value="linda-dounia" checked> Linda Dounia</label></li>
+          <li><label><input type="checkbox" value="anna-ridler" checked> Anna Ridler</label></li>
+          <li><label><input type="checkbox" value="sarah-meyohas" checked> Sarah Meyohas</label></li>
+          <li><label><input type="checkbox" value="0xfff" checked> 0xfff</label></li>
+          <li><label><input type="checkbox" value="terra0" checked> terra0</label></li>
+          <li><label><input type="checkbox" value="leander-herzog" checked> Leander Herzog</label></li>
+          <li><label><input type="checkbox" value="addie-wagenknecht" checked> Addie Wagenknecht</label></li>
+          <li><label><input type="checkbox" value="refik-anadol" checked> Refik Anadol</label></li>
+          <li><label><input type="checkbox" value="takashi-murakami" checked> Takashi Murakami</label></li>
+          <li><label><input type="checkbox" value="jill-magid" checked> Jill Magid</label></li>
+          <li><label><input type="checkbox" value="beeple" checked> Beeple</label></li>
+          <li><label><input type="checkbox" value="mpkoz" checked> mpkoz</label></li>
+          <li><label><input type="checkbox" value="harm-van-den-dorpel" checked> Harm van den Dorpel</label></li>
+          <li><label><input type="checkbox" value="primavera-de-filippi" checked> Primavera De Filippi</label></li>
+          <li><label><input type="checkbox" value="six-n-five" checked> Six N. Five</label></li>
+          <li><label><input type="checkbox" value="robbie-barrat" checked> Robbie Barrat</label></li>
+          <li><label><input type="checkbox" value="jennifer-kevin-mccoy" checked> Jennifer &amp; Kevin McCoy</label></li>
+          <li><label><input type="checkbox" value="zancan" checked> Zancan</label></li>
+          <li><label><input type="checkbox" value="lorna-mills" checked> Lorna Mills</label></li>
+          <li><label><input type="checkbox" value="katherine-frazer" checked> Katherine Frazer</label></li>
+          <li><label><input type="checkbox" value="sofia-crespo" checked> Sofia Crespo</label></li>
+          <li><label><input type="checkbox" value="helena-sarin" checked> Helena Sarin</label></li>
+          <li><label><input type="checkbox" value="harold-cohen" checked> Harold Cohen</label></li>
+          <li><label><input type="checkbox" value="cezar-mocan" checked> Cezar Mocan</label></li>
+          <li><label><input type="checkbox" value="david-lisser" checked> David Lisser</label></li>
+          <li><label><input type="checkbox" value="david-young" checked> David Young</label></li>
+          <li><label><input type="checkbox" value="sarah-friend" checked> Sarah Friend</label></li>
+          <li><label><input type="checkbox" value="holly-herndon-mat-dryhurst" checked> Holly Herndon &amp; Mat Dryhurst</label></li>
+          <li><label><input type="checkbox" value="sasha-stiles" checked> Sasha Stiles</label></li>
+          <li><label><input type="checkbox" value="niceaunties" checked> Niceaunties</label></li>
+          <li><label><input type="checkbox" value="pindar-van-arman" checked> Pindar Van Arman</label></li>
+          <li><label><input type="checkbox" value="charles-csuri" checked> Charles Csuri</label></li>
+          <li><label><input type="checkbox" value="alexander-reben" checked> Alexander Reben</label></li>
+          <li><label><input type="checkbox" value="obvious" checked> Obvious</label></li>
+          <li><label><input type="checkbox" value="amelia-winger-bearskin" checked> Amelia Winger-Bearskin</label></li>
+          <li><label><input type="checkbox" value="daniel-ambrosi" checked> Daniel Ambrosi</label></li>
+          <li><label><input type="checkbox" value="jesse-woolston" checked> Jesse Woolston</label></li>
+          <li><label><input type="checkbox" value="ting-song" checked> Ting Song</label></li>
+          <li><label><input type="checkbox" value="lillian-schwartz" checked> Lillian Schwartz</label></li>
+          <li><label><input type="checkbox" value="eko33" checked> Eko33</label></li>
+          <li><label><input type="checkbox" value="roope-rainisto" checked> Roope Rainisto</label></li>
+          <li><label><input type="checkbox" value="sarp-kerem-yavuz" checked> Sarp Kerem Yavuz</label></li>
+          <li><label><input type="checkbox" value="ivona-tau" checked> Ivona Tau</label></li>
+          <li><label><input type="checkbox" value="clownvamp" checked> ClownVamp</label></li>
+          <li><label><input type="checkbox" value="kevin-abosch" checked> Kevin Abosch</label></li>
+          <li><label><input type="checkbox" value="alkan-avc-oglu" checked> Alkan Avcıoğlu</label></li>
+          <li><label><input type="checkbox" value="sougwen-chung" checked> Sougwen Chung</label></li>
+          <li><label><input type="checkbox" value="jake-elwes" checked> Jake Elwes</label></li>
+          <li><label><input type="checkbox" value="brendan-dawes" checked> Brendan Dawes</label></li>
+          <li><label><input type="checkbox" value="casey-reas" checked> Casey Reas</label></li>
+          <li><label><input type="checkbox" value="jakob-kudsk-steensen" checked> Jakob Kudsk Steensen</label></li>
+          <li><label><input type="checkbox" value="monica-rizzolli" checked> Monica Rizzolli</label></li>
+        </ul>
+        <div class="pick-out" hidden>
+          <p>Unchecked artists are hidden in this browser only. To remove them for everyone, send Claude this:</p>
+          <textarea readonly rows="3"></textarea>
+          <p><button type="button" class="copy">copy</button></p>
+        </div>
+      </div>
+    </details>
   </div>
   <p class="status" aria-live="polite" data-idle="131 works. 125 images.">131 works. 125 images.</p>
 </header>
 <main class="room">
 <div class="wall">
-<section class="artist" aria-label="Linda Dounia">
+<section class="artist" aria-label="Linda Dounia" data-artist="linda-dounia">
 <h2><span>Linda Dounia</span><span>4</span></h2>
 <ol class="cells">
 <li class="screen on" id="W001" data-img="/touchgrass/images/W001.jpg" data-page="https://www.vam.ac.uk/event/GnxBVLnLN2v/once-upon-a-garden-sept-oct-2026">
@@ -41,7 +106,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="Anna Ridler">
+<section class="artist" aria-label="Anna Ridler" data-artist="anna-ridler">
 <h2><span>Anna Ridler</span><span>4</span></h2>
 <ol class="cells">
 <li class="screen on" id="W005" data-img="/touchgrass/images/W005.jpg" data-page="https://annaridler.com/mosaic-virus">
@@ -62,7 +127,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="Sarah Meyohas">
+<section class="artist" aria-label="Sarah Meyohas" data-artist="sarah-meyohas">
 <h2><span>Sarah Meyohas</span><span>3</span></h2>
 <ol class="cells">
 <li class="screen on" id="W009" data-img="/touchgrass/images/W009.jpg" data-page="https://www.designboom.com/art/sarah-meyohas-cloud-of-petals-new-york-virtual-reality-10-21-2017/">
@@ -79,7 +144,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="0xfff">
+<section class="artist" aria-label="0xfff" data-artist="0xfff">
 <h2><span>0xfff</span><span>1</span></h2>
 <ol class="cells">
 <li class="screen on" id="W012" data-img="/touchgrass/images/W012.jpg" data-page="https://tallgrass.0xfff.love/">
@@ -88,7 +153,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="terra0">
+<section class="artist" aria-label="terra0" data-artist="terra0">
 <h2><span>terra0</span><span>4</span></h2>
 <ol class="cells">
 <li class="screen on" id="W013" data-img="/touchgrass/images/W013.jpg" data-page="https://www.las-art.foundation/explore/terra0-forest">
@@ -109,7 +174,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="Leander Herzog">
+<section class="artist" aria-label="Leander Herzog" data-artist="leander-herzog">
 <h2><span>Leander Herzog</span><span>2</span></h2>
 <ol class="cells">
 <li class="screen on" id="W017" data-img="/touchgrass/images/W017.jpg" data-page="https://www.infinite-garden.xyz/">
@@ -122,7 +187,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="Addie Wagenknecht">
+<section class="artist" aria-label="Addie Wagenknecht" data-artist="addie-wagenknecht">
 <h2><span>Addie Wagenknecht</span><span>3</span></h2>
 <ol class="cells">
 <li class="screen on" id="W019" data-img="/touchgrass/images/W019.jpg" data-page="https://placesiveneverbeen.com/paradise-loading">
@@ -139,7 +204,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="Refik Anadol">
+<section class="artist" aria-label="Refik Anadol" data-artist="refik-anadol">
 <h2><span>Refik Anadol</span><span>4</span></h2>
 <ol class="cells">
 <li class="screen on" id="W022" data-img="/touchgrass/images/W022.jpg" data-page="https://www.koeniggalerie.com/blogs/exhibitions/refik-anadol-machine-hallucinations-nature-dreams">
@@ -160,7 +225,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="Takashi Murakami">
+<section class="artist" aria-label="Takashi Murakami" data-artist="takashi-murakami">
 <h2><span>Takashi Murakami</span><span>2</span></h2>
 <ol class="cells">
 <li class="screen on" id="W026" data-img="/touchgrass/images/W026.jpg" data-page="https://www.myartbroker.com/artist-takashi-murakami/articles/takashi-murakami-nfts-flower-power">
@@ -173,7 +238,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="Jill Magid">
+<section class="artist" aria-label="Jill Magid" data-artist="jill-magid">
 <h2><span>Jill Magid</span><span>3</span></h2>
 <ol class="cells">
 <li class="screen on" id="W028" data-img="/touchgrass/images/W028.jpg" data-page="https://www.jillmagid.com/projects/out-game-flowers">
@@ -190,7 +255,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="Beeple">
+<section class="artist" aria-label="Beeple" data-artist="beeple">
 <h2><span>Beeple</span><span>3</span></h2>
 <ol class="cells">
 <li class="screen on" id="W031" data-img="/touchgrass/images/W031.jpg" data-page="https://theartnewspaper.com/2024/09/27/beeple-generative-tree-knowledge-non-profit-fundraiser-italian-tech-week">
@@ -207,7 +272,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="mpkoz">
+<section class="artist" aria-label="mpkoz" data-artist="mpkoz">
 <h2><span>mpkoz</span><span>1</span></h2>
 <ol class="cells">
 <li class="screen on" id="W034" data-img="/touchgrass/images/W034.jpg" data-page="https://artblocks.io/project/233">
@@ -216,7 +281,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="Harm van den Dorpel">
+<section class="artist" aria-label="Harm van den Dorpel" data-artist="harm-van-den-dorpel">
 <h2><span>Harm van den Dorpel</span><span>2</span></h2>
 <ol class="cells">
 <li class="screen on" id="W035" data-img="/touchgrass/images/W035.jpg" data-page="https://harmvandendorpel.com/news/prelaunch-mutant-garden-seeder-nft">
@@ -229,7 +294,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="Primavera De Filippi">
+<section class="artist" aria-label="Primavera De Filippi" data-artist="primavera-de-filippi">
 <h2><span>Primavera De Filippi</span><span>4</span></h2>
 <ol class="cells">
 <li class="screen on" id="W037" data-img="/touchgrass/images/W037.jpg" data-page="https://plantoid.org">
@@ -250,7 +315,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="Six N. Five">
+<section class="artist" aria-label="Six N. Five" data-artist="six-n-five">
 <h2><span>Six N. Five</span><span>2</span></h2>
 <ol class="cells">
 <li class="screen on" id="W041" data-img="/touchgrass/images/W041.jpg" data-page="https://web.archive.org/web/20250714122809/https://www.niftygateway.com/collections/natural-balance/">
@@ -263,7 +328,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="Robbie Barrat">
+<section class="artist" aria-label="Robbie Barrat" data-artist="robbie-barrat">
 <h2><span>Robbie Barrat</span><span>3</span></h2>
 <ol class="cells">
 <li class="screen on" id="W043" data-img="/touchgrass/images/W043.jpg" data-page="https://www.robbiebarrat.net/stnzr.html">
@@ -280,7 +345,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="Jennifer &amp; Kevin McCoy">
+<section class="artist" aria-label="Jennifer &amp; Kevin McCoy" data-artist="jennifer-kevin-mccoy">
 <h2><span>Jennifer &amp; Kevin McCoy</span><span>4</span></h2>
 <ol class="cells">
 <li class="screen on" id="W046" data-img="/touchgrass/images/W046.jpg" data-page="https://mccoyspace.com/projects/lens-organic">
@@ -301,7 +366,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="Zancan">
+<section class="artist" aria-label="Zancan" data-artist="zancan">
 <h2><span>Zancan</span><span>4</span></h2>
 <ol class="cells">
 <li class="screen on" id="W050" data-img="/touchgrass/images/W050.jpg" data-page="https://rightclicksave.com/article/on-the-new-evolution-of-generative-art">
@@ -322,7 +387,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="Lorna Mills">
+<section class="artist" aria-label="Lorna Mills" data-artist="lorna-mills">
 <h2><span>Lorna Mills</span><span>4</span></h2>
 <ol class="cells">
 <li class="screen on" id="W054" data-img="/touchgrass/images/W054.jpg" data-page="https://www.cbc.ca/arts/lorna-mills-art-times-square-midnight-moment-1.3481454">
@@ -343,7 +408,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="Katherine Frazer">
+<section class="artist" aria-label="Katherine Frazer" data-artist="katherine-frazer">
 <h2><span>Katherine Frazer</span><span>3</span></h2>
 <ol class="cells">
 <li class="screen on" id="W058" data-img="/touchgrass/images/W058.jpg" data-page="https://katherinefrazer.com/ikebana_sketchbook.html">
@@ -360,7 +425,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="Sofia Crespo">
+<section class="artist" aria-label="Sofia Crespo" data-artist="sofia-crespo">
 <h2><span>Sofia Crespo</span><span>4</span></h2>
 <ol class="cells">
 <li class="screen on" id="W061" data-img="/touchgrass/images/W061.jpg" data-page="https://verse.works/series/critically-extant-by-sofia-crespo">
@@ -381,7 +446,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="Helena Sarin">
+<section class="artist" aria-label="Helena Sarin" data-artist="helena-sarin">
 <h2><span>Helena Sarin</span><span>2</span></h2>
 <ol class="cells">
 <li class="screen on" id="W065" data-img="/touchgrass/images/W065.jpg" data-page="https://verse.works/artworks/5db28778-8077-47ed-b5af-b9bb57054ba9/931663184">
@@ -394,7 +459,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="Harold Cohen">
+<section class="artist" aria-label="Harold Cohen" data-artist="harold-cohen">
 <h2><span>Harold Cohen</span><span>4</span></h2>
 <ol class="cells">
 <li class="screen on" id="W067" data-img="/touchgrass/images/W067.jpg" data-page="https://www.sothebys.com/en/buy/_0309-06-i23-3370-a3e2">
@@ -415,7 +480,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="Cezar Mocan">
+<section class="artist" aria-label="Cezar Mocan" data-artist="cezar-mocan">
 <h2><span>Cezar Mocan</span><span>2</span></h2>
 <ol class="cells">
 <li class="screen on" id="W071" data-img="/touchgrass/images/W071.jpg" data-page="https://cezar.io/world-upstream">
@@ -428,7 +493,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="David Lisser">
+<section class="artist" aria-label="David Lisser" data-artist="david-lisser">
 <h2><span>David Lisser</span><span>1</span></h2>
 <ol class="cells">
 <li class="screen on" id="W073" data-img="/touchgrass/images/W073.jpg" data-page="https://web.archive.org/web/20260310095826/https://load-gallery.com/artists/david-lisser">
@@ -437,7 +502,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="David Young">
+<section class="artist" aria-label="David Young" data-artist="david-young">
 <h2><span>David Young</span><span>1</span></h2>
 <ol class="cells">
 <li class="screen on" id="W074" data-img="/touchgrass/images/W074.jpg" data-page="https://www.katevassgalerie.com/print/p/david-young-flowers-b2215822">
@@ -446,7 +511,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="Sarah Friend">
+<section class="artist" aria-label="Sarah Friend" data-artist="sarah-friend">
 <h2><span>Sarah Friend</span><span>3</span></h2>
 <ol class="cells">
 <li class="screen on" id="W075" data-img="/touchgrass/images/W075.jpg" data-page="https://www.bitforms.art/artwork/gentle-automata-touching-grass">
@@ -463,7 +528,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="Holly Herndon &amp; Mat Dryhurst">
+<section class="artist" aria-label="Holly Herndon &amp; Mat Dryhurst" data-artist="holly-herndon-mat-dryhurst">
 <h2><span>Holly Herndon &amp; Mat Dryhurst</span><span>1</span></h2>
 <ol class="cells">
 <li class="screen on" id="W078" data-img="/touchgrass/images/W078.jpg" data-page="https://verse.works/artworks/f53bd4cb-92f5-47e8-980f-5cb9954e093f/1">
@@ -472,7 +537,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="Sasha Stiles">
+<section class="artist" aria-label="Sasha Stiles" data-artist="sasha-stiles">
 <h2><span>Sasha Stiles</span><span>3</span></h2>
 <ol class="cells">
 <li class="screen on" id="W079" data-img="/touchgrass/images/W079.jpg" data-page="https://www.artforum.com/interviews/sasha-stiles-90255">
@@ -489,7 +554,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="Niceaunties">
+<section class="artist" aria-label="Niceaunties" data-artist="niceaunties">
 <h2><span>Niceaunties</span><span>1</span></h2>
 <ol class="cells">
 <li class="screen on" id="W082" data-img="/touchgrass/images/W082.jpg" data-page="https://thehouseoffineart.com/artworks/6399/">
@@ -498,7 +563,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="Pindar Van Arman">
+<section class="artist" aria-label="Pindar Van Arman" data-artist="pindar-van-arman">
 <h2><span>Pindar Van Arman</span><span>1</span></h2>
 <ol class="cells">
 <li class="screen on" id="W083" data-img="/touchgrass/images/W083.jpg" data-page="https://newatlas.com/robot-art-2018-competition-winners-gallery/55548">
@@ -507,7 +572,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="Charles Csuri">
+<section class="artist" aria-label="Charles Csuri" data-artist="charles-csuri">
 <h2><span>Charles Csuri</span><span>3</span></h2>
 <ol class="cells">
 <li class="screen on" id="W084" data-img="/touchgrass/images/W084.jpg" data-page="https://www.katevassgalerie.com/blog/charles-csuri-art">
@@ -524,7 +589,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="Alexander Reben">
+<section class="artist" aria-label="Alexander Reben" data-artist="alexander-reben">
 <h2><span>Alexander Reben</span><span>1</span></h2>
 <ol class="cells">
 <li class="screen on" id="W087" data-img="/touchgrass/images/W087.jpg" data-page="https://www.engadget.com/2017-04-06-ai-on-joy-of-painting-on-lsd.html">
@@ -533,7 +598,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="Obvious">
+<section class="artist" aria-label="Obvious" data-artist="obvious">
 <h2><span>Obvious</span><span>2</span></h2>
 <ol class="cells">
 <li class="screen on" id="W088" data-img="/touchgrass/images/W088.jpg" data-page="https://obvious-art.com/collection-electric-dreams-of-ukiyo/">
@@ -546,7 +611,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="Amelia Winger-Bearskin">
+<section class="artist" aria-label="Amelia Winger-Bearskin" data-artist="amelia-winger-bearskin">
 <h2><span>Amelia Winger-Bearskin</span><span>4</span></h2>
 <ol class="cells">
 <li class="screen on" id="W090" data-img="/touchgrass/images/W090.jpg" data-page="https://whitney.org/exhibitions/amelia-winger-bearskin">
@@ -567,7 +632,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="Daniel Ambrosi">
+<section class="artist" aria-label="Daniel Ambrosi" data-artist="daniel-ambrosi">
 <h2><span>Daniel Ambrosi</span><span>3</span></h2>
 <ol class="cells">
 <li class="screen on" id="W094" data-img="/touchgrass/images/W094.jpg" data-page="https://www.theartnewspaper.com/2023/11/06/ai-captures-capability-brown-landscape">
@@ -584,7 +649,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="Jesse Woolston">
+<section class="artist" aria-label="Jesse Woolston" data-artist="jesse-woolston">
 <h2><span>Jesse Woolston</span><span>2</span></h2>
 <ol class="cells">
 <li class="screen on" id="W097" data-img="/touchgrass/images/W097.jpg" data-page="https://thehouseoffineart.com/artworks/5028">
@@ -597,7 +662,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="Ting Song">
+<section class="artist" aria-label="Ting Song" data-artist="ting-song">
 <h2><span>Ting Song</span><span>4</span></h2>
 <ol class="cells">
 <li class="screen off" id="W099">
@@ -618,7 +683,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="Lillian Schwartz">
+<section class="artist" aria-label="Lillian Schwartz" data-artist="lillian-schwartz">
 <h2><span>Lillian Schwartz</span><span>1</span></h2>
 <ol class="cells">
 <li class="screen off" id="W103">
@@ -627,7 +692,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="Eko33">
+<section class="artist" aria-label="Eko33" data-artist="eko33">
 <h2><span>Eko33</span><span>2</span></h2>
 <ol class="cells">
 <li class="screen on" id="W104" data-img="/touchgrass/images/W104.jpg" data-page="https://artblocks.io/collections/curated/projects/0x99a9b7c1116f9ceeb1652de04d5969cce509b069/418">
@@ -640,7 +705,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="Roope Rainisto">
+<section class="artist" aria-label="Roope Rainisto" data-artist="roope-rainisto">
 <h2><span>Roope Rainisto</span><span>3</span></h2>
 <ol class="cells">
 <li class="screen on" id="W106" data-img="/touchgrass/images/W106.jpg" data-page="https://ucrarts.ucr.edu/ai-post-photography/roope-rainisto/">
@@ -657,7 +722,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="Sarp Kerem Yavuz">
+<section class="artist" aria-label="Sarp Kerem Yavuz" data-artist="sarp-kerem-yavuz">
 <h2><span>Sarp Kerem Yavuz</span><span>1</span></h2>
 <ol class="cells">
 <li class="screen on" id="W109" data-img="/touchgrass/images/W109.jpg" data-page="https://www.dailysabah.com/arts/ai-driven-cats-of-topkapi-captures-istanbuls-iconic-street-cats/news">
@@ -666,7 +731,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="Ivona Tau">
+<section class="artist" aria-label="Ivona Tau" data-artist="ivona-tau">
 <h2><span>Ivona Tau</span><span>3</span></h2>
 <ol class="cells">
 <li class="screen on" id="W110" data-img="/touchgrass/images/W110.jpg" data-page="https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/47559451843736372481830899747083495530740509927607212916086401421877071314949">
@@ -683,7 +748,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="ClownVamp">
+<section class="artist" aria-label="ClownVamp" data-artist="clownvamp">
 <h2><span>ClownVamp</span><span>1</span></h2>
 <ol class="cells">
 <li class="screen on" id="W113" data-img="/touchgrass/images/W113.jpg" data-page="https://verse.works/artworks/2ab7fbc3-f635-48c5-9268-cfcb6ac9ccea/3">
@@ -692,7 +757,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="Kevin Abosch">
+<section class="artist" aria-label="Kevin Abosch" data-artist="kevin-abosch">
 <h2><span>Kevin Abosch</span><span>2</span></h2>
 <ol class="cells">
 <li class="screen on" id="W114" data-img="/touchgrass/images/W114.jpg" data-page="https://hypebeast.com/2018/2/forever-rose-worlds-most-valuable-crypto-artwork">
@@ -705,7 +770,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="Alkan Avcıoğlu">
+<section class="artist" aria-label="Alkan Avcıoğlu" data-artist="alkan-avc-oglu">
 <h2><span>Alkan Avcıoğlu</span><span>2</span></h2>
 <ol class="cells">
 <li class="screen on" id="W116" data-img="/touchgrass/images/W116.jpg" data-page="https://designyoutrust.com/2024/12/overpopulated-symphonies-the-striking-ai-photography-project-by-alkan-avcioglu/">
@@ -718,7 +783,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="Sougwen Chung">
+<section class="artist" aria-label="Sougwen Chung" data-artist="sougwen-chung">
 <h2><span>Sougwen Chung</span><span>3</span></h2>
 <ol class="cells">
 <li class="screen on" id="W118" data-img="/touchgrass/images/W118.jpg" data-page="https://web.archive.org/web/20200919115721/https://sougwen.com/project/florarearingagriculturalnetwork">
@@ -735,7 +800,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="Jake Elwes">
+<section class="artist" aria-label="Jake Elwes" data-artist="jake-elwes">
 <h2><span>Jake Elwes</span><span>1</span></h2>
 <ol class="cells">
 <li class="screen on" id="W121" data-img="/touchgrass/images/W121.jpg" data-page="https://gazelliarthouse.com/artworks/8260-jake-elwes-cusp-2019">
@@ -744,7 +809,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="Brendan Dawes">
+<section class="artist" aria-label="Brendan Dawes" data-artist="brendan-dawes">
 <h2><span>Brendan Dawes</span><span>2</span></h2>
 <ol class="cells">
 <li class="screen on" id="W122" data-img="/touchgrass/images/W122.jpg" data-page="https://dev.brendandawes.com/projects/amongsttheleaves">
@@ -757,7 +822,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="Casey Reas">
+<section class="artist" aria-label="Casey Reas" data-artist="casey-reas">
 <h2><span>Casey Reas</span><span>3</span></h2>
 <ol class="cells">
 <li class="screen on" id="W124" data-img="/touchgrass/images/W124.jpg" data-page="https://meer.com/en/52049-casey-reas">
@@ -774,7 +839,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="Jakob Kudsk Steensen">
+<section class="artist" aria-label="Jakob Kudsk Steensen" data-artist="jakob-kudsk-steensen">
 <h2><span>Jakob Kudsk Steensen</span><span>4</span></h2>
 <ol class="cells">
 <li class="screen on" id="W127" data-img="/touchgrass/images/W127.jpg" data-page="https://www.serpentinegalleries.org/whats-on/jakob-kudsk-steensen-catharsis/">
@@ -795,7 +860,7 @@
 </li>
 </ol>
 </section>
-<section class="artist" aria-label="Monica Rizzolli">
+<section class="artist" aria-label="Monica Rizzolli" data-artist="monica-rizzolli">
 <h2><span>Monica Rizzolli</span><span>1</span></h2>
 <ol class="cells">
 <li class="screen on" id="W131" data-img="/touchgrass/images/W131.jpg" data-page="https://artblocks.io/project/159">

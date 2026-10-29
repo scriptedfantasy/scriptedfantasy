@@ -12,12 +12,18 @@ for (const f of ['brief.js', 'log.js', 'research.js']) {
   vm.runInContext(fs.readFileSync(path.join(dir, 'data', f), 'utf8'), ctx, { filename: f });
 }
 const log = ctx.TG.log;
-const artists = ctx.TG.research.artists;
+// Artists Lukas set to out leave the board's longlist and the wall; they stay in the data.
+const artists = ctx.TG.research.artists.filter(a => a.status !== 'out');
+const outArtists = ctx.TG.research.artists.filter(a => a.status === 'out');
 const brief = ctx.TG.brief;
 
 function esc(s) {
   return String(s == null ? '' : s)
     .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+// A stable key per artist (IDs are positional), used by the wall's artist checkboxes.
+function slug(name) {
+  return name.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 }
 function host(url) {
   try { return new URL(url).hostname.replace(/^www\./, ''); } catch (e) { return url; }
@@ -46,7 +52,7 @@ function renderLonglist() {
         ? `<a class="img" href="${esc(w.image.page)}" target="_blank" rel="noopener"><img src="/touchgrass/${esc(w.image.file)}" alt="${esc(w.title)}, ${esc(a.artist)}" loading="lazy"></a>` : '';
       return `<li id="${esc(w.id)}">${w.verified ? '' : '* '}${bits}.${w.named_in_brief ? ' [brief]' : ''}<span class="links">${links}</span>${img}</li>`;
     }).join('');
-    return `<li class="artist" id="${esc(a.id)}">
+    return `<li class="artist" id="${esc(a.id)}" data-artist="${slug(a.artist)}">
   <p class="artist-head"><span>${esc(a.artist)}</span><span>${esc(a.status)}</span></p>
   ${works ? `<ul class="works">${works}</ul>` : '<p class="works none">no work found</p>'}
 </li>`;
@@ -94,11 +100,26 @@ ${renderLog()}
 <section aria-labelledby="h-long">
   <h2 id="h-long">Longlist</h2>
   <p>${artists.length} artists, ${nWorks} works, ${nImages} images. [brief] = named by Lukas. * = not verified. Links go to the sources. Each image links to the page it came from.</p>
+  <p class="hidden-note" hidden></p>
   <ol class="artists">
 ${renderLonglist()}
   </ol>
+${outArtists.length ? `  <details class="out"><summary>out, ${outArtists.length} artist${outArtists.length > 1 ? 's' : ''}</summary><p>${outArtists.map(a => esc(a.artist)).join(', ')}.</p></details>` : ''}
 </section>
 </main>
+<script>
+// Artists unchecked on the wall are hidden here too, in this browser only, until Lukas sets them to out.
+(() => {
+  let hide = [];
+  try { hide = JSON.parse(localStorage.getItem('tg-hidden') || '[]'); } catch (e) {}
+  const items = [...document.querySelectorAll('.artists > [data-artist]')].filter(li => hide.includes(li.dataset.artist));
+  if (!items.length) return;
+  items.forEach(li => { li.hidden = true; });
+  const note = document.querySelector('.hidden-note');
+  note.hidden = false;
+  note.innerHTML = items.length + ' unchecked on the <a href="/touchgrass/wall/">wall</a>, hidden in this browser.';
+})();
+</script>
 </body>
 </html>
 `;
@@ -118,7 +139,7 @@ function renderWall() {
   <figcaption><span class="cap"><b>${esc(w.id)}</b> ${esc(a.artist)}. ${line}.</span> <span class="links">${links}</span></figcaption></figure>
 </li>`;
     }).join('\n');
-    return `<section class="artist" aria-label="${esc(a.artist)}">
+    return `<section class="artist" aria-label="${esc(a.artist)}" data-artist="${slug(a.artist)}">
 <h2><span>${esc(a.artist)}</span><span>${a.works.length}</span></h2>
 <ol class="cells">
 ${cells}
@@ -127,6 +148,7 @@ ${cells}
   }).join('\n');
 }
 
+const wallArtists = artists.filter(a => a.works.length);
 const wallHtml = `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -144,6 +166,20 @@ const wallHtml = `<!DOCTYPE html>
   <div class="controls">
     <label>size <input type="range" class="size" min="40" max="480" step="4" value="120"></label>
     <label><input type="checkbox" class="group"> by artist</label>
+    <details class="pick">
+      <summary>artists <span class="pick-n">${wallArtists.length}/${wallArtists.length}</span></summary>
+      <div class="pick-panel">
+        <p class="pick-all"><button type="button" data-all="1">all</button><button type="button" data-all="0">none</button></p>
+        <ul class="pick-list">
+${wallArtists.map(a => `          <li><label><input type="checkbox" value="${slug(a.artist)}" checked> ${esc(a.artist)}</label></li>`).join('\n')}
+        </ul>
+        <div class="pick-out" hidden>
+          <p>Unchecked artists are hidden in this browser only. To remove them for everyone, send Claude this:</p>
+          <textarea readonly rows="3"></textarea>
+          <p><button type="button" class="copy">copy</button></p>
+        </div>
+      </div>
+    </details>
   </div>
   <p class="status" aria-live="polite" data-idle="${nWorks} works. ${nImages} images.">${nWorks} works. ${nImages} images.</p>
 </header>

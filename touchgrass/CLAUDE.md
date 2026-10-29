@@ -11,7 +11,7 @@ This folder is served at https://scriptedfantasy.net/touchgrass/ (GitHub Pages, 
 - `data/brief.js`: the artist list as Lukas first sent it, verbatim. Do not edit.
 - `images/`: one image per work (`W001.jpg`), resized to 800px JPEG, shown on the public longlist. Lukas chose to commit them (29.10.2026).
 - `build.js`: writes `index.html` and `wall/index.html` from the data.
-- `wall/`, `wall.css`, `wall.js`: the image viewer, one cell per work in a flat grid, inspired by the Architect's room in The Matrix. Square edges, no curve, no TV or screen effects (Lukas asked for this). Works without an image are empty outlined cells. A size slider (40–480px) and a "by artist" switch sit in the top bar; the markup is grouped by artist, and the flat view dissolves the groups with `display: contents`. `#W001` opens a work. Run `node touchgrass/build.js` after every data change and commit both. The site has no build step on deploy, and the PRD requires all content in the HTML.
+- `wall/`, `wall.css`, `wall.js`: the image viewer (size slider, by-artist grouping, artist checkboxes), one cell per work in a flat grid, inspired by the Architect's room in The Matrix. Square edges, no curve, no TV or screen effects (Lukas asked for this). Works without an image are empty outlined cells. A size slider (40–480px) and a "by artist" switch sit in the top bar; the markup is grouped by artist, and the flat view dissolves the groups with `display: contents`. `#W001` opens a work. Run `node touchgrass/build.js` after every data change and commit both. The site has no build step on deploy, and the PRD requires all content in the HTML.
 - `board.css`: styles.
 
 ## Working rules from Lukas
@@ -20,6 +20,7 @@ This folder is served at https://scriptedfantasy.net/touchgrass/ (GitHub Pages, 
 - The board is a log that takes its format from a play script. Every exchange gets an entry, with speakers LUKAS and CLAUDE plus italic stage directions for actions. Keep entries short. Dates go in `{ date: 'DD.MM.YYYY' }` rows. Mark the entry waiting on a reply with `open: true`, and remove that flag from the previous one.
 - Black text on white, monospace, very concise.
 - Lukas texts new artists, works and links by phone through Remote Control, to a desktop session on the office laptop. For each: research it, add it to `data/research.js`, fetch an image that shows the work, log the exchange, rebuild, commit, and push straight to `main` (standing permission for Touch Grass changes, given 29.10.2026). No pull request needed.
+- Removing artists: Lukas unchecks them in the wall's "artists" panel (hidden in that browser only; the board reads the same list from localStorage `tg-hidden`) and sends the line it writes out: "Touch Grass: set these artists to out: A, B." Set each to `status: 'out'` in `data/research.js`, log it, rebuild, push to `main`. The build leaves `out` artists off the wall and the longlist and names them in a collapsed "out" line under the longlist. To bring one back, set the status to longlist.
 
 ## Data conventions
 

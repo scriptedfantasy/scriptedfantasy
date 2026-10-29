@@ -67,5 +67,10 @@ TG.log = [
   { who: 'CLAUDE', say: 'The research also corrected the list. W074 Flowers is by David Young, not David Lisser, so it stays blank until you decide. Tall Grass is "Tall Grass (Hidden From View)", 2026. Some source links point to the wrong work: W086, W098 and the three Ivona Tau editions. The image links go to the right pages.' },
   { who: 'LUKAS', say: 'Fix them.' },
   { dir: 'Claude corrects the list. Flowers moves to a new entry, David Young, with its image. Tall Grass and Liberator Vases get their right titles and years. The wrong links for W086, W098 and the three Ivona Tau editions are replaced.' },
-  { who: 'CLAUDE', say: 'Fixed. 59 artists now, 125 of 131 works with an image. David Young is not on your list; his status is longlist until you decide.', open: true },
+  { who: 'CLAUDE', say: 'Fixed. 59 artists now, 125 of 131 works with an image. David Young is not on your list; his status is longlist until you decide.' },
+  { who: 'LUKAS', say: 'Remove the artist numbers in front of the names. Then I want to remove some artists from the list and the wall. Uncheck them, basically.' },
+  { who: 'CLAUDE', say: 'Numbers gone. The site has no server, so a checkbox alone only remembers in your browser. Checkboxes that hide at once, and I make it final when you send me the list? Or you text me names?' },
+  { who: 'LUKAS', say: 'Checkboxes, I confirm.' },
+  { dir: 'Claude adds an "artists" list with a checkbox per artist to the wall. Unchecked artists vanish from the wall and the board in that browser, and the page writes out a line to send Claude.' },
+  { who: 'CLAUDE', say: 'Ready. Uncheck artists on the wall, copy the line it gives you, and send it to me. I set them to out and they leave the list and the wall for everyone.', open: true },
 ];
