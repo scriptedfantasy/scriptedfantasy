@@ -72,5 +72,8 @@ TG.log = [
   { who: 'CLAUDE', say: 'Numbers gone. The site has no server, so a checkbox alone only remembers in your browser. Checkboxes that hide at once, and I make it final when you send me the list? Or you text me names?' },
   { who: 'LUKAS', say: 'Checkboxes, I confirm.' },
   { dir: 'Claude adds an "artists" list with a checkbox per artist to the wall. Unchecked artists vanish from the wall and the board in that browser, and the page writes out a line to send Claude.' },
-  { who: 'CLAUDE', say: 'Ready. Uncheck artists on the wall, copy the line it gives you, and send it to me. I set them to out and they leave the list and the wall for everyone.', open: true },
+  { who: 'CLAUDE', say: 'Ready. Uncheck artists on the wall, copy the line it gives you, and send it to me. I set them to out and they leave the list and the wall for everyone.' },
+  { who: 'LUKAS', say: 'leanderherzog.ch/2026/field, leanderherzog.ch/2026/infinitegarden, infinite-garden.xyz, worldcomputersculpture.garden' },
+  { dir: 'Claude opens the four links. Two are new works. Two belong to Infinite Garden, already on the list.' },
+  { who: 'CLAUDE', say: 'Added Herzog\'s field (2026), a field of tall moonlit grass, and World Computer Sculpture Garden (2024) under 0xfff, who curated it: a show on Ethereum that is itself a contract. Infinite Garden gets the artist\'s own page as a source, and Alp is confirmed as 2021. 133 works, 127 with an image.', open: true },
 ];

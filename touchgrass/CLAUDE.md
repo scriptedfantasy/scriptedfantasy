@@ -27,11 +27,11 @@ This folder is served at https://scriptedfantasy.net/touchgrass/ (GitHub Pages, 
 - Artist `status`: longlist | in | maybe | out. Work `status`: candidate | selected | rejected. Only Lukas's decisions change these.
 - `verified: true` currently means the title, year and venue were confirmed in web search results only. The cloud session that did the research could not open any source page. Every link still needs checking by hand.
 - `named_in_brief` marks works Lukas named or confirmed.
-- IDs (A01, W001) are positional. Renumber when artists or works are added or removed.
+- IDs (A01, W001) are positional. Renumber when artists or works are added or removed, and rename `images/` to match (the log keeps the IDs as they were at the time).
 
 ## Open threads (as of 29.10.2026)
 
-- Images: 125 of 131 works have one in `images/`, recorded as `image` on the work (file, page it came from, original URL; `screenshot: true` where it is a cropped screenshot). Every image was checked to show the work. Sites that refuse automated visits (403/429/bot checks) are not worked around; use other sources. No image found: W085 Csuri Hummingbird II, W099/W100/W102 Ting Song (ICME pages are text only), W103 Schwartz Alae, W105 Eko33 Delicate Season.
-- Fixed 29.10.2026 on Lukas's go: W074 "Flowers" moved to a new artist, David Young (not on the brief, status longlist); W012 is "Tall Grass (Hidden From View)", 2026; W020 is "Liberator Vases", 2016-; wrong source links replaced for W086, W098, W110-W112. Still open: W043, where Right Click Save captions a different image as "Saint Nazaire, 2021" than the artist's own site.
+- Images: 127 of 133 works have one in `images/`, recorded as `image` on the work (file, page it came from, original URL; `screenshot: true` where it is a cropped screenshot). Every image was checked to show the work. Sites that refuse automated visits (403/429/bot checks) are not worked around; use other sources. No image found: W087 Csuri Hummingbird II, W101/W102/W104 Ting Song (ICME pages are text only), W105 Schwartz Alae, W107 Eko33 Delicate Season.
+- Fixed 29.10.2026 on Lukas's go: W076 "Flowers" moved to a new artist, David Young (not on the brief, status longlist); W012 is "Tall Grass (Hidden From View)", 2026; W022 is "Liberator Vases", 2016-; wrong source links replaced for W088, W100, W112-W114. Still open: W045, where Right Click Save captions a different image as "Saint Nazaire, 2021" than the artist's own site.
 - Growing the archive: more works by the current 59 artists, or new artists beyond the list. Waiting on Lukas.
 - Unconfirmed details: Linda Dounia "Once Upon a Flower" (ArtPoint and Le Random both show an image; title, year, platform still open), and the identities of Noper and DeepBlack.
