@@ -60,5 +60,9 @@ TG.log = [
   { who: 'CLAUDE', say: 'Done. The wall is a flat grid now.' },
   { who: 'LUKAS', say: 'I need to change the image size on the grid. And group the images by artist.' },
   { dir: 'Claude adds a size slider and a "by artist" switch to the top of the wall. Each browser remembers its own setting.' },
-  { who: 'CLAUDE', say: 'Done. The slider runs from 40 to 480 pixels per image. "By artist" gives each artist a heading and their own row.', open: true },
+  { who: 'CLAUDE', say: 'Done. The slider runs from 40 to 480 pixels per image. "By artist" gives each artist a heading and their own row.' },
+  { who: 'LUKAS', say: 'Do a proper deep research and find the other images. Screenshots work too. There is too much white space.' },
+  { dir: 'Claude sends five researchers after the 68 missing works: artist sites, galleries, press, Wikimedia, token metadata, archived copies of dead pages. Sites that refuse automated visits are left alone. Claude looks at every image they bring back.' },
+  { who: 'CLAUDE', say: '124 of 131 works now have an image. Still blank: Csuri\'s Hummingbird II, Ting Song\'s three works, Schwartz\'s Alae and Eko33\'s Delicate Season. No image of them could be found.' },
+  { who: 'CLAUDE', say: 'The research also corrected the list. W074 Flowers is by David Young, not David Lisser, so it stays blank until you decide. Tall Grass is "Tall Grass (Hidden From View)", 2026. Some source links point to the wrong work: W086, W098 and the three Ivona Tau editions. The image links go to the right pages.', open: true },
 ];

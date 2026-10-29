@@ -223,7 +223,12 @@ TG.research = {
             "https://nagel-draxler.de/?p=40423"
           ],
           "id": "W008",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W008.jpg",
+            "page": "https://annaridler.com/works/black-tulip",
+            "url": "https://annaridler.com/content/works/black-tulip/block_2/black_2.png"
+          }
         }
       ]
     },
@@ -257,7 +262,12 @@ TG.research = {
             "https://www.frieze.com/article/sarah-meyohas-cloud-petals-narrated-trailer"
           ],
           "id": "W009",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W009.jpg",
+            "page": "https://www.designboom.com/art/sarah-meyohas-cloud-of-petals-new-york-virtual-reality-10-21-2017/",
+            "url": "https://static.designboom.com/wp-content/uploads/2017/10/cloud-of-petals-sarah-meyohas-designboom-5.jpg"
+          }
         },
         {
           "title": "Infinite Petals",
@@ -302,7 +312,12 @@ TG.research = {
             "https://news.artnet.com/market/bitchcoin-pompidou-nft-acquisition-sarah-meyohas-2263674"
           ],
           "id": "W011",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W011.jpg",
+            "page": "https://en.wikipedia.org/wiki/Bitchcoin",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Bitchcoin_03.068.jpg/1280px-Bitchcoin_03.068.jpg"
+          }
         }
       ]
     },
@@ -334,7 +349,12 @@ TG.research = {
             "https://www.justopensource.io/the-pixel-prize"
           ],
           "id": "W012",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W012.jpg",
+            "page": "https://tallgrass.0xfff.love/",
+            "url": "https://tallgrass.0xfff.love/exhibit.jpg"
+          }
         }
       ]
     },
@@ -421,7 +441,12 @@ TG.research = {
             "https://www.katevassgalerie.com/terra0"
           ],
           "id": "W015",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W015.jpg",
+            "page": "https://crypto.news/learn/ethereums-walled-garden-flower-tokens-and-terra0",
+            "url": "https://media.crypto.news/2018/08/pasted-image-0.png"
+          }
         },
         {
           "title": "Two Degrees",
@@ -499,7 +524,12 @@ TG.research = {
           "verified": false,
           "sources": [],
           "id": "W018",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W018.jpg",
+            "page": "https://leanderherzog.ch/2021/alp/",
+            "url": "https://leanderherzog.ch/2021/alp/preview.png"
+          }
         }
       ]
     },
@@ -531,7 +561,12 @@ TG.research = {
             "https://placesiveneverbeen.com/"
           ],
           "id": "W019",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W019.jpg",
+            "page": "https://placesiveneverbeen.com/paradise-loading",
+            "url": "https://freight.cargo.site/t/original/i/S2823631326509762913617011991594/Screenshot-2026-03-04-at-4.15.51PM.png"
+          }
         },
         {
           "title": "Liberator Vase",
@@ -549,7 +584,12 @@ TG.research = {
             "https://galloire.com/gallery/artists/addie-wagenknecht/"
           ],
           "id": "W020",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W020.jpg",
+            "page": "https://placesiveneverbeen.com/liberator-vases",
+            "url": "https://freight.cargo.site/t/original/i/T1964031551438789805723963548714/25326207803_f434d5022c_k.jpg"
+          }
         },
         {
           "title": "Believe me",
@@ -806,7 +846,12 @@ TG.research = {
             "https://news.artnet.com/art-world/jill-magid-esther-kim-varet-campaign-exhibtion-2656421"
           ],
           "id": "W029",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W029.jpg",
+            "page": "https://www.jillmagid.com/exhibitions/heart-of-a-citizen",
+            "url": "https://jillmagid.com/api/image/images/jil001-jill-magid-the-rose-garden-2025---install-view-06-hr.jpg"
+          }
         },
         {
           "title": "The Shadows of the Eucalyptus Trees at El Bebedero",
@@ -824,7 +869,12 @@ TG.research = {
             "https://en.wikipedia.org/wiki/Jill_Magid"
           ],
           "id": "W030",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W030.jpg",
+            "page": "https://www.artforum.com/events/jill-magid-5-203632/",
+            "url": "https://www.artforum.com/wp-content/uploads/2014/01/article_large-291.jpg"
+          }
         }
       ]
     },
@@ -884,7 +934,12 @@ TG.research = {
             "https://www.faenaart.org/beeple"
           ],
           "id": "W032",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W032.jpg",
+            "page": "https://themomentary.org/calendar/s2122-beeple/",
+            "url": "https://momentary-assets.s3.amazonaws.com/uploads/2023/09/thumbnail_image_50395393-1365x2048.jpg"
+          }
         },
         {
           "title": "OCEAN FRONT",
@@ -903,7 +958,12 @@ TG.research = {
             "https://beincrypto.com/nft-artwork-by-beeple-fetches-6-million-charity"
           ],
           "id": "W033",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W033.jpg",
+            "page": "https://forklog.com/en/beeple-sells-new-nft-painting-for-6-million/",
+            "url": "https://forklog.com/wp-content/uploads/22-5-1229x1536.jpg"
+          }
         }
       ]
     },
@@ -1001,7 +1061,12 @@ TG.research = {
             "https://art-and-ideas-archive.kadist.org/search/artificial-intelligence-ethics/mutant-garden-autobreeder-kadist-1712"
           ],
           "id": "W036",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W036.jpg",
+            "page": "https://harmvandendorpel.com/work/mutant-garden-autobreeder",
+            "url": "https://harm.work/api/image/cdf0dc7f102432b9d13f3a139252ea6d59d771cd.jpg"
+          }
         }
       ]
     },
@@ -1035,7 +1100,12 @@ TG.research = {
             "https://medium.com/daostack/a-new-generation-of-plantoids-comes-to-life-with-daostack-and-infra-a-conversation-with-eb155d1b0987"
           ],
           "id": "W037",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W037.jpg",
+            "page": "https://plantoid.org",
+            "url": "https://plantoid.org/wp-content/uploads/2025/04/web-Plantoid1.jpg"
+          }
         },
         {
           "title": "Plantoid14",
@@ -1136,7 +1206,12 @@ TG.research = {
             "https://niftygateway.com/collections/natural-balance"
           ],
           "id": "W041",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W041.jpg",
+            "page": "https://web.archive.org/web/20250714122809/https://www.niftygateway.com/collections/natural-balance/",
+            "url": "https://gateway.pinata.cloud/ipfs/QmdgU6Fq46ngjfnfdgSTVAAJ9CqnR5oiZfDK7ysuuJRkhu"
+          }
         },
         {
           "title": "The Symphony of Nature",
@@ -1156,7 +1231,12 @@ TG.research = {
             "https://www.mocomuseum.com/?p=2029"
           ],
           "id": "W042",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W042.jpg",
+            "page": "https://www.youtube.com/watch?v=HA2A725K51o",
+            "url": "https://i.ytimg.com/vi/HA2A725K51o/maxresdefault.jpg"
+          }
         }
       ]
     },
@@ -1188,7 +1268,12 @@ TG.research = {
             "https://www.katevassgalerie.com/robbie-barrat"
           ],
           "id": "W043",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W043.jpg",
+            "page": "https://www.robbiebarrat.net/stnzr.html",
+            "url": "https://www.robbiebarrat.net/stnzr_files/saint%20nazaire.jpg"
+          }
         },
         {
           "title": "Landscapes",
@@ -1266,7 +1351,12 @@ TG.research = {
             "https://mccoyspace.com/projects/lens-organic"
           ],
           "id": "W046",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W046.jpg",
+            "page": "https://mccoyspace.com/projects/lens-organic",
+            "url": "https://static.wixstatic.com/media/5af655_411474023cc8402ba91a1226c19ae47af000.jpg"
+          }
         },
         {
           "title": "Land Sea and Sky",
@@ -1285,7 +1375,12 @@ TG.research = {
             "https://opensea.io/de-DE/collection/land-sea-and-sky-short-form"
           ],
           "id": "W047",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W047.jpg",
+            "page": "https://www.mccoyspace.com/projects/land-sea-and-sky",
+            "url": "https://static.wixstatic.com/media/5af655_61a863f744d4437481d3c6dbd7f0178e~mv2.png"
+          }
         },
         {
           "title": "Trees #4",
@@ -1305,7 +1400,12 @@ TG.research = {
             "https://www.misa.art/exhibitions/machine-organic"
           ],
           "id": "W048",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W048.jpg",
+            "page": "https://web.archive.org/web/20240917144149/https://www.misa.art/products/trees-4",
+            "url": "https://cdn.shopify.com/s/files/1/0555/7229/9962/files/mccoy_5799_1920x.jpg"
+          }
         },
         {
           "title": "Brancher",
@@ -1322,7 +1422,12 @@ TG.research = {
             "https://www.mccoyspace.com/blockchain-projects"
           ],
           "id": "W049",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W049.jpg",
+            "page": "https://www.mccoyspace.com/projects/brancher",
+            "url": "https://static.wixstatic.com/media/5af655_b31978b3393945faa828b0d18031dacc~mv2.png"
+          }
         }
       ]
     },
@@ -1383,7 +1488,12 @@ TG.research = {
             "https://www.holo.mg/?p=81113"
           ],
           "id": "W051",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W051.jpg",
+            "page": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/567684",
+            "url": "https://gateway.pinata.cloud/ipfs/QmWxzrpgGBGvykrtV78JZnWqSTtootUKDGedRneMfgo2xH"
+          }
         },
         {
           "title": "A Bugged Forest",
@@ -1402,7 +1512,12 @@ TG.research = {
             "https://xtznews.beehiiv.com/p/zancan-known-for-lushtemples-garden-monoliths-and-bugged-forests-breaks-tezos-nft-records-as-total-t"
           ],
           "id": "W052",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W052.jpg",
+            "page": "https://objkt.com/tokens/KT1U6EHmNxJTkvaWJ4ThczG4FSDaHC21ssvi/893806",
+            "url": "https://gateway.pinata.cloud/ipfs/QmQmjMTTgAoAHQa8yMwxTop7BodNhjWS7PjVsyFCFtkyQd"
+          }
         },
         {
           "title": "Tree 138",
@@ -1420,7 +1535,12 @@ TG.research = {
             "https://www.bitforms.art/wp-content/uploads/2025/06/tree_line-catalog-1.pdf"
           ],
           "id": "W053",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W053.jpg",
+            "page": "https://www.bitforms.art/wp-content/uploads/2025/06/tree_line-catalog-1.pdf",
+            "url": null
+          }
         }
       ]
     },
@@ -1453,7 +1573,12 @@ TG.research = {
             "https://transfergallery.com/?p=770"
           ],
           "id": "W054",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W054.jpg",
+            "page": "https://www.cbc.ca/arts/lorna-mills-art-times-square-midnight-moment-1.3481454",
+            "url": "https://i.cbc.ca/ais/1.3481560,1457465786000/full/max/0/default.jpg"
+          }
         },
         {
           "title": "Caughtinmoment",
@@ -1472,7 +1597,12 @@ TG.research = {
             "https://whitney.org/collection/works/57188"
           ],
           "id": "W055",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W055.jpg",
+            "page": "https://whitney.org/exhibitions/229",
+            "url": "https://whitneymedia.org/assets/image/831731/AP_2017_2.jpg"
+          }
         },
         {
           "title": "Petting Zoo: Epic Biblical",
@@ -1490,7 +1620,12 @@ TG.research = {
             "https://transfergallery.com/?p=2899"
           ],
           "id": "W056",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W056.jpg",
+            "page": "https://transfergallery.com/lorna-mills-spring-break-la/",
+            "url": "https://transfergallery.com/wp-content/uploads/2020/02/PettingZooEpicBiblical.jpg"
+          }
         },
         {
           "title": "Petting Zoo: Noble Orphans",
@@ -1508,7 +1643,12 @@ TG.research = {
             "https://isea-archives.siggraph.org/art-events/petting-zoo-noble-orphans-by-lorna-mills"
           ],
           "id": "W057",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W057.jpg",
+            "page": "https://www.isea-archives.org/isea2019/isea2020-artist_statement_mills/",
+            "url": "https://i.ytimg.com/vi/m39IKK17JAg/sddefault.jpg"
+          }
         }
       ]
     },
@@ -2319,7 +2459,12 @@ TG.research = {
             "https://sciencenode.org/spotlight/charles-csuris-hummingbird-gives-computer-animation-its-wings.php"
           ],
           "id": "W084",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W084.jpg",
+            "page": "https://www.katevassgalerie.com/blog/charles-csuri-art",
+            "url": "https://images.squarespace-cdn.com/content/v1/63a2ce0664014f2264b055d4/1671626827716-I3NSKUX3X4VHFNL83OB6/HummingbirdCroppedCsuri-31+%28002%29.jpg?format=1500w"
+          }
         },
         {
           "title": "Hummingbird II",
@@ -2354,7 +2499,12 @@ TG.research = {
             "https://csuriproject.osu.edu/index.php/Detail/objects/748"
           ],
           "id": "W086",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W086.jpg",
+            "page": "https://web.archive.org/web/2021/https://csuriproject.osu.edu/index.php/Detail/objects/751",
+            "url": "https://web.archive.org/web/20250505150355id_/https://csuriproject.osu.edu/media/osu/images/4/75632_ca_object_representations_media_444_large.jpg"
+          }
         }
       ]
     },
@@ -2452,7 +2602,12 @@ TG.research = {
             "https://news.artnet.com/art-world/obvious-cave-art-graffiti-mashup-1928105"
           ],
           "id": "W089",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W089.jpg",
+            "page": "https://obvious-art.com/parietal-burners",
+            "url": "https://cdn.sanity.io/images/ccct9dns/production/8dbb3428c8a297a92bca68ff4640ba59cf1136aa-1066x858.webp?fm=jpg&q=90"
+          }
         }
       ]
     },
@@ -2485,7 +2640,12 @@ TG.research = {
             "https://whitneymedia.org/assets/generic_file/2293/Amelia_Winger-Bearskin_-_Sunrise_Sunset_Announcement.pdf"
           ],
           "id": "W090",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W090.jpg",
+            "page": "https://whitney.org/exhibitions/amelia-winger-bearskin",
+            "url": "https://whitneymedia.org/assets/image/828433/winger-bearksin_sunset.png"
+          }
         },
         {
           "title": "I Would Like to Be Midnight / I Would Like to Be Sky",
@@ -2504,7 +2664,12 @@ TG.research = {
             "https://kadist.org/work/i-would-like-to-be-midnight-i-would-like-to-be-sky/"
           ],
           "id": "W091",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W091.jpg",
+            "page": "https://skabmagovat.fi/en/?p=8944",
+            "url": "https://skabmagovat.fi/wp-content/uploads/2024/12/i-would.webp"
+          }
         },
         {
           "title": "WATER / SKY",
@@ -2692,7 +2857,12 @@ TG.research = {
             "https://thehouseoffineart.com/artworks/5029"
           ],
           "id": "W098",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W098.jpg",
+            "page": "https://thehouseoffineart.com/artworks/5028/",
+            "url": "https://static-assets.artlogic.net/w_1200,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/hofa/images/view/05c7a3007aecd9a20df59250dfffa701g.gif"
+          }
         }
       ]
     },
@@ -2983,7 +3153,12 @@ TG.research = {
             "https://nxt.mercedes-benz.com/node/43"
           ],
           "id": "W108",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W108.jpg",
+            "page": "https://verse.works/series/symbiosis-by-roope-rainisto",
+            "url": "https://versecontent.com/image/w1400/static%2Fuploads%2F0x11b5a9b3d3541163cc2fa533110054aa6179825e%2F07c36951-eb4b-4b1b-aabc-1d6d42ba1ac7.jpeg@jpeg"
+          }
         }
       ]
     },
@@ -3062,7 +3237,12 @@ TG.research = {
             "https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/47559451843736372481830899747083495530740509927607212916086401422976582942725"
           ],
           "id": "W110",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W110.jpg",
+            "page": "https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/47559451843736372481830899747083495530740509927607212916086401421877071314949",
+            "url": "https://i2c.seadn.io/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/b2f945e23064e4d21ac859e9606a0b/1bb2f945e23064e4d21ac859e9606a0b.png?w=1000"
+          }
         },
         {
           "title": "Žiburinis Ghost [2021] :: CWS x Ivona Tau Limited Edition",
@@ -3080,7 +3260,13 @@ TG.research = {
             "https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/47559451843736372481830899747083495530740509927607212916086401421877071314949"
           ],
           "id": "W111",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W111.jpg",
+            "page": "https://opensea.io/assets/ethereum/0xf4d4c212e4d461cf23d5f16782c2fb3e9baa1dc3/0",
+            "url": null,
+            "screenshot": true
+          }
         },
         {
           "title": "Žemyna's Breath [2021] :: CWS x Ivona Tau Limited Edition",
@@ -3098,7 +3284,13 @@ TG.research = {
             "https://opensea.io/assets/ethereum/0xf4d4c212e4d461cf23d5f16782c2fb3e9baa1dc3/0"
           ],
           "id": "W112",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W112.jpg",
+            "page": "https://opensea.io/assets/ethereum/0xf4d4c212e4d461cf23d5f16782c2fb3e9baa1dc3/2",
+            "url": null,
+            "screenshot": true
+          }
         }
       ]
     },
@@ -3131,7 +3323,12 @@ TG.research = {
             "https://www.binance.com/bg/square/post/666862"
           ],
           "id": "W113",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W113.jpg",
+            "page": "https://verse.works/artworks/2ab7fbc3-f635-48c5-9268-cfcb6ac9ccea/3",
+            "url": "https://versecontent.com/image/w1400/static%2Fuploads%2F0xd8934c24d9700605cb0fd7cd0c594d8e21ce7fc3%2F00b978ad-32dc-4c93-aeaa-efd75428fb1c.jpeg@jpeg"
+          }
         }
       ]
     },
@@ -3175,7 +3372,12 @@ TG.research = {
             "https://petapixel.com/2018/02/15/crypto-art-rose-photo-sold-1000000"
           ],
           "id": "W114",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W114.jpg",
+            "page": "https://hypebeast.com/2018/2/forever-rose-worlds-most-valuable-crypto-artwork",
+            "url": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2018%2F02%2Fforever-rose-worlds-most-valuable-crypto-artwork-0.jpg?w=1440&cbr=1&q=90&fit=max"
+          }
         },
         {
           "title": "Potato #345",
@@ -3254,7 +3456,12 @@ TG.research = {
             "https://aspreystudio.com/pages/bee-wild-charity-exhibition"
           ],
           "id": "W117",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W117.jpg",
+            "page": "https://aspreystudio.com/pages/bee-wild-charity-exhibition",
+            "url": "https://aspreystudio.com/cdn/shop/files/Alkan_Avcioglu_Earth_Misread_Digital_artwork_and_print._Courtesy_of_the_artist-small.png?v=1747133693&width=3840"
+          }
         }
       ]
     },
@@ -3297,7 +3504,12 @@ TG.research = {
             "https://sougwen.com/project/florarearingagriculturalnetwork"
           ],
           "id": "W118",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W118.jpg",
+            "page": "https://web.archive.org/web/20200919115721/https://sougwen.com/project/florarearingagriculturalnetwork",
+            "url": "https://web.archive.org/web/2020id_/https://sougwen.com/wp-content/uploads/2020/08/sougwen-2020_FRAN3.png"
+          }
         },
         {
           "title": "Exquisite Corpus",
@@ -3316,7 +3528,12 @@ TG.research = {
             "https://en.wikipedia.org/wiki/Sougwen_Chung"
           ],
           "id": "W119",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W119.jpg",
+            "page": "https://web.archive.org/web/20191212130524/https://sougwen.com/project/exquisite-corpus",
+            "url": "https://web.archive.org/web/2020id_/https://sougwen.com/wp-content/uploads/2019/11/sougwen-19_exquisiteCorpus05.jpg"
+          }
         },
         {
           "title": "Omnia per Omnia",
@@ -3408,7 +3625,12 @@ TG.research = {
             "https://dev.brendandawes.com/projects/amongsttheleaves"
           ],
           "id": "W122",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W122.jpg",
+            "page": "https://dev.brendandawes.com/projects/amongsttheleaves",
+            "url": "https://dev.brendandawes.com/media/pages/projects/amongsttheleaves/fe5770f947-1756211354/p1000160-1600x-q80.jpg"
+          }
         },
         {
           "title": "Flocks, Herds and Schools",
@@ -3425,7 +3647,12 @@ TG.research = {
             "https://brendandawes.com/projects/"
           ],
           "id": "W123",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W123.jpg",
+            "page": "https://brendandawes.com/projects/flocksherdsschools",
+            "url": "https://brendandawes.com/media/pages/projects/flocksherdsschools/6cdfcd5d57-1742223950/pfu-016_main_alt_b-1600x-q80.jpg"
+          }
         }
       ]
     },
@@ -3482,7 +3709,12 @@ TG.research = {
             "https://www.aiartonline.com/community/casey-reas/"
           ],
           "id": "W125",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W125.jpg",
+            "page": "https://www.aiartonline.com/community/casey-reas/",
+            "url": "https://farm5.staticflickr.com/4908/31340512547_53b9cf998f_b.jpg"
+          }
         },
         {
           "title": "Garden of Earthly Delights (Earthly Delights 3.1 series)",
@@ -3538,7 +3770,12 @@ TG.research = {
             "https://clotmag.com/news/exhibition-catharsis-by-jakob-kudsk-steensen-serpentine-galleries"
           ],
           "id": "W127",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W127.jpg",
+            "page": "https://www.serpentinegalleries.org/whats-on/jakob-kudsk-steensen-catharsis/",
+            "url": "https://d37zoqglehb9o7.cloudfront.net/uploads/2020/03/hero_image12._jakob_kudsk_steensen_catharsis_2019-20_c_2020_courtesy_of_the_artist_rs_0.jpg"
+          }
         },
         {
           "title": "Berl-Berl",
@@ -3583,7 +3820,12 @@ TG.research = {
             "https://wikipedia.com/wiki/Draft:Jakob_Kudsk_Steensen"
           ],
           "id": "W129",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W129.jpg",
+            "page": "https://www.jakobsteensen.com/re-animated",
+            "url": "https://images.squarespace-cdn.com/content/v1/573604122b8ddea9122c6ee9/1578771655289-QY0VK1XFWUMA3IJ3IU8S/1_Reanimated_wide.jpg"
+          }
         },
         {
           "title": "The Deep Listener",
