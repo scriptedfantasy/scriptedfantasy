@@ -75,5 +75,8 @@ TG.log = [
   { who: 'CLAUDE', say: 'Ready. Uncheck artists on the wall, copy the line it gives you, and send it to me. I set them to out and they leave the list and the wall for everyone.' },
   { who: 'LUKAS', say: 'leanderherzog.ch/2026/field, leanderherzog.ch/2026/infinitegarden, infinite-garden.xyz, worldcomputersculpture.garden' },
   { dir: 'Claude opens the four links. Two are new works. Two belong to Infinite Garden, already on the list.' },
-  { who: 'CLAUDE', say: 'Added Herzog\'s field (2026), a field of tall moonlit grass, and World Computer Sculpture Garden (2024) under 0xfff, who curated it: a show on Ethereum that is itself a contract. Infinite Garden gets the artist\'s own page as a source, and Alp is confirmed as 2021. 133 works, 127 with an image.', open: true },
+  { who: 'CLAUDE', say: 'Added Herzog\'s field (2026), a field of tall moonlit grass, and World Computer Sculpture Garden (2024) under 0xfff, who curated it: a show on Ethereum that is itself a contract. Infinite Garden gets the artist\'s own page as a source, and Alp is confirmed as 2021. 133 works, 127 with an image.' },
+  { who: 'LUKAS', say: 'Set these artists to out: Takashi Murakami, Lorna Mills, Niceaunties, Alexander Reben, Obvious, Daniel Ambrosi, Sarp Kerem Yavuz, ClownVamp, Alkan Avcıoğlu, Jake Elwes.' },
+  { dir: 'Claude sets the ten artists to out. Their 18 works leave the longlist and the wall; their names stay in a line under the longlist.' },
+  { who: 'CLAUDE', say: 'Done. 49 artists and 115 works remain, 109 with an image.', open: true },
 ];

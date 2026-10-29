@@ -792,7 +792,7 @@ TG.research = {
       ],
       "name_note": "Listed as 'takeshi murakami'; the correct name is Takashi Murakami (Japanese artist, Kaikai Kiki Co., Ltd.).",
       "practice": "Japanese 'Superflat' artist whose smiling flower motif runs through his paintings, merchandise and, since 2022, his own NFT projects with his studio Kaikai Kiki.",
-      "status": "longlist",
+      "status": "out",
       "notes": "Launch timing is reported differently across sources (an aborted 2021 release, then March to May 2022; DappRadar gives a 4 May 2022 mint). Supply figures also vary (11,664 designed images versus about 10,156 distributed tokens plus 108 undistributed secret images). Collectors get no commercial rights. Related: a 'Murakami.Flowers Seed' token, 'Murakami Lucky Cat' airdrop (2022), and a reported 2025 '108 Flowers Revised' NFT release (itc.ua, not checked against a primary source). One secondary source credits RTFKT as collaborator; other sources credit only Murakami and Kaikai Kiki, so treat that as unconfirmed. Murakami's RTFKT 'Clone X' collaboration is a separate project with no flower theme.",
       "works": [
         {
@@ -1603,7 +1603,7 @@ TG.research = {
       ],
       "name_note": "Lukas confirmed: 'Lorena Mills' is Lorna Mills, the Canadian GIF artist.",
       "practice": "Canadian net.art pioneer who makes chaotic animated-GIF collages and installations from footage found on YouTube, Reddit, 4chan and elsewhere, often packed with animals, landscapes and sunsets.",
-      "status": "longlist",
+      "status": "out",
       "notes": "The brief only says 'Gifs', so any of these could be what the curators meant. Related works not added here: 'Colour Fields' (ADAF 2016) and 'Abrupt Diplomat' (2015, transmediale). Her 2024 objkt.one show at Paris Photo is a sign of recent on-chain (Tezos) activity, and her Verse page exists. I could not open pages directly; details come from search-result summaries.",
       "works": [
         {
@@ -2432,7 +2432,7 @@ TG.research = {
       ],
       "name_note": "Pseudonymous Singaporean AI artist (identity not disclosed).",
       "practice": "Singaporean artist who uses generative AI to build the 'Auntieverse', a satirical world of older Asian women dealing with community, labour, consumerism, ageing and ecology.",
-      "status": "longlist",
+      "status": "out",
       "notes": "Sources disagree on Auntlantis's structure: Wikipedia says a five-part video series, HOFA says a three-part AI film series. Year not confirmed (Lumen 2024 finalist, so 2024 or earlier). I found no garden or plant chapter of the Auntieverse. Other chapters (Factory, Auntique) are not nature-themed. 'Chapter No 3 Factory 0201' was offered at Sotheby's Contemporary Discoveries 2025.",
       "works": [
         {
@@ -2584,7 +2584,7 @@ TG.research = {
       ],
       "name_note": "Usually credited as Alexander Reben ('Alex' is a common short form; same person). Roboticist-artist, OpenAI's first artist-in-residence.",
       "practice": "MIT-trained roboticist and artist whose works probe the boundary between humans and machines using AI, robotics and machine-generated text and images.",
-      "status": "longlist",
+      "status": "out",
       "notes": "No other clearly nature-themed works found. 'The Final Resting Place of the Queen Bee' turned up with an AI-written text mentioning bees and pollination, but I could not confirm its form or year, so I left it out. Reben had a 2024 retrospective at the Crocker Art Museum (artnet).",
       "works": [
         {
@@ -2623,7 +2623,7 @@ TG.research = {
       ],
       "name_note": "Paris-based collective of Hugo Caselles-Dupré, Pierre Fautrel and Gauthier Vernier.",
       "practice": "French AI art collective known for 'Portrait of Edmond de Belamy' (2018), the first GAN-made artwork sold at a major auction (Christie's), who have since trained models on ukiyo-e, African masks and cave painting.",
-      "status": "longlist",
+      "status": "out",
       "notes": "Dates for Parietal Burners differ (Obvious lists 2020, #3 made live at the 2021 Urban Art Fair). Edmond de Belamy is not nature-related.",
       "works": [
         {
@@ -2795,7 +2795,7 @@ TG.research = {
       ],
       "name_note": "",
       "practice": "US artist and AI-art pioneer whose 'Dreamscapes' run vast stitched landscape photographs through a customised DeepDream engine to make large-scale prints, video and NFTs.",
-      "status": "longlist",
+      "status": "out",
       "notes": "Exact titles of the individual Capability Brown works (for example the Blenheim piece) were not seen; get them from Robilant+Voena. The Central Park show's year and format were not confirmed (verified=false). No Nifty Gateway listing was found. Ambrosi stresses that DeepDream is not an image generator but transforms his own photographs.",
       "works": [
         {
@@ -3250,7 +3250,7 @@ TG.research = {
       ],
       "name_note": "",
       "practice": "Paris-born, Istanbul-raised photographer and AI artist whose work deals with masculinity, queerness, Orientalism and Ottoman imagery, including AI images exposed onto expired Polaroid film.",
-      "status": "longlist",
+      "status": "out",
       "notes": "Most of his work is not about nature. Main AI series: WET_DREAMS (Layer.ai, shown in 'Glorious Century', Anna Laudel Istanbul, 2023), 'Polaroids from the Ottoman Empire', and 'Under the Sultan's Eye' (2024, Verse, made with Supersense Vienna on 20x24 Polaroid). No tulip, garden or landscape series found. Cats of Topkapı is the only animal work. It is a commercial-platform release, not a crypto drop. Galleries: Anna Laudel, Von Lintel.",
       "works": [
         {
@@ -3370,7 +3370,7 @@ TG.research = {
       ],
       "name_note": "Anonymous New York-based AI artist and collector.",
       "practice": "Conceptual AI artist who uses invented narratives and alternate histories (a fictional queer Impressionist, an alien-invasion painter, a junk-ad machine) to make mischief with AI image models.",
-      "status": "longlist",
+      "status": "out",
       "notes": "No dedicated nature series found. Other works: 'The Truth' (2022, objkt; Impressionist painter living through an alien invasion), 'The Junk Machine' (2024, 222 works, premiered at Art Blocks Weekend Marfa; about AI ad spam), a 'Whisper' set on Verse, and 'PUPPIES' (2024, listed on raster.art; content not checked, could involve dogs). AI garden series that come up in searches belong to Duncan Rawlinson, not ClownVamp. Work notes: Chester Charles: The Lost Grand Master: The series is verified. Nature is a setting, not the subject: the series is about queer representation in art history.",
       "works": [
         {
@@ -3482,7 +3482,7 @@ TG.research = {
       ],
       "name_note": "Correct Turkish spelling: Alkan Avcıoğlu (b. 1982).",
       "practice": "Turkish multidisciplinary artist (film critic, DJ, journalist, PhD in communication) whose AI 'post-photography' makes surreal images of crowds and urban overload as a commentary on the contemporary human condition.",
-      "status": "longlist",
+      "status": "out",
       "notes": "His main concerns are urban life, technology and crowds, not nature. 'Strata' is 999 Solana NFTs about technology and urban life. 'Familial Chronicles' was shown at Kate Vass Galerie. He is also on daily.xyz and was sold at Pandolfini ('Simulacrum #7'). It may be worth asking the artist or Asprey Studio for an image of 'Earth Misread'. Work notes: Overpopulated Symphonies: The series is verified. Its landscape content rests on one image description in a search summary. | Earth Misread: The lot appeared only in a search result. A follow-up search on the exact title found nothing.",
       "works": [
         {
@@ -3636,7 +3636,7 @@ TG.research = {
       ],
       "name_note": "",
       "practice": "British media artist (b. 1993) working with machine learning, known mainly for queer and drag AI work (The Zizi Project), with some pieces that put AI back into natural landscapes.",
-      "status": "longlist",
+      "status": "out",
       "notes": "Most of Elwes's other work (Zizi, Machine Learning Porn, Closed Loop, Latent Space) is not about nature. 'Latent Space' (2017) explores ImageNet categories, which include animals, but it is not about nature. Live performance of CUSP with sound artist Cameron Thomas at the Zabludowicz Collection.",
       "works": [
         {
