@@ -1,35 +1,11 @@
-// The wall bends into a shallow cylinder on wide screens, names the screen under the pointer,
-// and opens one work large. Everything it shows is already in the HTML.
+// The wall names the work under the pointer and opens one work large. Everything it shows is already in the HTML.
 (() => {
   const list = document.querySelector('.screens');
-  const room = document.querySelector('.room');
   const screens = [...list.children];
   const status = document.querySelector('.status');
   const viewer = document.querySelector('.viewer');
   const face = viewer.querySelector('.viewer-face');
   const text = viewer.querySelector('.viewer-text');
-
-  // Each screen sits on a cylinder: x along the arc, pulled forward and turned to face the middle.
-  function curve() {
-    const w = list.clientWidth;
-    if (window.innerWidth < 760) {
-      room.style.perspective = '';
-      screens.forEach(s => { s.style.transform = ''; });
-      return;
-    }
-    const r = w * 0.9;
-    room.style.perspective = `${Math.round(r * 2)}px`;
-    screens.forEach(s => {
-      const x = s.offsetLeft + s.offsetWidth / 2 - w / 2;
-      const a = x / r;
-      const dx = r * Math.sin(a) - x;
-      const dz = r * (1 - Math.cos(a));
-      s.style.transform = `translate3d(${dx.toFixed(1)}px,0,${dz.toFixed(1)}px) rotateY(${(-a).toFixed(4)}rad)`;
-    });
-  }
-  let frame;
-  window.addEventListener('resize', () => { cancelAnimationFrame(frame); frame = requestAnimationFrame(curve); });
-  curve();
 
   // Status bar: the caption of the screen under the pointer or focus.
   const idle = status.dataset.idle;
@@ -48,11 +24,11 @@
     const cap = s.querySelector('figcaption');
     if (s.dataset.img) {
       const host = new URL(s.dataset.page).hostname.replace(/^www\./, '');
-      face.innerHTML = `<a class="tube" href="${s.dataset.page}" target="_blank" rel="noopener"><img src="${s.dataset.img}" alt=""></a>`;
+      face.innerHTML = `<a class="cell" href="${s.dataset.page}" target="_blank" rel="noopener"><img src="${s.dataset.img}" alt=""></a>`;
       face.querySelector('img').alt = cap.querySelector('.cap').textContent;
       text.innerHTML = cap.innerHTML + `<p>Image from <a href="${s.dataset.page}" target="_blank" rel="noopener">${host}</a>.</p>`;
     } else {
-      face.innerHTML = '<span class="tube"><span class="static"></span></span>';
+      face.innerHTML = '<span class="cell"></span>';
       text.innerHTML = cap.innerHTML + '<p>No image yet.</p>';
     }
     if (!viewer.open) viewer.showModal();
@@ -72,7 +48,7 @@
   function shut() {
     if (viewer.open) viewer.close();
     if (location.hash) history.replaceState(null, '', location.pathname);
-    screens[current]?.querySelector('.tube').focus({ preventScroll: true });
+    screens[current]?.querySelector('.cell').focus({ preventScroll: true });
   }
   viewer.addEventListener('click', e => {
     if (e.target === viewer || e.target.closest('[data-close]')) return shut();

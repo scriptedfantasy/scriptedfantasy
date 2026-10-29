@@ -54,5 +54,8 @@ TG.log = [
   { who: 'CLAUDE', say: 'Live. Send artists, works or links any time. Still open from before: more works by these 58 artists, or new artists first?' },
   { who: 'LUKAS', say: 'We need a dedicated image viewer. Like the Architect\'s room in The Matrix, a wall of TVs showing different scenes. Not 1:1. A grid is a nice tension to the idea of nature.' },
   { dir: 'Claude builds the wall: a white room, one screen per work, 131 in all, bent into a shallow curve. The 68 works without an image show snow.' },
-  { who: 'CLAUDE', say: 'The wall is at /touchgrass/wall. Point at a screen to read its caption; click it to open the work large. Every work has its own link.', open: true },
+  { who: 'CLAUDE', say: 'The wall is at /touchgrass/wall. Point at a screen to read its caption; click it to open the work large. Every work has its own link.' },
+  { who: 'LUKAS', say: 'Remove the bend. Remove the rounded TV cases: edges, not rounded corners. Remove the screen simulation.' },
+  { dir: 'Claude flattens the wall into a plain grid. Each image runs edge to edge with square corners. Works without an image are empty cells.' },
+  { who: 'CLAUDE', say: 'Done. The wall is a flat grid now.', open: true },
 ];

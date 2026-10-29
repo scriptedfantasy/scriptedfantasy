@@ -102,7 +102,7 @@ ${renderLonglist()}
 </body>
 </html>
 `;
-// The wall: every work on a screen, in a grid. Works without an image show a dead screen.
+// The wall: every work in one grid. Works without an image show an empty cell.
 function renderWall() {
   return artists.flatMap(a => a.works.map(w => {
     const line = [w.title + (w.year ? `, ${w.year}` : ''), w.where].filter(Boolean).map(esc).join('. ');
@@ -110,9 +110,9 @@ function renderWall() {
       `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(host(u))}</a>`).join(' ');
     const face = w.image
       ? `<img src="/touchgrass/${esc(w.image.file)}" alt="" loading="lazy" decoding="async">`
-      : `<span class="static" aria-hidden="true"></span>`;
+      : '';
     return `<li class="screen ${w.image ? 'on' : 'off'}" id="${esc(w.id)}"${w.image ? ` data-img="/touchgrass/${esc(w.image.file)}" data-page="${esc(w.image.page)}"` : ''}>
-  <figure><a class="tube" href="#${esc(w.id)}" aria-label="${esc(w.id)} ${esc(a.artist)}, ${esc(w.title)}">${face}</a>
+  <figure><a class="cell" href="#${esc(w.id)}" aria-label="${esc(w.id)} ${esc(a.artist)}, ${esc(w.title)}">${face}</a>
   <figcaption><span class="cap"><b>${esc(w.id)}</b> ${esc(a.artist)}. ${line}.</span> <span class="links">${links}</span></figcaption></figure>
 </li>`;
   })).join('\n');
