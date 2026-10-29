@@ -47,7 +47,7 @@ function renderLonglist() {
       return `<li id="${esc(w.id)}">${w.verified ? '' : '* '}${bits}.${w.named_in_brief ? ' [brief]' : ''}<span class="links">${links}</span>${img}</li>`;
     }).join('');
     return `<li class="artist" id="${esc(a.id)}">
-  <p class="artist-head"><span>${esc(a.id)} ${esc(a.artist)}</span><span>${esc(a.status)}</span></p>
+  <p class="artist-head"><span>${esc(a.artist)}</span><span>${esc(a.status)}</span></p>
   ${works ? `<ul class="works">${works}</ul>` : '<p class="works none">no work found</p>'}
 </li>`;
   }).join('\n');
@@ -119,7 +119,7 @@ function renderWall() {
 </li>`;
     }).join('\n');
     return `<section class="artist" aria-label="${esc(a.artist)}">
-<h2><span>${esc(a.id)} ${esc(a.artist)}</span><span>${a.works.length}</span></h2>
+<h2><span>${esc(a.artist)}</span><span>${a.works.length}</span></h2>
 <ol class="cells">
 ${cells}
 </ol>
