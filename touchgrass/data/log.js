@@ -34,5 +34,7 @@ TG.log = [
   { who: 'CLAUDE', say: 'It is already pushed. The one thing a local session would lack is what lives only in this conversation: your working rules and the open threads. I wrote those down in CLAUDE.md at the root of the repository.' },
   { who: 'LUKAS', say: 'Put the progress board on my website, at scriptedfantasy.net/touchgrass, and keep everything in the git repository where the rest of the site lives.' },
   { dir: 'Claude moves the board into the website repository under touchgrass/. A small script now writes the whole board into the HTML, following the site\'s rule that content is readable without JavaScript.' },
-  { who: 'CLAUDE', say: 'The board is on a branch of your website repository. It goes live at /touchgrass once that branch is merged into main. Merge it yourself, or shall I?', open: true },
+  { who: 'CLAUDE', say: 'The board is on a branch of your website repository. It goes live at /touchgrass once that branch is merged into main. Merge it yourself, or shall I?' },
+  { who: 'LUKAS', say: 'Can you open a pull request?' },
+  { who: 'CLAUDE', say: 'Opened. The board goes live when you merge it.', open: true },
 ];
