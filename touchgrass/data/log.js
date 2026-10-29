@@ -83,5 +83,8 @@ TG.log = [
   { who: 'CLAUDE', say: 'Added Mika Ben Amar, a new artist, with https://internet.flowers (2025): a digital garden of flowers that a model she trained crops from the images in her own browsing history.' },
   { who: 'LUKAS', say: 'Do an extensive search. Find the group shows our artists have been in, and any artists not on the list who made work that relates to or depicts nature.' },
   { dir: 'Claude sends six researchers through the 50 artists. They find 105 group shows, read the participant lists, and check every artist not on the list for a work about nature. Claude merges the results and drops duplicates.' },
-  { who: 'CLAUDE', say: '86 artists not on the list, 150 works, each with sources and the shows that link them to ours. They are under Leads below, with the shows. Tick the ones you want and send me the line. Also: Noper is noper, an AI video artist on Fellowship, born 1997. DeepBlack only appears in Christie\'s Augmented Intelligence, 2025.', open: true },
+  { who: 'CLAUDE', say: '86 artists not on the list, 150 works, each with sources and the shows that link them to ours. They are under Leads below, with the shows. Tick the ones you want and send me the line. Also: Noper is noper, an AI video artist on Fellowship, born 1997. DeepBlack only appears in Christie\'s Augmented Intelligence, 2025.' },
+  { who: 'LUKAS', say: 'Add all the artworks you found that could match to the wall, so we can review them visually.' },
+  { dir: 'Claude moves the 86 leads into the archive, marked "lead". Four researchers find an image for each of their works; Claude checks every one. Three works turn out to be listed twice and are merged.' },
+  { who: 'CLAUDE', say: 'The leads are on the wall: 147 works, 141 with an image, each marked "lead" in the corner. The "leads" switch in the bar hides them all. Uncheck any artist to drop them; tick leads on the board to add them to the list.', open: true },
 ];

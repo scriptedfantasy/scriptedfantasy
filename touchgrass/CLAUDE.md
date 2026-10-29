@@ -10,7 +10,7 @@ This folder is served at https://scriptedfantasy.net/touchgrass/ (GitHub Pages, 
 - `data/research.js`: the longlist, with artists, candidate works and source links.
 - `data/brief.js`: the artist list as Lukas first sent it, verbatim. Do not edit.
 - `images/`: one image per work (`W001.jpg`), resized to 800px JPEG, shown on the public longlist. Lukas chose to commit them (29.10.2026).
-- `data/leads.js`: 86 artists not on the list, found through 105 group shows our artists were in (29.10.2026), each with nature-related works and sources, plus the shows.
+- `data/leads.js`: the 105 group shows our artists were in (29.10.2026), shown under Leads on the board. The lead artists themselves are in research.js.
 - `build.js`: writes `index.html` and `wall/index.html` from the data.
 - `wall/`, `wall.css`, `wall.js`: the image viewer (size slider, by-artist grouping, artist checkboxes), one cell per work in a flat grid, inspired by the Architect's room in The Matrix. Square edges, no curve, no TV or screen effects (Lukas asked for this). Works without an image are empty outlined cells. A size slider (40–480px) and a "by artist" switch sit in the top bar; the markup is grouped by artist, and the flat view dissolves the groups with `display: contents`. `#W001` opens a work. Run `node touchgrass/build.js` after every data change and commit both. The site has no build step on deploy, and the PRD requires all content in the HTML.
 - `board.css`: styles.
@@ -21,12 +21,12 @@ This folder is served at https://scriptedfantasy.net/touchgrass/ (GitHub Pages, 
 - The board is a log that takes its format from a play script. Every exchange gets an entry, with speakers LUKAS and CLAUDE plus italic stage directions for actions. Keep entries short. Dates go in `{ date: 'DD.MM.YYYY' }` rows. Mark the entry waiting on a reply with `open: true`, and remove that flag from the previous one.
 - Black text on white, monospace, very concise.
 - Lukas texts new artists, works and links by phone through Remote Control, to a desktop session on the office laptop. For each: research it, add it to `data/research.js`, fetch an image that shows the work, log the exchange, rebuild, commit, and push straight to `main` (standing permission for Touch Grass changes, given 29.10.2026). No pull request needed.
-- Adding leads: `data/leads.js` holds artists found through group shows (not on the wall). Lukas ticks them on the board and sends "Touch Grass: add these leads: A, B." Move each into `data/research.js` as a new artist at the end (status longlist, `named_in_brief: true` on its works since Lukas chose them), drop it from leads, fetch an image per work, log, rebuild, push.
+- Adding leads: lead artists (found through group shows) are in `data/research.js` with `status: 'lead'`. They show on the wall marked "lead" and in the board's Leads section, not in the longlist. Lukas ticks them on the board and sends "Touch Grass: add these leads: A, B." Set each to `status: 'longlist'` and `named_in_brief: true` on its works, log, rebuild, push. Leads he unchecks on the wall come back as "set these artists to out", same as any artist.
 - Removing artists: Lukas unchecks them in the wall's "artists" panel (hidden in that browser only; the board reads the same list from localStorage `tg-hidden`) and sends the line it writes out: "Touch Grass: set these artists to out: A, B." Set each to `status: 'out'` in `data/research.js`, log it, rebuild, push to `main`. The build leaves `out` artists off the wall and the longlist and names them in a collapsed "out" line under the longlist. To bring one back, set the status to longlist.
 
 ## Data conventions
 
-- Artist `status`: longlist | in | maybe | out. Work `status`: candidate | selected | rejected. Only Lukas's decisions change these.
+- Artist `status`: longlist | in | maybe | out | lead. Work `status`: candidate | selected | rejected. Only Lukas's decisions change these.
 - `verified: true` currently means the title, year and venue were confirmed in web search results only. The cloud session that did the research could not open any source page. Every link still needs checking by hand.
 - `named_in_brief` marks works Lukas named or confirmed.
 - IDs (A01, W001) are positional. Renumber when artists or works are added or removed, and rename `images/` to match (the log keeps the IDs as they were at the time).
@@ -35,5 +35,6 @@ This folder is served at https://scriptedfantasy.net/touchgrass/ (GitHub Pages, 
 
 - Images: 127 of 133 works have one in `images/`, recorded as `image` on the work (file, page it came from, original URL; `screenshot: true` where it is a cropped screenshot). Every image was checked to show the work. Sites that refuse automated visits (403/429/bot checks) are not worked around; use other sources. No image found: W087 Csuri Hummingbird II, W101/W102/W104 Ting Song (ICME pages are text only), W105 Schwartz Alae, W107 Eko33 Delicate Season.
 - Fixed 29.10.2026 on Lukas's go: W076 "Flowers" moved to a new artist, David Young (not on the brief, status longlist); W012 is "Tall Grass (Hidden From View)", 2026; W022 is "Liberator Vases", 2016-; wrong source links replaced for W088, W100, W112-W114. Still open: W045, where Right Click Save captions a different image as "Saint Nazaire, 2021" than the artist's own site.
+- Leads (29.10.2026): 86 artists, 147 works, 141 with images. Six without: see the board. Notes from the image check: aurèce vettier's 'le travail des rêves' works are oil on canvas; Robert M. Thomas's Decohering Delineation is credited by Nxt Museum to Entangled Others (Sofia Crespo & Feileacan McCormick); Synchrodogs' Overture image shows a nude figure.
 - Growing the archive: more works by the current 59 artists, or new artists beyond the list. Waiting on Lukas.
 - Unconfirmed details: Linda Dounia "Once Upon a Flower" (ArtPoint and Le Random both show an image; title, year, platform still open), DeepBlack (only found as a lot in Christie's Augmented Intelligence, 2025). Noper is noper, AI video artist on Fellowship, b. 1997 (daily.xyz/artist/noper).

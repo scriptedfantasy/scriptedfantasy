@@ -15,54 +15,141 @@
   <div class="controls">
     <label>size <input type="range" class="size" min="40" max="480" step="4" value="120"></label>
     <label><input type="checkbox" class="group"> by artist</label>
+    <label><input type="checkbox" class="show-leads" checked> leads</label>
     <details class="pick">
-      <summary>artists <span class="pick-n">43/43</span></summary>
+      <summary>artists <span class="pick-n">129/129</span></summary>
       <div class="pick-panel">
         <p class="pick-all"><button type="button" data-all="1">all</button><button type="button" data-all="0">none</button></p>
         <ul class="pick-list">
-          <li><label><input type="checkbox" value="linda-dounia" checked> Linda Dounia</label></li>
-          <li><label><input type="checkbox" value="anna-ridler" checked> Anna Ridler</label></li>
-          <li><label><input type="checkbox" value="sarah-meyohas" checked> Sarah Meyohas</label></li>
-          <li><label><input type="checkbox" value="0xfff" checked> 0xfff</label></li>
-          <li><label><input type="checkbox" value="terra0" checked> terra0</label></li>
-          <li><label><input type="checkbox" value="leander-herzog" checked> Leander Herzog</label></li>
-          <li><label><input type="checkbox" value="addie-wagenknecht" checked> Addie Wagenknecht</label></li>
-          <li><label><input type="checkbox" value="refik-anadol" checked> Refik Anadol</label></li>
-          <li><label><input type="checkbox" value="jill-magid" checked> Jill Magid</label></li>
-          <li><label><input type="checkbox" value="beeple" checked> Beeple</label></li>
-          <li><label><input type="checkbox" value="mpkoz" checked> mpkoz</label></li>
-          <li><label><input type="checkbox" value="harm-van-den-dorpel" checked> Harm van den Dorpel</label></li>
-          <li><label><input type="checkbox" value="primavera-de-filippi" checked> Primavera De Filippi</label></li>
-          <li><label><input type="checkbox" value="six-n-five" checked> Six N. Five</label></li>
-          <li><label><input type="checkbox" value="robbie-barrat" checked> Robbie Barrat</label></li>
-          <li><label><input type="checkbox" value="jennifer-kevin-mccoy" checked> Jennifer &amp; Kevin McCoy</label></li>
-          <li><label><input type="checkbox" value="zancan" checked> Zancan</label></li>
-          <li><label><input type="checkbox" value="katherine-frazer" checked> Katherine Frazer</label></li>
-          <li><label><input type="checkbox" value="sofia-crespo" checked> Sofia Crespo</label></li>
-          <li><label><input type="checkbox" value="helena-sarin" checked> Helena Sarin</label></li>
-          <li><label><input type="checkbox" value="harold-cohen" checked> Harold Cohen</label></li>
-          <li><label><input type="checkbox" value="cezar-mocan" checked> Cezar Mocan</label></li>
-          <li><label><input type="checkbox" value="david-lisser" checked> David Lisser</label></li>
-          <li><label><input type="checkbox" value="david-young" checked> David Young</label></li>
-          <li><label><input type="checkbox" value="sarah-friend" checked> Sarah Friend</label></li>
-          <li><label><input type="checkbox" value="holly-herndon-mat-dryhurst" checked> Holly Herndon &amp; Mat Dryhurst</label></li>
-          <li><label><input type="checkbox" value="sasha-stiles" checked> Sasha Stiles</label></li>
-          <li><label><input type="checkbox" value="pindar-van-arman" checked> Pindar Van Arman</label></li>
-          <li><label><input type="checkbox" value="charles-csuri" checked> Charles Csuri</label></li>
-          <li><label><input type="checkbox" value="amelia-winger-bearskin" checked> Amelia Winger-Bearskin</label></li>
-          <li><label><input type="checkbox" value="jesse-woolston" checked> Jesse Woolston</label></li>
-          <li><label><input type="checkbox" value="ting-song" checked> Ting Song</label></li>
-          <li><label><input type="checkbox" value="lillian-schwartz" checked> Lillian Schwartz</label></li>
-          <li><label><input type="checkbox" value="eko33" checked> Eko33</label></li>
-          <li><label><input type="checkbox" value="roope-rainisto" checked> Roope Rainisto</label></li>
-          <li><label><input type="checkbox" value="ivona-tau" checked> Ivona Tau</label></li>
-          <li><label><input type="checkbox" value="kevin-abosch" checked> Kevin Abosch</label></li>
-          <li><label><input type="checkbox" value="sougwen-chung" checked> Sougwen Chung</label></li>
-          <li><label><input type="checkbox" value="brendan-dawes" checked> Brendan Dawes</label></li>
-          <li><label><input type="checkbox" value="casey-reas" checked> Casey Reas</label></li>
-          <li><label><input type="checkbox" value="jakob-kudsk-steensen" checked> Jakob Kudsk Steensen</label></li>
-          <li><label><input type="checkbox" value="monica-rizzolli" checked> Monica Rizzolli</label></li>
-          <li><label><input type="checkbox" value="mika-ben-amar" checked> Mika Ben Amar</label></li>
+          <li><label><input type="checkbox" value="linda-dounia" data-name="Linda Dounia" checked> Linda Dounia</label></li>
+          <li><label><input type="checkbox" value="anna-ridler" data-name="Anna Ridler" checked> Anna Ridler</label></li>
+          <li><label><input type="checkbox" value="sarah-meyohas" data-name="Sarah Meyohas" checked> Sarah Meyohas</label></li>
+          <li><label><input type="checkbox" value="0xfff" data-name="0xfff" checked> 0xfff</label></li>
+          <li><label><input type="checkbox" value="terra0" data-name="terra0" checked> terra0</label></li>
+          <li><label><input type="checkbox" value="leander-herzog" data-name="Leander Herzog" checked> Leander Herzog</label></li>
+          <li><label><input type="checkbox" value="addie-wagenknecht" data-name="Addie Wagenknecht" checked> Addie Wagenknecht</label></li>
+          <li><label><input type="checkbox" value="refik-anadol" data-name="Refik Anadol" checked> Refik Anadol</label></li>
+          <li><label><input type="checkbox" value="jill-magid" data-name="Jill Magid" checked> Jill Magid</label></li>
+          <li><label><input type="checkbox" value="beeple" data-name="Beeple" checked> Beeple</label></li>
+          <li><label><input type="checkbox" value="mpkoz" data-name="mpkoz" checked> mpkoz</label></li>
+          <li><label><input type="checkbox" value="harm-van-den-dorpel" data-name="Harm van den Dorpel" checked> Harm van den Dorpel</label></li>
+          <li><label><input type="checkbox" value="primavera-de-filippi" data-name="Primavera De Filippi" checked> Primavera De Filippi</label></li>
+          <li><label><input type="checkbox" value="six-n-five" data-name="Six N. Five" checked> Six N. Five</label></li>
+          <li><label><input type="checkbox" value="robbie-barrat" data-name="Robbie Barrat" checked> Robbie Barrat</label></li>
+          <li><label><input type="checkbox" value="jennifer-kevin-mccoy" data-name="Jennifer &amp; Kevin McCoy" checked> Jennifer &amp; Kevin McCoy</label></li>
+          <li><label><input type="checkbox" value="zancan" data-name="Zancan" checked> Zancan</label></li>
+          <li><label><input type="checkbox" value="katherine-frazer" data-name="Katherine Frazer" checked> Katherine Frazer</label></li>
+          <li><label><input type="checkbox" value="sofia-crespo" data-name="Sofia Crespo" checked> Sofia Crespo</label></li>
+          <li><label><input type="checkbox" value="helena-sarin" data-name="Helena Sarin" checked> Helena Sarin</label></li>
+          <li><label><input type="checkbox" value="harold-cohen" data-name="Harold Cohen" checked> Harold Cohen</label></li>
+          <li><label><input type="checkbox" value="cezar-mocan" data-name="Cezar Mocan" checked> Cezar Mocan</label></li>
+          <li><label><input type="checkbox" value="david-lisser" data-name="David Lisser" checked> David Lisser</label></li>
+          <li><label><input type="checkbox" value="david-young" data-name="David Young" checked> David Young</label></li>
+          <li><label><input type="checkbox" value="sarah-friend" data-name="Sarah Friend" checked> Sarah Friend</label></li>
+          <li><label><input type="checkbox" value="holly-herndon-mat-dryhurst" data-name="Holly Herndon &amp; Mat Dryhurst" checked> Holly Herndon &amp; Mat Dryhurst</label></li>
+          <li><label><input type="checkbox" value="sasha-stiles" data-name="Sasha Stiles" checked> Sasha Stiles</label></li>
+          <li><label><input type="checkbox" value="pindar-van-arman" data-name="Pindar Van Arman" checked> Pindar Van Arman</label></li>
+          <li><label><input type="checkbox" value="charles-csuri" data-name="Charles Csuri" checked> Charles Csuri</label></li>
+          <li><label><input type="checkbox" value="amelia-winger-bearskin" data-name="Amelia Winger-Bearskin" checked> Amelia Winger-Bearskin</label></li>
+          <li><label><input type="checkbox" value="jesse-woolston" data-name="Jesse Woolston" checked> Jesse Woolston</label></li>
+          <li><label><input type="checkbox" value="ting-song" data-name="Ting Song" checked> Ting Song</label></li>
+          <li><label><input type="checkbox" value="lillian-schwartz" data-name="Lillian Schwartz" checked> Lillian Schwartz</label></li>
+          <li><label><input type="checkbox" value="eko33" data-name="Eko33" checked> Eko33</label></li>
+          <li><label><input type="checkbox" value="roope-rainisto" data-name="Roope Rainisto" checked> Roope Rainisto</label></li>
+          <li><label><input type="checkbox" value="ivona-tau" data-name="Ivona Tau" checked> Ivona Tau</label></li>
+          <li><label><input type="checkbox" value="kevin-abosch" data-name="Kevin Abosch" checked> Kevin Abosch</label></li>
+          <li><label><input type="checkbox" value="sougwen-chung" data-name="Sougwen Chung" checked> Sougwen Chung</label></li>
+          <li><label><input type="checkbox" value="brendan-dawes" data-name="Brendan Dawes" checked> Brendan Dawes</label></li>
+          <li><label><input type="checkbox" value="casey-reas" data-name="Casey Reas" checked> Casey Reas</label></li>
+          <li><label><input type="checkbox" value="jakob-kudsk-steensen" data-name="Jakob Kudsk Steensen" checked> Jakob Kudsk Steensen</label></li>
+          <li><label><input type="checkbox" value="monica-rizzolli" data-name="Monica Rizzolli" checked> Monica Rizzolli</label></li>
+          <li><label><input type="checkbox" value="mika-ben-amar" data-name="Mika Ben Amar" checked> Mika Ben Amar</label></li>
+          <li><label><input type="checkbox" value="alexandra-crouwers" data-name="Alexandra Crouwers" checked> Alexandra Crouwers <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="alexandra-daisy-ginsberg" data-name="Alexandra Daisy Ginsberg" checked> Alexandra Daisy Ginsberg <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="alfredo-salazar-caro" data-name="Alfredo Salazar-Caro" checked> Alfredo Salazar-Caro <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="andee-collard" data-name="Andee Collard" checked> Andee Collard <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="andrea-brewster" data-name="Andrea Brewster" checked> Andrea Brewster <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="andrea-philippon" data-name="Andréa Philippon" checked> Andréa Philippon <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="andres-reisinger" data-name="Andrés Reisinger" checked> Andrés Reisinger <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="anke-schiemann" data-name="Anke Schiemann" checked> Anke Schiemann <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="arno-beck" data-name="Arno Beck" checked> Arno Beck <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="aurece-vettier" data-name="aurèce vettier" checked> aurèce vettier <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="carla-gannis" data-name="Carla Gannis" checked> Carla Gannis <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="caroline-sinders" data-name="Caroline Sinders" checked> Caroline Sinders <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="cath-simard" data-name="Cath Simard" checked> Cath Simard <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="chia-amisola" data-name="Chia Amisola" checked> Chia Amisola <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="crosslucid" data-name="CROSSLUCID" checked> CROSSLUCID <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="drake-smith" data-name="Drake Smith" checked> Drake Smith <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="driessens-verstappen" data-name="Driessens &amp; Verstappen" checked> Driessens &amp; Verstappen <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="eelco-brand" data-name="Eelco Brand" checked> Eelco Brand <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="elekktronaut-bileam-tschepe" data-name="Elekktronaut (Bileam Tschepe)" checked> Elekktronaut (Bileam Tschepe) <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="emily-xie" data-name="Emily Xie" checked> Emily Xie <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="fuse" data-name="fuse*" checked> fuse* <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="generative-art-studio-mei-tamazawa" data-name="Generative Art Studio (Mei Tamazawa)" checked> Generative Art Studio (Mei Tamazawa) <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="gordon-cheung" data-name="Gordon Cheung" checked> Gordon Cheung <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="gregory-chatonsky" data-name="Grégory Chatonsky" checked> Grégory Chatonsky <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="gretta-louw" data-name="Gretta Louw" checked> Gretta Louw <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="hannes-hummel" data-name="Hannes Hummel" checked> Hannes Hummel <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="hypereikon" data-name="hypereikon" checked> hypereikon <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="ilya-shkipin" data-name="Ilya Shkipin" checked> Ilya Shkipin <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="jacques-perconte" data-name="Jacques Perconte" checked> Jacques Perconte <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="jared-tarbell" data-name="Jared Tarbell" checked> Jared Tarbell <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="jenna-sutela" data-name="Jenna Sutela" checked> Jenna Sutela <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="jiabao-li" data-name="Jiabao Li" checked> Jiabao Li <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="jim-linear" data-name="Jim Linear" checked> Jim Linear <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="joan-fontcuberta" data-name="Joan Fontcuberta" checked> Joan Fontcuberta <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="joanie-lemercier" data-name="Joanie Lemercier" checked> Joanie Lemercier <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="joann" data-name="Joann" checked> Joann <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="juan-covelli" data-name="Juan Covelli" checked> Juan Covelli <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="julian-charriere" data-name="Julian Charrière" checked> Julian Charrière <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="julien-silvano" data-name="Julien Silvano" checked> Julien Silvano <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="justine-emard" data-name="Justine Emard" checked> Justine Emard <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="katja-novitskova" data-name="Katja Novitskova" checked> Katja Novitskova <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="ken-goldberg" data-name="Ken Goldberg" checked> Ken Goldberg <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="leonardo-solaas" data-name="Leonardo Solaas" checked> Leonardo Solaas <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="lia" data-name="LIA" checked> LIA <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="liliana-farber" data-name="Liliana Farber" checked> Liliana Farber <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="luca-bogoni" data-name="Luca Bogoni" checked> Luca Bogoni <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="maja-petric" data-name="Maja Petrić" checked> Maja Petrić <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="marc-lee" data-name="Marc Lee" checked> Marc Lee <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="marina-zurkow" data-name="Marina Zurkow" checked> Marina Zurkow <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="markos-kay" data-name="Markos Kay" checked> Markos Kay <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="mauro-cosenza" data-name="Mauro Cosenza" checked> Mauro Cosenza <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="memo-akten" data-name="Memo Akten" checked> Memo Akten <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="michael-reisch" data-name="Michael Reisch" checked> Michael Reisch <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="miguel-chevalier" data-name="Miguel Chevalier" checked> Miguel Chevalier <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="monika-fleischmann-wolfgang-strauss" data-name="Monika Fleischmann &amp; Wolfgang Strauss" checked> Monika Fleischmann &amp; Wolfgang Strauss <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="nancy-baker-cahill" data-name="Nancy Baker Cahill" checked> Nancy Baker Cahill <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="nat-sarkissian" data-name="Nat Sarkissian" checked> Nat Sarkissian <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="nathan-shafer" data-name="Nathan Shafer" checked> Nathan Shafer <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="nathaniel-stern" data-name="Nathaniel Stern" checked> Nathaniel Stern <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="neri-oxman" data-name="Neri Oxman" checked> Neri Oxman <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="nicolas-sassoon" data-name="Nicolas Sassoon" checked> Nicolas Sassoon <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="owen-mcateer" data-name="Owen McAteer" checked> Owen McAteer <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="petra-cortright" data-name="Petra Cortright" checked> Petra Cortright <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="phenomena-labs" data-name="Phenomena Labs" checked> Phenomena Labs <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="pierre-huyghe" data-name="Pierre Huyghe" checked> Pierre Huyghe <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="pinar-yoldas" data-name="Pinar Yoldas" checked> Pinar Yoldas <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="quayola" data-name="Quayola" checked> Quayola <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="random-international" data-name="Random International" checked> Random International <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="rasa-smite-raitis-smits" data-name="Rasa Smite &amp; Raitis Smits" checked> Rasa Smite &amp; Raitis Smits <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="robert-m-thomas" data-name="Robert M. Thomas" checked> Robert M. Thomas <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="robertina-sebjanic" data-name="Robertina Šebjanič" checked> Robertina Šebjanič <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="rodrigo-arteaga" data-name="Rodrigo Arteaga" checked> Rodrigo Arteaga <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="ryoichi-kurokawa" data-name="Ryoichi Kurokawa" checked> Ryoichi Kurokawa <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="sara-ludy" data-name="Sara Ludy" checked> Sara Ludy <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="soliman-lopez" data-name="Solimán López" checked> Solimán López <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="songzhe-peng" data-name="Songzhe Peng" checked> Songzhe Peng <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="spacefiller" data-name="Spacefiller" checked> Spacefiller <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="stephan-duquesnoy" data-name="Stephan Duquesnoy" checked> Stephan Duquesnoy <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="synchrodogs" data-name="Synchrodogs" checked> Synchrodogs <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="tamiko-thiel" data-name="Tamiko Thiel" checked> Tamiko Thiel <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="tatsuru-arai" data-name="Tatsuru Arai" checked> Tatsuru Arai <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="teamlab" data-name="teamLab" checked> teamLab <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="ursula-biemann" data-name="Ursula Biemann" checked> Ursula Biemann <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="vera-molnar" data-name="Vera Molnar" checked> Vera Molnar <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="william-mapan" data-name="William Mapan" checked> William Mapan <i>lead</i></label></li>
+          <li><label><input type="checkbox" value="zachary-darren-corzine" data-name="Zachary Darren Corzine" checked> Zachary Darren Corzine <i>lead</i></label></li>
         </ul>
         <div class="pick-out" hidden>
           <p>Unchecked artists are hidden in this browser only. To remove them for everyone, send Claude this:</p>
@@ -72,7 +159,7 @@
       </div>
     </details>
   </div>
-  <p class="status" aria-live="polite" data-idle="116 works. 110 images.">116 works. 110 images.</p>
+  <p class="status" aria-live="polite" data-idle="263 works. 251 images.">263 works. 251 images.</p>
 </header>
 <main class="room">
 <div class="wall">
@@ -752,6 +839,1024 @@
 <li class="screen on" id="W134" data-img="/touchgrass/images/W134.jpg" data-page="https://verse.works/series/https-internet-flowers-by-mika-ben-amar">
   <figure><a class="cell" href="#W134" aria-label="W134 Mika Ben Amar, https://internet.flowers"><img src="/touchgrass/images/W134.jpg" alt="" loading="lazy" decoding="async"></a>
   <figcaption><span class="cap"><b>W134</b> Mika Ben Amar. https://internet.flowers, 2025. internet.flowers; series on Verse.</span> <span class="links"><a href="https://verse.works/series/https-internet-flowers-by-mika-ben-amar" target="_blank" rel="noopener">verse.works</a> <a href="https://internet.flowers/" target="_blank" rel="noopener">internet.flowers</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Alexandra Crouwers" data-artist="alexandra-crouwers">
+<h2><span>Alexandra Crouwers</span><span>lead · 1</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W135" data-img="/touchgrass/images/W135.jpg" data-page="https://feralfile.com/exhibitions/feralverse-1qa">
+  <figure><a class="cell" href="#W135" aria-label="W135 Alexandra Crouwers, Some Last Questions (with poet Victoria Chang)"><img src="/touchgrass/images/W135.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W135</b> [lead] Alexandra Crouwers. Some Last Questions (with poet Victoria Chang), 2023. Feral File, FeralVerse.</span> <span class="links"><a href="https://feralfile.com/exhibitions/feralverse-1qa" target="_blank" rel="noopener">feralfile.com</a> <a href="https://feralfile.com/api/series?exhibitionID=87528bfb-3b46-4e68-ae55-9ba214d52a4d" target="_blank" rel="noopener">feralfile.com</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Alexandra Daisy Ginsberg" data-artist="alexandra-daisy-ginsberg">
+<h2><span>Alexandra Daisy Ginsberg</span><span>lead · 2</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W136" data-img="/touchgrass/images/W136.jpg" data-page="https://www.daisyginsberg.com/work/the-substitute">
+  <figure><a class="cell" href="#W136" aria-label="W136 Alexandra Daisy Ginsberg, The Substitute"><img src="/touchgrass/images/W136.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W136</b> [lead] Alexandra Daisy Ginsberg. The Substitute, 2019. AI: More than Human, Barbican, 2019.</span> <span class="links"><a href="https://www.daisyginsberg.com/work/the-substitute" target="_blank" rel="noopener">daisyginsberg.com</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W137" data-img="/touchgrass/images/W137.jpg" data-page="https://www.daisyginsberg.com/work/resurrecting-the-sublime">
+  <figure><a class="cell" href="#W137" aria-label="W137 Alexandra Daisy Ginsberg, Resurrecting the Sublime (with Christina Agapakis/Ginkgo Bioworks and Sissel Tolaas)"><img src="/touchgrass/images/W137.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W137</b> [lead] Alexandra Daisy Ginsberg. Resurrecting the Sublime (with Christina Agapakis/Ginkgo Bioworks and Sissel Tolaas), 2019. AI: More than Human, Barbican, 2019.</span> <span class="links"><a href="https://www.barbican.org.uk/sites/default/files/documents/2019-07/FINAL%20AI%20More%20than%20Human%20exhibition%20release%20280219.pdf" target="_blank" rel="noopener">barbican.org.uk</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Alfredo Salazar-Caro" data-artist="alfredo-salazar-caro">
+<h2><span>Alfredo Salazar-Caro</span><span>lead · 1</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W138" data-img="/touchgrass/images/W138.jpg" data-page="https://feralfile.com/exhibitions/chain-reaction-tan">
+  <figure><a class="cell" href="#W138" aria-label="W138 Alfredo Salazar-Caro, Silva Ex Machina"><img src="/touchgrass/images/W138.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W138</b> [lead] Alfredo Salazar-Caro. Silva Ex Machina, 2023. Feral File, Chain Reaction.</span> <span class="links"><a href="https://nftcalendar.io/event/chain-reaction/" target="_blank" rel="noopener">nftcalendar.io</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Andee Collard" data-artist="andee-collard">
+<h2><span>Andee Collard</span><span>lead · 2</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W139" data-img="/touchgrass/images/W139.jpg" data-page="https://www.newexhibitions.com/e/64383">
+  <figure><a class="cell" href="#W139" aria-label="W139 Andee Collard, Floral still-life machine paintings (series of twenty)"><img src="/touchgrass/images/W139.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W139</b> [lead] Andee Collard. Floral still-life machine paintings (series of twenty), 2022-2024. Division of Labour, London (2024).</span> <span class="links"><a href="https://www.newexhibitions.com/e/64383" target="_blank" rel="noopener">newexhibitions.com</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W140" data-img="/touchgrass/images/W140.jpg" data-page="https://www.lowellryanprojects.com/andee-collard-the-machine-garden">
+  <figure><a class="cell" href="#W140" aria-label="W140 Andee Collard, The Machine Garden (solo show)"><img src="/touchgrass/images/W140.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W140</b> [lead] Andee Collard. The Machine Garden (solo show), 2025. Lowell Ryan Projects.</span> <span class="links"><a href="https://www.artrabbit.com/events/andee-collard-the-machine-garden" target="_blank" rel="noopener">artrabbit.com</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Andrea Brewster" data-artist="andrea-brewster">
+<h2><span>Andrea Brewster</span><span>lead · 1</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W141" data-img="/touchgrass/images/W141.jpg" data-page="https://load-gallery.com/exhibitions-index/neo-botanica">
+  <figure><a class="cell" href="#W141" aria-label="W141 Andrea Brewster, Enchanted Garden (#1, #3, #4, #6, #10, #12)"><img src="/touchgrass/images/W141.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W141</b> [lead] Andrea Brewster. Enchanted Garden (#1, #3, #4, #6, #10, #12), 2023. Load Gallery, Neo Botanica.</span> <span class="links"><a href="https://load-gallery.com/exhibitions-index/neo-botanica" target="_blank" rel="noopener">load-gallery.com</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Andréa Philippon" data-artist="andrea-philippon">
+<h2><span>Andréa Philippon</span><span>lead · 1</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W142" data-img="/touchgrass/images/W142.jpg" data-page="https://www.stirworld.com/see-features-digital-flora-a-conversation-with-artist-andrea-philippon">
+  <figure><a class="cell" href="#W142" aria-label="W142 Andréa Philippon, Digital Garden (Aranea Rosa, Palma Rex, Papilio Fern, Rotundatum Rubus)"><img src="/touchgrass/images/W142.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W142</b> [lead] Andréa Philippon. Digital Garden (Aranea Rosa, Palma Rex, Papilio Fern, Rotundatum Rubus), 2022. StirWorld feature.</span> <span class="links"><a href="https://www.stirworld.com/see-features-digital-flora-a-conversation-with-artist-andrea-philippon" target="_blank" rel="noopener">stirworld.com</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Andrés Reisinger" data-artist="andres-reisinger">
+<h2><span>Andrés Reisinger</span><span>lead · 1</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W143" data-img="/touchgrass/images/W143.jpg" data-page="https://forbes.es/forbes-women/441065/hortensia-la-obra-de-arte-invitada-a-rosewood-villa-magna-de-madrid-es-el-epitome-de-la-creatividad-contemporanea/">
+  <figure><a class="cell" href="#W143" aria-label="W143 Andrés Reisinger, Hortensia (chair)"><img src="/touchgrass/images/W143.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W143</b> [lead] Andrés Reisinger. Hortensia (chair). widely published.</span> <span class="links"><a href="https://forbes.es/forbes-women/441065/hortensia-la-obra-de-arte-invitada-a-rosewood-villa-magna-de-madrid-es-el-epitome-de-la-creatividad-contemporanea/" target="_blank" rel="noopener">forbes.es</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Anke Schiemann" data-artist="anke-schiemann">
+<h2><span>Anke Schiemann</span><span>lead · 1</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W144" data-img="/touchgrass/images/W144.jpg" data-page="https://objkt.com/tokens/KT1SpbgRrJh8xTVYEgx8ak2GHHijejvziiDq/3">
+  <figure><a class="cell" href="#W144" aria-label="W144 Anke Schiemann, SEED WISDOM"><img src="/touchgrass/images/W144.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W144</b> [lead] Anke Schiemann. SEED WISDOM, not stated. Of Seeds &amp; Signals, Schlachter 151, Berlin, Nov 2025.</span> <span class="links"><a href="https://docs.google.com/document/d/1eUq4uM2D7rwENGy2m2WfsN5ty3cclpX6dSL4_NF5rwE/export?format=pdf" target="_blank" rel="noopener">docs.google.com</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Arno Beck" data-artist="arno-beck">
+<h2><span>Arno Beck</span><span>lead · 1</span></h2>
+<ol class="cells">
+<li class="screen off lead" id="W145">
+  <figure><a class="cell" href="#W145" aria-label="W145 Arno Beck, Untitled"></a>
+  <figcaption><span class="cap"><b>W145</b> [lead] Arno Beck. Untitled, 2019. Museum Sinclair-Haus, Illusion Natur; courtesy DAM Gallery.</span> <span class="links"><a href="https://kunst-und-natur.de/files/Museum-Sinclair-Haus/Blattwerke/Blattwerke_11/19_illusion_natur_blattwerke_11.pdf" target="_blank" rel="noopener">kunst-und-natur.de</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="aurèce vettier" data-artist="aurece-vettier">
+<h2><span>aurèce vettier</span><span>lead · 5</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W146" data-img="/touchgrass/images/W146.jpg" data-page="https://aurecevettier.com/en/works/sur-nature/unknown-samples-mid-altitude">
+  <figure><a class="cell" href="#W146" aria-label="W146 aurèce vettier, GAN-generated imaginary herbariums"><img src="/touchgrass/images/W146.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W146</b> [lead] aurèce vettier. GAN-generated imaginary herbariums, 2020-. Expanded Art; Load Gallery.</span> <span class="links"><a href="https://www.expanded.art/artists/aur%C3%A8ce-vettier" target="_blank" rel="noopener">expanded.art</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W147" data-img="/touchgrass/images/W147.jpg" data-page="https://aurecevettier.com/en/works/sur-reality/an-impromptu-encounter-in-a-hemp-field-attempt">
+  <figure><a class="cell" href="#W147" aria-label="W147 aurèce vettier, le travail des rêves (series)"><img src="/touchgrass/images/W147.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W147</b> [lead] aurèce vettier. le travail des rêves (series), 2024. Load Gallery.</span> <span class="links"><a href="https://load-gallery.com/exhibitions/neo-botanica/aurece-vettier" target="_blank" rel="noopener">load-gallery.com</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W148" data-img="/touchgrass/images/W148.jpg" data-page="https://feralfile.com/exhibitions/ecotone-swo">
+  <figure><a class="cell" href="#W148" aria-label="W148 aurèce vettier, element/tr33/obj (AV-2022-U-274)"><img src="/touchgrass/images/W148.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W148</b> [lead] aurèce vettier. element/tr33/obj (AV-2022-U-274), 2022. Feral File, Ecotone.</span> <span class="links"><a href="https://feralfile.com/exhibitions/ecotone-swo" target="_blank" rel="noopener">feralfile.com</a> <a href="https://feralfile.com/api/series?exhibitionID=e7f6f9b9-4b65-4764-9d24-e9a94aaa263d" target="_blank" rel="noopener">feralfile.com</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W149" data-img="/touchgrass/images/W149.jpg" data-page="https://aurecevettier.com/en/works/sur-reality/a-bearded-man-crossing-a-forest-surrounded-by-flocks-of-yellow-butterflies">
+  <figure><a class="cell" href="#W149" aria-label="W149 aurèce vettier, le travail des rêves / the light that is not seen"><img src="/touchgrass/images/W149.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W149</b> [lead] aurèce vettier. le travail des rêves / the light that is not seen, not stated. NVIDIA GTC Paris AI Art Gallery, 2025.</span> <span class="links"><a href="https://blogs.nvidia.com/blog/ai-art-gtc-paris-2025" target="_blank" rel="noopener">blogs.nvidia.com</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W150" data-img="/touchgrass/images/W150.jpg" data-page="https://aurecevettier.com/en/works/sur-nature/areal-collect-128">
+  <figure><a class="cell" href="#W150" aria-label="W150 aurèce vettier, Sur-nature / Potential Herbariums"><img src="/touchgrass/images/W150.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W150</b> [lead] aurèce vettier. Sur-nature / Potential Herbariums, 2021-2026. aurecevettier.com.</span> <span class="links"><a href="https://aurecevettier.com/en/works/sur-nature" target="_blank" rel="noopener">aurecevettier.com</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Carla Gannis" data-artist="carla-gannis">
+<h2><span>Carla Gannis</span><span>lead · 1</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W151" data-img="/touchgrass/images/W151.jpg" data-page="https://carlagannis.com/blog/the-garden-of-emoji-delights/">
+  <figure><a class="cell" href="#W151" aria-label="W151 Carla Gannis, The Garden of Emoji Delights"><img src="/touchgrass/images/W151.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W151</b> [lead] Carla Gannis. The Garden of Emoji Delights, 2014. Shown at Fotografiska Stockholm (2021) and Tallinn (2022); Hunter Museum 'Networked Nature' (2024).</span> <span class="links"><a href="https://carlagannis.com/blog/the-garden-of-emoji-delights/" target="_blank" rel="noopener">carlagannis.com</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Caroline Sinders" data-artist="caroline-sinders">
+<h2><span>Caroline Sinders</span><span>lead · 1</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W152" data-img="/touchgrass/images/W152.jpg" data-page="https://feralfile.com/exhibitions/reflections-in-the-water-9ov">
+  <figure><a class="cell" href="#W152" aria-label="W152 Caroline Sinders, Fragments: 30.2051 N, 90.1121 W (with Anna Ridler)"><img src="/touchgrass/images/W152.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W152</b> [lead] Caroline Sinders. Fragments: 30.2051 N, 90.1121 W (with Anna Ridler), 2021. Reflections in the Water, Feral File, 2021.</span> <span class="links"><a href="https://feralfile.com/exhibitions/reflections-in-the-water-9ov" target="_blank" rel="noopener">feralfile.com</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Cath Simard" data-artist="cath-simard">
+<h2><span>Cath Simard</span><span>lead · 2</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W153" data-img="/touchgrass/images/W153.jpg" data-page="https://www.cathsimard.com/from-nowhere-to-somewhere/">
+  <figure><a class="cell" href="#W153" aria-label="W153 Cath Simard, From Nowhere to Somewhere"><img src="/touchgrass/images/W153.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W153</b> [lead] Cath Simard. From Nowhere to Somewhere, 2022. cathsimard.com; sold to collector Lost In Infinity.</span> <span class="links"><a href="https://www.cathsimard.com/from-nowhere-to-somewhere/" target="_blank" rel="noopener">cathsimard.com</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W154" data-img="/touchgrass/images/W154.jpg" data-page="https://www.cathsimard.com/">
+  <figure><a class="cell" href="#W154" aria-label="W154 Cath Simard, Portfolio: Patagonia, Peru, Canadian Rockies, Iceland"><img src="/touchgrass/images/W154.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W154</b> [lead] Cath Simard. Portfolio: Patagonia, Peru, Canadian Rockies, Iceland. cathsimard.com.</span> <span class="links"><a href="https://www.cathsimard.com/" target="_blank" rel="noopener">cathsimard.com</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Chia Amisola" data-artist="chia-amisola">
+<h2><span>Chia Amisola</span><span>lead · 1</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W155" data-img="/touchgrass/images/W155.jpg" data-page="https://paruparo.cloud">
+  <figure><a class="cell" href="#W155" aria-label="W155 Chia Amisola, Paru-paro (Butterfly)"><img src="/touchgrass/images/W155.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W155</b> [lead] Chia Amisola. Paru-paro (Butterfly), 2026. WEBSITES WEBSITES WEBSITES!, 2026.</span> <span class="links"><a href="https://websiteswebsiteswebsites.net/works/chia-amisola.html" target="_blank" rel="noopener">websiteswebsiteswebsites.net</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="CROSSLUCID" data-artist="crosslucid">
+<h2><span>CROSSLUCID</span><span>lead · 2</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W156" data-img="/touchgrass/images/W156.jpg" data-page="https://www.arshake.com/en/umwelt/">
+  <figure><a class="cell" href="#W156" aria-label="W156 CROSSLUCID, The Way of Flowers"><img src="/touchgrass/images/W156.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W156</b> [lead] CROSSLUCID. The Way of Flowers, 2023-ongoing. UMWELT, FMAV Modena (2024-25); solo at Office Impart 2025.</span> <span class="links"><a href="https://www.crosslucid.zone/" target="_blank" rel="noopener">crosslucid.zone</a> <a href="https://www.arshake.com/en/umwelt/" target="_blank" rel="noopener">arshake.com</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W157" data-img="/touchgrass/images/W157.jpg" data-page="https://www.crosslucid.zone/">
+  <figure><a class="cell" href="#W157" aria-label="W157 CROSSLUCID, T I D E: Transmission #01 (Oceanic Whispers)"><img src="/touchgrass/images/W157.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W157</b> [lead] CROSSLUCID. T I D E: Transmission #01 (Oceanic Whispers), 2025. Down the Silicon Meadow, Office Impart (2025).</span> <span class="links"><a href="https://www.crosslucid.zone/" target="_blank" rel="noopener">crosslucid.zone</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Drake Smith" data-artist="drake-smith">
+<h2><span>Drake Smith</span><span>lead · 3</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W158" data-img="/touchgrass/images/W158.jpg" data-page="https://load-gallery.com/exhibitions-index/neo-botanica">
+  <figure><a class="cell" href="#W158" aria-label="W158 Drake Smith, Entwined Growth of Aloe"><img src="/touchgrass/images/W158.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W158</b> [lead] Drake Smith. Entwined Growth of Aloe, 2024. Load Gallery, Neo Botanica.</span> <span class="links"><a href="https://load-gallery.com/exhibitions-index/neo-botanica" target="_blank" rel="noopener">load-gallery.com</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W159" data-img="/touchgrass/images/W159.jpg" data-page="https://load-gallery.com/exhibitions-index/neo-botanica">
+  <figure><a class="cell" href="#W159" aria-label="W159 Drake Smith, Cone Flower Bloom"><img src="/touchgrass/images/W159.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W159</b> [lead] Drake Smith. Cone Flower Bloom, 2024. Load Gallery, Neo Botanica.</span> <span class="links"><a href="https://load-gallery.com/exhibitions-index/neo-botanica" target="_blank" rel="noopener">load-gallery.com</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W160" data-img="/touchgrass/images/W160.jpg" data-page="https://load-gallery.com/exhibitions-index/neo-botanica">
+  <figure><a class="cell" href="#W160" aria-label="W160 Drake Smith, Bubble Bloom Succulent"><img src="/touchgrass/images/W160.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W160</b> [lead] Drake Smith. Bubble Bloom Succulent. Neo Botanica, Load Gallery, Barcelona (2025).</span> <span class="links"><a href="https://load-gallery.com/exhibitions-index/neo-botanica" target="_blank" rel="noopener">load-gallery.com</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Driessens &amp; Verstappen" data-artist="driessens-verstappen">
+<h2><span>Driessens &amp; Verstappen</span><span>lead · 1</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W161" data-img="/touchgrass/images/W161.jpg" data-page="https://www.driessensverstappen.nl/landscape/Kennemerduinen/scenes.html">
+  <figure><a class="cell" href="#W161" aria-label="W161 Driessens &amp; Verstappen, Kennemerduinen, Scene E"><img src="/touchgrass/images/W161.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W161</b> [lead] Driessens &amp; Verstappen. Kennemerduinen, Scene E, 2010. Museum Sinclair-Haus, Illusion Natur; courtesy DAM Gallery.</span> <span class="links"><a href="https://kunst-und-natur.de/files/Museum-Sinclair-Haus/Blattwerke/Blattwerke_11/19_illusion_natur_blattwerke_11.pdf" target="_blank" rel="noopener">kunst-und-natur.de</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Eelco Brand" data-artist="eelco-brand">
+<h2><span>Eelco Brand</span><span>lead · 2</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W162" data-img="/touchgrass/images/W162.jpg" data-page="https://www.eelcobrand.nl/mov.html">
+  <figure><a class="cell" href="#W162" aria-label="W162 Eelco Brand, FL.movi"><img src="/touchgrass/images/W162.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W162</b> [lead] Eelco Brand. FL.movi, 2018. Museum Sinclair-Haus, Illusion Natur.</span> <span class="links"><a href="https://kunst-und-natur.de/files/Museum-Sinclair-Haus/Blattwerke/Blattwerke_11/19_illusion_natur_blattwerke_11.pdf" target="_blank" rel="noopener">kunst-und-natur.de</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W163" data-img="/touchgrass/images/W163.jpg" data-page="https://www.eelcobrand.nl/movi4.html">
+  <figure><a class="cell" href="#W163" aria-label="W163 Eelco Brand, A.movi"><img src="/touchgrass/images/W163.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W163</b> [lead] Eelco Brand. A.movi, 2011. Museum Sinclair-Haus, Illusion Natur; courtesy DAM Gallery.</span> <span class="links"><a href="https://kunst-und-natur.de/files/Museum-Sinclair-Haus/Blattwerke/Blattwerke_11/19_illusion_natur_blattwerke_11.pdf" target="_blank" rel="noopener">kunst-und-natur.de</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Elekktronaut (Bileam Tschepe)" data-artist="elekktronaut-bileam-tschepe">
+<h2><span>Elekktronaut (Bileam Tschepe)</span><span>lead · 3</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W164" data-img="/touchgrass/images/W164.jpg" data-page="https://load-gallery.com/exhibitions-index/neo-botanica">
+  <figure><a class="cell" href="#W164" aria-label="W164 Elekktronaut (Bileam Tschepe), Mycelium"><img src="/touchgrass/images/W164.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W164</b> [lead] Elekktronaut (Bileam Tschepe). Mycelium, 2024. Load Gallery, Neo Botanica.</span> <span class="links"><a href="https://load-gallery.com/exhibitions-index/neo-botanica" target="_blank" rel="noopener">load-gallery.com</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W165" data-img="/touchgrass/images/W165.jpg" data-page="https://load-gallery.com/exhibitions-index/neo-botanica">
+  <figure><a class="cell" href="#W165" aria-label="W165 Elekktronaut (Bileam Tschepe), Regrowth"><img src="/touchgrass/images/W165.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W165</b> [lead] Elekktronaut (Bileam Tschepe). Regrowth, 2024. Load Gallery, Neo Botanica.</span> <span class="links"><a href="https://load-gallery.com/exhibitions-index/neo-botanica" target="_blank" rel="noopener">load-gallery.com</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W166" data-img="/touchgrass/images/W166.jpg" data-page="https://load-gallery.com/exhibitions-index/neo-botanica">
+  <figure><a class="cell" href="#W166" aria-label="W166 Elekktronaut (Bileam Tschepe), Neurons and Branches"><img src="/touchgrass/images/W166.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W166</b> [lead] Elekktronaut (Bileam Tschepe). Neurons and Branches. Neo Botanica, Load Gallery, Barcelona (2025).</span> <span class="links"><a href="https://load-gallery.com/exhibitions-index/neo-botanica" target="_blank" rel="noopener">load-gallery.com</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Emily Xie" data-artist="emily-xie">
+<h2><span>Emily Xie</span><span>lead · 1</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W167" data-img="/touchgrass/images/W167.jpg" data-page="https://www.artblocks.io/collection/memories-of-qilin-by-emily-xie">
+  <figure><a class="cell" href="#W167" aria-label="W167 Emily Xie, Memories of Qilin"><img src="/touchgrass/images/W167.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W167</b> [lead] Emily Xie. Memories of Qilin, 2022. Art Blocks.</span> <span class="links"><a href="https://www.artblocks.io/collection/memories-of-qilin-by-emily-xie" target="_blank" rel="noopener">artblocks.io</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="fuse*" data-artist="fuse">
+<h2><span>fuse*</span><span>lead · 1</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W168" data-img="/touchgrass/images/W168.jpg" data-page="https://fuseworks.it/works/artificial-botany">
+  <figure><a class="cell" href="#W168" aria-label="W168 fuse*, Artificial Botany"><img src="/touchgrass/images/W168.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W168</b> [lead] fuse*. Artificial Botany, 2019-ongoing. Marignana Arte (2022), Misk Art Institute Riyadh (2022-23), Italian Cultural Institute San Francisco (2023); Japan Media Arts Festival jury selection.</span> <span class="links"><a href="https://fuseworks.it/works/artificial-botany" target="_blank" rel="noopener">fuseworks.it</a> <a href="https://www.creativeapplications.net/project/xxi-century-herbario-novo-artificial-botany-by-fuse" target="_blank" rel="noopener">creativeapplications.net</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Generative Art Studio (Mei Tamazawa)" data-artist="generative-art-studio-mei-tamazawa">
+<h2><span>Generative Art Studio (Mei Tamazawa)</span><span>lead · 1</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W169" data-img="/touchgrass/images/W169.jpg" data-page="https://www.artshelp.com/mei-tamazawa/">
+  <figure><a class="cell" href="#W169" aria-label="W169 Generative Art Studio (Mei Tamazawa), Digital Flora (series), incl. '2890_0720_The Garden of solace'"><img src="/touchgrass/images/W169.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W169</b> [lead] Generative Art Studio (Mei Tamazawa). Digital Flora (series), incl. '2890_0720_The Garden of solace'. online / Artshelp feature.</span> <span class="links"><a href="https://www.artshelp.com/mei-tamazawa/" target="_blank" rel="noopener">artshelp.com</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Gordon Cheung" data-artist="gordon-cheung">
+<h2><span>Gordon Cheung</span><span>lead · 1</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W170" data-img="/touchgrass/images/W170.jpg" data-page="https://www.gordoncheung.com/news/110-new-collection-exhibition-impressions-nottingham-castle-museum-art-gallery-nottingham-uk/">
+  <figure><a class="cell" href="#W170" aria-label="W170 Gordon Cheung, Flower Piece (after Jean-Baptiste Monnoyer)"><img src="/touchgrass/images/W170.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W170</b> [lead] Gordon Cheung. Flower Piece (after Jean-Baptiste Monnoyer). Nottingham Castle Museum &amp; Art Gallery collection; shown in 'Impressions' (23 Nov 2024 - 27 Apr 2025).</span> <span class="links"><a href="https://www.gordoncheung.com/news/110-new-collection-exhibition-impressions-nottingham-castle-museum-art-gallery-nottingham-uk/" target="_blank" rel="noopener">gordoncheung.com</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Grégory Chatonsky" data-artist="gregory-chatonsky">
+<h2><span>Grégory Chatonsky</span><span>lead · 1</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W171" data-img="/touchgrass/images/W171.jpg" data-page="https://chatonsky.net/earth/">
+  <figure><a class="cell" href="#W171" aria-label="W171 Grégory Chatonsky, Terre Seconde (Second Earth)"><img src="/touchgrass/images/W171.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W171</b> [lead] Grégory Chatonsky. Terre Seconde (Second Earth), 2019. Palais de Tokyo, Paris, 21 Jun - 14 Jul 2019.</span> <span class="links"><a href="https://chatonsky.net/earth/" target="_blank" rel="noopener">chatonsky.net</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Gretta Louw" data-artist="gretta-louw">
+<h2><span>Gretta Louw</span><span>lead · 1</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W172" data-img="/touchgrass/images/W172.jpg" data-page="https://www.grettalouw.com/works/einen-riesigen-schwarm.php">
+  <figure><a class="cell" href="#W172" aria-label="W172 Gretta Louw, Einen Riesigen Schwarm (A Giant Swarm)"><img src="/touchgrass/images/W172.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W172</b> [lead] Gretta Louw. Einen Riesigen Schwarm (A Giant Swarm), 2019 (single-channel video A Giant Swarm, 2020). Artist's website.</span> <span class="links"><a href="https://www.grettalouw.com/works/einen-riesigen-schwarm.php" target="_blank" rel="noopener">grettalouw.com</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Hannes Hummel" data-artist="hannes-hummel">
+<h2><span>Hannes Hummel</span><span>lead · 2</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W173" data-img="/touchgrass/images/W173.jpg" data-page="https://load-gallery.com/exhibitions-index/neo-botanica">
+  <figure><a class="cell" href="#W173" aria-label="W173 Hannes Hummel, Technobotanica - Lumincometa"><img src="/touchgrass/images/W173.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W173</b> [lead] Hannes Hummel. Technobotanica - Lumincometa, 2024. Load Gallery, Neo Botanica.</span> <span class="links"><a href="https://load-gallery.com/exhibitions-index/neo-botanica" target="_blank" rel="noopener">load-gallery.com</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W174" data-img="/touchgrass/images/W174.jpg" data-page="https://load-gallery.com/exhibitions-index/neo-botanica">
+  <figure><a class="cell" href="#W174" aria-label="W174 Hannes Hummel, Technobotanica - Lactarilux"><img src="/touchgrass/images/W174.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W174</b> [lead] Hannes Hummel. Technobotanica - Lactarilux, 2024. Load Gallery, Neo Botanica.</span> <span class="links"><a href="https://load-gallery.com/exhibitions-index/neo-botanica" target="_blank" rel="noopener">load-gallery.com</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="hypereikon" data-artist="hypereikon">
+<h2><span>hypereikon</span><span>lead · 4</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W175" data-img="/touchgrass/images/W175.jpg" data-page="https://load-gallery.com/exhibitions-index/neo-botanica">
+  <figure><a class="cell" href="#W175" aria-label="W175 hypereikon, watering the garden"><img src="/touchgrass/images/W175.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W175</b> [lead] hypereikon. watering the garden, 2025. Load Gallery, Neo Botanica.</span> <span class="links"><a href="https://load-gallery.com/exhibitions-index/neo-botanica" target="_blank" rel="noopener">load-gallery.com</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W176" data-img="/touchgrass/images/W176.jpg" data-page="https://load-gallery.com/exhibitions-index/neo-botanica">
+  <figure><a class="cell" href="#W176" aria-label="W176 hypereikon, MAGICAL SPECTRUM (#01, #10, #11)"><img src="/touchgrass/images/W176.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W176</b> [lead] hypereikon. MAGICAL SPECTRUM (#01, #10, #11), 2023. Load Gallery, Neo Botanica.</span> <span class="links"><a href="https://load-gallery.com/exhibitions-index/neo-botanica" target="_blank" rel="noopener">load-gallery.com</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W177" data-img="/touchgrass/images/W177.jpg" data-page="https://load-gallery.com/exhibitions-index/neo-botanica">
+  <figure><a class="cell" href="#W177" aria-label="W177 hypereikon, waterlife"><img src="/touchgrass/images/W177.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W177</b> [lead] hypereikon. waterlife. Neo Botanica, Load Gallery, Barcelona (2025).</span> <span class="links"><a href="https://load-gallery.com/exhibitions-index/neo-botanica" target="_blank" rel="noopener">load-gallery.com</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W178" data-img="/touchgrass/images/W178.jpg" data-page="https://load-gallery.com/exhibitions-index/neo-botanica">
+  <figure><a class="cell" href="#W178" aria-label="W178 hypereikon, grows into itself"><img src="/touchgrass/images/W178.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W178</b> [lead] hypereikon. grows into itself. Neo Botanica, Load Gallery, Barcelona (2025).</span> <span class="links"><a href="https://load-gallery.com/exhibitions-index/neo-botanica" target="_blank" rel="noopener">load-gallery.com</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Ilya Shkipin" data-artist="ilya-shkipin">
+<h2><span>Ilya Shkipin</span><span>lead · 2</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W179" data-img="/touchgrass/images/W179.jpg" data-page="https://feralfile.com/exhibitions/field-guide-sss">
+  <figure><a class="cell" href="#W179" aria-label="W179 Ilya Shkipin, Blooming Valetudinarian"><img src="/touchgrass/images/W179.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W179</b> [lead] Ilya Shkipin. Blooming Valetudinarian, 2022. Feral File, Field Guide.</span> <span class="links"><a href="https://feralfile.com/exhibitions/field-guide-sss" target="_blank" rel="noopener">feralfile.com</a> <a href="https://feralfile.com/api/series?exhibitionID=93a54158-f984-415b-95e8-bf2519e7ac38" target="_blank" rel="noopener">feralfile.com</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W180" data-img="/touchgrass/images/W180.jpg" data-page="https://feralfile.com/exhibitions/field-guide-sss">
+  <figure><a class="cell" href="#W180" aria-label="W180 Ilya Shkipin, Malade Imaginaire"><img src="/touchgrass/images/W180.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W180</b> [lead] Ilya Shkipin. Malade Imaginaire, 2022. Feral File, Field Guide.</span> <span class="links"><a href="https://feralfile.com/exhibitions/field-guide-sss" target="_blank" rel="noopener">feralfile.com</a> <a href="https://feralfile.com/api/series?exhibitionID=93a54158-f984-415b-95e8-bf2519e7ac38" target="_blank" rel="noopener">feralfile.com</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Jacques Perconte" data-artist="jacques-perconte">
+<h2><span>Jacques Perconte</span><span>lead · 4</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W181" data-img="/touchgrass/images/W181.jpg" data-page="https://www.jacquesperconte.com/oe?265">
+  <figure><a class="cell" href="#W181" aria-label="W181 Jacques Perconte, Blanc Mont Blanc (Les Alpes)"><img src="/touchgrass/images/W181.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W181</b> [lead] Jacques Perconte. Blanc Mont Blanc (Les Alpes), 2023 (made 2019-2020). Artist's catalogue.</span> <span class="links"><a href="https://www.jacquesperconte.com/oe?265" target="_blank" rel="noopener">jacquesperconte.com</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W182" data-img="/touchgrass/images/W182.jpg" data-page="https://www.jacquesperconte.com/oe?244">
+  <figure><a class="cell" href="#W182" aria-label="W182 Jacques Perconte, Avant l'effondrement du Mont Blanc"><img src="/touchgrass/images/W182.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W182</b> [lead] Jacques Perconte. Avant l'effondrement du Mont Blanc, 2020. artist's works list.</span> <span class="links"><a href="https://www.jacquesperconte.com/" target="_blank" rel="noopener">jacquesperconte.com</a> <a href="https://en.wikipedia.org/wiki/Jacques_Perconte" target="_blank" rel="noopener">en.wikipedia.org</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W183" data-img="/touchgrass/images/W183.jpg" data-page="https://www.jacquesperconte.com/oe?28">
+  <figure><a class="cell" href="#W183" aria-label="W183 Jacques Perconte, Après le feu (After the fire)"><img src="/touchgrass/images/W183.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W183</b> [lead] Jacques Perconte. Après le feu (After the fire), 2010. artist's works list / Wikipedia.</span> <span class="links"><a href="https://en.wikipedia.org/wiki/Jacques_Perconte" target="_blank" rel="noopener">en.wikipedia.org</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W184" data-img="/touchgrass/images/W184.jpg" data-page="https://www.jacquesperconte.com/oe?195">
+  <figure><a class="cell" href="#W184" aria-label="W184 Jacques Perconte, Marines series / La Vague"><img src="/touchgrass/images/W184.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W184</b> [lead] Jacques Perconte. Marines series / La Vague, 2015. artist's works list.</span> <span class="links"><a href="https://www.jacquesperconte.com/" target="_blank" rel="noopener">jacquesperconte.com</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Jared Tarbell" data-artist="jared-tarbell">
+<h2><span>Jared Tarbell</span><span>lead · 3</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W185" data-img="/touchgrass/images/W185.jpg" data-page="https://detroitartreview.com/2025/08/infinite-images-the-art-of-algorithms-toledo-museum-of-art/">
+  <figure><a class="cell" href="#W185" aria-label="W185 Jared Tarbell, Entity #14"><img src="/touchgrass/images/W185.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W185</b> [lead] Jared Tarbell. Entity #14, 2022. Toledo Museum of Art, Infinite Images.</span> <span class="links"><a href="https://detroitartreview.com/2025/08/infinite-images-the-art-of-algorithms-toledo-museum-of-art/" target="_blank" rel="noopener">detroitartreview.com</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W186" data-img="/touchgrass/images/W186.jpg" data-page="https://feralfile.com/exhibitions/field-guide-sss">
+  <figure><a class="cell" href="#W186" aria-label="W186 Jared Tarbell, Entity"><img src="/touchgrass/images/W186.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W186</b> [lead] Jared Tarbell. Entity, 2022. Feral File, Field Guide.</span> <span class="links"><a href="https://feralfile.com/exhibitions/field-guide-sss" target="_blank" rel="noopener">feralfile.com</a> <a href="https://feralfile.com/api/series?exhibitionID=93a54158-f984-415b-95e8-bf2519e7ac38" target="_blank" rel="noopener">feralfile.com</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W187" data-img="/touchgrass/images/W187.jpg" data-page="https://feralfile.com/exhibitions/field-guide-sss">
+  <figure><a class="cell" href="#W187" aria-label="W187 Jared Tarbell, Environment"><img src="/touchgrass/images/W187.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W187</b> [lead] Jared Tarbell. Environment, 2022. Feral File, Field Guide.</span> <span class="links"><a href="https://feralfile.com/exhibitions/field-guide-sss" target="_blank" rel="noopener">feralfile.com</a> <a href="https://feralfile.com/api/series?exhibitionID=93a54158-f984-415b-95e8-bf2519e7ac38" target="_blank" rel="noopener">feralfile.com</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Jenna Sutela" data-artist="jenna-sutela">
+<h2><span>Jenna Sutela</span><span>lead · 1</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W188" data-img="/touchgrass/images/W188.jpg" data-page="https://www.las-art.foundation/programme/nimiia-cetii-2018">
+  <figure><a class="cell" href="#W188" aria-label="W188 Jenna Sutela, nimiia cétiï"><img src="/touchgrass/images/W188.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W188</b> [lead] Jenna Sutela. nimiia cétiï, 2018. Google Arts &amp; Culture residency, Somerset House Studios; LAS Art Foundation.</span> <span class="links"><a href="https://www.las-art.foundation/programme/nimiia-cetii-2018" target="_blank" rel="noopener">las-art.foundation</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Jiabao Li" data-artist="jiabao-li">
+<h2><span>Jiabao Li</span><span>lead · 1</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W189" data-img="/touchgrass/images/W189.jpg" data-page="https://rightclicksave.com/article/epoch-gallery-and-blockchains-new-ecology">
+  <figure><a class="cell" href="#W189" aria-label="W189 Jiabao Li, Glacier's Lament"><img src="/touchgrass/images/W189.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W189</b> [lead] Jiabao Li. Glacier's Lament, 2021. EPOCH Gallery, Cryosphere.</span> <span class="links"><a href="https://rightclicksave.com/article/epoch-gallery-and-blockchains-new-ecology" target="_blank" rel="noopener">rightclicksave.com</a> <a href="https://epoch.gallery/cryosphere" target="_blank" rel="noopener">epoch.gallery</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Jim Linear" data-artist="jim-linear">
+<h2><span>Jim Linear</span><span>lead · 2</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W190" data-img="/touchgrass/images/W190.jpg" data-page="https://load-gallery.com/exhibitions-index/neo-botanica">
+  <figure><a class="cell" href="#W190" aria-label="W190 Jim Linear, White Moss"><img src="/touchgrass/images/W190.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W190</b> [lead] Jim Linear. White Moss, 2025. Load Gallery, Neo Botanica.</span> <span class="links"><a href="https://load-gallery.com/exhibitions-index/neo-botanica" target="_blank" rel="noopener">load-gallery.com</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W191" data-img="/touchgrass/images/W191.jpg" data-page="https://www.behance.net/jimlinear">
+  <figure><a class="cell" href="#W191" aria-label="W191 Jim Linear, Organic Gardens by LINEAR"><img src="/touchgrass/images/W191.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W191</b> [lead] Jim Linear. Organic Gardens by LINEAR. Behance.</span> <span class="links"><a href="https://www.behance.net/jimlinear" target="_blank" rel="noopener">behance.net</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Joan Fontcuberta" data-artist="joan-fontcuberta">
+<h2><span>Joan Fontcuberta</span><span>lead · 1</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W192" data-img="/touchgrass/images/W192.jpg" data-page="https://jeudepaume.org/wp-content/uploads/2023/04/DP-IA.pdf">
+  <figure><a class="cell" href="#W192" aria-label="W192 Joan Fontcuberta, Typha Volans, from the eHerbarium series"><img src="/touchgrass/images/W192.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W192</b> [lead] Joan Fontcuberta. Typha Volans, from the eHerbarium series, 2023-2024. Le monde selon l'IA, Jeu de Paume, Paris, 2025.</span> <span class="links"><a href="https://jeudepaume.org/wp-content/uploads/2023/04/DP-IA.pdf" target="_blank" rel="noopener">jeudepaume.org</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Joanie Lemercier" data-artist="joanie-lemercier">
+<h2><span>Joanie Lemercier</span><span>lead · 2</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W193" data-img="/touchgrass/images/W193.jpg" data-page="https://joanielemercier.com/paysages-possibles/">
+  <figure><a class="cell" href="#W193" aria-label="W193 Joanie Lemercier, Paysages possibles"><img src="/touchgrass/images/W193.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W193</b> [lead] Joanie Lemercier. Paysages possibles, 2019. Museum Sinclair-Haus, Illusion Natur.</span> <span class="links"><a href="https://kunst-und-natur.de/files/Museum-Sinclair-Haus/Blattwerke/Blattwerke_11/19_illusion_natur_blattwerke_11.pdf" target="_blank" rel="noopener">kunst-und-natur.de</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W194" data-img="/touchgrass/images/W194.jpg" data-page="https://joanielemercier.com/montagne-wireframe/">
+  <figure><a class="cell" href="#W194" aria-label="W194 Joanie Lemercier, Montagne wireframe"><img src="/touchgrass/images/W194.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W194</b> [lead] Joanie Lemercier. Montagne wireframe, not stated in source. Museum Sinclair-Haus booklet.</span> <span class="links"><a href="https://kunst-und-natur.de/files/Museum-Sinclair-Haus/Blattwerke/Blattwerke_11/19_illusion_natur_blattwerke_11.pdf" target="_blank" rel="noopener">kunst-und-natur.de</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Joann" data-artist="joann">
+<h2><span>Joann</span><span>lead · 2</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W195" data-img="/touchgrass/images/W195.jpg" data-page="https://load-gallery.com/exhibitions-index/neo-botanica">
+  <figure><a class="cell" href="#W195" aria-label="W195 Joann, Plastic Flowers"><img src="/touchgrass/images/W195.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W195</b> [lead] Joann. Plastic Flowers, 2024-2025. Load Gallery, Neo Botanica.</span> <span class="links"><a href="https://load-gallery.com/exhibitions-index/neo-botanica" target="_blank" rel="noopener">load-gallery.com</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W196" data-img="/touchgrass/images/W196.jpg" data-page="https://load-gallery.com/exhibitions-index/neo-botanica">
+  <figure><a class="cell" href="#W196" aria-label="W196 Joann, Laced"><img src="/touchgrass/images/W196.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W196</b> [lead] Joann. Laced. Neo Botanica, Load Gallery, Barcelona (2025).</span> <span class="links"><a href="https://load-gallery.com/exhibitions-index/neo-botanica" target="_blank" rel="noopener">load-gallery.com</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Juan Covelli" data-artist="juan-covelli">
+<h2><span>Juan Covelli</span><span>lead · 1</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W197" data-img="/touchgrass/images/W197.jpg" data-page="https://lumenprize.org/2021-winners/nordic-award-winner-tmtd4">
+  <figure><a class="cell" href="#W197" aria-label="W197 Juan Covelli, Waterfall (title from image filename; unconfirmed)"><img src="/touchgrass/images/W197.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W197</b> [lead] Juan Covelli. Waterfall (title from image filename; unconfirmed), 2021 or earlier. Lumen Prize 2021, Moving Image Award.</span> <span class="links"><a href="https://lumenprize.org/2021-winners" target="_blank" rel="noopener">lumenprize.org</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Julian Charrière" data-artist="julian-charriere">
+<h2><span>Julian Charrière</span><span>lead · 1</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W198" data-img="/touchgrass/images/W198.jpg" data-page="https://julian-charriere.net/projects/towards-no-earthly-pole">
+  <figure><a class="cell" href="#W198" aria-label="W198 Julian Charrière, Towards No Earthly Pole"><img src="/touchgrass/images/W198.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W198</b> [lead] Julian Charrière. Towards No Earthly Pole, 2019. MASI Lugano (2019), Sean Kelly Gallery NY (2020), Aargauer Kunsthaus (2020), Dallas Museum of Art (2021).</span> <span class="links"><a href="https://en.wikipedia.org/wiki/Julian_Charri%C3%A8re" target="_blank" rel="noopener">en.wikipedia.org</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Julien Silvano" data-artist="julien-silvano">
+<h2><span>Julien Silvano</span><span>lead · 1</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W199" data-img="/touchgrass/images/W199.jpg" data-page="https://feralfile.com/exhibitions/feralverse-1qa">
+  <figure><a class="cell" href="#W199" aria-label="W199 Julien Silvano, Seed Words (with Kalen Iwamoto)"><img src="/touchgrass/images/W199.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W199</b> [lead] Julien Silvano. Seed Words (with Kalen Iwamoto), 2023. Feral File, FeralVerse.</span> <span class="links"><a href="https://feralfile.com/exhibitions/feralverse-1qa" target="_blank" rel="noopener">feralfile.com</a> <a href="https://feralfile.com/api/series?exhibitionID=87528bfb-3b46-4e68-ae55-9ba214d52a4d" target="_blank" rel="noopener">feralfile.com</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Justine Emard" data-artist="justine-emard">
+<h2><span>Justine Emard</span><span>lead · 1</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W200" data-img="/touchgrass/images/W200.jpg" data-page="https://www.justineemard.com/supraorganism/">
+  <figure><a class="cell" href="#W200" aria-label="W200 Justine Emard, Supraorganism"><img src="/touchgrass/images/W200.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W200</b> [lead] Justine Emard. Supraorganism, 2020. Artist's website.</span> <span class="links"><a href="https://www.justineemard.com/supraorganism/" target="_blank" rel="noopener">justineemard.com</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Katja Novitskova" data-artist="katja-novitskova">
+<h2><span>Katja Novitskova</span><span>lead · 2</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W201" data-img="/touchgrass/images/W201.jpg" data-page="https://katjanovitskova.com/serie/approximation">
+  <figure><a class="cell" href="#W201" aria-label="W201 Katja Novitskova, Approximation (series)"><img src="/touchgrass/images/W201.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W201</b> [lead] Katja Novitskova. Approximation (series). various.</span> <span class="links"><a href="https://en.wikipedia.org/wiki/Katja_Novitskova" target="_blank" rel="noopener">en.wikipedia.org</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W202" data-img="/touchgrass/images/W202.jpg" data-page="https://katjanovitskova.com/exhibition/venice-biennale-2017">
+  <figure><a class="cell" href="#W202" aria-label="W202 Katja Novitskova, If Only You Could See What I've Seen with Your Eyes"><img src="/touchgrass/images/W202.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W202</b> [lead] Katja Novitskova. If Only You Could See What I've Seen with Your Eyes, 2017. Estonian Pavilion, 57th Venice Biennale.</span> <span class="links"><a href="https://en.wikipedia.org/wiki/Katja_Novitskova" target="_blank" rel="noopener">en.wikipedia.org</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Ken Goldberg" data-artist="ken-goldberg">
+<h2><span>Ken Goldberg</span><span>lead · 1</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W203" data-img="/touchgrass/images/W203.jpg" data-page="https://en.wikipedia.org/wiki/Telegarden">
+  <figure><a class="cell" href="#W203" aria-label="W203 Ken Goldberg, Telegarden (with Joseph Santarromana)"><img src="/touchgrass/images/W203.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W203</b> [lead] Ken Goldberg. Telegarden (with Joseph Santarromana), 1995-2004. USC, then Ars Electronica Center, Linz (from 1996).</span> <span class="links"><a href="https://en.wikipedia.org/wiki/Telegarden" target="_blank" rel="noopener">en.wikipedia.org</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Leonardo Solaas" data-artist="leonardo-solaas">
+<h2><span>Leonardo Solaas</span><span>lead · 3</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W204" data-img="/touchgrass/images/W204.jpg" data-page="https://objkt.com/tokens/KT1U6EHmNxJTkvaWJ4ThczG4FSDaHC21ssvi/1532384">
+  <figure><a class="cell" href="#W204" aria-label="W204 Leonardo Solaas, Botanical Ghosts"><img src="/touchgrass/images/W204.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W204</b> [lead] Leonardo Solaas. Botanical Ghosts, 2023. fxhash / raster.art.</span> <span class="links"><a href="https://www.raster.art/artwork/botanical-ghosts-by-leonardo-solaas/about" target="_blank" rel="noopener">raster.art</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W205" data-img="/touchgrass/images/W205.jpg" data-page="https://objkt.com/tokens/KT1KEa8z6vWXDJrVqtMrAeDVzsvxat3kHaCE/372487">
+  <figure><a class="cell" href="#W205" aria-label="W205 Leonardo Solaas, Flowers of the North"><img src="/touchgrass/images/W205.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W205</b> [lead] Leonardo Solaas. Flowers of the North, 2022. fxhash / raster.art.</span> <span class="links"><a href="https://www.raster.art/artwork/flowers-of-the-north-by-leonardo-solaas/about" target="_blank" rel="noopener">raster.art</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W206" data-img="/touchgrass/images/W206.jpg" data-page="https://www.brightmoments.io/quarterly/leonardo-solaas">
+  <figure><a class="cell" href="#W206" aria-label="W206 Leonardo Solaas, Delirium Blooms"><img src="/touchgrass/images/W206.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W206</b> [lead] Leonardo Solaas. Delirium Blooms. Bright Moments.</span> <span class="links"><a href="https://www.brightmoments.io/quarterly/leonardo-solaas" target="_blank" rel="noopener">brightmoments.io</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="LIA" data-artist="lia">
+<h2><span>LIA</span><span>lead · 2</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W207" data-img="/touchgrass/images/W207.jpg" data-page="https://liaworks.com/theprojects/mira/">
+  <figure><a class="cell" href="#W207" aria-label="W207 LIA, Mira"><img src="/touchgrass/images/W207.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W207</b> [lead] LIA. Mira, 2005 (later rebuilt for the web). WEBSITES WEBSITES WEBSITES!, ARTXCODE x Rhizome, 2026.</span> <span class="links"><a href="https://websiteswebsiteswebsites.net/works/lia.html" target="_blank" rel="noopener">websiteswebsiteswebsites.net</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W208" data-img="/touchgrass/images/W208.jpg" data-page="https://gazelliarthouse.com/exhibitions/184/works/artworks-17453-lia-floral-greetings-2023">
+  <figure><a class="cell" href="#W208" aria-label="W208 LIA, Floral Greetings"><img src="/touchgrass/images/W208.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W208</b> [lead] LIA. Floral Greetings, 2023. Gazelli Art House, Awaken, Metamagical Hands (2024).</span> <span class="links"><a href="https://gazelliarthouse.com/exhibitions/184/works/artworks-17453-lia-floral-greetings-2023" target="_blank" rel="noopener">gazelliarthouse.com</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Liliana Farber" data-artist="liliana-farber">
+<h2><span>Liliana Farber</span><span>lead · 1</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W209" data-img="/touchgrass/images/W209.jpg" data-page="https://www.lilianafarber.com/terram-in-aspectu">
+  <figure><a class="cell" href="#W209" aria-label="W209 Liliana Farber, Terram in Aspectu"><img src="/touchgrass/images/W209.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W209</b> [lead] Liliana Farber. Terram in Aspectu, 2019. artist site.</span> <span class="links"><a href="https://www.lilianafarber.com/terram-in-aspectu" target="_blank" rel="noopener">lilianafarber.com</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Luca Bogoni" data-artist="luca-bogoni">
+<h2><span>Luca Bogoni</span><span>lead · 4</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W210" data-img="/touchgrass/images/W210.jpg" data-page="https://load-gallery.com/exhibitions-index/neo-botanica">
+  <figure><a class="cell" href="#W210" aria-label="W210 Luca Bogoni, Lilium Viridens"><img src="/touchgrass/images/W210.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W210</b> [lead] Luca Bogoni. Lilium Viridens, 2024. Load Gallery, Neo Botanica.</span> <span class="links"><a href="https://load-gallery.com/exhibitions-index/neo-botanica" target="_blank" rel="noopener">load-gallery.com</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W211" data-img="/touchgrass/images/W211.jpg" data-page="https://load-gallery.com/exhibitions-index/neo-botanica">
+  <figure><a class="cell" href="#W211" aria-label="W211 Luca Bogoni, Crassulacae Plutonü B"><img src="/touchgrass/images/W211.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W211</b> [lead] Luca Bogoni. Crassulacae Plutonü B, 2024/25. Load Gallery, Neo Botanica.</span> <span class="links"><a href="https://load-gallery.com/exhibitions-index/neo-botanica" target="_blank" rel="noopener">load-gallery.com</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W212" data-img="/touchgrass/images/W212.jpg" data-page="https://load-gallery.com/exhibitions-index/neo-botanica">
+  <figure><a class="cell" href="#W212" aria-label="W212 Luca Bogoni, Biolumiflora spectrensis"><img src="/touchgrass/images/W212.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W212</b> [lead] Luca Bogoni. Biolumiflora spectrensis. Neo Botanica, Load Gallery, Barcelona (2025).</span> <span class="links"><a href="https://load-gallery.com/exhibitions-index/neo-botanica" target="_blank" rel="noopener">load-gallery.com</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W213" data-img="/touchgrass/images/W213.jpg" data-page="https://load-gallery.com/exhibitions-index/neo-botanica">
+  <figure><a class="cell" href="#W213" aria-label="W213 Luca Bogoni, Caeloflora Chroma"><img src="/touchgrass/images/W213.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W213</b> [lead] Luca Bogoni. Caeloflora Chroma. Neo Botanica, Load Gallery, Barcelona (2025).</span> <span class="links"><a href="https://load-gallery.com/exhibitions-index/neo-botanica" target="_blank" rel="noopener">load-gallery.com</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Maja Petrić" data-artist="maja-petric">
+<h2><span>Maja Petrić</span><span>lead · 2</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W214" data-img="/touchgrass/images/W214.jpg" data-page="https://www.majapetric.com/">
+  <figure><a class="cell" href="#W214" aria-label="W214 Maja Petrić, Specimens of Time (Hoh Rain Forest, Antarctica, Gwangneung, Getbol, Val d'Anniviers, Coral Triangle)"><img src="/touchgrass/images/W214.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W214</b> [lead] Maja Petrić. Specimens of Time (Hoh Rain Forest, Antarctica, Gwangneung, Getbol, Val d'Anniviers, Coral Triangle). majapetric.com.</span> <span class="links"><a href="https://www.majapetric.com/" target="_blank" rel="noopener">majapetric.com</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W215" data-img="/touchgrass/images/W215.jpg" data-page="https://www.majapetric.com/">
+  <figure><a class="cell" href="#W215" aria-label="W215 Maja Petrić, The Glitched Sublime"><img src="/touchgrass/images/W215.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W215</b> [lead] Maja Petrić. The Glitched Sublime, 2026. SXSW London; HOFA London (2026).</span> <span class="links"><a href="https://www.majapetric.com/" target="_blank" rel="noopener">majapetric.com</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Marc Lee" data-artist="marc-lee">
+<h2><span>Marc Lee</span><span>lead · 1</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W216" data-img="/touchgrass/images/W216.jpg" data-page="https://marclee.io/en/speculative-evolution/">
+  <figure><a class="cell" href="#W216" aria-label="W216 Marc Lee, 演化推测，原型 1 (Speculative Evolution, Prototype 1; translated)"><img src="/touchgrass/images/W216.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W216</b> [lead] Marc Lee. 演化推测，原型 1 (Speculative Evolution, Prototype 1; translated). Encoding Phenology, Times Art Museum, Beijing (2024).</span> <span class="links"><a href="https://news.pedaily.cn/20241023/95814.shtml" target="_blank" rel="noopener">news.pedaily.cn</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Marina Zurkow" data-artist="marina-zurkow">
+<h2><span>Marina Zurkow</span><span>lead · 2</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W217" data-img="/touchgrass/images/W217.jpg" data-page="https://vimeo.com/38033069">
+  <figure><a class="cell" href="#W217" aria-label="W217 Marina Zurkow, Mesocosm (Wink, TX)"><img src="/touchgrass/images/W217.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W217</b> [lead] Marina Zurkow. Mesocosm (Wink, TX), 2012. Whitney Museum, 'Parting Worlds' (2025-26); bitforms 'Necrocracy' (2013).</span> <span class="links"><a href="https://whitney.org/exhibitions/marina-zurkow-parting-worlds/art?section=1" target="_blank" rel="noopener">whitney.org</a> <a href="https://vimeo.com/38033069" target="_blank" rel="noopener">vimeo.com</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W218" data-img="/touchgrass/images/W218.jpg" data-page="https://verse.works/artworks/81d1cc18-209a-44ae-a189-acf082960917/360173026">
+  <figure><a class="cell" href="#W218" aria-label="W218 Marina Zurkow, The Dorises (with Ira Greenberg)"><img src="/touchgrass/images/W218.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W218</b> [lead] Marina Zurkow. The Dorises (with Ira Greenberg), 2023. Feral File, Chain Reaction.</span> <span class="links"><a href="https://nftcalendar.io/event/chain-reaction/" target="_blank" rel="noopener">nftcalendar.io</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Markos Kay" data-artist="markos-kay">
+<h2><span>Markos Kay</span><span>lead · 2</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W219" data-img="/touchgrass/images/W219.jpg" data-page="https://hubemag.com/journey-through-a-dreamlike-ai-generated-landscape">
+  <figure><a class="cell" href="#W219" aria-label="W219 Markos Kay, Nature Portals"><img src="/touchgrass/images/W219.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W219</b> [lead] Markos Kay. Nature Portals, 2024. Fotografiska.</span> <span class="links"><a href="https://hubemag.com/journey-through-a-dreamlike-ai-generated-landscape" target="_blank" rel="noopener">hubemag.com</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W220" data-img="/touchgrass/images/W220.jpg" data-page="https://mrkism.com/prints/index.html">
+  <figure><a class="cell" href="#W220" aria-label="W220 Markos Kay, Synaptic Flora #1 (Synaptic Hybrids)"><img src="/touchgrass/images/W220.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W220</b> [lead] Markos Kay. Synaptic Flora #1 (Synaptic Hybrids). artist's print store.</span> <span class="links"><a href="https://mrkism.com/prints/index.html" target="_blank" rel="noopener">mrkism.com</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Mauro Cosenza" data-artist="mauro-cosenza">
+<h2><span>Mauro Cosenza</span><span>lead · 2</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W221" data-img="/touchgrass/images/W221.jpg" data-page="https://load-gallery.com/exhibitions-index/neo-botanica">
+  <figure><a class="cell" href="#W221" aria-label="W221 Mauro Cosenza, Pelargonium zonale (L.) L'Hér. ex Aiton"><img src="/touchgrass/images/W221.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W221</b> [lead] Mauro Cosenza. Pelargonium zonale (L.) L'Hér. ex Aiton, 2024. Load Gallery, Neo Botanica.</span> <span class="links"><a href="https://load-gallery.com/exhibitions-index/neo-botanica" target="_blank" rel="noopener">load-gallery.com</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W222" data-img="/touchgrass/images/W222.jpg" data-page="https://load-gallery.com/exhibitions-index/neo-botanica">
+  <figure><a class="cell" href="#W222" aria-label="W222 Mauro Cosenza, Flowers Hum v.002"><img src="/touchgrass/images/W222.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W222</b> [lead] Mauro Cosenza. Flowers Hum v.002, 2024. Load Gallery, Neo Botanica.</span> <span class="links"><a href="https://load-gallery.com/exhibitions-index/neo-botanica" target="_blank" rel="noopener">load-gallery.com</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Memo Akten" data-artist="memo-akten">
+<h2><span>Memo Akten</span><span>lead · 7</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W223" data-img="/touchgrass/images/W223.jpg" data-page="https://aeon.co/videos/a-neural-network-that-keeps-seeing-art-where-we-see-mundane-objects">
+  <figure><a class="cell" href="#W223" aria-label="W223 Memo Akten, Learning to See"><img src="/touchgrass/images/W223.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W223</b> [lead] Memo Akten. Learning to See, 2017-. Onassis 'You and AI' and others.</span> <span class="links"><a href="https://onassis.org/whats-on/festival-you-and-ai-through-the-algorithmic-lens/artworks/learning-to-see" target="_blank" rel="noopener">onassis.org</a> <a href="https://aeon.co/videos/a-neural-network-that-keeps-seeing-art-where-we-see-mundane-objects" target="_blank" rel="noopener">aeon.co</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W224" data-img="/touchgrass/images/W224.jpg" data-page="https://memo.tv/projects/2018/deep-meditations/">
+  <figure><a class="cell" href="#W224" aria-label="W224 Memo Akten, Deep Meditations"><img src="/touchgrass/images/W224.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W224</b> [lead] Memo Akten. Deep Meditations, 2018-2019. Onassis 'You and AI'; memo.tv.</span> <span class="links"><a href="https://onassis.org/whats-on/festival-you-and-ai-through-the-algorithmic-lens/artworks/deep-meditations" target="_blank" rel="noopener">onassis.org</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W225" data-img="/touchgrass/images/W225.jpg" data-page="https://unitlondon.com/voices/the-perfect-error">
+  <figure><a class="cell" href="#W225" aria-label="W225 Memo Akten, Waves 2.0: Mountains, fragment #002"><img src="/touchgrass/images/W225.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W225</b> [lead] Memo Akten. Waves 2.0: Mountains, fragment #002. The Perfect Error, Unit London (2023).</span> <span class="links"><a href="https://unitlondon.com/voices/the-perfect-error" target="_blank" rel="noopener">unitlondon.com</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W226" data-img="/touchgrass/images/W226.jpg" data-page="https://www.memo.tv/works/distributed-consciousness/">
+  <figure><a class="cell" href="#W226" aria-label="W226 Memo Akten, Distributed Consciousness"><img src="/touchgrass/images/W226.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W226</b> [lead] Memo Akten. Distributed Consciousness, 2021. ACMI, Melbourne.</span> <span class="links"><a href="https://www.memo.tv/works/distributed-consciousness/" target="_blank" rel="noopener">memo.tv</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W227" data-img="/touchgrass/images/W227.jpg" data-page="https://memo.tv/projects/2017/gloomy-sunday/">
+  <figure><a class="cell" href="#W227" aria-label="W227 Memo Akten, Learning to See: Gloomy Sunday"><img src="/touchgrass/images/W227.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W227</b> [lead] Memo Akten. Learning to See: Gloomy Sunday, 2017. memo.tv; series also exists as an interactive installation.</span> <span class="links"><a href="https://www.memo.tv/works/learning-to-see/" target="_blank" rel="noopener">memo.tv</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W228" data-img="/touchgrass/images/W228.jpg" data-page="https://memo.tv/projects/2018/mountains/">
+  <figure><a class="cell" href="#W228" aria-label="W228 Memo Akten, Learning to See: Mountains"><img src="/touchgrass/images/W228.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W228</b> [lead] Memo Akten. Learning to See: Mountains, 2018. memo.tv.</span> <span class="links"><a href="https://www.memo.tv/works/learning-to-see/" target="_blank" rel="noopener">memo.tv</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W229" data-img="/touchgrass/images/W229.jpg" data-page="https://memo.tv/projects/2024/superradiance/">
+  <figure><a class="cell" href="#W229" aria-label="W229 Memo Akten, Superradiance (with Katie Peyton Hofstadter)"><img src="/touchgrass/images/W229.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W229</b> [lead] Memo Akten. Superradiance (with Katie Peyton Hofstadter), 2024. Gazelli Art House, Subject to Change (2025).</span> <span class="links"><a href="https://memo.tv/projects/2024/superradiance/" target="_blank" rel="noopener">memo.tv</a> <a href="https://gazelliarthouse.com/exhibitions/200-subject-to-change-group-show/" target="_blank" rel="noopener">gazelliarthouse.com</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Michael Reisch" data-artist="michael-reisch">
+<h2><span>Michael Reisch</span><span>lead · 1</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W230" data-img="/touchgrass/images/W230.jpg" data-page="https://www.michaelreisch.com/archive-1991-2015/1/">
+  <figure><a class="cell" href="#W230" aria-label="W230 Michael Reisch, Landschaft (Landscape), 1/020"><img src="/touchgrass/images/W230.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W230</b> [lead] Michael Reisch. Landschaft (Landscape), 1/020, 2002. Museum Sinclair-Haus, Illusion Natur.</span> <span class="links"><a href="https://kunst-und-natur.de/files/Museum-Sinclair-Haus/Blattwerke/Blattwerke_11/19_illusion_natur_blattwerke_11.pdf" target="_blank" rel="noopener">kunst-und-natur.de</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Miguel Chevalier" data-artist="miguel-chevalier">
+<h2><span>Miguel Chevalier</span><span>lead · 1</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W231" data-img="/touchgrass/images/W231.jpg" data-page="https://www.aeroplastics.net/artworks/14105-miguel-chevalier-trans-natures-2015/">
+  <figure><a class="cell" href="#W231" aria-label="W231 Miguel Chevalier, Trans-Nature"><img src="/touchgrass/images/W231.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W231</b> [lead] Miguel Chevalier. Trans-Nature, 2019. Museum Sinclair-Haus, Illusion Natur.</span> <span class="links"><a href="https://kunst-und-natur.de/files/Museum-Sinclair-Haus/Blattwerke/Blattwerke_11/19_illusion_natur_blattwerke_11.pdf" target="_blank" rel="noopener">kunst-und-natur.de</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Monika Fleischmann &amp; Wolfgang Strauss" data-artist="monika-fleischmann-wolfgang-strauss">
+<h2><span>Monika Fleischmann &amp; Wolfgang Strauss</span><span>lead · 1</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W232" data-img="/touchgrass/images/W232.jpg" data-page="https://zkm.de/en/artwork/liquid-views">
+  <figure><a class="cell" href="#W232" aria-label="W232 Monika Fleischmann &amp; Wolfgang Strauss, Liquid Views (with Christian-A. Bohn)"><img src="/touchgrass/images/W232.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W232</b> [lead] Monika Fleischmann &amp; Wolfgang Strauss. Liquid Views (with Christian-A. Bohn), 1992-1993. ZKM collection; shown at SIGGRAPH and elsewhere.</span> <span class="links"><a href="https://zkm.de/en/artwork/liquid-views" target="_blank" rel="noopener">zkm.de</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Nancy Baker Cahill" data-artist="nancy-baker-cahill">
+<h2><span>Nancy Baker Cahill</span><span>lead · 2</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W233" data-img="/touchgrass/images/W233.jpg" data-page="https://nancybakercahill.com/work/stone-speaks">
+  <figure><a class="cell" href="#W233" aria-label="W233 Nancy Baker Cahill, Stone Speaks"><img src="/touchgrass/images/W233.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W233</b> [lead] Nancy Baker Cahill. Stone Speaks, 2022. Flux Projects, Piedmont Park, Atlanta.</span> <span class="links"><a href="https://nancybakercahill.com/work/stone-speaks" target="_blank" rel="noopener">nancybakercahill.com</a> <a href="https://fluxprojects.org/productions/stone-speaks/" target="_blank" rel="noopener">fluxprojects.org</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W234" data-img="/touchgrass/images/W234.jpg" data-page="https://whitney.org/exhibitions/cento">
+  <figure><a class="cell" href="#W234" aria-label="W234 Nancy Baker Cahill, CENTO"><img src="/touchgrass/images/W234.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W234</b> [lead] Nancy Baker Cahill. CENTO, 2023. Whitney Museum terrace; earlier version Desert X 2019 above the Salton Sea.</span> <span class="links"><a href="https://whitney.org/exhibitions/cento" target="_blank" rel="noopener">whitney.org</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Nat Sarkissian" data-artist="nat-sarkissian">
+<h2><span>Nat Sarkissian</span><span>lead · 2</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W235" data-img="/touchgrass/images/W235.jpg" data-page="https://cure3.co.uk/artworks/494/">
+  <figure><a class="cell" href="#W235" aria-label="W235 Nat Sarkissian, Never the Same"><img src="/touchgrass/images/W235.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W235</b> [lead] Nat Sarkissian. Never the Same, 2025. fxhash; Bonhams London show (Feb 2025).</span> <span class="links"><a href="https://www.raster.art/artwork/never-the-same-by-nat-sarkissian/about" target="_blank" rel="noopener">raster.art</a> <a href="https://cure3.co.uk/artworks/494/" target="_blank" rel="noopener">cure3.co.uk</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W236" data-img="/touchgrass/images/W236.jpg" data-page="https://www.vertufineart.com/artists/233/works">
+  <figure><a class="cell" href="#W236" aria-label="W236 Nat Sarkissian, In Deep Spring (series)"><img src="/touchgrass/images/W236.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W236</b> [lead] Nat Sarkissian. In Deep Spring (series), 2024. Vertu Fine Art.</span> <span class="links"><a href="https://www.vertufineart.com/artists/233/works" target="_blank" rel="noopener">vertufineart.com</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Nathan Shafer" data-artist="nathan-shafer">
+<h2><span>Nathan Shafer</span><span>lead · 2</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W237" data-img="/touchgrass/images/W237.jpg" data-page="https://www.adn.com/arts/books/2022/07/02/book-review-in-wintermoot-a-graphic-novel-that-shape-shifts-disorients-and-challenges-readers">
+  <figure><a class="cell" href="#W237" aria-label="W237 Nathan Shafer, Wintermoot (graphic novel series)"><img src="/touchgrass/images/W237.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W237</b> [lead] Nathan Shafer. Wintermoot (graphic novel series), 2019-2022. EPOCH Gallery, Cryosphere.</span> <span class="links"><a href="https://rightclicksave.com/article/epoch-gallery-and-blockchains-new-ecology" target="_blank" rel="noopener">rightclicksave.com</a></span></figcaption></figure>
+</li>
+<li class="screen off lead" id="W238">
+  <figure><a class="cell" href="#W238" aria-label="W238 Nathan Shafer, Arctic Adventure Sculpture Garden"></a>
+  <figcaption><span class="cap"><b>W238</b> [lead] Nathan Shafer. Arctic Adventure Sculpture Garden, 2018. named in Right Click Save article.</span> <span class="links"><a href="https://rightclicksave.com/article/epoch-gallery-and-blockchains-new-ecology" target="_blank" rel="noopener">rightclicksave.com</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Nathaniel Stern" data-artist="nathaniel-stern">
+<h2><span>Nathaniel Stern</span><span>lead · 2</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W239" data-img="/touchgrass/images/W239.jpg" data-page="https://nathanielstern.art/artwork/giverny-of-the-midwest/">
+  <figure><a class="cell" href="#W239" aria-label="W239 Nathaniel Stern, Giverny of the Midwest"><img src="/touchgrass/images/W239.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W239</b> [lead] Nathaniel Stern. Giverny of the Midwest, 2011. artist site.</span> <span class="links"><a href="https://nathanielstern.art/artwork/giverny-of-the-midwest/" target="_blank" rel="noopener">nathanielstern.art</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W240" data-img="/touchgrass/images/W240.jpg" data-page="https://nathanielstern.art/artwork/rippling-images/">
+  <figure><a class="cell" href="#W240" aria-label="W240 Nathaniel Stern, Rippling Images"><img src="/touchgrass/images/W240.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W240</b> [lead] Nathaniel Stern. Rippling Images, 2014. Turbine Art Fair Johannesburg; Tory Folliard, Milwaukee.</span> <span class="links"><a href="https://nathanielstern.art/artwork/rippling-images/" target="_blank" rel="noopener">nathanielstern.art</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Neri Oxman" data-artist="neri-oxman">
+<h2><span>Neri Oxman</span><span>lead · 2</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W241" data-img="/touchgrass/images/W241.jpg" data-page="https://commons.wikimedia.org/wiki/File:Oxman-Silk_pavilion_installation.png">
+  <figure><a class="cell" href="#W241" aria-label="W241 Neri Oxman, Silk Pavilion"><img src="/touchgrass/images/W241.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W241</b> [lead] Neri Oxman. Silk Pavilion, 2013 (Silk Pavilion II, 2020). MIT Media Lab; Silk Pavilion II at MoMA.</span> <span class="links"><a href="https://en.wikipedia.org/wiki/Neri_Oxman" target="_blank" rel="noopener">en.wikipedia.org</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W242" data-img="/touchgrass/images/W242.jpg" data-page="https://www.designboom.com/technology/mit-media-lab-mediated-matter-group-aguahoja-pavilion-03-28-2019/">
+  <figure><a class="cell" href="#W242" aria-label="W242 Neri Oxman, Aguahoja I-III"><img src="/touchgrass/images/W242.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W242</b> [lead] Neri Oxman. Aguahoja I-III, 2014-2020. MoMA and others.</span> <span class="links"><a href="https://en.wikipedia.org/wiki/Neri_Oxman" target="_blank" rel="noopener">en.wikipedia.org</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Nicolas Sassoon" data-artist="nicolas-sassoon">
+<h2><span>Nicolas Sassoon</span><span>lead · 1</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W243" data-img="/touchgrass/images/W243.jpg" data-page="https://www.nicolassassoon.com/WTRFLLS.html">
+  <figure><a class="cell" href="#W243" aria-label="W243 Nicolas Sassoon, WATERFALLS"><img src="/touchgrass/images/W243.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W243</b> [lead] Nicolas Sassoon. WATERFALLS, 2022. Bright Moments, London, June 2022.</span> <span class="links"><a href="https://www.nicolassassoon.com/WTRFLLS.html" target="_blank" rel="noopener">nicolassassoon.com</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Owen McAteer" data-artist="owen-mcateer">
+<h2><span>Owen McAteer</span><span>lead · 1</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W244" data-img="/touchgrass/images/W244.jpg" data-page="https://onlineonly.christies.com/s/augmented-intelligence/owen-mcateer-b-1986-26/250108">
+  <figure><a class="cell" href="#W244" aria-label="W244 Owen McAteer, Seiche"><img src="/touchgrass/images/W244.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W244</b> [lead] Owen McAteer. Seiche, 2024. Christie's Augmented Intelligence sale, 2025 (provenance HOFA Gallery).</span> <span class="links"><a href="https://onlineonly.christies.com/s/augmented-intelligence/owen-mcateer-b-1986-26/250108" target="_blank" rel="noopener">onlineonly.christies.com</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Petra Cortright" data-artist="petra-cortright">
+<h2><span>Petra Cortright</span><span>lead · 4</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W245" data-img="/touchgrass/images/W245.jpg" data-page="https://www.petracortright.com/works/selected_show/system_landscapes_1.html">
+  <figure><a class="cell" href="#W245" aria-label="W245 Petra Cortright, System Landscapes"><img src="/touchgrass/images/W245.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W245</b> [lead] Petra Cortright. System Landscapes, 2007. WEBSITES WEBSITES WEBSITES!, 2026.</span> <span class="links"><a href="https://websiteswebsiteswebsites.net/works/petra-cortright.html" target="_blank" rel="noopener">websiteswebsiteswebsites.net</a></span></figcaption></figure>
+</li>
+<li class="screen off lead" id="W246">
+  <figure><a class="cell" href="#W246" aria-label="W246 Petra Cortright, GRACIE"></a>
+  <figcaption><span class="cap"><b>W246</b> [lead] Petra Cortright. GRACIE. Artspace.</span> <span class="links"><a href="https://artspace.com/petra-cortright/gracie" target="_blank" rel="noopener">artspace.com</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W247" data-img="/touchgrass/images/W247.jpg" data-page="https://contemporaryartlibrary.org/project/petra-cortright-at-1301pe-los-angeles-4266">
+  <figure><a class="cell" href="#W247" aria-label="W247 Petra Cortright, Lucky Duck Lights Out (exhibition)"><img src="/touchgrass/images/W247.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W247</b> [lead] Petra Cortright. Lucky Duck Lights Out (exhibition), 2019. 1301PE, Los Angeles.</span> <span class="links"><a href="https://www.1301pe.com/past-exhibitions-1/2019/1/19/lucky-duck-lights-out" target="_blank" rel="noopener">1301pe.com</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W248" data-img="/touchgrass/images/W248.jpg" data-page="https://foxyproduction.com/exhibitions/petra-cortright-2023-06-16">
+  <figure><a class="cell" href="#W248" aria-label="W248 Petra Cortright, green hill green light esprit de corps"><img src="/touchgrass/images/W248.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W248</b> [lead] Petra Cortright. green hill green light esprit de corps, 2023. Foxy Production.</span> <span class="links"><a href="https://foxyproduction.com/exhibitions/petra-cortright-2023-06-16" target="_blank" rel="noopener">foxyproduction.com</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Phenomena Labs" data-artist="phenomena-labs">
+<h2><span>Phenomena Labs</span><span>lead · 1</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W249" data-img="/touchgrass/images/W249.jpg" data-page="https://load-gallery.com/exhibitions-index/neo-botanica">
+  <figure><a class="cell" href="#W249" aria-label="W249 Phenomena Labs, LOOK AT THE SKY"><img src="/touchgrass/images/W249.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W249</b> [lead] Phenomena Labs. LOOK AT THE SKY, not stated. Load Gallery, Neo Botanica.</span> <span class="links"><a href="https://load-gallery.com/exhibitions-index/neo-botanica" target="_blank" rel="noopener">load-gallery.com</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Pierre Huyghe" data-artist="pierre-huyghe">
+<h2><span>Pierre Huyghe</span><span>lead · 1</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W250" data-img="/touchgrass/images/W250.jpg" data-page="https://brooklynrail.org/2019/02/artseen/Pierre-HuygheUUmwelt/">
+  <figure><a class="cell" href="#W250" aria-label="W250 Pierre Huyghe, UUmwelt"><img src="/touchgrass/images/W250.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W250</b> [lead] Pierre Huyghe. UUmwelt, 2018. Serpentine Galleries, London (2018-19).</span> <span class="links"><a href="https://www.serpentinegalleries.org/whats-on/pierre-huyghe-uumwelt/" target="_blank" rel="noopener">serpentinegalleries.org</a> <a href="https://brooklynrail.org/2019/02/artseen/Pierre-HuygheUUmwelt/" target="_blank" rel="noopener">brooklynrail.org</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Pinar Yoldas" data-artist="pinar-yoldas">
+<h2><span>Pinar Yoldas</span><span>lead · 4</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W251" data-img="/touchgrass/images/W251.jpg" data-page="https://feralfile.com/exhibitions/harbingers-vgb">
+  <figure><a class="cell" href="#W251" aria-label="W251 Pinar Yoldas, Hollow Ocean"><img src="/touchgrass/images/W251.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W251</b> [lead] Pinar Yoldas. Hollow Ocean, 2022. Feral File, Harbingers.</span> <span class="links"><a href="https://feralfile.com/exhibitions/harbingers-vgb" target="_blank" rel="noopener">feralfile.com</a> <a href="https://feralfile.com/api/series?exhibitionID=91483129-948d-417d-b18a-34969eb5cbdf" target="_blank" rel="noopener">feralfile.com</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W252" data-img="/touchgrass/images/W252.jpg" data-page="https://feralfile.com/exhibitions/harbingers-vgb">
+  <figure><a class="cell" href="#W252" aria-label="W252 Pinar Yoldas, Designer Baby"><img src="/touchgrass/images/W252.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W252</b> [lead] Pinar Yoldas. Designer Baby, 2022. Feral File, Harbingers.</span> <span class="links"><a href="https://feralfile.com/exhibitions/harbingers-vgb" target="_blank" rel="noopener">feralfile.com</a> <a href="https://feralfile.com/api/series?exhibitionID=91483129-948d-417d-b18a-34969eb5cbdf" target="_blank" rel="noopener">feralfile.com</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W253" data-img="/touchgrass/images/W253.jpg" data-page="https://www.pinaryoldas.info/Ecosystem-of-Excess-2014">
+  <figure><a class="cell" href="#W253" aria-label="W253 Pinar Yoldas, An Ecosystem of Excess"><img src="/touchgrass/images/W253.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W253</b> [lead] Pinar Yoldas. An Ecosystem of Excess, 2014. Gallery@CALIT2, UC San Diego (2017) and elsewhere.</span> <span class="links"><a href="https://www.pinaryoldas.info/Ecosystem-of-Excess-2014" target="_blank" rel="noopener">pinaryoldas.info</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W254" data-img="/touchgrass/images/W254.jpg" data-page="https://www.pinaryoldas.info/The-Very-Loud-Chamber-Orchestra-of-Endangered-Species-2013">
+  <figure><a class="cell" href="#W254" aria-label="W254 Pinar Yoldas, The Very Loud Chamber Orchestra of Endangered Species"><img src="/touchgrass/images/W254.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W254</b> [lead] Pinar Yoldas. The Very Loud Chamber Orchestra of Endangered Species, 2013. pinaryoldas.info.</span> <span class="links"><a href="https://www.pinaryoldas.info/The-Very-Loud-Chamber-Orchestra-of-Endangered-Species-2013" target="_blank" rel="noopener">pinaryoldas.info</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Quayola" data-artist="quayola">
+<h2><span>Quayola</span><span>lead · 2</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W255" data-img="/touchgrass/images/W255.jpg" data-page="https://quayola.com/work/remains/">
+  <figure><a class="cell" href="#W255" aria-label="W255 Quayola, Remains: Chaumont-sur-Loire"><img src="/touchgrass/images/W255.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W255</b> [lead] Quayola. Remains: Chaumont-sur-Loire, 2018. Artist's website.</span> <span class="links"><a href="https://quayola.com/work/remains/" target="_blank" rel="noopener">quayola.com</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W256" data-img="/touchgrass/images/W256.jpg" data-page="https://quayola.com/jardins-dete/">
+  <figure><a class="cell" href="#W256" aria-label="W256 Quayola, Jardins d'Ete"><img src="/touchgrass/images/W256.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W256</b> [lead] Quayola. Jardins d'Ete, 2017. Chateau de Chaumont-sur-Loire.</span> <span class="links"><a href="https://quayola.com/jardins-dete/" target="_blank" rel="noopener">quayola.com</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Random International" data-artist="random-international">
+<h2><span>Random International</span><span>lead · 2</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W257" data-img="/touchgrass/images/W257.jpg" data-page="https://www.random-international.com/rain-room">
+  <figure><a class="cell" href="#W257" aria-label="W257 Random International, Rain Room"><img src="/touchgrass/images/W257.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W257</b> [lead] Random International. Rain Room, 2012. Barbican, MoMA, LACMA, Yuz Museum, Sharjah Art Foundation and others.</span> <span class="links"><a href="https://www.random-international.com/rain-room" target="_blank" rel="noopener">random-international.com</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W258" data-img="/touchgrass/images/W258.jpg" data-page="https://www.random-international.com/swarm-study-/-i">
+  <figure><a class="cell" href="#W258" aria-label="W258 Random International, Swarm Study / I"><img src="/touchgrass/images/W258.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W258</b> [lead] Random International. Swarm Study / I, 2010. random-international.com.</span> <span class="links"><a href="https://www.random-international.com/swarm-study-/-i" target="_blank" rel="noopener">random-international.com</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Rasa Smite &amp; Raitis Smits" data-artist="rasa-smite-raitis-smits">
+<h2><span>Rasa Smite &amp; Raitis Smits</span><span>lead · 1</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W259" data-img="/touchgrass/images/W259.jpg" data-page="https://blogg.sh.se/artspace/?p=956">
+  <figure><a class="cell" href="#W259" aria-label="W259 Rasa Smite &amp; Raitis Smits, Atmospheric Forest"><img src="/touchgrass/images/W259.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W259</b> [lead] Rasa Smite &amp; Raitis Smits. Atmospheric Forest, 2020. Museum Sinclair-Haus, Walder (2024).</span> <span class="links"><a href="https://kunst-und-natur.de/images/downloads/MSH_Waelder_Begleitheft.pdf" target="_blank" rel="noopener">kunst-und-natur.de</a> <a href="https://kunst-und-natur.de/images/downloads/240228_Waelder_EK_erstinfo_presse.pdf" target="_blank" rel="noopener">kunst-und-natur.de</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Robert M. Thomas" data-artist="robert-m-thomas">
+<h2><span>Robert M. Thomas</span><span>lead · 1</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W260" data-img="/touchgrass/images/W260.jpg" data-page="https://nxtmuseum.com/exhibition/realtime">
+  <figure><a class="cell" href="#W260" aria-label="W260 Robert M. Thomas, Decohering Delineation (with Entangled Others)"><img src="/touchgrass/images/W260.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W260</b> [lead] Robert M. Thomas. Decohering Delineation (with Entangled Others), 2023. Nxt Museum, Amsterdam, 2023.</span> <span class="links"><a href="https://nxtmuseum.com/exhibition/realtime" target="_blank" rel="noopener">nxtmuseum.com</a> <a href="https://clotmag.com/news/exhibition-realtime-at-nxt-museum-beyond-boundary-pushing-technologies" target="_blank" rel="noopener">clotmag.com</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Robertina Šebjanič" data-artist="robertina-sebjanic">
+<h2><span>Robertina Šebjanič</span><span>lead · 2</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W261" data-img="/touchgrass/images/W261.jpg" data-page="https://robertina.net/aqualformings-interweaving-the-subaqueous/">
+  <figure><a class="cell" href="#W261" aria-label="W261 Robertina Šebjanič, AquA(l)formings - Interweaving the Subaqueous (with Sofia Crespo and Feileacan McCormick)"><img src="/touchgrass/images/W261.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W261</b> [lead] Robertina Šebjanič. AquA(l)formings - Interweaving the Subaqueous (with Sofia Crespo and Feileacan McCormick), 2021. Kino Šiška Ljubljana, Solyanka Moscow, ISEA 2022 Barcelona, UMWELT Modena.</span> <span class="links"><a href="https://robertina.net/aqualformings-interweaving-the-subaqueous/" target="_blank" rel="noopener">robertina.net</a> <a href="https://www.arshake.com/en/umwelt/" target="_blank" rel="noopener">arshake.com</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W262" data-img="/touchgrass/images/W262.jpg" data-page="https://robertina.net/aquatocene/">
+  <figure><a class="cell" href="#W262" aria-label="W262 Robertina Šebjanič, Aquatocene / Subaquatic quest for serenity"><img src="/touchgrass/images/W262.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W262</b> [lead] Robertina Šebjanič. Aquatocene / Subaquatic quest for serenity, 2016-ongoing. artist site.</span> <span class="links"><a href="https://robertina.net/aquatocene/" target="_blank" rel="noopener">robertina.net</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Rodrigo Arteaga" data-artist="rodrigo-arteaga">
+<h2><span>Rodrigo Arteaga</span><span>lead · 1</span></h2>
+<ol class="cells">
+<li class="screen off lead" id="W263">
+  <figure><a class="cell" href="#W263" aria-label="W263 Rodrigo Arteaga, Through the mycelium forest"></a>
+  <figcaption><span class="cap"><b>W263</b> [lead] Rodrigo Arteaga. Through the mycelium forest, 2022. Deutsches Romantik-Museum, Walder (2024).</span> <span class="links"><a href="https://kunst-und-natur.de/images/downloads/240228_Waelder_EK_erstinfo_presse.pdf" target="_blank" rel="noopener">kunst-und-natur.de</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Ryoichi Kurokawa" data-artist="ryoichi-kurokawa">
+<h2><span>Ryoichi Kurokawa</span><span>lead · 1</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W264" data-img="/touchgrass/images/W264.jpg" data-page="https://www.ryoichikurokawa.com/project/sa.html">
+  <figure><a class="cell" href="#W264" aria-label="W264 Ryoichi Kurokawa, subassemblies (s.asmbli)"><img src="/touchgrass/images/W264.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W264</b> [lead] Ryoichi Kurokawa. subassemblies (s.asmbli), 2019. MUTEK, Rotondes Luxembourg, Dialog Festival and others.</span> <span class="links"><a href="https://www.rotondes.lu/en/archives/subassemblies" target="_blank" rel="noopener">rotondes.lu</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Sara Ludy" data-artist="sara-ludy">
+<h2><span>Sara Ludy</span><span>lead · 2</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W265" data-img="/touchgrass/images/W265.jpg" data-page="https://highlike.org/?p=85195">
+  <figure><a class="cell" href="#W265" aria-label="W265 Sara Ludy, Clouds (series), e.g. Sky Lapis (2018), Deep Pond"><img src="/touchgrass/images/W265.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W265</b> [lead] Sara Ludy. Clouds (series), e.g. Sky Lapis (2018), Deep Pond, 2011-. Gallery 400 UIC online screenings; highlike.</span> <span class="links"><a href="https://gallery400.uic.edu/exhibition/portal-online-screenings-sara-ludy" target="_blank" rel="noopener">gallery400.uic.edu</a> <a href="https://highlike.org/?p=85195" target="_blank" rel="noopener">highlike.org</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W266" data-img="/touchgrass/images/W266.jpg" data-page="https://digiart21.org/art/cloud-relief-1-cloud-relief-2">
+  <figure><a class="cell" href="#W266" aria-label="W266 Sara Ludy, Cloud Relief 1 &amp; Cloud Relief 2"><img src="/touchgrass/images/W266.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W266</b> [lead] Sara Ludy. Cloud Relief 1 &amp; Cloud Relief 2, 2015-16. bitforms gallery, 'Subsurface Hell'.</span> <span class="links"><a href="https://digiart21.org/art/cloud-relief-1-cloud-relief-2" target="_blank" rel="noopener">digiart21.org</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Solimán López" data-artist="soliman-lopez">
+<h2><span>Solimán López</span><span>lead · 1</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W267" data-img="/touchgrass/images/W267.jpg" data-page="https://feralfile.com/exhibitions/feralverse-1qa">
+  <figure><a class="cell" href="#W267" aria-label="W267 Solimán López, The Hybrid Branch (with poet John James)"><img src="/touchgrass/images/W267.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W267</b> [lead] Solimán López. The Hybrid Branch (with poet John James), 2023. Feral File, FeralVerse.</span> <span class="links"><a href="https://feralfile.com/exhibitions/feralverse-1qa" target="_blank" rel="noopener">feralfile.com</a> <a href="https://feralfile.com/api/series?exhibitionID=87528bfb-3b46-4e68-ae55-9ba214d52a4d" target="_blank" rel="noopener">feralfile.com</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Songzhe Peng" data-artist="songzhe-peng">
+<h2><span>Songzhe Peng</span><span>lead · 1</span></h2>
+<ol class="cells">
+<li class="screen off lead" id="W268">
+  <figure><a class="cell" href="#W268" aria-label="W268 Songzhe Peng, 洛水牡丹 数绽千年 | Luoshui Peony Blooms for Thousands of Years"></a>
+  <figcaption><span class="cap"><b>W268</b> [lead] Songzhe Peng. 洛水牡丹 数绽千年 | Luoshui Peony Blooms for Thousands of Years, 2025 (exhibited). ICME AIART Gallery 2025 (online).</span> <span class="links"><a href="https://sites.google.com/view/2025aiart-gallery/artworks/roomb/b12" target="_blank" rel="noopener">sites.google.com</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Spacefiller" data-artist="spacefiller">
+<h2><span>Spacefiller</span><span>lead · 1</span></h2>
+<ol class="cells">
+<li class="screen off lead" id="W269">
+  <figure><a class="cell" href="#W269" aria-label="W269 Spacefiller, spaceplant"></a>
+  <figcaption><span class="cap"><b>W269</b> [lead] Spacefiller. spaceplant. listed on Creative Applications.</span> <span class="links"><a href="https://creativeapplications.net/nft/spaceplant-spacefiller" target="_blank" rel="noopener">creativeapplications.net</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Stephan Duquesnoy" data-artist="stephan-duquesnoy">
+<h2><span>Stephan Duquesnoy</span><span>lead · 2</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W270" data-img="/touchgrass/images/W270.jpg" data-page="https://load-gallery.com/exhibitions-index/neo-botanica">
+  <figure><a class="cell" href="#W270" aria-label="W270 Stephan Duquesnoy, Parametric Bloom #1-#3"><img src="/touchgrass/images/W270.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W270</b> [lead] Stephan Duquesnoy. Parametric Bloom #1-#3, 2024. Load Gallery, Neo Botanica.</span> <span class="links"><a href="https://load-gallery.com/exhibitions-index/neo-botanica" target="_blank" rel="noopener">load-gallery.com</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W271" data-img="/touchgrass/images/W271.jpg" data-page="https://load-gallery.com/exhibitions-index/neo-botanica">
+  <figure><a class="cell" href="#W271" aria-label="W271 Stephan Duquesnoy, Algorithmic Still life (#3, #5, #6, #9, #11, #19)"><img src="/touchgrass/images/W271.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W271</b> [lead] Stephan Duquesnoy. Algorithmic Still life (#3, #5, #6, #9, #11, #19), 2023-2025. Load Gallery, Neo Botanica.</span> <span class="links"><a href="https://load-gallery.com/exhibitions-index/neo-botanica" target="_blank" rel="noopener">load-gallery.com</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Synchrodogs" data-artist="synchrodogs">
+<h2><span>Synchrodogs</span><span>lead · 1</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W272" data-img="/touchgrass/images/W272.jpg" data-page="https://www.synchrodogs.com/">
+  <figure><a class="cell" href="#W272" aria-label="W272 Synchrodogs, Impossible Installations / Overture"><img src="/touchgrass/images/W272.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W272</b> [lead] Synchrodogs. Impossible Installations / Overture. Pixel Perceptions, Noorderlicht, Groningen (2024-25).</span> <span class="links"><a href="https://noorderlicht.com/en/whats-on/pixel-perceptions/impossible-installations" target="_blank" rel="noopener">noorderlicht.com</a> <a href="https://www.synchrodogs.com/" target="_blank" rel="noopener">synchrodogs.com</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Tamiko Thiel" data-artist="tamiko-thiel">
+<h2><span>Tamiko Thiel</span><span>lead · 2</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W273" data-img="/touchgrass/images/W273.jpg" data-page="https://www.tamikothiel.com/unexpectedgrowth/">
+  <figure><a class="cell" href="#W273" aria-label="W273 Tamiko Thiel, Unexpected Growth (with /p)"><img src="/touchgrass/images/W273.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W273</b> [lead] Tamiko Thiel. Unexpected Growth (with /p), 2018. Whitney Museum of American Art terrace, in 'Programmed: Rules, Codes, and Choreographies in Art, 1965-2018'.</span> <span class="links"><a href="https://en.wikipedia.org/wiki/Tamiko_Thiel" target="_blank" rel="noopener">en.wikipedia.org</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W274" data-img="/touchgrass/images/W274.jpg" data-page="https://www.tamikothiel.com/AR/clouding-green.html">
+  <figure><a class="cell" href="#W274" aria-label="W274 Tamiko Thiel, Clouding Green"><img src="/touchgrass/images/W274.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W274</b> [lead] Tamiko Thiel. Clouding Green, 2012. Silicon Valley and San Francisco.</span> <span class="links"><a href="https://en.wikipedia.org/wiki/Tamiko_Thiel" target="_blank" rel="noopener">en.wikipedia.org</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Tatsuru Arai" data-artist="tatsuru-arai">
+<h2><span>Tatsuru Arai</span><span>lead · 2</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W275" data-img="/touchgrass/images/W275.jpg" data-page="https://cifra.com/project/face-of-universe-2">
+  <figure><a class="cell" href="#W275" aria-label="W275 Tatsuru Arai, Face of Universe"><img src="/touchgrass/images/W275.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W275</b> [lead] Tatsuru Arai. Face of Universe, 2023/24. Load Gallery, Neo Botanica; CIKE/EMAP residency, Košice.</span> <span class="links"><a href="https://load-gallery.com/exhibitions-index/neo-botanica" target="_blank" rel="noopener">load-gallery.com</a> <a href="https://cifra.com/project/face-of-universe-2" target="_blank" rel="noopener">cifra.com</a></span></figcaption></figure>
+</li>
+<li class="screen on lead" id="W276" data-img="/touchgrass/images/W276.jpg" data-page="https://www.pocko.com/news/giantcryptoplants">
+  <figure><a class="cell" href="#W276" aria-label="W276 Tatsuru Arai, Giant Crypto Plants"><img src="/touchgrass/images/W276.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W276</b> [lead] Tatsuru Arai. Giant Crypto Plants. Times Square Plaza, New York.</span> <span class="links"><a href="https://www.pocko.com/news/giantcryptoplants" target="_blank" rel="noopener">pocko.com</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="teamLab" data-artist="teamlab">
+<h2><span>teamLab</span><span>lead · 1</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W277" data-img="/touchgrass/images/W277.jpg" data-page="https://www.teamlab.art/ew/whatloving-kyoto/">
+  <figure><a class="cell" href="#W277" aria-label="W277 teamLab, What a Loving, and Beautiful World"><img src="/touchgrass/images/W277.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W277</b> [lead] teamLab. What a Loving, and Beautiful World, 2011. AI: More than Human, Barbican (The Pit), 2019.</span> <span class="links"><a href="https://www.barbican.org.uk/sites/default/files/documents/2019-07/FINAL%20AI%20More%20than%20Human%20exhibition%20release%20280219.pdf" target="_blank" rel="noopener">barbican.org.uk</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Ursula Biemann" data-artist="ursula-biemann">
+<h2><span>Ursula Biemann</span><span>lead · 1</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W278" data-img="/touchgrass/images/W278.jpg" data-page="https://www.geobodies.org/art-and-videos/forest-mind">
+  <figure><a class="cell" href="#W278" aria-label="W278 Ursula Biemann, Forest Mind (Forest Neurons, Forest Mind)"><img src="/touchgrass/images/W278.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W278</b> [lead] Ursula Biemann. Forest Mind (Forest Neurons, Forest Mind), 2021. Senckenberg Naturmuseum Frankfurt, Walder (2024).</span> <span class="links"><a href="https://kunst-und-natur.de/images/downloads/240228_Waelder_EK_erstinfo_presse.pdf" target="_blank" rel="noopener">kunst-und-natur.de</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Vera Molnar" data-artist="vera-molnar">
+<h2><span>Vera Molnar</span><span>lead · 1</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W279" data-img="/touchgrass/images/W279.jpg" data-page="https://history.siggraph.org/artwork/vera-molnar-variations-sainte-victoire">
+  <figure><a class="cell" href="#W279" aria-label="W279 Vera Molnar, Variations St. Victoire"><img src="/touchgrass/images/W279.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W279</b> [lead] Vera Molnar. Variations St. Victoire, 1989-1996. Museum Sinclair-Haus, Illusion Natur; courtesy DAM Gallery.</span> <span class="links"><a href="https://kunst-und-natur.de/files/Museum-Sinclair-Haus/Blattwerke/Blattwerke_11/19_illusion_natur_blattwerke_11.pdf" target="_blank" rel="noopener">kunst-und-natur.de</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="William Mapan" data-artist="william-mapan">
+<h2><span>William Mapan</span><span>lead · 1</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W280" data-img="/touchgrass/images/W280.jpg" data-page="https://www.artblocks.io/collection/anticyclone-by-william-mapan">
+  <figure><a class="cell" href="#W280" aria-label="W280 William Mapan, Anticyclone"><img src="/touchgrass/images/W280.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W280</b> [lead] William Mapan. Anticyclone, 2022. Art Blocks (released 29 Apr 2022).</span> <span class="links"><a href="https://www.artblocks.io/collection/anticyclone-by-william-mapan" target="_blank" rel="noopener">artblocks.io</a></span></figcaption></figure>
+</li>
+</ol>
+</section>
+<section class="artist lead" aria-label="Zachary Darren Corzine" data-artist="zachary-darren-corzine">
+<h2><span>Zachary Darren Corzine</span><span>lead · 1</span></h2>
+<ol class="cells">
+<li class="screen on lead" id="W281" data-img="/touchgrass/images/W281.jpg" data-page="https://www.thisiscolossal.com/2025/03/zachary-corzine-faux-flora/">
+  <figure><a class="cell" href="#W281" aria-label="W281 Zachary Darren Corzine, Faux Flora 01-06"><img src="/touchgrass/images/W281.jpg" alt="" loading="lazy" decoding="async"></a>
+  <figcaption><span class="cap"><b>W281</b> [lead] Zachary Darren Corzine. Faux Flora 01-06, 2024. Load Gallery, Neo Botanica; featured in Colossal.</span> <span class="links"><a href="https://load-gallery.com/exhibitions-index/neo-botanica" target="_blank" rel="noopener">load-gallery.com</a> <a href="https://www.thisiscolossal.com/2025/03/zachary-corzine-faux-flora/" target="_blank" rel="noopener">thisiscolossal.com</a></span></figcaption></figure>
 </li>
 </ol>
 </section>

@@ -3994,6 +3994,4802 @@ TG.research = {
           }
         }
       ]
+    },
+    {
+      "id": "A61",
+      "artist": "Alexandra Crouwers",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Belgian-Dutch visual artist working in video, 3D and drawing.",
+      "status": "lead",
+      "notes": "Practice line is general; nationality not confirmed in a source opened.",
+      "via_shows": [
+        "FeralVerse (2023)",
+        "Down the Silicon Meadow (2025)"
+      ],
+      "shown_with": [
+        "Cezar Mocan"
+      ],
+      "works": [
+        {
+          "title": "Some Last Questions (with poet Victoria Chang)",
+          "year": "2023",
+          "medium": "video",
+          "where": "Feral File, FeralVerse",
+          "nature": [],
+          "why": "Film set in a typeface made from spruce bark beetle tracks found on a clear-cut family forest plot.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://feralfile.com/exhibitions/feralverse-1qa",
+            "https://feralfile.com/api/series?exhibitionID=87528bfb-3b46-4e68-ae55-9ba214d52a4d"
+          ],
+          "id": "W135",
+          "status": "candidate",
+          "image": {
+            "file": "images/W135.jpg",
+            "page": "https://feralfile.com/exhibitions/feralverse-1qa",
+            "url": "https://imagedelivery.net/iCRs13uicXIPOWrnuHbaKA/c2a8de10-137b-44a8-4d4d-db1d6b6c6500/l"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A62",
+      "artist": "Alexandra Daisy Ginsberg",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "UK artist who examines how humans value nature and technology, often around extinction, synthetic biology and conservation.",
+      "status": "lead",
+      "notes": "Resurrecting the Sublime is a scent installation; not mainly a screen work.",
+      "via_shows": [
+        "AI: More than Human (2019)"
+      ],
+      "shown_with": [
+        "Anna Ridler"
+      ],
+      "works": [
+        {
+          "title": "The Substitute",
+          "year": "2019",
+          "medium": "Paired video installation, 6 min 18 s (rhino animated by The Mill, behaviour based on DeepMind research)",
+          "where": "AI: More than Human, Barbican, 2019",
+          "nature": [],
+          "why": "A life-size, digitally recreated northern white rhino roaming a virtual space; a second screen shows grid-cell data.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://www.daisyginsberg.com/work/the-substitute"
+          ],
+          "id": "W136",
+          "status": "candidate",
+          "image": {
+            "file": "images/W136.jpg",
+            "page": "https://www.daisyginsberg.com/work/the-substitute",
+            "url": "https://www.daisyginsberg.com/img/work/nmbe_thesubstitute__n__9859_photography_nelly_rodriguez.jpg"
+          }
+        },
+        {
+          "title": "Resurrecting the Sublime (with Christina Agapakis/Ginkgo Bioworks and Sissel Tolaas)",
+          "year": "2019",
+          "medium": "Installation reconstructing scent from DNA of extinct flowers",
+          "where": "AI: More than Human, Barbican, 2019",
+          "nature": [],
+          "why": "The reconstructed smell of flowers made extinct by human activity.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://www.barbican.org.uk/sites/default/files/documents/2019-07/FINAL%20AI%20More%20than%20Human%20exhibition%20release%20280219.pdf"
+          ],
+          "id": "W137",
+          "status": "candidate",
+          "image": {
+            "file": "images/W137.jpg",
+            "page": "https://www.daisyginsberg.com/work/resurrecting-the-sublime",
+            "url": "https://www.daisyginsberg.com/img/work/mzo_agapakis_-_daisy_ginsberg_-_tolaas__1547.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A63",
+      "artist": "Alfredo Salazar-Caro",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Digital artist working in VR and generative media.",
+      "status": "lead",
+      "notes": "Practice line is general; not researched further.",
+      "via_shows": [
+        "Chain Reaction (2023)"
+      ],
+      "shown_with": [
+        "Jennifer & Kevin McCoy",
+        "Amelia Winger-Bearskin",
+        "Jakob Kudsk Steensen"
+      ],
+      "works": [
+        {
+          "title": "Silva Ex Machina",
+          "year": "2023",
+          "medium": "generative NFT",
+          "where": "Feral File, Chain Reaction",
+          "nature": [],
+          "why": "Generative flora that can grow into a small forest; sales fund Amazon reforestation.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://nftcalendar.io/event/chain-reaction/"
+          ],
+          "id": "W138",
+          "status": "candidate",
+          "image": {
+            "file": "images/W138.jpg",
+            "page": "https://feralfile.com/exhibitions/chain-reaction-tan",
+            "url": "https://imagedelivery.net/iCRs13uicXIPOWrnuHbaKA/98483f08-4325-4396-2a90-e6998e754000/l"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A64",
+      "artist": "Andee Collard",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "UK artist who paints with custom CNC machines driven by bespoke software that turns digital images into vector data.",
+      "status": "lead",
+      "notes": "End product is a physical painting made by machine from digital files, not a screen work. Individual titles in the floral series not found.",
+      "via_shows": [
+        "Neo Botanica: An Atlas of Artificially Generated Flora (2025)"
+      ],
+      "shown_with": [
+        "Katherine Frazer",
+        "Refik Anadol",
+        "Entangled Others",
+        "Anna Ridler",
+        "Monica Rizzolli",
+        "David Lisser",
+        "Linda Dounia",
+        "Ivona Tau",
+        "Sofia Crespo",
+        "Sofia Crespo/Entangled Others"
+      ],
+      "works": [
+        {
+          "title": "Floral still-life machine paintings (series of twenty)",
+          "year": "2022-2024",
+          "medium": "CNC machine painting from digital images",
+          "where": "Division of Labour, London (2024)",
+          "nature": [],
+          "why": "Still lifes of genetically cultivated supermarket flowers.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://www.newexhibitions.com/e/64383"
+          ],
+          "id": "W139",
+          "status": "candidate",
+          "image": {
+            "file": "images/W139.jpg",
+            "page": "https://www.newexhibitions.com/e/64383",
+            "url": "https://www.newexhibitions.com/uploads/0/4/large/664d23a990e38.jpeg"
+          }
+        },
+        {
+          "title": "The Machine Garden (solo show)",
+          "year": "2025",
+          "medium": "CNC machine paintings",
+          "where": "Lowell Ryan Projects",
+          "nature": [],
+          "why": "Machine-painted flower images.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://www.artrabbit.com/events/andee-collard-the-machine-garden"
+          ],
+          "id": "W140",
+          "status": "candidate",
+          "image": {
+            "file": "images/W140.jpg",
+            "page": "https://www.lowellryanprojects.com/andee-collard-the-machine-garden",
+            "url": "https://images.squarespace-cdn.com/content/v1/5bbecfcb0b77bd3129a11ff7/2ef4fecc-427c-4726-9cd1-c1e9f698f7ab/Lowell_Ryan_Projects_Andee_Collard_installs_011.jpg?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A65",
+      "artist": "Andrea Brewster",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Artist making AI-generated (Midjourney) flower and garden images released as pigment prints.",
+      "status": "lead",
+      "notes": "Work titles from Load Gallery's exhibition index; the page gives no year, medium or description. Image content inferred from series title and show theme.",
+      "via_shows": [
+        "Neo Botanica: An Atlas of Artificially Generated Flora (2025)"
+      ],
+      "shown_with": [
+        "Katherine Frazer",
+        "Refik Anadol",
+        "Entangled Others",
+        "Anna Ridler",
+        "Monica Rizzolli",
+        "David Lisser",
+        "Linda Dounia",
+        "Ivona Tau",
+        "Sofia Crespo",
+        "Sofia Crespo/Entangled Others"
+      ],
+      "works": [
+        {
+          "title": "Enchanted Garden (#1, #3, #4, #6, #10, #12)",
+          "year": "2023",
+          "medium": "Midjourney image, archival pigment print, edition of 5",
+          "where": "Load Gallery, Neo Botanica",
+          "nature": [],
+          "why": "AI-generated garden and flower scenes.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://load-gallery.com/exhibitions-index/neo-botanica"
+          ],
+          "id": "W141",
+          "status": "candidate",
+          "image": {
+            "file": "images/W141.jpg",
+            "page": "https://load-gallery.com/exhibitions-index/neo-botanica",
+            "url": "https://framerusercontent.com/images/PuO6hCgzaFsVDsGetRyFsCTKkc.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A66",
+      "artist": "Andréa Philippon",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "French 3D artist based in Lausanne who calls himself a 'digital florist'.",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Neo Botanica: An Atlas of Artificially Generated Flora (2025)"
+      ],
+      "shown_with": [
+        "Katherine Frazer",
+        "Refik Anadol",
+        "Entangled Others",
+        "Anna Ridler",
+        "Monica Rizzolli",
+        "David Lisser",
+        "Linda Dounia",
+        "Ivona Tau",
+        "Sofia Crespo",
+        "Sofia Crespo/Entangled Others"
+      ],
+      "works": [
+        {
+          "title": "Digital Garden (Aranea Rosa, Palma Rex, Papilio Fern, Rotundatum Rubus)",
+          "year": "2022",
+          "medium": "3D image and video",
+          "where": "StirWorld feature",
+          "nature": [],
+          "why": "Invented 3D plants and flowers.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://www.stirworld.com/see-features-digital-flora-a-conversation-with-artist-andrea-philippon"
+          ],
+          "id": "W142",
+          "status": "candidate",
+          "image": {
+            "file": "images/W142.jpg",
+            "page": "https://www.stirworld.com/see-features-digital-flora-a-conversation-with-artist-andrea-philippon",
+            "url": "https://www.stirworld.com/images/article_gallery/digital-garden-aranea-rosa-2022-image-digital-garden-andr-eacute-a-philippon-stirworld-221215055145.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A67",
+      "artist": "Andrés Reisinger",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Argentine artist and designer making 3D-rendered surreal spaces and objects, some later produced physically.",
+      "status": "lead",
+      "notes": "Also a Neo Botanica book contributor. Designboom describes nature landscapes and flower fields in his work but I did not confirm a titled nature work beyond Hortensia. That Hortensia began as a digital render is from memory, not from a source I opened; date not confirmed.",
+      "via_shows": [
+        "Let's Get Digital! (2022)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Hortensia (chair)",
+          "year": null,
+          "medium": "3D design, produced as a physical chair",
+          "where": "widely published",
+          "nature": [],
+          "why": "A pink chair covered in petals modelled on the hydrangea flower.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://forbes.es/forbes-women/441065/hortensia-la-obra-de-arte-invitada-a-rosewood-villa-magna-de-madrid-es-el-epitome-de-la-creatividad-contemporanea/"
+          ],
+          "id": "W143",
+          "status": "candidate",
+          "image": {
+            "file": "images/W143.jpg",
+            "page": "https://forbes.es/forbes-women/441065/hortensia-la-obra-de-arte-invitada-a-rosewood-villa-magna-de-madrid-es-el-epitome-de-la-creatividad-contemporanea/",
+            "url": "https://forbes.es/wp-content/uploads/2024/04/Rosewood-Villa-Magna.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A68",
+      "artist": "Anke Schiemann",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Artist shown in a Tezos-programme exhibition; practice not confirmed.",
+      "status": "lead",
+      "notes": "Seen only in a search-result excerpt of the exhibition sheet (the full document was too large to open). Medium and whether it is digital are unconfirmed.",
+      "via_shows": [
+        "Of Seeds & Signals (2025)"
+      ],
+      "shown_with": [
+        "Sasha Stiles"
+      ],
+      "works": [
+        {
+          "title": "SEED WISDOM",
+          "year": "not stated",
+          "medium": "not confirmed (shown in ART ON TEZOS Berlin programme)",
+          "where": "Of Seeds & Signals, Schlachter 151, Berlin, Nov 2025",
+          "nature": [],
+          "why": "A work about the lotus seed.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://docs.google.com/document/d/1eUq4uM2D7rwENGy2m2WfsN5ty3cclpX6dSL4_NF5rwE/export?format=pdf"
+          ],
+          "id": "W144",
+          "status": "candidate",
+          "image": {
+            "file": "images/W144.jpg",
+            "page": "https://objkt.com/tokens/KT1SpbgRrJh8xTVYEgx8ak2GHHijejvziiDq/3",
+            "url": "https://assets.objkt.media/file/assets-003/bafkreiecbc2ss5ebe7lf5s7x4p4l67yggcui7fevy67tjnkpq7n3qofkau/artifact"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A69",
+      "artist": "Arno Beck",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "German artist (b. 1985) making typewriter drawings and prints from low-resolution computer and video-game graphics.",
+      "status": "lead",
+      "notes": "Final object is a typewriter print, not a screen work; the image is prepared on the computer.",
+      "via_shows": [
+        "Illusion Natur. Digitale Welten im Museum Sinclair-Haus (2019)"
+      ],
+      "shown_with": [
+        "Casey Reas"
+      ],
+      "works": [
+        {
+          "title": "Untitled",
+          "year": "2019",
+          "medium": "typewriter print on Japanese paper, from computer-made templates",
+          "where": "Museum Sinclair-Haus, Illusion Natur; courtesy DAM Gallery",
+          "nature": [],
+          "why": "landscape image built from typed characters as pixels",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://kunst-und-natur.de/files/Museum-Sinclair-Haus/Blattwerke/Blattwerke_11/19_illusion_natur_blattwerke_11.pdf"
+          ],
+          "id": "W145",
+          "status": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "A70",
+      "artist": "aurèce vettier",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Art project of Paul Mouginot (founded 2019) that trains custom AI models on personal archives.",
+      "status": "lead",
+      "notes": "Load per-artist page now returns 404; seen in search results only. No single titled herbarium work confirmed. Neo Botanica work titles not listed on the pages reached. Description from the NVIDIA blog summary; years not given. The tree reading of element/tr33/obj is inferred from the title and the related 'imp0ssibl3 tr33' sculptures on his site.",
+      "via_shows": [
+        "Neo Botanica: An Atlas of Artificially Generated Flora (2025)",
+        "Ecotone (2022)",
+        "Le monde selon l'IA / The World According to AI (2025)"
+      ],
+      "shown_with": [
+        "Linda Dounia",
+        "Holly Herndon & Mat Dryhurst",
+        "Sasha Stiles",
+        "Katherine Frazer",
+        "Refik Anadol",
+        "Entangled Others",
+        "Anna Ridler",
+        "Monica Rizzolli",
+        "David Lisser",
+        "Ivona Tau",
+        "Sofia Crespo",
+        "Sofia Crespo/Entangled Others",
+        "Sarah Friend",
+        "Jakob Kudsk Steensen",
+        "Gene Kogan",
+        "Primavera De Filippi"
+      ],
+      "works": [
+        {
+          "title": "GAN-generated imaginary herbariums",
+          "year": "2020-",
+          "medium": "AI-generated images (custom GAN/CLIP models)",
+          "where": "Expanded Art; Load Gallery",
+          "nature": [],
+          "why": "Imaginary pressed-plant herbarium sheets.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://www.expanded.art/artists/aur%C3%A8ce-vettier"
+          ],
+          "id": "W146",
+          "status": "candidate",
+          "image": {
+            "file": "images/W146.jpg",
+            "page": "https://aurecevettier.com/en/works/sur-nature/unknown-samples-mid-altitude",
+            "url": "https://aurecevettier.com/media/pages/works/sur-nature/unknown-samples-mid-altitude/c509723490-1786430537/aurece-vettier-av-2021-u-84-unknown-samples-mid-altitude.jpg"
+          }
+        },
+        {
+          "title": "le travail des rêves (series)",
+          "year": "2024",
+          "medium": "AI-generated image (custom CLIP+GAN)",
+          "where": "Load Gallery",
+          "nature": [],
+          "why": "Dreamlike AI compositions (shown in Neo Botanica).",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://load-gallery.com/exhibitions/neo-botanica/aurece-vettier"
+          ],
+          "id": "W147",
+          "status": "candidate",
+          "image": {
+            "file": "images/W147.jpg",
+            "page": "https://aurecevettier.com/en/works/sur-reality/an-impromptu-encounter-in-a-hemp-field-attempt",
+            "url": "https://aurecevettier.com/media/pages/works/sur-reality/an-impromptu-encounter-in-a-hemp-field-attempt/e318c98735-1786445763/aurece-vettier-av-2024-u-687-an-impromptu-encounter-in-a-hemp-field-attempt.jpg"
+          }
+        },
+        {
+          "title": "element/tr33/obj (AV-2022-U-274)",
+          "year": "2022",
+          "medium": "3D (photogrammetry, voxelized)",
+          "where": "Feral File, Ecotone",
+          "nature": [],
+          "why": "GAN-generated hemp branch and leaf forms built from thousands of hemp herbarium images, cast in bronze then re-digitised.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://feralfile.com/exhibitions/ecotone-swo",
+            "https://feralfile.com/api/series?exhibitionID=e7f6f9b9-4b65-4764-9d24-e9a94aaa263d"
+          ],
+          "id": "W148",
+          "status": "candidate",
+          "image": {
+            "file": "images/W148.jpg",
+            "page": "https://feralfile.com/exhibitions/ecotone-swo",
+            "url": "https://imagedelivery.net/5BJzhBHeVhlhbn58hvcXAQ/23047187-b35e-4167-3b7f-c0d0eec22800/l"
+          }
+        },
+        {
+          "title": "le travail des rêves / the light that is not seen",
+          "year": "not stated",
+          "medium": "oil paintings based on AI-generated images",
+          "where": "NVIDIA GTC Paris AI Art Gallery, 2025",
+          "nature": [],
+          "why": "Speculative plant and animal forms in dreamlike settings, e.g. a bearded man crossing a forest with yellow butterflies.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://blogs.nvidia.com/blog/ai-art-gtc-paris-2025"
+          ],
+          "id": "W149",
+          "status": "candidate",
+          "image": {
+            "file": "images/W149.jpg",
+            "page": "https://aurecevettier.com/en/works/sur-reality/a-bearded-man-crossing-a-forest-surrounded-by-flocks-of-yellow-butterflies",
+            "url": "https://aurecevettier.com/media/pages/works/sur-reality/a-bearded-man-crossing-a-forest-surrounded-by-flocks-of-yellow-butterflies/e70d6af4bf-1787059798/aurece-vettier-av-2024-u-642-a-bearded-man-crossing-a-forest-surrounded-by-flock.jpg"
+          }
+        },
+        {
+          "title": "Sur-nature / Potential Herbariums",
+          "year": "2021-2026",
+          "medium": "GAN trained on about 4 million herbarium sheets; outputs as paintings, bronze sculptures, tapestries",
+          "where": "aurecevettier.com",
+          "nature": [],
+          "why": "Invented plant forms (stems, leaves, flowers) generated by an AI trained on herbarium specimens.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://aurecevettier.com/en/works/sur-nature"
+          ],
+          "id": "W150",
+          "status": "candidate",
+          "image": {
+            "file": "images/W150.jpg",
+            "page": "https://aurecevettier.com/en/works/sur-nature/areal-collect-128",
+            "url": "https://aurecevettier.com/media/pages/works/sur-nature/areal-collect-128/c1361a4868-1786429792/aurece-vettier-av-2021-u-143-areal-collect-128.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A71",
+      "artist": "Carla Gannis",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "US artist working with digital imaging, animation, AR and NFTs, often remixing art history with emoji and internet sign systems.",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Deep Time Digitality (2022)"
+      ],
+      "shown_with": [
+        "Ivona Tau"
+      ],
+      "works": [
+        {
+          "title": "The Garden of Emoji Delights",
+          "year": "2014",
+          "medium": "4K looped triptych animation; digital C-print (13 x 7 ft); AR and sculpture versions",
+          "where": "Shown at Fotografiska Stockholm (2021) and Tallinn (2022); Hunter Museum 'Networked Nature' (2024)",
+          "nature": [],
+          "why": "A remake of Bosch's Garden of Earthly Delights rebuilt from emoji, a garden landscape with plants, animals and figures.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://carlagannis.com/blog/the-garden-of-emoji-delights/"
+          ],
+          "id": "W151",
+          "status": "candidate",
+          "image": {
+            "file": "images/W151.jpg",
+            "page": "https://carlagannis.com/blog/the-garden-of-emoji-delights/",
+            "url": "https://carlagannis.com/blog/wp-content/uploads/2013/12/CGannis_GED.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A72",
+      "artist": "Caroline Sinders",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "US artist and researcher working on machine learning, data and human rights.",
+      "status": "lead",
+      "notes": "Co-authored with Anna Ridler (already on the list). Description taken from the Feral File series text via the Feral File API.",
+      "via_shows": [
+        "Reflections in the Water (2021)"
+      ],
+      "shown_with": [
+        "Harm van den Dorpel",
+        "Anna Ridler"
+      ],
+      "works": [
+        {
+          "title": "Fragments: 30.2051 N, 90.1121 W (with Anna Ridler)",
+          "year": "2021",
+          "medium": "GAN-generated GIF (NFT)",
+          "where": "Reflections in the Water, Feral File, 2021",
+          "nature": [],
+          "why": "Gulf Coast landscapes with and without Bald Cypress trees, generated from a hand-made cypress dataset and driven by Hurricane Ida weather data.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://feralfile.com/exhibitions/reflections-in-the-water-9ov"
+          ],
+          "id": "W152",
+          "status": "candidate",
+          "image": {
+            "file": "images/W152.jpg",
+            "page": "https://feralfile.com/exhibitions/reflections-in-the-water-9ov",
+            "url": "https://imagedelivery.net/5BJzhBHeVhlhbn58hvcXAQ/8b5cc1c3-763d-4c67-c769-19250d742c00/width=1280,format=jpeg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A73",
+      "artist": "Cath Simard",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Canadian landscape photographer making composite digital landscape images sold as NFTs.",
+      "status": "lead",
+      "notes": "Which work she showed at Beyond the Screen was not checked.",
+      "via_shows": [
+        "Beyond the Screen (2023)"
+      ],
+      "shown_with": [
+        "Botto",
+        "Jesse Woolston",
+        "Sofia Crespo",
+        "Ivona Tau"
+      ],
+      "works": [
+        {
+          "title": "From Nowhere to Somewhere",
+          "year": "2022",
+          "medium": "Composite photograph, 1/1 NFT commission with physical print",
+          "where": "cathsimard.com; sold to collector Lost In Infinity",
+          "nature": [],
+          "why": "A composite landscape photograph built to match an AI-generated landscape made by the collector; Simard travels and shoots the landscape elements.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://www.cathsimard.com/from-nowhere-to-somewhere/"
+          ],
+          "id": "W153",
+          "status": "candidate",
+          "image": {
+            "file": "images/W153.jpg",
+            "page": "https://www.cathsimard.com/from-nowhere-to-somewhere/",
+            "url": "http://static1.squarespace.com/static/5810f3fabe65949686a9d9d8/t/65ec9a12aabf23152cfdec64/1710004769810/china+low.png?format=1500w"
+          }
+        },
+        {
+          "title": "Portfolio: Patagonia, Peru, Canadian Rockies, Iceland",
+          "year": null,
+          "medium": "Landscape photography series",
+          "where": "cathsimard.com",
+          "nature": [],
+          "why": "Mountain and wilderness landscapes from Patagonia, Peru, the Canadian Rockies and Iceland.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://www.cathsimard.com/"
+          ],
+          "id": "W154",
+          "status": "candidate",
+          "image": {
+            "file": "images/W154.jpg",
+            "page": "https://www.cathsimard.com/",
+            "url": "https://images.squarespace-cdn.com/content/v1/5810f3fabe65949686a9d9d8/1565646092015-51520HUADN90TASK2LMZ/Torres+Del+Paine+Night-1.jpg?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A74",
+      "artist": "Chia Amisola",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Artist making web works about the internet's loss, love and labour, particularly from a third-world perspective.",
+      "status": "lead",
+      "notes": "The butterfly is the viewer's form; the work's subject is memory and superstition more than nature.",
+      "via_shows": [
+        "WEBSITES WEBSITES WEBSITES! (2026)"
+      ],
+      "shown_with": [
+        "0xfff",
+        "Lorna Mills",
+        "Mika Ben Amar",
+        "Sarah Friend"
+      ],
+      "works": [
+        {
+          "title": "Paru-paro (Butterfly)",
+          "year": "2026",
+          "medium": "Browser-based narrative landscape and game (paruparo.cloud)",
+          "where": "WEBSITES WEBSITES WEBSITES!, 2026",
+          "nature": [],
+          "why": "The viewer, reincarnated as a butterfly, drifts over a land of maps and memories built from platform, satellite and stock images.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://websiteswebsiteswebsites.net/works/chia-amisola.html"
+          ],
+          "id": "W155",
+          "status": "candidate",
+          "image": {
+            "file": "images/W155.jpg",
+            "page": "https://paruparo.cloud",
+            "url": "https://paruparo.cloud/og-image.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A75",
+      "artist": "CROSSLUCID",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Collective founded 2018 by Sylwana Zybura and Tomas C. Toth working with synthetic imaging and AI.",
+      "status": "lead",
+      "notes": "Descriptions from the collective's own site.",
+      "via_shows": [
+        "UMWELT (2024)",
+        "Down the Silicon Meadow (2025)"
+      ],
+      "shown_with": [
+        "Sofia Crespo",
+        "Anna Ridler",
+        "Cezar Mocan",
+        "Ivona Tau",
+        "Jennifer & Kevin McCoy",
+        "Kevin Abosch",
+        "Niceaunties",
+        "Noper",
+        "Roope Rainisto",
+        "Sougwen Chung",
+        "Primavera De Filippi",
+        "Monica Rizzolli"
+      ],
+      "works": [
+        {
+          "title": "The Way of Flowers",
+          "year": "2023-ongoing",
+          "medium": "generative digital flora, blockchain-registered",
+          "where": "UMWELT, FMAV Modena (2024-25); solo at Office Impart 2025",
+          "nature": [],
+          "why": "Generative digital flowers ('seed' organisms) that change as real biodiversity projects in six bioregions are supported.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://www.crosslucid.zone/",
+            "https://www.arshake.com/en/umwelt/"
+          ],
+          "id": "W156",
+          "status": "candidate",
+          "image": {
+            "file": "images/W156.jpg",
+            "page": "https://www.arshake.com/en/umwelt/",
+            "url": "https://www.arshake.com/wp-content/uploads/2024/09/The-Way-of-Flowers_Seed-3053284983_CROSSLUCID-2023_cover.jpg"
+          }
+        },
+        {
+          "title": "T I D E: Transmission #01 (Oceanic Whispers)",
+          "year": "2025",
+          "medium": "immersive, AI agents",
+          "where": "Down the Silicon Meadow, Office Impart (2025)",
+          "nature": [],
+          "why": "Underwater environment work on ecological stewardship around Marine Protected Areas.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://www.crosslucid.zone/"
+          ],
+          "id": "W157",
+          "status": "candidate",
+          "image": {
+            "file": "images/W157.jpg",
+            "page": "https://www.crosslucid.zone/",
+            "url": "https://freight.cargo.site/w/1500/i/O2133341094288328654279584820996/OW_Whale.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A76",
+      "artist": "Drake Smith",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "CGI artist making plant and flower simulations in Houdini.",
+      "status": "lead",
+      "notes": "Also Bubble Bloom series, Golden Spirals of Aloe, Twilight Twists of Aloe (2024). Work titles from Load Gallery's exhibition index; the page gives no year, medium or description.",
+      "via_shows": [
+        "Neo Botanica: An Atlas of Artificially Generated Flora (2025)"
+      ],
+      "shown_with": [
+        "Katherine Frazer",
+        "Refik Anadol",
+        "Entangled Others",
+        "Anna Ridler",
+        "Monica Rizzolli",
+        "David Lisser",
+        "Linda Dounia",
+        "Ivona Tau",
+        "Sofia Crespo",
+        "Sofia Crespo/Entangled Others"
+      ],
+      "works": [
+        {
+          "title": "Entwined Growth of Aloe",
+          "year": "2024",
+          "medium": "image (Houdini, Redshift)",
+          "where": "Load Gallery, Neo Botanica",
+          "nature": [],
+          "why": "Phyllotaxis spirals based on the South African Aloe castanea.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://load-gallery.com/exhibitions-index/neo-botanica"
+          ],
+          "id": "W158",
+          "status": "candidate",
+          "image": {
+            "file": "images/W158.jpg",
+            "page": "https://load-gallery.com/exhibitions-index/neo-botanica",
+            "url": "https://framerusercontent.com/images/weRUsLleHjM7Fhjvi8CT3T5GXMc.png"
+          }
+        },
+        {
+          "title": "Cone Flower Bloom",
+          "year": "2024",
+          "medium": "video (Houdini, Redshift)",
+          "where": "Load Gallery, Neo Botanica",
+          "nature": [],
+          "why": "A coneflower blooming.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://load-gallery.com/exhibitions-index/neo-botanica"
+          ],
+          "id": "W159",
+          "status": "candidate",
+          "image": {
+            "file": "images/W159.jpg",
+            "page": "https://load-gallery.com/exhibitions-index/neo-botanica",
+            "url": "https://framerusercontent.com/images/s0mETBYadZTcNuCdpYfXgHTbs.png"
+          }
+        },
+        {
+          "title": "Bubble Bloom Succulent",
+          "year": null,
+          "medium": "digital (medium not stated on gallery page)",
+          "where": "Neo Botanica, Load Gallery, Barcelona (2025)",
+          "nature": [],
+          "why": "Shown in an exhibition of artificially generated flora; titles name succulents, aloe and coneflowers.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://load-gallery.com/exhibitions-index/neo-botanica"
+          ],
+          "id": "W160",
+          "status": "candidate",
+          "image": {
+            "file": "images/W160.jpg",
+            "page": "https://load-gallery.com/exhibitions-index/neo-botanica",
+            "url": "https://framerusercontent.com/images/M0WpWHNhKUpB7hkxd7gdGXnQ.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A77",
+      "artist": "Driessens & Verstappen",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Amsterdam artist duo Erwin Driessens (b. 1963) and Maria Verstappen (b. 1964), working together since 1990 with software and generative processes.",
+      "status": "lead",
+      "notes": "Booklet also names their earlier landscape works Frankendael (2001) and Diemerzeedijk (2007).",
+      "via_shows": [
+        "Illusion Natur. Digitale Welten im Museum Sinclair-Haus (2019)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Kennemerduinen, Scene E",
+          "year": "2010",
+          "medium": "video made from weekly digital photographs blended with custom software (9 min)",
+          "where": "Museum Sinclair-Haus, Illusion Natur; courtesy DAM Gallery",
+          "nature": [],
+          "why": "one year of change in a dune landscape in Kennemerduinen National Park, North Holland",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://kunst-und-natur.de/files/Museum-Sinclair-Haus/Blattwerke/Blattwerke_11/19_illusion_natur_blattwerke_11.pdf"
+          ],
+          "id": "W161",
+          "status": "candidate",
+          "image": {
+            "file": "images/W161.jpg",
+            "page": "https://www.driessensverstappen.nl/landscape/Kennemerduinen/scenes.html",
+            "url": "https://www.driessensverstappen.nl/landscape/Kennemerduinen/pics/scene-E.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A78",
+      "artist": "Eelco Brand",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Dutch artist (b. 1969), former painter, making software-generated 3D animations shown on framed screens.",
+      "status": "lead",
+      "notes": "Exact content of A.movi only partly described in the booklet.",
+      "via_shows": [
+        "Illusion Natur. Digitale Welten im Museum Sinclair-Haus (2019)"
+      ],
+      "shown_with": [
+        "Casey Reas"
+      ],
+      "works": [
+        {
+          "title": "FL.movi",
+          "year": "2018",
+          "medium": "software-generated 3D animation on screen",
+          "where": "Museum Sinclair-Haus, Illusion Natur",
+          "nature": [],
+          "why": "looping animation of plants and flowers opening and closing",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://kunst-und-natur.de/files/Museum-Sinclair-Haus/Blattwerke/Blattwerke_11/19_illusion_natur_blattwerke_11.pdf"
+          ],
+          "id": "W162",
+          "status": "candidate",
+          "image": {
+            "file": "images/W162.jpg",
+            "page": "https://www.eelcobrand.nl/mov.html",
+            "url": "https://www.eelcobrand.nl/onewebmedia/FLmovi_2018__stills.jpg"
+          }
+        },
+        {
+          "title": "A.movi",
+          "year": "2011",
+          "medium": "software-generated 3D animation on screen",
+          "where": "Museum Sinclair-Haus, Illusion Natur; courtesy DAM Gallery",
+          "nature": [],
+          "why": "short animated nature sequence (plants or water); booklet asks why the mountain moves",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://kunst-und-natur.de/files/Museum-Sinclair-Haus/Blattwerke/Blattwerke_11/19_illusion_natur_blattwerke_11.pdf"
+          ],
+          "id": "W163",
+          "status": "candidate",
+          "image": {
+            "file": "images/W163.jpg",
+            "page": "https://www.eelcobrand.nl/movi4.html",
+            "url": "https://i.vimeocdn.com/video/214462293-4d59ecfc93aa07a495499a093fb2995266f9e131d106fc46a0e7ff8b2419111d-d_1280"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A79",
+      "artist": "Elekktronaut (Bileam Tschepe)",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Berlin-based artist making audio-reactive works in TouchDesigner and Stable Diffusion.",
+      "status": "lead",
+      "notes": "Also 'Neurons and Branches' (2024). Content inferred from titles and the show's flora theme. Work titles from Load Gallery's exhibition index; the page gives no year, medium or description. Content inferred from titles and show theme.",
+      "via_shows": [
+        "Neo Botanica: An Atlas of Artificially Generated Flora (2025)"
+      ],
+      "shown_with": [
+        "Katherine Frazer",
+        "Refik Anadol",
+        "Entangled Others",
+        "Anna Ridler",
+        "Monica Rizzolli",
+        "David Lisser",
+        "Linda Dounia",
+        "Ivona Tau",
+        "Sofia Crespo",
+        "Sofia Crespo/Entangled Others"
+      ],
+      "works": [
+        {
+          "title": "Mycelium",
+          "year": "2024",
+          "medium": "video (TouchDesigner, Stable Diffusion)",
+          "where": "Load Gallery, Neo Botanica",
+          "nature": [],
+          "why": "Mycelium-like growth (title only; no description).",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://load-gallery.com/exhibitions-index/neo-botanica"
+          ],
+          "id": "W164",
+          "status": "candidate",
+          "image": {
+            "file": "images/W164.jpg",
+            "page": "https://load-gallery.com/exhibitions-index/neo-botanica",
+            "url": "https://framerusercontent.com/images/RAafQJBoVqtDqOlpJSGRyKZqv0.png"
+          }
+        },
+        {
+          "title": "Regrowth",
+          "year": "2024",
+          "medium": "video (TouchDesigner, Stable Diffusion)",
+          "where": "Load Gallery, Neo Botanica",
+          "nature": [],
+          "why": "Plant regrowth (title only).",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://load-gallery.com/exhibitions-index/neo-botanica"
+          ],
+          "id": "W165",
+          "status": "candidate",
+          "image": {
+            "file": "images/W165.jpg",
+            "page": "https://load-gallery.com/exhibitions-index/neo-botanica",
+            "url": "https://framerusercontent.com/images/HPRIdS7asMXjrq8WN3ucEGFwwmU.png"
+          }
+        },
+        {
+          "title": "Neurons and Branches",
+          "year": null,
+          "medium": "digital (medium not stated on gallery page)",
+          "where": "Neo Botanica, Load Gallery, Barcelona (2025)",
+          "nature": [],
+          "why": "Shown in an exhibition of artificially generated flora; titles name mycelium, branches and regrowth.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://load-gallery.com/exhibitions-index/neo-botanica"
+          ],
+          "id": "W166",
+          "status": "candidate",
+          "image": {
+            "file": "images/W166.jpg",
+            "page": "https://load-gallery.com/exhibitions-index/neo-botanica",
+            "url": "https://framerusercontent.com/images/giJuWByjYLbrjTa7kGt99vmuY.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A80",
+      "artist": "Emily Xie",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "New York-based artist who uses algorithms to make textures, patterns and forms, often drawing on East Asian art.",
+      "status": "lead",
+      "notes": "Year 2022 is from my own knowledge, not confirmed on the opened page. Her New Beginnings work was 'Spiral Forms' (2024).",
+      "via_shows": [
+        "New Beginnings (2024)"
+      ],
+      "shown_with": [
+        "Linda Dounia",
+        "Refik Anadol",
+        "Harold Cohen",
+        "Charles Csuri",
+        "Pindar Van Arman",
+        "Holly Herndon & Mat Dryhurst",
+        "Alexander Reben",
+        "Claire Silver",
+        "Sasha Stiles",
+        "Helena Sarin",
+        "Botto",
+        "Jake Elwes",
+        "Brendan Dawes",
+        "Sougwen Chung",
+        "Anna Ridler",
+        "Sarah Meyohas",
+        "Sofia Crespo/Entangled Others",
+        "Casey Reas",
+        "Monica Rizzolli",
+        "Jennifer & Kevin McCoy",
+        "Niceaunties",
+        "Sarah Friend",
+        "Harm van den Dorpel",
+        "Ivona Tau",
+        "Kevin Abosch",
+        "Noper",
+        "Roope Rainisto"
+      ],
+      "works": [
+        {
+          "title": "Memories of Qilin",
+          "year": "2022",
+          "medium": "Generative art, Art Blocks Curated",
+          "where": "Art Blocks",
+          "nature": [],
+          "why": "Generative images in the style of Chinese brushwork and ukiyo-e that evoke dragons, phoenixes, flowers and mountains around the mythical qilin.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://www.artblocks.io/collection/memories-of-qilin-by-emily-xie"
+          ],
+          "id": "W167",
+          "status": "candidate",
+          "image": {
+            "file": "images/W167.jpg",
+            "page": "https://www.artblocks.io/collection/memories-of-qilin-by-emily-xie",
+            "url": "https://media-proxy.artblocks.io/1/0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270/282000212.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A81",
+      "artist": "fuse*",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Italian multidisciplinary art studio founded in 2007.",
+      "status": "lead",
+      "notes": "Found as a Neo Botanica book contributor; not on the Load exhibition list.",
+      "via_shows": [],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Artificial Botany",
+          "year": "2019-ongoing",
+          "medium": "GAN video installation and prints",
+          "where": "Marignana Arte (2022), Misk Art Institute Riyadh (2022-23), Italian Cultural Institute San Francisco (2023); Japan Media Arts Festival jury selection",
+          "nature": [],
+          "why": "New botanical illustrations generated by a GAN trained on Merian, Redouté, Haeckel and others.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://fuseworks.it/works/artificial-botany",
+            "https://www.creativeapplications.net/project/xxi-century-herbario-novo-artificial-botany-by-fuse"
+          ],
+          "id": "W168",
+          "status": "candidate",
+          "image": {
+            "file": "images/W168.jpg",
+            "page": "https://fuseworks.it/works/artificial-botany",
+            "url": "https://cdn.fuseworks.it/cdn-cgi/image/w=1200,h=630,fit=cover,q=80/https://admin.fuseworks.it/uploads/Artificial-Botany_Marignana_10.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A82",
+      "artist": "Generative Art Studio (Mei Tamazawa)",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Tokyo-born CG and AI artist Mei Tamazawa's studio (founded 2022) for 3D botanical environments.",
+      "status": "lead",
+      "notes": "Years not given in the source.",
+      "via_shows": [
+        "Neo Botanica: An Atlas of Artificially Generated Flora (2025)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Digital Flora (series), incl. '2890_0720_The Garden of solace'",
+          "year": null,
+          "medium": "hand-made CG with AI generation, video",
+          "where": "online / Artshelp feature",
+          "nature": [],
+          "why": "Bioluminescent 3D botanical scenes.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://www.artshelp.com/mei-tamazawa/"
+          ],
+          "id": "W169",
+          "status": "candidate",
+          "image": {
+            "file": "images/W169.jpg",
+            "page": "https://www.artshelp.com/mei-tamazawa/",
+            "url": "https://storage.ghost.io/c/87/0b/870b9c99-bf9f-42c3-afa2-9a4381bd2715/content/media/2026/03/SnapInsta.to_AQM28fIFH8KoE0Ul76nVBTdbEA8YaHJnbWlHQOVqJt8w4CuwfrU-fj-d3xWV6jxwrgcLXJDVokcpUKdWfLhTQu0RETj-zhDn0LXnViI_thumb.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A83",
+      "artist": "Gordon Cheung",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "London-based artist making paintings, glitch prints and algorithmic works from stock-market data and art-historical sources.",
+      "status": "lead",
+      "notes": "Year of the work not stated on the page. He also took part in 'Flowers - Flora in Contemporary Art & Culture', Saatchi Gallery 2025 (gordoncheung.com news 113); the work shown there was not named. His New Beginnings work was 'Fear And Greed' (2021), not nature-related.",
+      "via_shows": [
+        "New Beginnings (2024)"
+      ],
+      "shown_with": [
+        "Ivona Tau",
+        "Jennifer & Kevin McCoy",
+        "Kevin Abosch",
+        "Niceaunties",
+        "Noper",
+        "Roope Rainisto",
+        "Sougwen Chung"
+      ],
+      "works": [
+        {
+          "title": "Flower Piece (after Jean-Baptiste Monnoyer)",
+          "year": null,
+          "medium": "Glitch print",
+          "where": "Nottingham Castle Museum & Art Gallery collection; shown in 'Impressions' (23 Nov 2024 - 27 Apr 2025)",
+          "nature": [],
+          "why": "A digitally glitched version of a Baroque flower still life by Jean-Baptiste Monnoyer.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://www.gordoncheung.com/news/110-new-collection-exhibition-impressions-nottingham-castle-museum-art-gallery-nottingham-uk/"
+          ],
+          "id": "W170",
+          "status": "candidate",
+          "image": {
+            "file": "images/W170.jpg",
+            "page": "https://www.gordoncheung.com/news/110-new-collection-exhibition-impressions-nottingham-castle-museum-art-gallery-nottingham-uk/",
+            "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy,q_auto/ws-artlogicwebsite0759/usr/library/images/main/news/110/impressions-2570.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A84",
+      "artist": "Grégory Chatonsky",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "French-Canadian artist working with neural networks, generative film and installation on fiction and extinction.",
+      "status": "lead",
+      "notes": "He showed La Quatrième Mémoire (2025) at Jeu de Paume, which is not described as nature-related. At Jeu de Paume he showed La Quatrième Mémoire (2025), not Terre Seconde.",
+      "via_shows": [
+        "Le monde selon l'IA (2025)",
+        "Le monde selon l'IA / The World According to AI (2025)"
+      ],
+      "shown_with": [
+        "Linda Dounia",
+        "Holly Herndon & Mat Dryhurst",
+        "Sasha Stiles"
+      ],
+      "works": [
+        {
+          "title": "Terre Seconde (Second Earth)",
+          "year": "2019",
+          "medium": "Evolving installation: sculpture, video, sound, 3D printing, robotic arm, generated by a recursive neural network",
+          "where": "Palais de Tokyo, Paris, 21 Jun - 14 Jul 2019",
+          "nature": [],
+          "why": "An AI-generated alternative planet of mineral, plant and organic forms that change into one another.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://chatonsky.net/earth/"
+          ],
+          "id": "W171",
+          "status": "candidate",
+          "image": {
+            "file": "images/W171.jpg",
+            "page": "https://chatonsky.net/earth/",
+            "url": "https://chatonsky.net/folio/wp-content/uploads/2019/04/mini.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A85",
+      "artist": "Gretta Louw",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Artist working across embroidery, painting, installation and multimedia on networks and the boundaries between nature, culture and technology.",
+      "status": "lead",
+      "notes": "Her site also lists Each Trailing A Dreamworld (orchids) and SWARM; not opened.",
+      "via_shows": [
+        "Hyperconnection (2023)"
+      ],
+      "shown_with": [
+        "Leander Herzog"
+      ],
+      "works": [
+        {
+          "title": "Einen Riesigen Schwarm (A Giant Swarm)",
+          "year": "2019 (single-channel video A Giant Swarm, 2020)",
+          "medium": "6-channel sound installation with textile banners, video animations and wall painting",
+          "where": "Artist's website",
+          "nature": [],
+          "why": "Speculative post-Anthropocene life forms, based on research into jellyfish swarms thriving in polluted, warming oceans.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://www.grettalouw.com/works/einen-riesigen-schwarm.php"
+          ],
+          "id": "W172",
+          "status": "candidate",
+          "image": {
+            "file": "images/W172.jpg",
+            "page": "https://www.grettalouw.com/works/einen-riesigen-schwarm.php",
+            "url": "https://www.grettalouw.com/images/einen-riesigen-schwarm/ERS1.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A86",
+      "artist": "Hannes Hummel",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "German designer and artist making speculative 3D hybrid bioforms.",
+      "status": "lead",
+      "notes": "Work titles from Load Gallery's exhibition index; the page gives no year, medium or description.",
+      "via_shows": [
+        "Neo Botanica: An Atlas of Artificially Generated Flora (2025)"
+      ],
+      "shown_with": [
+        "Katherine Frazer",
+        "Refik Anadol",
+        "Entangled Others",
+        "Anna Ridler",
+        "Monica Rizzolli",
+        "David Lisser",
+        "Linda Dounia",
+        "Ivona Tau",
+        "Sofia Crespo",
+        "Sofia Crespo/Entangled Others"
+      ],
+      "works": [
+        {
+          "title": "Technobotanica - Lumincometa",
+          "year": "2024",
+          "medium": "3D video",
+          "where": "Load Gallery, Neo Botanica",
+          "nature": [],
+          "why": "An invented plant that releases green luminescent spores to lure comet moths.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://load-gallery.com/exhibitions-index/neo-botanica"
+          ],
+          "id": "W173",
+          "status": "candidate",
+          "image": {
+            "file": "images/W173.jpg",
+            "page": "https://load-gallery.com/exhibitions-index/neo-botanica",
+            "url": "https://framerusercontent.com/images/bnWi71qUx60ouiBxxGqiYJlWRM.png"
+          }
+        },
+        {
+          "title": "Technobotanica - Lactarilux",
+          "year": "2024",
+          "medium": "3D video",
+          "where": "Load Gallery, Neo Botanica",
+          "nature": [],
+          "why": "A speculative cybernetic plant organism bonded to its environment.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://load-gallery.com/exhibitions-index/neo-botanica"
+          ],
+          "id": "W174",
+          "status": "candidate",
+          "image": {
+            "file": "images/W174.jpg",
+            "page": "https://load-gallery.com/exhibitions-index/neo-botanica",
+            "url": "https://framerusercontent.com/images/NzHUHBeEZjDzgMfwRISwfOvic.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A87",
+      "artist": "hypereikon",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Argentine duo (María Constanza Lobos and Sebastián Rojas) making AI video with Midjourney, Sora, Hailuo and Runway.",
+      "status": "lead",
+      "notes": "Also 'waterlife', 'grows into itself', 'it gets tangled from above'. Work titles from Load Gallery's exhibition index; the page gives no year, medium or description. Content inferred from titles and show theme.",
+      "via_shows": [
+        "Neo Botanica: An Atlas of Artificially Generated Flora (2025)"
+      ],
+      "shown_with": [
+        "Katherine Frazer",
+        "Refik Anadol",
+        "Entangled Others",
+        "Anna Ridler",
+        "Monica Rizzolli",
+        "David Lisser",
+        "Linda Dounia",
+        "Ivona Tau",
+        "Sofia Crespo",
+        "Sofia Crespo/Entangled Others"
+      ],
+      "works": [
+        {
+          "title": "watering the garden",
+          "year": "2025",
+          "medium": "AI video",
+          "where": "Load Gallery, Neo Botanica",
+          "nature": [],
+          "why": "A garden being watered (title only).",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://load-gallery.com/exhibitions-index/neo-botanica"
+          ],
+          "id": "W175",
+          "status": "candidate",
+          "image": {
+            "file": "images/W175.jpg",
+            "page": "https://load-gallery.com/exhibitions-index/neo-botanica",
+            "url": "https://framerusercontent.com/images/3h7uKIIyouYmwgr4RCHGENprI.png"
+          }
+        },
+        {
+          "title": "MAGICAL SPECTRUM (#01, #10, #11)",
+          "year": "2023",
+          "medium": "AI video",
+          "where": "Load Gallery, Neo Botanica",
+          "nature": [],
+          "why": "AI-generated flora (shown in a flora show; no description).",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://load-gallery.com/exhibitions-index/neo-botanica"
+          ],
+          "id": "W176",
+          "status": "candidate",
+          "image": {
+            "file": "images/W176.jpg",
+            "page": "https://load-gallery.com/exhibitions-index/neo-botanica",
+            "url": "https://framerusercontent.com/images/MKEZEcffrZiZdbMEwB6OoMyNBJc.png"
+          }
+        },
+        {
+          "title": "waterlife",
+          "year": null,
+          "medium": "digital (medium not stated on gallery page)",
+          "where": "Neo Botanica, Load Gallery, Barcelona (2025)",
+          "nature": [],
+          "why": "Shown in an exhibition of artificially generated flora; titles refer to a garden, water life and growth.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://load-gallery.com/exhibitions-index/neo-botanica"
+          ],
+          "id": "W177",
+          "status": "candidate",
+          "image": {
+            "file": "images/W177.jpg",
+            "page": "https://load-gallery.com/exhibitions-index/neo-botanica",
+            "url": "https://framerusercontent.com/images/F7gwsxXSjI8OB9jESbpj1rFc.png"
+          }
+        },
+        {
+          "title": "grows into itself",
+          "year": null,
+          "medium": "digital (medium not stated on gallery page)",
+          "where": "Neo Botanica, Load Gallery, Barcelona (2025)",
+          "nature": [],
+          "why": "Shown in an exhibition of artificially generated flora; titles refer to a garden, water life and growth.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://load-gallery.com/exhibitions-index/neo-botanica"
+          ],
+          "id": "W178",
+          "status": "candidate",
+          "image": {
+            "file": "images/W178.jpg",
+            "page": "https://load-gallery.com/exhibitions-index/neo-botanica",
+            "url": "https://framerusercontent.com/images/157Fjluu8Ghqz48noeoHq2BbOSM.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A88",
+      "artist": "Ilya Shkipin",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Painter using CLIP-based neural image generation, retouched by hand.",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Field Guide (2022)"
+      ],
+      "shown_with": [
+        "Sofia Crespo"
+      ],
+      "works": [
+        {
+          "title": "Blooming Valetudinarian",
+          "year": "2022",
+          "medium": "image (CLIP-generated, retouched)",
+          "where": "Feral File, Field Guide",
+          "nature": [],
+          "why": "100 butterfly- or moth-like specimens, many with entangled biomorphic forms.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://feralfile.com/exhibitions/field-guide-sss",
+            "https://feralfile.com/api/series?exhibitionID=93a54158-f984-415b-95e8-bf2519e7ac38"
+          ],
+          "id": "W179",
+          "status": "candidate",
+          "image": {
+            "file": "images/W179.jpg",
+            "page": "https://feralfile.com/exhibitions/field-guide-sss",
+            "url": "https://imagedelivery.net/5BJzhBHeVhlhbn58hvcXAQ/c0b1566d-3ba3-4d29-c73b-6d91a444d500/l"
+          }
+        },
+        {
+          "title": "Malade Imaginaire",
+          "year": "2022",
+          "medium": "image (CLIP-generated, retouched)",
+          "where": "Feral File, Field Guide",
+          "nature": [],
+          "why": "Mosaic of 100 gardens with floral structures, twisted limbs and biomorphic forms.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://feralfile.com/exhibitions/field-guide-sss",
+            "https://feralfile.com/api/series?exhibitionID=93a54158-f984-415b-95e8-bf2519e7ac38"
+          ],
+          "id": "W180",
+          "status": "candidate",
+          "image": {
+            "file": "images/W180.jpg",
+            "page": "https://feralfile.com/exhibitions/field-guide-sss",
+            "url": "https://imagedelivery.net/5BJzhBHeVhlhbn58hvcXAQ/7dc744f1-a8d4-441d-5281-bbea1ffc8e00/l"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A89",
+      "artist": "Jacques Perconte",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "French artist who makes digital films and generative videos of landscapes, using video compression as material.",
+      "status": "lead",
+      "notes": "His catalogue lists further forest and sea works, e.g. À fleur de forêt (2026, https://www.jacquesperconte.com/oe?277) and Mære Mer (2025, https://www.jacquesperconte.com/oe?275); not opened. The work he showed at Jeu de Paume is not named in the press kit. The works list on his site gives only titles and years; subjects are read from titles (Mont Blanc, Alps, sea, forests, Madeira). Which Perconte work was shown at Jeu de Paume was not confirmed.",
+      "via_shows": [
+        "Le monde selon l'IA (2025)",
+        "Le monde selon l'IA / The World According to AI (2025)"
+      ],
+      "shown_with": [
+        "Linda Dounia",
+        "Holly Herndon & Mat Dryhurst",
+        "Sasha Stiles"
+      ],
+      "works": [
+        {
+          "title": "Blanc Mont Blanc (Les Alpes)",
+          "year": "2023 (made 2019-2020)",
+          "medium": "Single-channel 4K video, 65 min 35 s, sound by the artist",
+          "where": "Artist's catalogue",
+          "nature": [],
+          "why": "The Mont Blanc massif, its rock, snow and shifting colours, filmed from a small aircraft.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://www.jacquesperconte.com/oe?265"
+          ],
+          "id": "W181",
+          "status": "candidate",
+          "image": {
+            "file": "images/W181.jpg",
+            "page": "https://www.jacquesperconte.com/oe?265",
+            "url": "https://www.jacquesperconte.com/_i/265/52662261158_2b84f860f0.jpg"
+          }
+        },
+        {
+          "title": "Avant l'effondrement du Mont Blanc",
+          "year": "2020",
+          "medium": "digital video (compression-artifact film)",
+          "where": "artist's works list",
+          "nature": [],
+          "why": "Mont Blanc mountain landscape.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://www.jacquesperconte.com/",
+            "https://en.wikipedia.org/wiki/Jacques_Perconte"
+          ],
+          "id": "W182",
+          "status": "candidate",
+          "image": {
+            "file": "images/W182.jpg",
+            "page": "https://www.jacquesperconte.com/oe?244",
+            "url": "https://www.jacquesperconte.com/_i/244/49874933392_92ced73be6_b.jpg"
+          }
+        },
+        {
+          "title": "Après le feu (After the fire)",
+          "year": "2010",
+          "medium": "digital video",
+          "where": "artist's works list / Wikipedia",
+          "nature": [],
+          "why": "Title refers to a landscape after fire; content not described in the source.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://en.wikipedia.org/wiki/Jacques_Perconte"
+          ],
+          "id": "W183",
+          "status": "candidate",
+          "image": {
+            "file": "images/W183.jpg",
+            "page": "https://www.jacquesperconte.com/oe?28",
+            "url": "https://www.jacquesperconte.com/_i/28/6666572319_c88dc3b08f_b.jpg"
+          }
+        },
+        {
+          "title": "Marines series / La Vague",
+          "year": "2015",
+          "medium": "digital video",
+          "where": "artist's works list",
+          "nature": [],
+          "why": "Sea and wave works (by title).",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://www.jacquesperconte.com/"
+          ],
+          "id": "W184",
+          "status": "candidate",
+          "image": {
+            "file": "images/W184.jpg",
+            "page": "https://www.jacquesperconte.com/oe?195",
+            "url": "https://www.jacquesperconte.com/_i/195/21694227209_7e166cc6cb_b.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A90",
+      "artist": "Jared Tarbell",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "US generative artist and programmer.",
+      "status": "lead",
+      "notes": "Creatures are invented, not real species. Works are simulated life, not depictions of specific species.",
+      "via_shows": [
+        "Infinite Images: The Art of Algorithms (2025)",
+        "Field Guide (2022)",
+        "Automat und Mensch (2019)"
+      ],
+      "shown_with": [
+        "Anna Ridler",
+        "Sarah Meyohas",
+        "Sofia Crespo/Entangled Others",
+        "Casey Reas",
+        "Monica Rizzolli",
+        "Harold Cohen",
+        "Helena Sarin",
+        "David Young",
+        "Sofia Crespo",
+        "Primavera De Filippi",
+        "Robbie Barrat",
+        "Kevin Abosch",
+        "Harm van den Dorpel",
+        "Eko33",
+        "Alkan Avcıoğlu",
+        "Obvious",
+        "Ganbrood",
+        "Zancan",
+        "Ivona Tau"
+      ],
+      "works": [
+        {
+          "title": "Entity #14",
+          "year": "2022",
+          "medium": "generative video",
+          "where": "Toledo Museum of Art, Infinite Images",
+          "nature": [],
+          "why": "artificial microorganism-like creatures appearing, moving and fading in an imaginary environment",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://detroitartreview.com/2025/08/infinite-images-the-art-of-algorithms-toledo-museum-of-art/"
+          ],
+          "id": "W185",
+          "status": "candidate",
+          "image": {
+            "file": "images/W185.jpg",
+            "page": "https://detroitartreview.com/2025/08/infinite-images-the-art-of-algorithms-toledo-museum-of-art/",
+            "url": "https://detroitartreview.com/wp-content/uploads/2025/08/Algorithm-7-Tarbell-videoframe_174623.png"
+          }
+        },
+        {
+          "title": "Entity",
+          "year": "2022",
+          "medium": "interactive software (video capture)",
+          "where": "Feral File, Field Guide",
+          "nature": [],
+          "why": "Colourful simulated microorganisms are born, behave individually and in groups, evolve and die.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://feralfile.com/exhibitions/field-guide-sss",
+            "https://feralfile.com/api/series?exhibitionID=93a54158-f984-415b-95e8-bf2519e7ac38"
+          ],
+          "id": "W186",
+          "status": "candidate",
+          "image": {
+            "file": "images/W186.jpg",
+            "page": "https://feralfile.com/exhibitions/field-guide-sss",
+            "url": "https://imagedelivery.net/5BJzhBHeVhlhbn58hvcXAQ/6bb0b173-bf85-4f02-e06b-076b795a2200/l"
+          }
+        },
+        {
+          "title": "Environment",
+          "year": "2022",
+          "medium": "video (13 short performances)",
+          "where": "Feral File, Field Guide",
+          "nature": [],
+          "why": "A surface encrusted with barnacle-like corpuscles whose building blocks come to life.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://feralfile.com/exhibitions/field-guide-sss",
+            "https://feralfile.com/api/series?exhibitionID=93a54158-f984-415b-95e8-bf2519e7ac38"
+          ],
+          "id": "W187",
+          "status": "candidate",
+          "image": {
+            "file": "images/W187.jpg",
+            "page": "https://feralfile.com/exhibitions/field-guide-sss",
+            "url": "https://imagedelivery.net/5BJzhBHeVhlhbn58hvcXAQ/f0b27eb9-745c-409c-b517-a1afc7545000/l"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A91",
+      "artist": "Jenna Sutela",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Finnish artist working with machine learning and living organisms such as bacteria and slime mould.",
+      "status": "lead",
+      "notes": "Also the video essay Holobiont (2018); its content was not described in sources.",
+      "via_shows": [
+        "Espressioni con frazioni (2022-2023)"
+      ],
+      "shown_with": [
+        "Beeple"
+      ],
+      "works": [
+        {
+          "title": "nimiia cétiï",
+          "year": "2018",
+          "medium": "audiovisual work, machine learning (with Memo Akten and Damien Henry)",
+          "where": "Google Arts & Culture residency, Somerset House Studios; LAS Art Foundation",
+          "nature": [],
+          "why": "A machine-made language built from the movements of Bacillus subtilis nattō bacteria and a Martian tongue.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://www.las-art.foundation/programme/nimiia-cetii-2018"
+          ],
+          "id": "W188",
+          "status": "candidate",
+          "image": {
+            "file": "images/W188.jpg",
+            "page": "https://www.las-art.foundation/programme/nimiia-cetii-2018",
+            "url": "https://cdn.sanity.io/images/sp7kseaf/production-20-01-25/f6be28c7e4250793156d2184b897883270a89e55-5333x3000.tif?w=1920&q=80&fm=jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A92",
+      "artist": "Jiabao Li",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Artist and designer working with technology, environment and climate.",
+      "status": "lead",
+      "notes": "Medium and full description not confirmed.",
+      "via_shows": [
+        "Cryosphere (2022)"
+      ],
+      "shown_with": [
+        "Jakob Kudsk Steensen"
+      ],
+      "works": [
+        {
+          "title": "Glacier's Lament",
+          "year": "2021",
+          "medium": "digital work (exact medium not stated in source)",
+          "where": "EPOCH Gallery, Cryosphere",
+          "nature": [],
+          "why": "about glacier loss; the show is built around Alaska's melting Matanuska Glacier",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://rightclicksave.com/article/epoch-gallery-and-blockchains-new-ecology",
+            "https://epoch.gallery/cryosphere"
+          ],
+          "id": "W189",
+          "status": "candidate",
+          "image": {
+            "file": "images/W189.jpg",
+            "page": "https://rightclicksave.com/article/epoch-gallery-and-blockchains-new-ecology",
+            "url": "https://assets.rcs-cdn.com/img/e47c04dc-3f48-4bc3-a619-ebdc974c9c37/83b62d3d62cb9e39?w=2000&f=auto&sig=dd74f873183255f606d58d76a81d50c5"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A93",
+      "artist": "Jim Linear",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "French CGI artist based in Barcelona working with texture, colour and organic shapes.",
+      "status": "lead",
+      "notes": "Content inferred from titles only. Work titles from Load Gallery's exhibition index; the page gives no year, medium or description. Content inferred from title.",
+      "via_shows": [
+        "Neo Botanica: An Atlas of Artificially Generated Flora (2025)"
+      ],
+      "shown_with": [
+        "Katherine Frazer",
+        "Refik Anadol",
+        "Entangled Others",
+        "Anna Ridler",
+        "Monica Rizzolli",
+        "David Lisser",
+        "Linda Dounia",
+        "Ivona Tau",
+        "Sofia Crespo",
+        "Sofia Crespo/Entangled Others"
+      ],
+      "works": [
+        {
+          "title": "White Moss",
+          "year": "2025",
+          "medium": "3D image",
+          "where": "Load Gallery, Neo Botanica",
+          "nature": [],
+          "why": "A 3D-rendered moss form (title only; no description on the page).",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://load-gallery.com/exhibitions-index/neo-botanica"
+          ],
+          "id": "W190",
+          "status": "candidate",
+          "image": {
+            "file": "images/W190.jpg",
+            "page": "https://load-gallery.com/exhibitions-index/neo-botanica",
+            "url": "https://framerusercontent.com/images/PNFSfkHRxK2gdjebcToECMkc.jpeg"
+          }
+        },
+        {
+          "title": "Organic Gardens by LINEAR",
+          "year": null,
+          "medium": "CGI",
+          "where": "Behance",
+          "nature": [],
+          "why": "CGI garden/plant forms (title only seen).",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://www.behance.net/jimlinear"
+          ],
+          "id": "W191",
+          "status": "candidate",
+          "image": {
+            "file": "images/W191.jpg",
+            "page": "https://www.behance.net/jimlinear",
+            "url": "https://mir-s3-cdn-cf.behance.net/projects/max_808/1bec82153079761.Y3JvcCw3NTQsNTg5LDM1OCw2OQ.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A94",
+      "artist": "Joan Fontcuberta",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Spanish photographer and artist who makes fictional archives and, recently, AI-generated images that question photographic truth.",
+      "status": "lead",
+      "notes": "Image content inferred only from the series and work title; I did not view the image. Work details from the Jeu de Paume press kit image captions.",
+      "via_shows": [
+        "Le monde selon l'IA (2025)",
+        "Le monde selon l'IA / The World According to AI (2025)"
+      ],
+      "shown_with": [
+        "Linda Dounia",
+        "Holly Herndon & Mat Dryhurst",
+        "Sasha Stiles"
+      ],
+      "works": [
+        {
+          "title": "Typha Volans, from the eHerbarium series",
+          "year": "2023-2024",
+          "medium": "Inkjet prints of images generated with Stable Diffusion, 32 x 27 cm each",
+          "where": "Le monde selon l'IA, Jeu de Paume, Paris, 2025",
+          "nature": [],
+          "why": "AI-generated image in an invented herbarium series, titled after a plant (Typha); the press kit does not describe the image further.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://jeudepaume.org/wp-content/uploads/2023/04/DP-IA.pdf"
+          ],
+          "id": "W192",
+          "status": "candidate",
+          "image": {
+            "file": "images/W192.jpg",
+            "page": "https://jeudepaume.org/wp-content/uploads/2023/04/DP-IA.pdf",
+            "url": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "A95",
+      "artist": "Joanie Lemercier",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "French artist (b. 1982) working with light, projection, plotter drawings and generated landscapes.",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Illusion Natur. Digitale Welten im Museum Sinclair-Haus (2019)"
+      ],
+      "shown_with": [
+        "Casey Reas"
+      ],
+      "works": [
+        {
+          "title": "Paysages possibles",
+          "year": "2019",
+          "medium": "plotter machine drawing installation (plotter, laptop, paper)",
+          "where": "Museum Sinclair-Haus, Illusion Natur",
+          "nature": [],
+          "why": "plotter-drawn panoramas and mountain landscapes",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://kunst-und-natur.de/files/Museum-Sinclair-Haus/Blattwerke/Blattwerke_11/19_illusion_natur_blattwerke_11.pdf"
+          ],
+          "id": "W193",
+          "status": "candidate",
+          "image": {
+            "file": "images/W193.jpg",
+            "page": "https://joanielemercier.com/paysages-possibles/",
+            "url": "https://joanielemercier.com/wp-content/uploads/2021/08/MSH_JLemercier_Paypos_mhf3031.jpg"
+          }
+        },
+        {
+          "title": "Montagne wireframe",
+          "year": "not stated in source",
+          "medium": "digital image",
+          "where": "Museum Sinclair-Haus booklet",
+          "nature": [],
+          "why": "wireframe rendering of a mountain",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://kunst-und-natur.de/files/Museum-Sinclair-Haus/Blattwerke/Blattwerke_11/19_illusion_natur_blattwerke_11.pdf"
+          ],
+          "id": "W194",
+          "status": "candidate",
+          "image": {
+            "file": "images/W194.jpg",
+            "page": "https://joanielemercier.com/montagne-wireframe/",
+            "url": "https://joanielemercier.com/wp-content/uploads/2019/02/LONG_export_XAVC_S_LONG.MP4_snapshot_10.24_2017.01.16_15.29.44-1024x576.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A96",
+      "artist": "Joann",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "AI artist and prompt engineer based in Yerevan.",
+      "status": "lead",
+      "notes": "Load spells it 'Plastc Flowers' on some 2024 entries. Also 'Laced' (2025). Work titles from Load Gallery's exhibition index; the page gives no year, medium or description. Gallery page spells one listing 'Plastc Flowers'. Full name not given.",
+      "via_shows": [
+        "Neo Botanica: An Atlas of Artificially Generated Flora (2025)"
+      ],
+      "shown_with": [
+        "Katherine Frazer",
+        "Refik Anadol",
+        "Entangled Others",
+        "Anna Ridler",
+        "Monica Rizzolli",
+        "David Lisser",
+        "Linda Dounia",
+        "Ivona Tau",
+        "Sofia Crespo",
+        "Sofia Crespo/Entangled Others"
+      ],
+      "works": [
+        {
+          "title": "Plastic Flowers",
+          "year": "2024-2025",
+          "medium": "AI image and video",
+          "where": "Load Gallery, Neo Botanica",
+          "nature": [],
+          "why": "AI-generated flowers (title only).",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://load-gallery.com/exhibitions-index/neo-botanica"
+          ],
+          "id": "W195",
+          "status": "candidate",
+          "image": {
+            "file": "images/W195.jpg",
+            "page": "https://load-gallery.com/exhibitions-index/neo-botanica",
+            "url": "https://framerusercontent.com/images/DJ1kIxknYsZNOEKXnabmpPHqQ.png"
+          }
+        },
+        {
+          "title": "Laced",
+          "year": null,
+          "medium": "digital (medium not stated on gallery page)",
+          "where": "Neo Botanica, Load Gallery, Barcelona (2025)",
+          "nature": [],
+          "why": "Shown in an exhibition of artificially generated flora; title refers to plastic flowers.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://load-gallery.com/exhibitions-index/neo-botanica"
+          ],
+          "id": "W196",
+          "status": "candidate",
+          "image": {
+            "file": "images/W196.jpg",
+            "page": "https://load-gallery.com/exhibitions-index/neo-botanica",
+            "url": "https://framerusercontent.com/images/lF4wazja59AElu4owUoTIgKmsY.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A97",
+      "artist": "Juan Covelli",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Artist making experimental video with AI, 3D capture and modelling.",
+      "status": "lead",
+      "notes": "Title not confirmed; only the Lumen winners page was opened.",
+      "via_shows": [
+        "Lumen Prize 2021 (winners)"
+      ],
+      "shown_with": [
+        "Cezar Mocan"
+      ],
+      "works": [
+        {
+          "title": "Waterfall (title from image filename; unconfirmed)",
+          "year": "2021 or earlier",
+          "medium": "experimental video",
+          "where": "Lumen Prize 2021, Moving Image Award",
+          "nature": [],
+          "why": "Video blending landscape research with AI, 3D capture and modelling to critique technology policy.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://lumenprize.org/2021-winners"
+          ],
+          "id": "W197",
+          "status": "candidate",
+          "image": {
+            "file": "images/W197.jpg",
+            "page": "https://lumenprize.org/2021-winners/nordic-award-winner-tmtd4",
+            "url": "http://static1.squarespace.com/static/65e7176a61627736e02f6c4a/65f474a6c9a7564c5ee0180e/65f4778dbbce140c90f67a43/1710520611355/Waterfall.png?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A98",
+      "artist": "Julian Charrière",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "French-Swiss artist whose films, photographs and sculptures address landscape, natural resources and environmental change.",
+      "status": "lead",
+      "notes": "At Jeu de Paume he showed Metamorphism LI (2016, artificial lava with molten computer waste) and Buried Sunshines Burn. Whether Towards No Earthly Pole counts as a 'digital' work is a judgement call: it is a film.",
+      "via_shows": [
+        "Le monde selon l'IA / The World According to AI (2025)"
+      ],
+      "shown_with": [
+        "Linda Dounia",
+        "Holly Herndon & Mat Dryhurst",
+        "Sasha Stiles"
+      ],
+      "works": [
+        {
+          "title": "Towards No Earthly Pole",
+          "year": "2019",
+          "medium": "film",
+          "where": "MASI Lugano (2019), Sean Kelly Gallery NY (2020), Aargauer Kunsthaus (2020), Dallas Museum of Art (2021)",
+          "nature": [],
+          "why": "Polar and glacial ice landscapes; ice and fire as symbols of change.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://en.wikipedia.org/wiki/Julian_Charri%C3%A8re"
+          ],
+          "id": "W198",
+          "status": "candidate",
+          "image": {
+            "file": "images/W198.jpg",
+            "page": "https://julian-charriere.net/projects/towards-no-earthly-pole",
+            "url": "https://julian-charriere.net/media/pages/projects/towards-no-earthly-pole/033abae6bc-1671025348/14_julian-charriere-towards-no-earthly-pole-2019-film-still-copyright-the-artist-vg-bild-kunst-bonn-germany.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A99",
+      "artist": "Julien Silvano",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Artist (WenNew Atelier) collaborating with conceptual writer Kalen Iwamoto.",
+      "status": "lead",
+      "notes": "Joint work with Kalen Iwamoto (also not in known-names; also in Ecotone 2022 with a non-nature work).",
+      "via_shows": [
+        "FeralVerse (2023)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Seed Words (with Kalen Iwamoto)",
+          "year": "2023",
+          "medium": "image (NFT)",
+          "where": "Feral File, FeralVerse",
+          "nature": [],
+          "why": "Google Maps image of a field where missing words of a wallet seed phrase were sown as flower seeds; blooming is tracked.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://feralfile.com/exhibitions/feralverse-1qa",
+            "https://feralfile.com/api/series?exhibitionID=87528bfb-3b46-4e68-ae55-9ba214d52a4d"
+          ],
+          "id": "W199",
+          "status": "candidate",
+          "image": {
+            "file": "images/W199.jpg",
+            "page": "https://feralfile.com/exhibitions/feralverse-1qa",
+            "url": "https://imagedelivery.net/iCRs13uicXIPOWrnuHbaKA/a19fa65f-3e36-421b-41e3-c038668a2000/l"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A100",
+      "artist": "Justine Emard",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "French artist working with robotics, machine learning and video on relations between humans, machines and other living beings.",
+      "status": "lead",
+      "notes": "At the Barbican she showed Co(AI)xistence, which is not nature-related. Which Emard work was in the Jeu de Paume show was not confirmed.",
+      "via_shows": [
+        "Le monde selon l'IA (2025)",
+        "AI: More than Human (2019)",
+        "Le monde selon l'IA / The World According to AI (2025)"
+      ],
+      "shown_with": [
+        "Linda Dounia",
+        "Holly Herndon & Mat Dryhurst",
+        "Sasha Stiles",
+        "Anna Ridler"
+      ],
+      "works": [
+        {
+          "title": "Supraorganism",
+          "year": "2020",
+          "medium": "Reactive installation: robotic blown-glass sculptures driven by a machine-learning system",
+          "where": "Artist's website",
+          "nature": [],
+          "why": "Glass sculptures that move and light up according to a neural network trained on behaviour data the artist recorded in a bee colony.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://www.justineemard.com/supraorganism/"
+          ],
+          "id": "W200",
+          "status": "candidate",
+          "image": {
+            "file": "images/W200.jpg",
+            "page": "https://www.justineemard.com/supraorganism/",
+            "url": "https://justineemard.com/wp-content/uploads/2023/01/Jutsine-Emard@KIKK22_photographe_quentin_chevrier-11-e1674466988849.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A101",
+      "artist": "Katja Novitskova",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Estonian artist working with online imagery, animals, data and ecology; Estonian Pavilion, Venice 2017.",
+      "status": "lead",
+      "notes": "Work shown in Ghosts not identified.",
+      "via_shows": [
+        "Ghosts (2025)"
+      ],
+      "shown_with": [
+        "Holly Herndon & Mat Dryhurst",
+        "Jake Elwes"
+      ],
+      "works": [
+        {
+          "title": "Approximation (series)",
+          "year": null,
+          "medium": "digital prints on aluminium (installations)",
+          "where": "various",
+          "nature": [],
+          "why": "Images of animals found online, shown at oversized scale as cut-out prints.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://en.wikipedia.org/wiki/Katja_Novitskova"
+          ],
+          "id": "W201",
+          "status": "candidate",
+          "image": {
+            "file": "images/W201.jpg",
+            "page": "https://katjanovitskova.com/serie/approximation",
+            "url": "https://cdn.prod.website-files.com/5ffef7846bca58e9b0671256/6031300da557c301821d9172_Katja%20Novitskova%20Approximation%20Mars%20I-p-1600.jpeg"
+          }
+        },
+        {
+          "title": "If Only You Could See What I've Seen with Your Eyes",
+          "year": "2017",
+          "medium": "installation (medium not stated)",
+          "where": "Estonian Pavilion, 57th Venice Biennale",
+          "nature": [],
+          "why": "Work on seeing, data-driven industries and ecology during a biotic crisis.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://en.wikipedia.org/wiki/Katja_Novitskova"
+          ],
+          "id": "W202",
+          "status": "candidate",
+          "image": {
+            "file": "images/W202.jpg",
+            "page": "https://katjanovitskova.com/exhibition/venice-biennale-2017",
+            "url": "https://cdn.prod.website-files.com/5ffef7846bca58e9b0671256/69fef4f712e91aa7e8a89ebb_47_If_Only_You_Could_See_What_I%27ve_Seen_With_Your_Eyes_photo_by_Anu_Vahtra_MG_8798-web.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A102",
+      "artist": "Ken Goldberg",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Artist and UC Berkeley robotics professor working on telerobotics and networked art.",
+      "status": "lead",
+      "notes": "Practice line from general knowledge; the Telegarden page names him as creator.",
+      "via_shows": [
+        "ICCC'21 Art Exhibition (2021)"
+      ],
+      "shown_with": [
+        "David Young",
+        "Alexander Reben",
+        "Jake Elwes"
+      ],
+      "works": [
+        {
+          "title": "Telegarden (with Joseph Santarromana)",
+          "year": "1995-2004",
+          "medium": "networked telerobotic installation",
+          "where": "USC, then Ars Electronica Center, Linz (from 1996)",
+          "nature": [],
+          "why": "Real community garden whose plants internet users viewed, planted and watered via a robot arm.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://en.wikipedia.org/wiki/Telegarden"
+          ],
+          "id": "W203",
+          "status": "candidate",
+          "image": {
+            "file": "images/W203.jpg",
+            "page": "https://en.wikipedia.org/wiki/Telegarden",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Telegarden.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A103",
+      "artist": "Leonardo Solaas",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Argentine generative artist making algorithmic flower and plant works, mostly on fxhash.",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Neo Botanica: An Atlas of Artificially Generated Flora (2025)"
+      ],
+      "shown_with": [
+        "Katherine Frazer",
+        "Refik Anadol",
+        "Entangled Others",
+        "Anna Ridler",
+        "Monica Rizzolli",
+        "David Lisser",
+        "Linda Dounia",
+        "Ivona Tau",
+        "Sofia Crespo",
+        "Sofia Crespo/Entangled Others"
+      ],
+      "works": [
+        {
+          "title": "Botanical Ghosts",
+          "year": "2023",
+          "medium": "generative code (fxhash)",
+          "where": "fxhash / raster.art",
+          "nature": [],
+          "why": "An endless ring of ghostly algorithmic foliage.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://www.raster.art/artwork/botanical-ghosts-by-leonardo-solaas/about"
+          ],
+          "id": "W204",
+          "status": "candidate",
+          "image": {
+            "file": "images/W204.jpg",
+            "page": "https://objkt.com/tokens/KT1U6EHmNxJTkvaWJ4ThczG4FSDaHC21ssvi/1532384",
+            "url": "https://assets.objkt.media/file/assets-003/QmXZ584wXEPnh6oJTBLQtfs43o8XCd6Q3Dy1NjzFmGktkz/display"
+          }
+        },
+        {
+          "title": "Flowers of the North",
+          "year": "2022",
+          "medium": "generative code",
+          "where": "fxhash / raster.art",
+          "nature": [],
+          "why": "A stream of particles drawing a flower.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://www.raster.art/artwork/flowers-of-the-north-by-leonardo-solaas/about"
+          ],
+          "id": "W205",
+          "status": "candidate",
+          "image": {
+            "file": "images/W205.jpg",
+            "page": "https://objkt.com/tokens/KT1KEa8z6vWXDJrVqtMrAeDVzsvxat3kHaCE/372487",
+            "url": "https://assets.objkt.media/file/assets-003/QmVMvAXBnQN86DEtYEgXdjzLiCLwHMKmv3aL2bpiGsdaP6/display"
+          }
+        },
+        {
+          "title": "Delirium Blooms",
+          "year": null,
+          "medium": "generative code",
+          "where": "Bright Moments",
+          "nature": [],
+          "why": "Invented 'delirious' flowers.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://www.brightmoments.io/quarterly/leonardo-solaas"
+          ],
+          "id": "W206",
+          "status": "candidate",
+          "image": {
+            "file": "images/W206.jpg",
+            "page": "https://www.brightmoments.io/quarterly/leonardo-solaas",
+            "url": "http://static1.squarespace.com/static/615b9047b8a1f00feaa5ad34/62b9ee772d900b515234f3d4/655e6fe30bbe2574651217e8/1725307983759/21816181_x5.jpg?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A104",
+      "artist": "LIA",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Vienna-based software-art pioneer working with code since 1995.",
+      "status": "lead",
+      "notes": "Content of Floral Greetings not confirmed beyond its title.",
+      "via_shows": [
+        "WEBSITES WEBSITES WEBSITES! (2026)",
+        "Ghost in the Machine (2022)",
+        "Electric Op (2024-2025)"
+      ],
+      "shown_with": [
+        "0xfff",
+        "Lorna Mills",
+        "Mika Ben Amar",
+        "Sarah Friend",
+        "Robbie Barrat",
+        "Helena Sarin",
+        "Brendan Dawes",
+        "Claire Silver",
+        "Sasha Stiles",
+        "Jesse Woolston",
+        "Linda Dounia",
+        "Casey Reas"
+      ],
+      "works": [
+        {
+          "title": "Mira",
+          "year": "2005 (later rebuilt for the web)",
+          "medium": "Generative, interactive web artwork",
+          "where": "WEBSITES WEBSITES WEBSITES!, ARTXCODE x Rhizome, 2026",
+          "nature": [],
+          "why": "Floral structures that grow, branch and bloom in response to the cursor.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://websiteswebsiteswebsites.net/works/lia.html"
+          ],
+          "id": "W207",
+          "status": "candidate",
+          "image": {
+            "file": "images/W207.jpg",
+            "page": "https://liaworks.com/theprojects/mira/",
+            "url": "https://www.liaworks.com/wp-content/uploads/2026/01/Mira-01.jpg"
+          }
+        },
+        {
+          "title": "Floral Greetings",
+          "year": "2023",
+          "medium": "giclee print with generative ERC-721 token",
+          "where": "Gazelli Art House, Awaken, Metamagical Hands (2024)",
+          "nature": [],
+          "why": "title refers to flowers; the gallery page gives no description of the image",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://gazelliarthouse.com/exhibitions/184/works/artworks-17453-lia-floral-greetings-2023"
+          ],
+          "id": "W208",
+          "status": "candidate",
+          "image": {
+            "file": "images/W208.jpg",
+            "page": "https://gazelliarthouse.com/exhibitions/184/works/artworks-17453-lia-floral-greetings-2023",
+            "url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/gazelli/images/view/15fcacbffad0a5f0354ebfbecaf26505j/gazelliarthouse-lia-floral-greetings-2023.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A105",
+      "artist": "Liliana Farber",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Artist working with machine learning, maps and data.",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "ICCC'21 Art Exhibition (2021)"
+      ],
+      "shown_with": [
+        "David Young",
+        "Alexander Reben",
+        "Jake Elwes"
+      ],
+      "works": [
+        {
+          "title": "Terram in Aspectu",
+          "year": "2019",
+          "medium": "inkjet prints, 12 images",
+          "where": "artist site",
+          "nature": [],
+          "why": "Machine-learning 'satellite photos' (trained on Google Earth) of phantom islands from historical maps.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://www.lilianafarber.com/terram-in-aspectu"
+          ],
+          "id": "W209",
+          "status": "candidate",
+          "image": {
+            "file": "images/W209.jpg",
+            "page": "https://www.lilianafarber.com/terram-in-aspectu",
+            "url": "https://static.wixstatic.com/media/995e88_ebb2e9024cf344ea913325ad76be859c~mv2.jpg/v1/fill/w_1500,h_1000,al_c/995e88_ebb2e9024cf344ea913325ad76be859c~mv2.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A106",
+      "artist": "Luca Bogoni",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Berlin-based visual artist mixing digital media and AI tools (Midjourney, Krea).",
+      "status": "lead",
+      "notes": "Also Biolumiflora spectrensis, Caeloflora Chroma, Attinomorfa Rubra, Lunaris Ignis, Phantasmagora Radiata. Work titles from Load Gallery's exhibition index; the page gives no year, medium or description. Content inferred from Latin-style titles and show theme.",
+      "via_shows": [
+        "Neo Botanica: An Atlas of Artificially Generated Flora (2025)"
+      ],
+      "shown_with": [
+        "Katherine Frazer",
+        "Refik Anadol",
+        "Entangled Others",
+        "Anna Ridler",
+        "Monica Rizzolli",
+        "David Lisser",
+        "Linda Dounia",
+        "Ivona Tau",
+        "Sofia Crespo",
+        "Sofia Crespo/Entangled Others"
+      ],
+      "works": [
+        {
+          "title": "Lilium Viridens",
+          "year": "2024",
+          "medium": "video (mixed media, Midjourney, Krea)",
+          "where": "Load Gallery, Neo Botanica",
+          "nature": [],
+          "why": "An invented lily species (title only).",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://load-gallery.com/exhibitions-index/neo-botanica"
+          ],
+          "id": "W210",
+          "status": "candidate",
+          "image": {
+            "file": "images/W210.jpg",
+            "page": "https://load-gallery.com/exhibitions-index/neo-botanica",
+            "url": "https://framerusercontent.com/images/MZzmE04B5FyYcL506HzIYySUewQ.png"
+          }
+        },
+        {
+          "title": "Crassulacae Plutonü B",
+          "year": "2024/25",
+          "medium": "video (mixed digital media)",
+          "where": "Load Gallery, Neo Botanica",
+          "nature": [],
+          "why": "An invented succulent (title only).",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://load-gallery.com/exhibitions-index/neo-botanica"
+          ],
+          "id": "W211",
+          "status": "candidate",
+          "image": {
+            "file": "images/W211.jpg",
+            "page": "https://load-gallery.com/exhibitions-index/neo-botanica",
+            "url": "https://framerusercontent.com/images/WaNre7qQqA0rxdyXnh3zXAkqhSw.png"
+          }
+        },
+        {
+          "title": "Biolumiflora spectrensis",
+          "year": null,
+          "medium": "digital (medium not stated on gallery page)",
+          "where": "Neo Botanica, Load Gallery, Barcelona (2025)",
+          "nature": [],
+          "why": "Shown in an exhibition of artificially generated flora; Latin-style names of invented or real plants (e.g. Lilium).",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://load-gallery.com/exhibitions-index/neo-botanica"
+          ],
+          "id": "W212",
+          "status": "candidate",
+          "image": {
+            "file": "images/W212.jpg",
+            "page": "https://load-gallery.com/exhibitions-index/neo-botanica",
+            "url": "https://framerusercontent.com/images/sR8IwmHbfaBJ8Ske7RDYdIhKtY.png"
+          }
+        },
+        {
+          "title": "Caeloflora Chroma",
+          "year": null,
+          "medium": "digital (medium not stated on gallery page)",
+          "where": "Neo Botanica, Load Gallery, Barcelona (2025)",
+          "nature": [],
+          "why": "Shown in an exhibition of artificially generated flora; Latin-style names of invented or real plants (e.g. Lilium).",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://load-gallery.com/exhibitions-index/neo-botanica"
+          ],
+          "id": "W213",
+          "status": "candidate",
+          "image": {
+            "file": "images/W213.jpg",
+            "page": "https://load-gallery.com/exhibitions-index/neo-botanica",
+            "url": "https://framerusercontent.com/images/xhb98ST8zJgQNPDHPXFdscUDnOw.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A107",
+      "artist": "Maja Petrić",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Artist making light sculptures and immersive installations shaped by environmental data.",
+      "status": "lead",
+      "notes": "SPACES II participation from a search-result summary only (see Random International note).",
+      "via_shows": [
+        "SPACES II (2025)"
+      ],
+      "shown_with": [
+        "Sougwen Chung",
+        "Refik Anadol",
+        "Addie Wagenknecht"
+      ],
+      "works": [
+        {
+          "title": "Specimens of Time (Hoh Rain Forest, Antarctica, Gwangneung, Getbol, Val d'Anniviers, Coral Triangle)",
+          "year": null,
+          "medium": "Generative light sculptures",
+          "where": "majapetric.com",
+          "nature": [],
+          "why": "Light sculptures recording the atmosphere of places going through environmental change, such as a rain forest, Antarctica and a coral reef region.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://www.majapetric.com/"
+          ],
+          "id": "W214",
+          "status": "candidate",
+          "image": {
+            "file": "images/W214.jpg",
+            "page": "https://www.majapetric.com/",
+            "url": "https://images.squarespace-cdn.com/content/v1/588d9dd3440243895c46b28f/99fe6f72-6243-4f62-ad09-afc62d160c86/0_specimens_of_time_val_d_anniviers_viewer2.jpg"
+          }
+        },
+        {
+          "title": "The Glitched Sublime",
+          "year": "2026",
+          "medium": "Robotic installation",
+          "where": "SXSW London; HOFA London (2026)",
+          "nature": [],
+          "why": "A robot adds artificial flowers one by one to a synthetic landscape as Arctic poppies disappear with warming.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://www.majapetric.com/"
+          ],
+          "id": "W215",
+          "status": "candidate",
+          "image": {
+            "file": "images/W215.jpg",
+            "page": "https://www.majapetric.com/",
+            "url": "https://images.squarespace-cdn.com/content/v1/588d9dd3440243895c46b28f/1779824534718-B8GBHCTVOBVWVFQE3ZLU/the_glitched_sublime_arctic_poppies_robot6.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A108",
+      "artist": "Marc Lee",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Swiss media artist working with networks, apps and installations.",
+      "status": "lead",
+      "notes": "Name given in Chinese (马克·李, Swiss artist); identification as Marc Lee and English title are my reading, not confirmed in an English source.",
+      "via_shows": [
+        "Encoding Phenology (2024)"
+      ],
+      "shown_with": [
+        "Sofia Crespo",
+        "Jakob Kudsk Steensen",
+        "Addie Wagenknecht"
+      ],
+      "works": [
+        {
+          "title": "演化推测，原型 1 (Speculative Evolution, Prototype 1; translated)",
+          "year": null,
+          "medium": "mobile app and network installation",
+          "where": "Encoding Phenology, Times Art Museum, Beijing (2024)",
+          "nature": [],
+          "why": "Viewers use an app to create new biological variants.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://news.pedaily.cn/20241023/95814.shtml"
+          ],
+          "id": "W216",
+          "status": "candidate",
+          "image": {
+            "file": "images/W216.jpg",
+            "page": "https://marclee.io/en/speculative-evolution/",
+            "url": "https://marclee.io/wp-content/uploads/Speculative-Evolution_File-Festival-Sao-Paulo.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A109",
+      "artist": "Marina Zurkow",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "New York media artist making animations, software and public projects about humans, nature and petroleum culture.",
+      "status": "lead",
+      "notes": "Found while browsing Feral File group shows (brief item 3); Chain Reaction includes known artists Jennifer & Kevin McCoy and Amelia Winger-Bearskin, not batch artists. Practice line not researched beyond this collaboration.",
+      "via_shows": [
+        "Chain Reaction (2023)"
+      ],
+      "shown_with": [
+        "Brendan Dawes"
+      ],
+      "works": [
+        {
+          "title": "Mesocosm (Wink, TX)",
+          "year": "2012",
+          "medium": "software-driven, data-driven hand-drawn animation (146-hour cycle)",
+          "where": "Whitney Museum, 'Parting Worlds' (2025-26); bitforms 'Necrocracy' (2013)",
+          "nature": [],
+          "why": "Wildlife around a sinkhole in Wink, Texas, with oil refineries flaring behind.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://whitney.org/exhibitions/marina-zurkow-parting-worlds/art?section=1",
+            "https://vimeo.com/38033069"
+          ],
+          "id": "W217",
+          "status": "candidate",
+          "image": {
+            "file": "images/W217.jpg",
+            "page": "https://vimeo.com/38033069",
+            "url": "https://i.vimeocdn.com/video/261544140-374901b3a28626e9815805fac5c3abb5c93c7a2196c4db3a3b1e21b720fa8dcf-d?f=webp"
+          }
+        },
+        {
+          "title": "The Dorises (with Ira Greenberg)",
+          "year": "2023",
+          "medium": "generative NFTs",
+          "where": "Feral File, Chain Reaction",
+          "nature": [],
+          "why": "Generative oysters, each with a password to a reef website.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://nftcalendar.io/event/chain-reaction/"
+          ],
+          "id": "W218",
+          "status": "candidate",
+          "image": {
+            "file": "images/W218.jpg",
+            "page": "https://verse.works/artworks/81d1cc18-209a-44ae-a189-acf082960917/360173026",
+            "url": "https://versecontent.com/image/w1400/static%2Fuploads%2F0xc4f0ee96676d3de800b9725eb628de1c5a0cbea1%2F1ba5e4ed-3c25-4263-922b-07d3c6bd5677.jpeg@jpeg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A110",
+      "artist": "Markos Kay",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Artist working between art and science in generative and AI video, known for the artificial-life piece aDiatomea.",
+      "status": "lead",
+      "notes": "Which Fotografiska location hosted Nature Portals is not confirmed.",
+      "via_shows": [
+        "Neo Botanica: An Atlas of Artificially Generated Flora (2025)"
+      ],
+      "shown_with": [
+        "Katherine Frazer",
+        "Refik Anadol",
+        "Entangled Others",
+        "Anna Ridler",
+        "Monica Rizzolli",
+        "David Lisser",
+        "Linda Dounia",
+        "Ivona Tau",
+        "Sofia Crespo",
+        "Sofia Crespo/Entangled Others"
+      ],
+      "works": [
+        {
+          "title": "Nature Portals",
+          "year": "2024",
+          "medium": "AI/diffusion video installation",
+          "where": "Fotografiska",
+          "nature": [],
+          "why": "A dreamlike landscape of imaginary animals and plants.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://hubemag.com/journey-through-a-dreamlike-ai-generated-landscape"
+          ],
+          "id": "W219",
+          "status": "candidate",
+          "image": {
+            "file": "images/W219.jpg",
+            "page": "https://hubemag.com/journey-through-a-dreamlike-ai-generated-landscape",
+            "url": "https://hubemag.com/wp-content/uploads/2024/07/Journey-through-a-dreamlike-AI-generated-landscape_hube.jpg"
+          }
+        },
+        {
+          "title": "Synaptic Flora #1 (Synaptic Hybrids)",
+          "year": null,
+          "medium": "digital print",
+          "where": "artist's print store",
+          "nature": [],
+          "why": "An invented plant form.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://mrkism.com/prints/index.html"
+          ],
+          "id": "W220",
+          "status": "candidate",
+          "image": {
+            "file": "images/W220.jpg",
+            "page": "https://mrkism.com/prints/index.html",
+            "url": "https://live.staticflickr.com/65535/52307792047_6491f73ae9_h.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A111",
+      "artist": "Mauro Cosenza",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Montevideo-based generative artist.",
+      "status": "lead",
+      "notes": "Also 'Etymon' v.002/v.003 (2024). Work titles from Load Gallery's exhibition index; the page gives no year, medium or description.",
+      "via_shows": [
+        "Neo Botanica: An Atlas of Artificially Generated Flora (2025)"
+      ],
+      "shown_with": [
+        "Katherine Frazer",
+        "Refik Anadol",
+        "Entangled Others",
+        "Anna Ridler",
+        "Monica Rizzolli",
+        "David Lisser",
+        "Linda Dounia",
+        "Ivona Tau",
+        "Sofia Crespo",
+        "Sofia Crespo/Entangled Others"
+      ],
+      "works": [
+        {
+          "title": "Pelargonium zonale (L.) L'Hér. ex Aiton",
+          "year": "2024",
+          "medium": "generative video",
+          "where": "Load Gallery, Neo Botanica",
+          "nature": [],
+          "why": "A generative rendering of the zonal geranium (title only).",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://load-gallery.com/exhibitions-index/neo-botanica"
+          ],
+          "id": "W221",
+          "status": "candidate",
+          "image": {
+            "file": "images/W221.jpg",
+            "page": "https://load-gallery.com/exhibitions-index/neo-botanica",
+            "url": "https://framerusercontent.com/images/uBwf1NlkdY31NrgPbaNkZp3ErQ.jpg"
+          }
+        },
+        {
+          "title": "Flowers Hum v.002",
+          "year": "2024",
+          "medium": "generative video",
+          "where": "Load Gallery, Neo Botanica",
+          "nature": [],
+          "why": "Generative flowers (title only).",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://load-gallery.com/exhibitions-index/neo-botanica"
+          ],
+          "id": "W222",
+          "status": "candidate",
+          "image": {
+            "file": "images/W222.jpg",
+            "page": "https://load-gallery.com/exhibitions-index/neo-botanica",
+            "url": "https://framerusercontent.com/images/W2O9RUYVVFIOQhGVT7cRX6zC8t8.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A112",
+      "artist": "Memo Akten",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Turkish-born artist and researcher working with machine learning, video and sound.",
+      "status": "lead",
+      "notes": "Sources give the Deep Meditations date as 2018 or 2019. Year and medium of the work not confirmed. Wikipedia says his work engages with ecology. His works list also has 'Waves 2.0: Terra' (2023) and 'Superradiance: Embodying Earth' (2024), not opened. The waves/fire/flowers description comes from the press titles listed on the memo.tv page (e.g. 'AI knows only flowers, waves and fire'); the page body describes the series in general terms. His works page also lists Waves, Waves 2.0: Terra and The Thinking Ocean.",
+      "via_shows": [
+        "Subject to Change (2025)",
+        "The Perfect Error (2023)",
+        "Automat und Mensch (2019)",
+        "NOISE Media Art Fair, Kate Vass Galerie presentation (2024)",
+        "Notes From the Ether: From NFTs to AI (2023)",
+        "Kate Vass Galerie at untitled Art Fair Miami Beach (2024)",
+        "Freak Show (2023)",
+        "Put the Kettle On (2026)"
+      ],
+      "shown_with": [
+        "Anna Ridler",
+        "Helena Sarin",
+        "Sofia Crespo",
+        "Daniel Ambrosi",
+        "Scott Eaton",
+        "Harold Cohen",
+        "David Young",
+        "Casey Reas",
+        "Primavera De Filippi",
+        "Robbie Barrat",
+        "Kevin Abosch",
+        "Harm van den Dorpel",
+        "Botto",
+        "Holly Herndon & Mat Dryhurst",
+        "Sarah Friend",
+        "Sarah Meyohas",
+        "Ganbrood",
+        "Ivona Tau",
+        "Roope Rainisto",
+        "Sasha Stiles",
+        "Brendan Dawes",
+        "Jake Elwes"
+      ],
+      "works": [
+        {
+          "title": "Learning to See",
+          "year": "2017-",
+          "medium": "machine-learning video installation (live webcam)",
+          "where": "Onassis 'You and AI' and others",
+          "nature": [],
+          "why": "Everyday objects such as cords and cloths turned live into seascapes and flowers.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://onassis.org/whats-on/festival-you-and-ai-through-the-algorithmic-lens/artworks/learning-to-see",
+            "https://aeon.co/videos/a-neural-network-that-keeps-seeing-art-where-we-see-mundane-objects"
+          ],
+          "id": "W223",
+          "status": "candidate",
+          "image": {
+            "file": "images/W223.jpg",
+            "page": "https://aeon.co/videos/a-neural-network-that-keeps-seeing-art-where-we-see-mundane-objects",
+            "url": "https://images.aeonmedia.co/images/a3603fe4-8625-4ab6-b618-6f5ec9a85898/gloomy-sunday-v4.jpg?width=1200&quality=75&format=jpeg"
+          }
+        },
+        {
+          "title": "Deep Meditations",
+          "year": "2018-2019",
+          "medium": "multi-channel AI video and sound",
+          "where": "Onassis 'You and AI'; memo.tv",
+          "nature": [],
+          "why": "A one-hour AI film on nature, life and the universe.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://onassis.org/whats-on/festival-you-and-ai-through-the-algorithmic-lens/artworks/deep-meditations"
+          ],
+          "id": "W224",
+          "status": "candidate",
+          "image": {
+            "file": "images/W224.jpg",
+            "page": "https://memo.tv/projects/2018/deep-meditations/",
+            "url": "https://media.superradiance.net/cdn-cgi/image/width=1600,fit=scale-down,format=jpeg,onerror=redirect/memotv/projects/2018/deep-meditations/images/deep-meditations.jpg"
+          }
+        },
+        {
+          "title": "Waves 2.0: Mountains, fragment #002",
+          "year": null,
+          "medium": "digital (not stated)",
+          "where": "The Perfect Error, Unit London (2023)",
+          "nature": [],
+          "why": "Mountains rendered as waves.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://unitlondon.com/voices/the-perfect-error"
+          ],
+          "id": "W225",
+          "status": "candidate",
+          "image": {
+            "file": "images/W225.jpg",
+            "page": "https://unitlondon.com/voices/the-perfect-error",
+            "url": "https://res.cloudinary.com/unit-london/images/f_jpg,q_auto/v1689765637/memo-HI-RES/memo-HI-RES.jpeg"
+          }
+        },
+        {
+          "title": "Distributed Consciousness",
+          "year": "2021",
+          "medium": "AI-generated video, NFT on Tezos; installation at ACMI Melbourne 2023-24",
+          "where": "ACMI, Melbourne",
+          "nature": [],
+          "why": "Cephalopods and octopus cognition as a way to think about more-than-human intelligence and ecological crisis.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://www.memo.tv/works/distributed-consciousness/"
+          ],
+          "id": "W226",
+          "status": "candidate",
+          "image": {
+            "file": "images/W226.jpg",
+            "page": "https://www.memo.tv/works/distributed-consciousness/",
+            "url": "https://media.superradiance.net/cdn-cgi/image/width=1200,fit=scale-down,format=auto,onerror=redirect/memotv/projects/2021/distributed-consciousness-nft/gallery/msa_distribconsc%20-%20critter_2048px_0074.jpg"
+          }
+        },
+        {
+          "title": "Learning to See: Gloomy Sunday",
+          "year": "2017",
+          "medium": "Video made with custom neural networks (part of the Learning to See series)",
+          "where": "memo.tv; series also exists as an interactive installation",
+          "nature": [],
+          "why": "Neural networks trained only on images such as waves, fire and flowers reinterpret a live camera view of everyday objects as those natural scenes.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://www.memo.tv/works/learning-to-see/"
+          ],
+          "id": "W227",
+          "status": "candidate",
+          "image": {
+            "file": "images/W227.jpg",
+            "page": "https://memo.tv/projects/2017/gloomy-sunday/",
+            "url": "https://media.superradiance.net/cdn-cgi/image/width=1600,fit=scale-down,format=jpeg,onerror=redirect/memotv/projects/2017/gloomy-sunday/gallery/01_Gloomy%20Sunday%20still%20003.jpg"
+          }
+        },
+        {
+          "title": "Learning to See: Mountains",
+          "year": "2018",
+          "medium": "Video (Learning to See series)",
+          "where": "memo.tv",
+          "nature": [],
+          "why": "Part of the same series; title indicates mountain imagery (content not described on the page).",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://www.memo.tv/works/learning-to-see/"
+          ],
+          "id": "W228",
+          "status": "candidate",
+          "image": {
+            "file": "images/W228.jpg",
+            "page": "https://memo.tv/projects/2018/mountains/",
+            "url": "https://media.superradiance.net/cdn-cgi/image/width=1600,fit=scale-down,format=jpeg,onerror=redirect/memotv/projects/2018/mountains/images/mountains-vimeo-thumbnail.jpg"
+          }
+        },
+        {
+          "title": "Superradiance (with Katie Peyton Hofstadter)",
+          "year": "2024",
+          "medium": "multiscreen video and sound installation, film and performance",
+          "where": "Gazelli Art House, Subject to Change (2025)",
+          "nature": [],
+          "why": "dancers embedded in forests, oceans and deserts",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://memo.tv/projects/2024/superradiance/",
+            "https://gazelliarthouse.com/exhibitions/200-subject-to-change-group-show/"
+          ],
+          "id": "W229",
+          "status": "candidate",
+          "image": {
+            "file": "images/W229.jpg",
+            "page": "https://memo.tv/projects/2024/superradiance/",
+            "url": "https://media.superradiance.net/cdn-cgi/image/width=1200,fit=scale-down,format=auto,onerror=redirect/superradiance/projects/2024/superradiance/images/superradiance_clouds.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A113",
+      "artist": "Michael Reisch",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "German artist (b. 1964) who photographs real landscapes and reworks them digitally.",
+      "status": "lead",
+      "notes": "Photo-based; digital manipulation rather than generated imagery.",
+      "via_shows": [
+        "Illusion Natur. Digitale Welten im Museum Sinclair-Haus (2019)"
+      ],
+      "shown_with": [
+        "Casey Reas"
+      ],
+      "works": [
+        {
+          "title": "Landschaft (Landscape), 1/020",
+          "year": "2002",
+          "medium": "digitally processed photograph, Lambda print / Diasec",
+          "where": "Museum Sinclair-Haus, Illusion Natur",
+          "nature": [],
+          "why": "green, empty landscape of hills and grass, digitally altered",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://kunst-und-natur.de/files/Museum-Sinclair-Haus/Blattwerke/Blattwerke_11/19_illusion_natur_blattwerke_11.pdf"
+          ],
+          "id": "W230",
+          "status": "candidate",
+          "image": {
+            "file": "images/W230.jpg",
+            "page": "https://www.michaelreisch.com/archive-1991-2015/1/",
+            "url": "https://www.michaelreisch.com/site/assets/files/1073/1_020.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A114",
+      "artist": "Miguel Chevalier",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Mexican-born artist (b. 1959) based in Paris, working in digital and virtual art since the 1990s, often large immersive projections.",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Illusion Natur. Digitale Welten im Museum Sinclair-Haus (2019)"
+      ],
+      "shown_with": [
+        "Casey Reas"
+      ],
+      "works": [
+        {
+          "title": "Trans-Nature",
+          "year": "2019",
+          "medium": "software-generated video installation",
+          "where": "Museum Sinclair-Haus, Illusion Natur",
+          "nature": [],
+          "why": "giant floating, colour-shifting virtual trees, bushes, plant parts and leaves",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://kunst-und-natur.de/files/Museum-Sinclair-Haus/Blattwerke/Blattwerke_11/19_illusion_natur_blattwerke_11.pdf"
+          ],
+          "id": "W231",
+          "status": "candidate",
+          "image": {
+            "file": "images/W231.jpg",
+            "page": "https://www.aeroplastics.net/artworks/14105-miguel-chevalier-trans-natures-2015/",
+            "url": "https://static-assets.artlogic.net/w_1300,h_1000,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/aeroplastics/images/view/a4999ad776d9c1c87c1938b23b60357ej/aeroplastics-miguel-chevalier-trans-natures-2015.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A115",
+      "artist": "Monika Fleischmann & Wolfgang Strauss",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "German media-art duo who made interactive virtual-reality and computer installations from the late 1980s.",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Electric Dreams: Art and Technology Before the Internet (2024-2025)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Liquid Views (with Christian-A. Bohn)",
+          "year": "1992-1993",
+          "medium": "interactive installation: touchscreen, PC, custom software, camera, projection",
+          "where": "ZKM collection; shown at SIGGRAPH and elsewhere",
+          "nature": [],
+          "why": "A simulated water surface that reflects the viewer; touching it makes virtual ripples that distort the reflection.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://zkm.de/en/artwork/liquid-views"
+          ],
+          "id": "W232",
+          "status": "candidate",
+          "image": {
+            "file": "images/W232.jpg",
+            "page": "https://zkm.de/en/artwork/liquid-views",
+            "url": "https://zkm.de/system/files/field_media_image/2024/12/31/170448/ZKM000250065.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A116",
+      "artist": "Nancy Baker Cahill",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "US new-media artist making augmented-reality works through her 4th Wall app, often about climate.",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Proof of Art: A Brief History of NFTs, from the Beginnings of Digital Art to the Metaverse (2021)"
+      ],
+      "shown_with": [
+        "Anna Ridler",
+        "Sarah Meyohas",
+        "terra0",
+        "Refik Anadol",
+        "Kevin Abosch",
+        "Harm van den Dorpel",
+        "Primavera De Filippi",
+        "Sarah Friend"
+      ],
+      "works": [
+        {
+          "title": "Stone Speaks",
+          "year": "2022",
+          "medium": "augmented reality (with Sophia the Robot)",
+          "where": "Flux Projects, Piedmont Park, Atlanta",
+          "nature": [],
+          "why": "A monumental AR piece of the Earth changing, based on talks about the climate crisis.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://nancybakercahill.com/work/stone-speaks",
+            "https://fluxprojects.org/productions/stone-speaks/"
+          ],
+          "id": "W233",
+          "status": "candidate",
+          "image": {
+            "file": "images/W233.jpg",
+            "page": "https://nancybakercahill.com/work/stone-speaks",
+            "url": "https://nancybakercahill.com/wp-content/uploads/2022/11/stonespeaksfb.png"
+          }
+        },
+        {
+          "title": "CENTO",
+          "year": "2023",
+          "medium": "augmented reality and video",
+          "where": "Whitney Museum terrace; earlier version Desert X 2019 above the Salton Sea",
+          "nature": [],
+          "why": "An AR creature and video of its cave-like habitat.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://whitney.org/exhibitions/cento"
+          ],
+          "id": "W234",
+          "status": "candidate",
+          "image": {
+            "file": "images/W234.jpg",
+            "page": "https://whitney.org/exhibitions/cento",
+            "url": "https://whitneymedia.org/assets/image/829436/cento_diptych.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A117",
+      "artist": "Nat Sarkissian",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Armenian-American artist in San Diego working with light, simulation and complexity, often drawing on California landscapes.",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Neo Botanica: An Atlas of Artificially Generated Flora (2025)"
+      ],
+      "shown_with": [
+        "Katherine Frazer",
+        "Refik Anadol",
+        "Entangled Others",
+        "Anna Ridler",
+        "Monica Rizzolli",
+        "David Lisser",
+        "Linda Dounia",
+        "Ivona Tau",
+        "Sofia Crespo",
+        "Sofia Crespo/Entangled Others"
+      ],
+      "works": [
+        {
+          "title": "Never the Same",
+          "year": "2025",
+          "medium": "generative code (fxhash)",
+          "where": "fxhash; Bonhams London show (Feb 2025)",
+          "nature": [],
+          "why": "Spring flowers moving in the breeze.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://www.raster.art/artwork/never-the-same-by-nat-sarkissian/about",
+            "https://cure3.co.uk/artworks/494/"
+          ],
+          "id": "W235",
+          "status": "candidate",
+          "image": {
+            "file": "images/W235.jpg",
+            "page": "https://cure3.co.uk/artworks/494/",
+            "url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/cure3/images/view/ba149d92d4fc826fcae3b2e9a6b15f0fj.jpg"
+          }
+        },
+        {
+          "title": "In Deep Spring (series)",
+          "year": "2024",
+          "medium": "algorithmic pen-plotter print",
+          "where": "Vertu Fine Art",
+          "nature": [],
+          "why": "Spring imagery (title only).",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://www.vertufineart.com/artists/233/works"
+          ],
+          "id": "W236",
+          "status": "candidate",
+          "image": {
+            "file": "images/W236.jpg",
+            "page": "https://www.vertufineart.com/artists/233/works",
+            "url": "https://static-assets.artlogic.net/w_1200,h_630,c_fill,f_auto,fl_lossy,q_auto/artlogicstorage/vertufineart/images/view/e1b0a13a96c2f38d5db73ba1576e3493/vertufineart-nat-sarkissian-in-deep-spring-5-2024.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A118",
+      "artist": "Nathan Shafer",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Anchorage-born artist working in the Matanuska-Susitna Valley, Alaska, on AR, graphic novels and Arctic subjects.",
+      "status": "lead",
+      "notes": "Source does not say which Shafer works were in Cryosphere; co-organised the show with Peter Wu+.",
+      "via_shows": [
+        "Cryosphere (2022)"
+      ],
+      "shown_with": [
+        "Jakob Kudsk Steensen"
+      ],
+      "works": [
+        {
+          "title": "Wintermoot (graphic novel series)",
+          "year": "2019-2022",
+          "medium": "digital graphic novel series",
+          "where": "EPOCH Gallery, Cryosphere",
+          "nature": [],
+          "why": "Alaskan Arctic and glacier setting",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://rightclicksave.com/article/epoch-gallery-and-blockchains-new-ecology"
+          ],
+          "id": "W237",
+          "status": "candidate",
+          "image": {
+            "file": "images/W237.jpg",
+            "page": "https://www.adn.com/arts/books/2022/07/02/book-review-in-wintermoot-a-graphic-novel-that-shape-shifts-disorients-and-challenges-readers",
+            "url": "https://www.adn.com/resizer/v2/DNAOZR6IMNBVXBW54XX7DV32TI.png?smart=true&auth=2589bd44e58a8f381570f0b2fb6c40240abb23eb121102515a68e5e4306ed979&width=1200&height=630"
+          }
+        },
+        {
+          "title": "Arctic Adventure Sculpture Garden",
+          "year": "2018",
+          "medium": "digital work (medium not stated in source)",
+          "where": "named in Right Click Save article",
+          "nature": [],
+          "why": "Arctic subject",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://rightclicksave.com/article/epoch-gallery-and-blockchains-new-ecology"
+          ],
+          "id": "W238",
+          "status": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "A119",
+      "artist": "Nathaniel Stern",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Artist and writer making 'Compressionist' prints by performing with a body-worn scanner; author of Ecological Aesthetics.",
+      "status": "lead",
+      "notes": "His scanner-art NFTs are on Objkt and Versum per his site.",
+      "via_shows": [
+        "Down the Silicon Meadow (2025)",
+        "FeralVerse (2023, with Sasha Stiles)"
+      ],
+      "shown_with": [
+        "Cezar Mocan"
+      ],
+      "works": [
+        {
+          "title": "Giverny of the Midwest",
+          "year": "2011",
+          "medium": "panoramic installation of scanner prints",
+          "where": "artist site",
+          "nature": [],
+          "why": "Nearly 100 scans of water, lilies and leaves from a lily pond in South Bend, Indiana, citing Monet's Water Lilies.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://nathanielstern.art/artwork/giverny-of-the-midwest/"
+          ],
+          "id": "W239",
+          "status": "candidate",
+          "image": {
+            "file": "images/W239.jpg",
+            "page": "https://nathanielstern.art/artwork/giverny-of-the-midwest/",
+            "url": "https://nathanielstern.art/newsite/wp-content/uploads/2012/12/viewer-+-detail-middle-wall1-scaled.jpg"
+          }
+        },
+        {
+          "title": "Rippling Images",
+          "year": "2014",
+          "medium": "underwater scanner prints",
+          "where": "Turbine Art Fair Johannesburg; Tory Folliard, Milwaukee",
+          "nature": [],
+          "why": "Prints made by scanning while scuba diving on a coral reef off Key Largo; fish and plants.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://nathanielstern.art/artwork/rippling-images/"
+          ],
+          "id": "W240",
+          "status": "candidate",
+          "image": {
+            "file": "images/W240.jpg",
+            "page": "https://nathanielstern.art/artwork/rippling-images/",
+            "url": "https://nathanielstern.art/newsite/wp-content/uploads/2014/06/xsmall-200x130-surfacing.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A120",
+      "artist": "Neri Oxman",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Designer and architect who works on computational design, digital fabrication and biology ('material ecology').",
+      "status": "lead",
+      "notes": "Work is digital fabrication and biology rather than screen-based.",
+      "via_shows": [
+        "The Imitation Game: Visual Culture in the Age of Artificial Intelligence (2022)"
+      ],
+      "shown_with": [
+        "Anna Ridler",
+        "Scott Eaton",
+        "Sougwen Chung"
+      ],
+      "works": [
+        {
+          "title": "Silk Pavilion",
+          "year": "2013 (Silk Pavilion II, 2020)",
+          "medium": "robotically woven structure spun over by about 6,500 silkworms; computational design",
+          "where": "MIT Media Lab; Silk Pavilion II at MoMA",
+          "nature": [],
+          "why": "A dome woven by a robotic arm and then spun with silk by live silkworms.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://en.wikipedia.org/wiki/Neri_Oxman"
+          ],
+          "id": "W241",
+          "status": "candidate",
+          "image": {
+            "file": "images/W241.jpg",
+            "page": "https://commons.wikimedia.org/wiki/File:Oxman-Silk_pavilion_installation.png",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Oxman-Silk_pavilion_installation.png"
+          }
+        },
+        {
+          "title": "Aguahoja I-III",
+          "year": "2014-2020",
+          "medium": "digitally fabricated structures from chitosan",
+          "where": "MoMA and others",
+          "nature": [],
+          "why": "Sculptures of biodegradable organic material, one resembling folded cicada wings.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://en.wikipedia.org/wiki/Neri_Oxman"
+          ],
+          "id": "W242",
+          "status": "candidate",
+          "image": {
+            "file": "images/W242.jpg",
+            "page": "https://www.designboom.com/technology/mit-media-lab-mediated-matter-group-aguahoja-pavilion-03-28-2019/",
+            "url": "https://www.designboom.com/twitterimages/uploads/2019/03/mit-media-lab-mediated-matter-group-aguahoja-pavilion-designboom-Fb.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A121",
+      "artist": "Nicolas Sassoon",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Artist who makes moiré-pattern digital animations and pixel-based works.",
+      "status": "lead",
+      "notes": "His projects list also includes 'Liquid Landscapes' and 'Islands', not opened.",
+      "via_shows": [
+        "The Monolith (SuperRare) (2021)"
+      ],
+      "shown_with": [
+        "Botto",
+        "Jesse Woolston",
+        "Sofia Crespo"
+      ],
+      "works": [
+        {
+          "title": "WATERFALLS",
+          "year": "2022",
+          "medium": "collection of 100 digital moiré animations",
+          "where": "Bright Moments, London, June 2022",
+          "nature": [],
+          "why": "Animated water motion (waterfalls) rendered as moiré patterns.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://www.nicolassassoon.com/WTRFLLS.html"
+          ],
+          "id": "W243",
+          "status": "candidate",
+          "image": {
+            "file": "images/W243.jpg",
+            "page": "https://www.nicolassassoon.com/WTRFLLS.html",
+            "url": "https://www.nicolassassoon.com/IMAGES/WTRFLL_0.gif"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A122",
+      "artist": "Owen McAteer",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Artist (b. 1986) who makes interactive kinetic works with flip-discs, computer systems and 3D cameras.",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Augmented Intelligence (2025)"
+      ],
+      "shown_with": [
+        "Alexander Reben",
+        "Alkan Avcıoğlu",
+        "Amelia Winger-Bearskin",
+        "Botto",
+        "Brendan Dawes",
+        "Charles Csuri",
+        "Claire Silver",
+        "ClownVamp",
+        "Daniel Ambrosi",
+        "DeepBlack",
+        "Ganbrood",
+        "Gene Kogan",
+        "Harold Cohen",
+        "Holly Herndon & Mat Dryhurst",
+        "Ivona Tau",
+        "Jake Elwes",
+        "Jesse Woolston",
+        "Kevin Abosch",
+        "Linda Dounia",
+        "Niceaunties",
+        "Pindar Van Arman",
+        "Refik Anadol",
+        "Robbie Barrat",
+        "Roope Rainisto",
+        "Sarp Kerem Yavuz",
+        "Sasha Stiles",
+        "Scott Eaton",
+        "Sofia Crespo",
+        "Anna Ridler",
+        "Sougwen Chung",
+        "Vanessa Rosa"
+      ],
+      "works": [
+        {
+          "title": "Seiche",
+          "year": "2024",
+          "medium": "flip-discs, computer system and 3D camera, interactive",
+          "where": "Christie's Augmented Intelligence sale, 2025 (provenance HOFA Gallery)",
+          "nature": [],
+          "why": "Rolling waves based on the waters of Miami's Biscayne Bay; viewers' movements disturb the waves like the external force in a real seiche.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://onlineonly.christies.com/s/augmented-intelligence/owen-mcateer-b-1986-26/250108"
+          ],
+          "id": "W244",
+          "status": "candidate",
+          "image": {
+            "file": "images/W244.jpg",
+            "page": "https://onlineonly.christies.com/s/augmented-intelligence/owen-mcateer-b-1986-26/250108",
+            "url": "https://www.christies.com/img/LotImages/2025/NYR/2025_NYR_23942_0026_000(owen_mcateer_motus_art_seiche_d6523112061345).jpg?mode=max"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A123",
+      "artist": "Petra Cortright",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Los Angeles artist working with consumer software, webcam video and digital painting.",
+      "status": "lead",
+      "notes": "Landscape here is satellite imagery of terrain, treated as software surface. GRACIE year not found.",
+      "via_shows": [
+        "WEBSITES WEBSITES WEBSITES! (2026)",
+        "Paddles ON! (2013)",
+        "Temporary Highs (2016)"
+      ],
+      "shown_with": [
+        "0xfff",
+        "Lorna Mills",
+        "Mika Ben Amar",
+        "Sarah Friend",
+        "Addie Wagenknecht",
+        "Casey Reas",
+        "Katherine Frazer"
+      ],
+      "works": [
+        {
+          "title": "System Landscapes",
+          "year": "2007",
+          "medium": "Website",
+          "where": "WEBSITES WEBSITES WEBSITES!, 2026",
+          "nature": [],
+          "why": "Early Google Earth satellite imagery layered with repeated crashing Photoshop windows, forming a glitched terrain.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://websiteswebsiteswebsites.net/works/petra-cortright.html"
+          ],
+          "id": "W245",
+          "status": "candidate",
+          "image": {
+            "file": "images/W245.jpg",
+            "page": "https://www.petracortright.com/works/selected_show/system_landscapes_1.html",
+            "url": "https://www.petracortright.com/works/selected_show/b.gif"
+          }
+        },
+        {
+          "title": "GRACIE",
+          "year": null,
+          "medium": "digital painting",
+          "where": "Artspace",
+          "nature": [],
+          "why": "A landscape filled with multicoloured flowers and lush plants.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://artspace.com/petra-cortright/gracie"
+          ],
+          "id": "W246",
+          "status": "candidate"
+        },
+        {
+          "title": "Lucky Duck Lights Out (exhibition)",
+          "year": "2019",
+          "medium": "digital works",
+          "where": "1301PE, Los Angeles",
+          "nature": [],
+          "why": "Variations on the floral still life, referring to dahlias.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://www.1301pe.com/past-exhibitions-1/2019/1/19/lucky-duck-lights-out"
+          ],
+          "id": "W247",
+          "status": "candidate",
+          "image": {
+            "file": "images/W247.jpg",
+            "page": "https://contemporaryartlibrary.org/project/petra-cortright-at-1301pe-los-angeles-4266",
+            "url": "https://cdn.contemporaryartlibrary.org/store/image/26307/imagefile/xlarge-67958934cc85c71f46ed88260c6b0e60.jpg"
+          }
+        },
+        {
+          "title": "green hill green light esprit de corps",
+          "year": "2023",
+          "medium": "video",
+          "where": "Foxy Production",
+          "nature": [],
+          "why": "A constantly morphing computer-generated landscape.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://foxyproduction.com/exhibitions/petra-cortright-2023-06-16"
+          ],
+          "id": "W248",
+          "status": "candidate",
+          "image": {
+            "file": "images/W248.jpg",
+            "page": "https://foxyproduction.com/exhibitions/petra-cortright-2023-06-16",
+            "url": "https://cdn.sanity.io/images/y7df71pe/production/a5a48ae5495994d135b50d236fc9f0cce3b748c0-6720x4480.jpg?w=1400"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A124",
+      "artist": "Phenomena Labs",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Studio using custom diffusion models.",
+      "status": "lead",
+      "notes": "Also showed the Rococo Diffusion Artifact series; subject of those not described. Included because it was in a flora show; nature content of individual works not confirmed.",
+      "via_shows": [
+        "Neo Botanica: An Atlas of Artificially Generated Flora (2025)"
+      ],
+      "shown_with": [
+        "Katherine Frazer",
+        "Refik Anadol",
+        "Entangled Others",
+        "Anna Ridler",
+        "Monica Rizzolli",
+        "David Lisser",
+        "Linda Dounia",
+        "Ivona Tau",
+        "Sofia Crespo",
+        "Sofia Crespo/Entangled Others"
+      ],
+      "works": [
+        {
+          "title": "LOOK AT THE SKY",
+          "year": "not stated",
+          "medium": "video, custom diffusion model",
+          "where": "Load Gallery, Neo Botanica",
+          "nature": [],
+          "why": "sky (inferred from title)",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://load-gallery.com/exhibitions-index/neo-botanica"
+          ],
+          "id": "W249",
+          "status": "candidate",
+          "image": {
+            "file": "images/W249.jpg",
+            "page": "https://load-gallery.com/exhibitions-index/neo-botanica",
+            "url": "https://framerusercontent.com/images/Ge7592Gba6lHoUfVKoPk61LxEo0.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A125",
+      "artist": "Pierre Huyghe",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "French artist making installations with living systems and machine learning.",
+      "status": "lead",
+      "notes": "The work does not depict nature; it brings live animals (flies) into a machine-learning installation.",
+      "via_shows": [
+        "Espressioni con frazioni (2022-2023)"
+      ],
+      "shown_with": [
+        "Beeple"
+      ],
+      "works": [
+        {
+          "title": "UUmwelt",
+          "year": "2018",
+          "medium": "installation: deep-neural-network images, live flies",
+          "where": "Serpentine Galleries, London (2018-19)",
+          "nature": [],
+          "why": "Neural-network reconstructions of images people imagined, shown in a room with a live colony of blue bottle flies.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://www.serpentinegalleries.org/whats-on/pierre-huyghe-uumwelt/",
+            "https://brooklynrail.org/2019/02/artseen/Pierre-HuygheUUmwelt/"
+          ],
+          "id": "W250",
+          "status": "candidate",
+          "image": {
+            "file": "images/W250.jpg",
+            "page": "https://brooklynrail.org/2019/02/artseen/Pierre-HuygheUUmwelt/",
+            "url": "https://studio.brooklynrail.org/assets/1e13187e-8fca-4380-b47c-c0d860bf5ef4.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A126",
+      "artist": "Pinar Yoldas",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Artist and researcher making speculative organisms and works on biotechnology and ecology.",
+      "status": "lead",
+      "notes": "Year is the Feral File release; original creation dates not given. Both works are installations with digital/data components, not purely screen-based.",
+      "via_shows": [
+        "Harbingers (2022)",
+        "Machine Dreams (2018)"
+      ],
+      "shown_with": [
+        "Sofia Crespo",
+        "Gene Kogan",
+        "Sarah Meyohas",
+        "Anna Ridler"
+      ],
+      "works": [
+        {
+          "title": "Hollow Ocean",
+          "year": "2022",
+          "medium": "software (on-chain)",
+          "where": "Feral File, Harbingers",
+          "nature": [],
+          "why": "Painterly surrealist space about the future of ocean life: embryos, amniotic fluid, saltwater, primordial ooze.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://feralfile.com/exhibitions/harbingers-vgb",
+            "https://feralfile.com/api/series?exhibitionID=91483129-948d-417d-b18a-34969eb5cbdf"
+          ],
+          "id": "W251",
+          "status": "candidate",
+          "image": {
+            "file": "images/W251.jpg",
+            "page": "https://feralfile.com/exhibitions/harbingers-vgb",
+            "url": "https://imagedelivery.net/5BJzhBHeVhlhbn58hvcXAQ/caa8c0be-2d1e-4b33-c2cb-b8cda4e79700/l"
+          }
+        },
+        {
+          "title": "Designer Baby",
+          "year": "2022",
+          "medium": "software (on-chain)",
+          "where": "Feral File, Harbingers",
+          "nature": [],
+          "why": "Speculative work on genetic modification, framed by transgenic plants and animals, imagining designer babies.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://feralfile.com/exhibitions/harbingers-vgb",
+            "https://feralfile.com/api/series?exhibitionID=91483129-948d-417d-b18a-34969eb5cbdf"
+          ],
+          "id": "W252",
+          "status": "candidate",
+          "image": {
+            "file": "images/W252.jpg",
+            "page": "https://feralfile.com/exhibitions/harbingers-vgb",
+            "url": "https://imagedelivery.net/5BJzhBHeVhlhbn58hvcXAQ/ea5a09be-cf1f-408d-9903-60f5ab387e00/l"
+          }
+        },
+        {
+          "title": "An Ecosystem of Excess",
+          "year": "2014",
+          "medium": "Installation with speculative organisms, lexicon and video",
+          "where": "Gallery@CALIT2, UC San Diego (2017) and elsewhere",
+          "nature": [],
+          "why": "Imagined sea creatures, insects, reptiles and birds with organs to digest plastic, evolved in the Great Pacific Garbage Patch.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://www.pinaryoldas.info/Ecosystem-of-Excess-2014"
+          ],
+          "id": "W253",
+          "status": "candidate",
+          "image": {
+            "file": "images/W253.jpg",
+            "page": "https://www.pinaryoldas.info/Ecosystem-of-Excess-2014",
+            "url": "https://payload.cargocollective.com/1/0/10589/10336044/prt_450x301_1443471010_2x.jpg"
+          }
+        },
+        {
+          "title": "The Very Loud Chamber Orchestra of Endangered Species",
+          "year": "2013",
+          "medium": "Sound installation using data sonification",
+          "where": "pinaryoldas.info",
+          "nature": [],
+          "why": "Recordings of 14 endangered animals combined with sonified World Bank data on water pollution, CO2, deforestation and chemical pollution.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://www.pinaryoldas.info/The-Very-Loud-Chamber-Orchestra-of-Endangered-Species-2013"
+          ],
+          "id": "W254",
+          "status": "candidate",
+          "image": {
+            "file": "images/W254.jpg",
+            "page": "https://www.pinaryoldas.info/The-Very-Loud-Chamber-Orchestra-of-Endangered-Species-2013",
+            "url": "https://payload.cargocollective.com/1/0/10589/10440782/prt_450x298_1443402115_2x.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A127",
+      "artist": "Quayola",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Italian artist based in London who uses algorithms, laser scanning and robotics to reinterpret landscape and art-historical imagery.",
+      "status": "lead",
+      "notes": "The work shown in Toledo is not named in the sources I read. His site also lists Pleasant Places, Storms, Remains: Provence and Remains: Vallee de Joux under Landscape Paintings.",
+      "via_shows": [
+        "Infinite Images: The Art of Algorithms (2025)"
+      ],
+      "shown_with": [
+        "Anna Ridler",
+        "Sarah Meyohas",
+        "Sofia Crespo/Entangled Others",
+        "Casey Reas",
+        "Monica Rizzolli"
+      ],
+      "works": [
+        {
+          "title": "Remains: Chaumont-sur-Loire",
+          "year": "2018",
+          "medium": "Series of ultra-high-resolution prints from laser scans",
+          "where": "Artist's website",
+          "nature": [],
+          "why": "Trees and shrubs at Chaumont-sur-Loire as captured by a laser scanner, including the scanning errors their geometry causes.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://quayola.com/work/remains/"
+          ],
+          "id": "W255",
+          "status": "candidate",
+          "image": {
+            "file": "images/W255.jpg",
+            "page": "https://quayola.com/work/remains/",
+            "url": "https://quayola.com/wp-content/uploads/2023/05/Quayola_Remains_Chaumont-sur-Loire_008-1-scaled-e1686330618510.jpg"
+          }
+        },
+        {
+          "title": "Jardins d'Ete",
+          "year": "2017",
+          "medium": "videos and prints from computational analysis of filmed gardens",
+          "where": "Chateau de Chaumont-sur-Loire",
+          "nature": [],
+          "why": "flowering gardens of Chaumont-sur-Loire moving in the wind, turned into algorithmic paintings",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://quayola.com/jardins-dete/"
+          ],
+          "id": "W256",
+          "status": "candidate",
+          "image": {
+            "file": "images/W256.jpg",
+            "page": "https://quayola.com/jardins-dete/",
+            "url": "https://quayola.com/wp-content/uploads/2023/05/Quayola_Jardins-dEte_023-scaled.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A128",
+      "artist": "Random International",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "London/Berlin studio (Hannes Koch, Florian Ortkrass) making installations driven by custom software, sensors and light.",
+      "status": "lead",
+      "notes": "Their SPACES II participation comes from a search-result summary of sougwen.com/?p=2552; the page itself returned 404 when opened.",
+      "via_shows": [
+        "SPACES II (2025)"
+      ],
+      "shown_with": [
+        "Sougwen Chung",
+        "Refik Anadol",
+        "Addie Wagenknecht"
+      ],
+      "works": [
+        {
+          "title": "Rain Room",
+          "year": "2012",
+          "medium": "Water, solenoid valves, custom software, 3D tracking cameras",
+          "where": "Barbican, MoMA, LACMA, Yuz Museum, Sharjah Art Foundation and others",
+          "nature": [],
+          "why": "A field of falling rain that stops wherever a visitor stands, tracked by cameras.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://www.random-international.com/rain-room"
+          ],
+          "id": "W257",
+          "status": "candidate",
+          "image": {
+            "file": "images/W257.jpg",
+            "page": "https://www.random-international.com/rain-room",
+            "url": "https://images.squarespace-cdn.com/content/v1/663ca532b3e3797d82159fe2/a7ad32f2-8097-40b4-a2b3-efa464d2cf80/RAIN+ROOM%2C+2012++.jpeg?format=1500w"
+          }
+        },
+        {
+          "title": "Swarm Study / I",
+          "year": "2010",
+          "medium": "LEDs, brass rods, custom electronics",
+          "where": "random-international.com",
+          "nature": [],
+          "why": "Lights that move with the collective behaviour of a flock of birds and react to visitors' sound.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://www.random-international.com/swarm-study-/-i"
+          ],
+          "id": "W258",
+          "status": "candidate",
+          "image": {
+            "file": "images/W258.jpg",
+            "page": "https://www.random-international.com/swarm-study-/-i",
+            "url": "https://images.squarespace-cdn.com/content/v1/663ca532b3e3797d82159fe2/da20db85-9cf5-4b31-acb3-e0b6b44c451c/Swarm+Study+1.jpeg?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A129",
+      "artist": "Rasa Smite & Raitis Smits",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Latvian artist duo (RIXC, Riga) working with data, networks and environmental science.",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Walder. Von der Romantik in die Zukunft (2024)"
+      ],
+      "shown_with": [
+        "Jakob Kudsk Steensen"
+      ],
+      "works": [
+        {
+          "title": "Atmospheric Forest",
+          "year": "2020",
+          "medium": "immersive VR work; shown as multi-channel video installation (17:04 min)",
+          "where": "Museum Sinclair-Haus, Walder (2024)",
+          "nature": [],
+          "why": "point-cloud forest walk visualising VOC and resin measurements from pine trees in the Pfynwald, Switzerland",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://kunst-und-natur.de/images/downloads/MSH_Waelder_Begleitheft.pdf",
+            "https://kunst-und-natur.de/images/downloads/240228_Waelder_EK_erstinfo_presse.pdf"
+          ],
+          "id": "W259",
+          "status": "candidate",
+          "image": {
+            "file": "images/W259.jpg",
+            "page": "https://blogg.sh.se/artspace/?p=956",
+            "url": "https://blogg.sh.se/artspace/wp-content/uploads/2025/10/af3-1.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A130",
+      "artist": "Robert M. Thomas",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Collaborator with Entangled Others Studio on works using neural networks and ocean data.",
+      "status": "lead",
+      "notes": "Co-authored with Entangled Others (Sofia Crespo, already on the list). Whether he is an artist or a scientific collaborator was not confirmed.",
+      "via_shows": [
+        "Realtime: Lilypads: Mediating Exponential Systems (2023)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Decohering Delineation (with Entangled Others)",
+          "year": "2023",
+          "medium": "AI digital work, shown on the Nxt Stage",
+          "where": "Nxt Museum, Amsterdam, 2023",
+          "nature": [],
+          "why": "Neural networks entangled with oceanic data, about ecosystems and specimens, artificial and natural.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://nxtmuseum.com/exhibition/realtime",
+            "https://clotmag.com/news/exhibition-realtime-at-nxt-museum-beyond-boundary-pushing-technologies"
+          ],
+          "id": "W260",
+          "status": "candidate",
+          "image": {
+            "file": "images/W260.jpg",
+            "page": "https://nxtmuseum.com/exhibition/realtime",
+            "url": "https://admin.nxtmuseum.com/content/uploads/2024/05/Decohering-Delineation-by-Entangled-Others-scaled.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A131",
+      "artist": "Robertina Šebjanič",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Slovenian artist working on underwater ecosystems, sound and marine life.",
+      "status": "lead",
+      "notes": "AquA(l)formings description is short on the artist page; medium not stated there.",
+      "via_shows": [
+        "UMWELT (2024)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "AquA(l)formings - Interweaving the Subaqueous (with Sofia Crespo and Feileacan McCormick)",
+          "year": "2021",
+          "medium": "AI-based installation",
+          "where": "Kino Šiška Ljubljana, Solyanka Moscow, ISEA 2022 Barcelona, UMWELT Modena",
+          "nature": [],
+          "why": "Collaborative work on subaqueous environments and aquatic life.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://robertina.net/aqualformings-interweaving-the-subaqueous/",
+            "https://www.arshake.com/en/umwelt/"
+          ],
+          "id": "W261",
+          "status": "candidate",
+          "image": {
+            "file": "images/W261.jpg",
+            "page": "https://robertina.net/aqualformings-interweaving-the-subaqueous/",
+            "url": "https://i0.wp.com/robertina.net/wp-content/uploads/2025/09/fe813-aquaformations_robertina-sebjanic-sofia-crespo-feileacan-mccormickphoto-nejcketis.jpg?fit=1200%2C800&ssl=1"
+          }
+        },
+        {
+          "title": "Aquatocene / Subaquatic quest for serenity",
+          "year": "2016-ongoing",
+          "medium": "audio compositions of underwater recordings",
+          "where": "artist site",
+          "nature": [],
+          "why": "Underwater soundscapes about human noise pollution affecting marine animals.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://robertina.net/aquatocene/"
+          ],
+          "id": "W262",
+          "status": "candidate",
+          "image": {
+            "file": "images/W262.jpg",
+            "page": "https://robertina.net/aquatocene/",
+            "url": "https://i0.wp.com/robertina.net/wp-content/uploads/2025/09/cbdc0-aquatocene-by-robertina-sebjanic-new1.jpg?fit=1200%2C917&ssl=1"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A132",
+      "artist": "Rodrigo Arteaga",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Chilean artist working with plants, fungi and botanical images.",
+      "status": "lead",
+      "notes": "Content described only by title in the press caption.",
+      "via_shows": [
+        "Walder. Von der Romantik in die Zukunft (2024)"
+      ],
+      "shown_with": [
+        "Jakob Kudsk Steensen"
+      ],
+      "works": [
+        {
+          "title": "Through the mycelium forest",
+          "year": "2022",
+          "medium": "video, 6:40 min, made with the Centre for Print Research, UWE Bristol",
+          "where": "Deutsches Romantik-Museum, Walder (2024)",
+          "nature": [],
+          "why": "mycelium and forest",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://kunst-und-natur.de/images/downloads/240228_Waelder_EK_erstinfo_presse.pdf"
+          ],
+          "id": "W263",
+          "status": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "A133",
+      "artist": "Ryoichi Kurokawa",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Berlin-based Japanese audiovisual artist who treats sound and image as one piece.",
+      "status": "lead",
+      "notes": "Found as a Neo Botanica book contributor (Creative Applications list); not on the Load exhibition list.",
+      "via_shows": [],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "subassemblies (s.asmbli)",
+          "year": "2019",
+          "medium": "audiovisual concert and installation (laser scans, thermal images, film)",
+          "where": "MUTEK, Rotondes Luxembourg, Dialog Festival and others",
+          "nature": [],
+          "why": "Laser-scanned forests, architecture and ruins reassembled into modules.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://www.rotondes.lu/en/archives/subassemblies"
+          ],
+          "id": "W264",
+          "status": "candidate",
+          "image": {
+            "file": "images/W264.jpg",
+            "page": "https://www.ryoichikurokawa.com/project/sa.html",
+            "url": "https://www.ryoichikurokawa.com/project/images/sa/sa_photo_04.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A134",
+      "artist": "Sara Ludy",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "US artist making animated digital paintings, VR spaces and videos built from software defaults.",
+      "status": "lead",
+      "notes": "Her Chain Reaction work 'Synchronicities' (24-hour video sold as time codes) is not described as nature-related.",
+      "via_shows": [
+        "Chain Reaction (2023)"
+      ],
+      "shown_with": [
+        "Jennifer & Kevin McCoy",
+        "Amelia Winger-Bearskin",
+        "Cezar Mocan"
+      ],
+      "works": [
+        {
+          "title": "Clouds (series), e.g. Sky Lapis (2018), Deep Pond",
+          "year": "2011-",
+          "medium": "animated digital painting",
+          "where": "Gallery 400 UIC online screenings; highlike",
+          "nature": [],
+          "why": "Moving computer-generated landscape and sky paintings.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://gallery400.uic.edu/exhibition/portal-online-screenings-sara-ludy",
+            "https://highlike.org/?p=85195"
+          ],
+          "id": "W265",
+          "status": "candidate",
+          "image": {
+            "file": "images/W265.jpg",
+            "page": "https://highlike.org/?p=85195",
+            "url": "https://highlike.org/media/2017/07/Sara-Lundy-Deep-Pond.jpg"
+          }
+        },
+        {
+          "title": "Cloud Relief 1 & Cloud Relief 2",
+          "year": "2015-16",
+          "medium": "4K loop animation",
+          "where": "bitforms gallery, 'Subsurface Hell'",
+          "nature": [],
+          "why": "Muted shifting shapes suggesting landscape and weather radar.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://digiart21.org/art/cloud-relief-1-cloud-relief-2"
+          ],
+          "id": "W266",
+          "status": "candidate",
+          "image": {
+            "file": "images/W266.jpg",
+            "page": "https://digiart21.org/art/cloud-relief-1-cloud-relief-2",
+            "url": "https://images.squarespace-cdn.com/content/v1/56eb27558a65e2c2a033b13c/1459643810779-D8QG3N0LDBZ91E1900NV/DigiArt_Blog1.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A135",
+      "artist": "Solimán López",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Spanish artist working with bio art, data and DNA storage.",
+      "status": "lead",
+      "notes": "Also in Feral File 'Instructions Follow' (2021).",
+      "via_shows": [
+        "FeralVerse (2023)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "The Hybrid Branch (with poet John James)",
+          "year": "2023",
+          "medium": "video",
+          "where": "Feral File, FeralVerse",
+          "nature": [],
+          "why": "Poem 'Pastoral' (about a peach tree) turned into a digital tree, with its audio rendered as a genetic sequence.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://feralfile.com/exhibitions/feralverse-1qa",
+            "https://feralfile.com/api/series?exhibitionID=87528bfb-3b46-4e68-ae55-9ba214d52a4d"
+          ],
+          "id": "W267",
+          "status": "candidate",
+          "image": {
+            "file": "images/W267.jpg",
+            "page": "https://feralfile.com/exhibitions/feralverse-1qa",
+            "url": "https://cdn.feralfileassets.com/thumbnails/a97afdeb-236a-4f49-94cb-0cf83e104e56/1678443891"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A136",
+      "artist": "Songzhe Peng",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Artist making AI-generated video and animation (Chinese cultural-heritage themes).",
+      "status": "lead",
+      "notes": "Year of making not stated on the page.",
+      "via_shows": [
+        "ICME AIART Gallery 2025 (2025)"
+      ],
+      "shown_with": [
+        "Ting Song"
+      ],
+      "works": [
+        {
+          "title": "洛水牡丹 数绽千年 | Luoshui Peony Blooms for Thousands of Years",
+          "year": "2025 (exhibited)",
+          "medium": "AI video and animation",
+          "where": "ICME AIART Gallery 2025 (online)",
+          "nature": [],
+          "why": "Blooming peonies and the Luo River as motifs for the city of Luoyang's history.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://sites.google.com/view/2025aiart-gallery/artworks/roomb/b12"
+          ],
+          "id": "W268",
+          "status": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "A137",
+      "artist": "Spacefiller",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Seattle duo (Alexander Miller and Alexander Nagy) writing simulations of nature such as flocking, dividing cells and growing plants.",
+      "status": "lead",
+      "notes": "Year of spaceplant not found. Load lists the artist as 'Spacefiller – Alex Miller'.",
+      "via_shows": [
+        "Neo Botanica: An Atlas of Artificially Generated Flora (2025)"
+      ],
+      "shown_with": [
+        "Katherine Frazer",
+        "Refik Anadol",
+        "Entangled Others",
+        "Anna Ridler",
+        "Monica Rizzolli",
+        "David Lisser",
+        "Linda Dounia",
+        "Ivona Tau",
+        "Sofia Crespo",
+        "Sofia Crespo/Entangled Others"
+      ],
+      "works": [
+        {
+          "title": "spaceplant",
+          "year": null,
+          "medium": "generative code (NFT)",
+          "where": "listed on Creative Applications",
+          "nature": [],
+          "why": "A lo-fi simulated garden whose form comes from particle forces.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://creativeapplications.net/nft/spaceplant-spacefiller"
+          ],
+          "id": "W269",
+          "status": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "A138",
+      "artist": "Stephan Duquesnoy",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Digital 3D artist making flowers with procedural tools, sold as NFTs with prints.",
+      "status": "lead",
+      "notes": "Work titles from Load Gallery's exhibition index; the page gives no year, medium or description.",
+      "via_shows": [
+        "Neo Botanica: An Atlas of Artificially Generated Flora (2025)"
+      ],
+      "shown_with": [
+        "Katherine Frazer",
+        "Refik Anadol",
+        "Entangled Others",
+        "Anna Ridler",
+        "Monica Rizzolli",
+        "David Lisser",
+        "Linda Dounia",
+        "Ivona Tau",
+        "Sofia Crespo",
+        "Sofia Crespo/Entangled Others"
+      ],
+      "works": [
+        {
+          "title": "Parametric Bloom #1-#3",
+          "year": "2024",
+          "medium": "digital 3D image, NFT with giclée print",
+          "where": "Load Gallery, Neo Botanica",
+          "nature": [],
+          "why": "Digital flowers built with procedural tools.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://load-gallery.com/exhibitions-index/neo-botanica"
+          ],
+          "id": "W270",
+          "status": "candidate",
+          "image": {
+            "file": "images/W270.jpg",
+            "page": "https://load-gallery.com/exhibitions-index/neo-botanica",
+            "url": "https://framerusercontent.com/images/uRp4dqHYV3MzddJpBGMnPANaR5M.png"
+          }
+        },
+        {
+          "title": "Algorithmic Still life (#3, #5, #6, #9, #11, #19)",
+          "year": "2023-2025",
+          "medium": "digital 3D image",
+          "where": "Load Gallery, Neo Botanica",
+          "nature": [],
+          "why": "Procedural digital flower still lifes.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://load-gallery.com/exhibitions-index/neo-botanica"
+          ],
+          "id": "W271",
+          "status": "candidate",
+          "image": {
+            "file": "images/W271.jpg",
+            "page": "https://load-gallery.com/exhibitions-index/neo-botanica",
+            "url": "https://framerusercontent.com/images/MvWxhv45Slm6GDbRoTKmCl1Btaw.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A139",
+      "artist": "Synchrodogs",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Ukrainian artist duo (Roman Noven and Tania Shcheglova) working in photography and AI on the relationship between humans and nature.",
+      "status": "lead",
+      "notes": "Years of the series not given on the page.",
+      "via_shows": [
+        "Pixel Perceptions: Into the Eye of AI (2024)",
+        "Every Day We Have to Invent the Reality of This World: AI Post Photography (2023)"
+      ],
+      "shown_with": [
+        "Roope Rainisto",
+        "Jake Elwes"
+      ],
+      "works": [
+        {
+          "title": "Impossible Installations / Overture",
+          "year": null,
+          "medium": "Photography series; 'Overture' made with AI from their own photographs",
+          "where": "Pixel Perceptions, Noorderlicht, Groningen (2024-25)",
+          "nature": [],
+          "why": "Surreal landscapes in which human bodies and natural environments are intertwined.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://noorderlicht.com/en/whats-on/pixel-perceptions/impossible-installations",
+            "https://www.synchrodogs.com/"
+          ],
+          "id": "W272",
+          "status": "candidate",
+          "image": {
+            "file": "images/W272.jpg",
+            "page": "https://www.synchrodogs.com/",
+            "url": "https://cdn.sanity.io/images/dm3b9k31/production/9f11ff8d9c01e82d4421ace69ee6c93ba2f87f6e-1500x1000.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A140",
+      "artist": "Tamiko Thiel",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Artist who has made VR and augmented-reality works since the 1990s, often on environment and climate.",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Radical Software: Women, Art & Computing 1960-1991 (2025)"
+      ],
+      "shown_with": [
+        "Lillian Schwartz"
+      ],
+      "works": [
+        {
+          "title": "Unexpected Growth (with /p)",
+          "year": "2018",
+          "medium": "site-specific augmented reality",
+          "where": "Whitney Museum of American Art terrace, in 'Programmed: Rules, Codes, and Choreographies in Art, 1965-2018'",
+          "nature": [],
+          "why": "Coral growing on the museum building among bits of plastic trash, its colour fading (bleaching) over a day.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://en.wikipedia.org/wiki/Tamiko_Thiel"
+          ],
+          "id": "W273",
+          "status": "candidate",
+          "image": {
+            "file": "images/W273.jpg",
+            "page": "https://www.tamikothiel.com/unexpectedgrowth/",
+            "url": "https://www.tamikothiel.com/unexpectedgrowth/media/UnexpectedGrowth_10p_800w.jpg"
+          }
+        },
+        {
+          "title": "Clouding Green",
+          "year": "2012",
+          "medium": "augmented reality",
+          "where": "Silicon Valley and San Francisco",
+          "nature": [],
+          "why": "Animated clouds over tech company sites, coloured from ashy black to green by each company's renewable-energy use.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://en.wikipedia.org/wiki/Tamiko_Thiel"
+          ],
+          "id": "W274",
+          "status": "candidate",
+          "image": {
+            "file": "images/W274.jpg",
+            "page": "https://www.tamikothiel.com/AR/clouding-green.html",
+            "url": "https://www.tamikothiel.com/AR/cg/CloudingGreen_Google-39.4percent_500w.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A141",
+      "artist": "Tatsuru Arai",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Berlin-based composer and programmer making audiovisual works with algorithms and AI, often built on plants and flowers.",
+      "status": "lead",
+      "notes": "Giant Crypto Plants year not found. Made during a CIKE / EMAP residency.",
+      "via_shows": [
+        "Neo Botanica: An Atlas of Artificially Generated Flora (2025)"
+      ],
+      "shown_with": [
+        "Katherine Frazer",
+        "Refik Anadol",
+        "Entangled Others",
+        "Anna Ridler",
+        "Monica Rizzolli",
+        "David Lisser",
+        "Linda Dounia",
+        "Ivona Tau",
+        "Sofia Crespo",
+        "Sofia Crespo/Entangled Others"
+      ],
+      "works": [
+        {
+          "title": "Face of Universe",
+          "year": "2023/24",
+          "medium": "video (Max/Jitter, AI)",
+          "where": "Load Gallery, Neo Botanica; CIKE/EMAP residency, Košice",
+          "nature": [],
+          "why": "A flower found in Košice, turned by AI into an old painting technique, its cells falling to the ground.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://load-gallery.com/exhibitions-index/neo-botanica",
+            "https://cifra.com/project/face-of-universe-2"
+          ],
+          "id": "W275",
+          "status": "candidate",
+          "image": {
+            "file": "images/W275.jpg",
+            "page": "https://cifra.com/project/face-of-universe-2",
+            "url": null
+          }
+        },
+        {
+          "title": "Giant Crypto Plants",
+          "year": null,
+          "medium": "digital installation",
+          "where": "Times Square Plaza, New York",
+          "nature": [],
+          "why": "Tall algorithmic plants that shift and change in real time.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://www.pocko.com/news/giantcryptoplants"
+          ],
+          "id": "W276",
+          "status": "candidate",
+          "image": {
+            "file": "images/W276.jpg",
+            "page": "https://www.pocko.com/news/giantcryptoplants",
+            "url": "http://static1.squarespace.com/static/665875562fe6256a62486efb/6682dc520abac80911626cf4/6939859b0449a66d16b5dbfc/1765379979683/SnapInsta.to_539997502_18518718592044332_5857676682329748456_n.jpg?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A142",
+      "artist": "teamLab",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Tokyo-based art collective making large interactive digital installations.",
+      "status": "lead",
+      "notes": "Year 2011 from search-result summary of the Barbican image sheet; press release says 'natural phenomena' without listing which.",
+      "via_shows": [
+        "AI: More than Human (2019)"
+      ],
+      "shown_with": [
+        "Anna Ridler"
+      ],
+      "works": [
+        {
+          "title": "What a Loving, and Beautiful World",
+          "year": "2011",
+          "medium": "Interactive digital installation",
+          "where": "AI: More than Human, Barbican (The Pit), 2019",
+          "nature": [],
+          "why": "Projected Chinese characters that release natural phenomena (worlds of nature) when a visitor's shadow touches them.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://www.barbican.org.uk/sites/default/files/documents/2019-07/FINAL%20AI%20More%20than%20Human%20exhibition%20release%20280219.pdf"
+          ],
+          "id": "W277",
+          "status": "candidate",
+          "image": {
+            "file": "images/W277.jpg",
+            "page": "https://www.teamlab.art/ew/whatloving-kyoto/",
+            "url": "https://teamlab-site.imagewave.pictures/b5EBo9Uo-OK6SM09ZTkEZQ/d24cf7a2-c30c-41d9-7613-f3f40fbc5500/width=1200,format=jpeg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A143",
+      "artist": "Ursula Biemann",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Swiss artist making video essays and research on ecology and climate.",
+      "status": "lead",
+      "notes": "Press release names the work in an image caption only.",
+      "via_shows": [
+        "Walder. Von der Romantik in die Zukunft (2024)"
+      ],
+      "shown_with": [
+        "Jakob Kudsk Steensen"
+      ],
+      "works": [
+        {
+          "title": "Forest Mind (Forest Neurons, Forest Mind)",
+          "year": "2021",
+          "medium": "video",
+          "where": "Senckenberg Naturmuseum Frankfurt, Walder (2024)",
+          "nature": [],
+          "why": "forest imagery from her research into forests",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://kunst-und-natur.de/images/downloads/240228_Waelder_EK_erstinfo_presse.pdf"
+          ],
+          "id": "W278",
+          "status": "candidate",
+          "image": {
+            "file": "images/W278.jpg",
+            "page": "https://www.geobodies.org/art-and-videos/forest-mind",
+            "url": "https://geobodies.org/wp-content/uploads/2022/03/aav-FM-gallery-4-aspect-ratio-770-433.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A144",
+      "artist": "Vera Molnar",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Hungarian-French computer art pioneer (b. 1924), working with the computer since 1968.",
+      "status": "lead",
+      "notes": "Also in the Toledo show, where (Des)ordres (1974) is named.",
+      "via_shows": [
+        "Illusion Natur. Digitale Welten im Museum Sinclair-Haus (2019)",
+        "Infinite Images: The Art of Algorithms (2025)"
+      ],
+      "shown_with": [
+        "Anna Ridler",
+        "Sarah Meyohas",
+        "Sofia Crespo/Entangled Others",
+        "Casey Reas",
+        "Monica Rizzolli",
+        "Harold Cohen",
+        "Helena Sarin",
+        "David Young",
+        "Sofia Crespo",
+        "Primavera De Filippi",
+        "Robbie Barrat",
+        "Kevin Abosch",
+        "Harm van den Dorpel",
+        "Charles Csuri",
+        "Lillian Schwartz",
+        "Ting Song",
+        "Refik Anadol"
+      ],
+      "works": [
+        {
+          "title": "Variations St. Victoire",
+          "year": "1989-1996",
+          "medium": "digital prints (series)",
+          "where": "Museum Sinclair-Haus, Illusion Natur; courtesy DAM Gallery",
+          "nature": [],
+          "why": "line variations on the outline of Montagne Sainte-Victoire, the mountain painted by Cezanne",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://kunst-und-natur.de/files/Museum-Sinclair-Haus/Blattwerke/Blattwerke_11/19_illusion_natur_blattwerke_11.pdf"
+          ],
+          "id": "W279",
+          "status": "candidate",
+          "image": {
+            "file": "images/W279.jpg",
+            "page": "https://history.siggraph.org/artwork/vera-molnar-variations-sainte-victoire",
+            "url": "https://history.siggraph.org/wp-content/uploads/2017/08/1996_Molnar_VariationsSainte-Victoire.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A145",
+      "artist": "William Mapan",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Paris-based artist who codes (b. 1988), making generative work on screen and in physical media.",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Art Salon: Node to Node (2023)"
+      ],
+      "shown_with": [
+        "Anna Ridler",
+        "Sarah Meyohas",
+        "Sofia Crespo/Entangled Others",
+        "Casey Reas",
+        "Monica Rizzolli",
+        "Zancan",
+        "Eko33",
+        "Alkan Avcıoğlu",
+        "Obvious",
+        "Helena Sarin",
+        "Ganbrood",
+        "Ivona Tau",
+        "Kevin Abosch"
+      ],
+      "works": [
+        {
+          "title": "Anticyclone",
+          "year": "2022",
+          "medium": "Generative art, Art Blocks Curated, edition of 800",
+          "where": "Art Blocks (released 29 Apr 2022)",
+          "nature": [],
+          "why": "Generative images interpreting the weather phenomenon of anticyclones (high pressure, rotation, air flow), rendered to look like crayon on paper.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://www.artblocks.io/collection/anticyclone-by-william-mapan"
+          ],
+          "id": "W280",
+          "status": "candidate",
+          "image": {
+            "file": "images/W280.jpg",
+            "page": "https://www.artblocks.io/collection/anticyclone-by-william-mapan",
+            "url": "https://media-proxy.artblocks.io/1/0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270/304000184.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A146",
+      "artist": "Zachary Darren Corzine",
+      "as_listed": [],
+      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "practice": "Portland-based 3D designer and director making hyperreal CGI flowers.",
+      "status": "lead",
+      "notes": "Work titles from Load Gallery's exhibition index; the page gives no year, medium or description.",
+      "via_shows": [
+        "Neo Botanica: An Atlas of Artificially Generated Flora (2025)"
+      ],
+      "shown_with": [
+        "Katherine Frazer",
+        "Refik Anadol",
+        "Entangled Others",
+        "Anna Ridler",
+        "Monica Rizzolli",
+        "David Lisser",
+        "Linda Dounia",
+        "Ivona Tau",
+        "Sofia Crespo",
+        "Sofia Crespo/Entangled Others"
+      ],
+      "works": [
+        {
+          "title": "Faux Flora 01-06",
+          "year": "2024",
+          "medium": "video (Houdini, Cinema4D, Substance, Octane)",
+          "where": "Load Gallery, Neo Botanica; featured in Colossal",
+          "nature": [],
+          "why": "Invented flowers growing and unfurling in spirals.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://load-gallery.com/exhibitions-index/neo-botanica",
+            "https://www.thisiscolossal.com/2025/03/zachary-corzine-faux-flora/"
+          ],
+          "id": "W281",
+          "status": "candidate",
+          "image": {
+            "file": "images/W281.jpg",
+            "page": "https://www.thisiscolossal.com/2025/03/zachary-corzine-faux-flora/",
+            "url": "https://www.thisiscolossal.com/wp-content/uploads/2025/03/corzine-2.gif"
+          }
+        }
+      ]
     }
   ]
 };

@@ -13,10 +13,12 @@ for (const f of ['brief.js', 'log.js', 'research.js', 'leads.js']) {
 }
 const log = ctx.TG.log;
 // Artists Lukas set to out leave the board's longlist and the wall; they stay in the data.
-const artists = ctx.TG.research.artists.filter(a => a.status !== 'out');
+// Leads (found through group shows) sit apart from the longlist on the board and are marked on the wall.
+const artists = ctx.TG.research.artists.filter(a => a.status !== 'out' && a.status !== 'lead');
+const leadArtists = ctx.TG.research.artists.filter(a => a.status === 'lead');
 const outArtists = ctx.TG.research.artists.filter(a => a.status === 'out');
 const brief = ctx.TG.brief;
-const leads = ctx.TG.leads || { artists: [], shows: [] };
+const leads = ctx.TG.leads || { shows: [] };
 
 function esc(s) {
   return String(s == null ? '' : s)
@@ -60,16 +62,18 @@ function renderLonglist() {
   }).join('\n');
 }
 
-// Leads: artists found through group shows, for Lukas to tick and send back. Not on the wall until added.
+// Leads: artists found through group shows, for Lukas to tick and send back. They are on the wall, marked.
 function renderLeads() {
-  return leads.artists.map(a => {
+  return leadArtists.map(a => {
     const works = a.works.map(w => {
       const links = (w.sources || []).map(u =>
         `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(host(u))}</a>`).join('');
-      const bits = [w.title + (w.year ? `, ${w.year}` : ''), w.what_it_shows].filter(Boolean).map(esc).join('. ');
-      return `<li>${bits}.<span class="links">${links}</span></li>`;
+      const bits = [w.title + (w.year ? `, ${w.year}` : ''), w.why].filter(Boolean).map(esc).join('. ');
+      const img = w.image
+        ? `<a class="img" href="${esc(w.image.page)}" target="_blank" rel="noopener"><img src="/touchgrass/${esc(w.image.file)}" alt="${esc(w.title)}, ${esc(a.artist)}" loading="lazy"></a>` : '';
+      return `<li id="${esc(w.id)}">${bits}.<span class="links">${links}</span>${img}</li>`;
     }).join('');
-    const via = a.via_shows.length
+    const via = (a.via_shows || []).length
       ? `<p class="via">${a.shown_with.length ? `With ${a.shown_with.map(esc).join(', ')} in` : 'In'} ${a.via_shows.map(esc).join('; ')}.</p>` : '';
     return `<li class="artist lead" data-artist="${slug(a.artist)}">
   <p class="artist-head"><label><input type="checkbox" value="${esc(a.artist)}"> ${esc(a.artist)}</label></p>
@@ -133,9 +137,9 @@ ${renderLonglist()}
   </ol>
 ${outArtists.length ? `  <details class="out"><summary>out, ${outArtists.length} artist${outArtists.length > 1 ? 's' : ''}</summary><p>${outArtists.map(a => esc(a.artist)).join(', ')}.</p></details>` : ''}
 </section>
-${leads.artists.length ? `<section aria-labelledby="h-leads">
+${leadArtists.length ? `<section aria-labelledby="h-leads">
   <h2 id="h-leads">Leads</h2>
-  <p>${leads.artists.length} artists not on the list, found through ${leads.shows.length} group shows our artists were in. Each has at least one work about nature, with sources. Tick the ones to add and send Claude the line that appears.</p>
+  <p>${leadArtists.length} artists not on the list, found through ${leads.shows.length} group shows our artists were in. Each has at least one work about nature, with sources. They are on the <a href="/touchgrass/wall/">wall</a>, marked "lead". Tick the ones to add and send Claude the line that appears.</p>
   <ol class="artists leads">
 ${renderLeads()}
   </ol>
@@ -182,10 +186,14 @@ ${renderLeads()}
 </body>
 </html>
 `;
+const wallArtists = [...artists, ...leadArtists].filter(a => a.works.length);
+const wallWorks = wallArtists.reduce((n, a) => n + a.works.length, 0);
+const wallImages = wallArtists.reduce((n, a) => n + a.works.filter(w => w.image).length, 0);
 // The wall: every work in one grid, in artist order. Works without an image show an empty cell.
 // Each artist is a section, so the page can show one flat grid or group it by artist.
 function renderWall() {
-  return artists.filter(a => a.works.length).map(a => {
+  return wallArtists.map(a => {
+    const lead = a.status === 'lead';
     const cells = a.works.map(w => {
       const line = [w.title + (w.year ? `, ${w.year}` : ''), w.where].filter(Boolean).map(esc).join('. ');
       const links = (w.sources || []).map(u =>
@@ -193,13 +201,13 @@ function renderWall() {
       const face = w.image
         ? `<img src="/touchgrass/${esc(w.image.file)}" alt="" loading="lazy" decoding="async">`
         : '';
-      return `<li class="screen ${w.image ? 'on' : 'off'}" id="${esc(w.id)}"${w.image ? ` data-img="/touchgrass/${esc(w.image.file)}" data-page="${esc(w.image.page)}"` : ''}>
+      return `<li class="screen ${w.image ? 'on' : 'off'}${lead ? ' lead' : ''}" id="${esc(w.id)}"${w.image ? ` data-img="/touchgrass/${esc(w.image.file)}" data-page="${esc(w.image.page)}"` : ''}>
   <figure><a class="cell" href="#${esc(w.id)}" aria-label="${esc(w.id)} ${esc(a.artist)}, ${esc(w.title)}">${face}</a>
-  <figcaption><span class="cap"><b>${esc(w.id)}</b> ${esc(a.artist)}. ${line}.</span> <span class="links">${links}</span></figcaption></figure>
+  <figcaption><span class="cap"><b>${esc(w.id)}</b> ${lead ? '[lead] ' : ''}${esc(a.artist)}. ${line}.</span> <span class="links">${links}</span></figcaption></figure>
 </li>`;
     }).join('\n');
-    return `<section class="artist" aria-label="${esc(a.artist)}" data-artist="${slug(a.artist)}">
-<h2><span>${esc(a.artist)}</span><span>${a.works.length}</span></h2>
+    return `<section class="artist${lead ? ' lead' : ''}" aria-label="${esc(a.artist)}" data-artist="${slug(a.artist)}">
+<h2><span>${esc(a.artist)}</span><span>${lead ? 'lead · ' : ''}${a.works.length}</span></h2>
 <ol class="cells">
 ${cells}
 </ol>
@@ -207,7 +215,6 @@ ${cells}
   }).join('\n');
 }
 
-const wallArtists = artists.filter(a => a.works.length);
 const wallHtml = `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -225,12 +232,13 @@ const wallHtml = `<!DOCTYPE html>
   <div class="controls">
     <label>size <input type="range" class="size" min="40" max="480" step="4" value="120"></label>
     <label><input type="checkbox" class="group"> by artist</label>
+    ${leadArtists.length ? '<label><input type="checkbox" class="show-leads" checked> leads</label>' : ''}
     <details class="pick">
       <summary>artists <span class="pick-n">${wallArtists.length}/${wallArtists.length}</span></summary>
       <div class="pick-panel">
         <p class="pick-all"><button type="button" data-all="1">all</button><button type="button" data-all="0">none</button></p>
         <ul class="pick-list">
-${wallArtists.map(a => `          <li><label><input type="checkbox" value="${slug(a.artist)}" checked> ${esc(a.artist)}</label></li>`).join('\n')}
+${wallArtists.map(a => `          <li><label><input type="checkbox" value="${slug(a.artist)}" data-name="${esc(a.artist)}" checked> ${esc(a.artist)}${a.status === 'lead' ? ' <i>lead</i>' : ''}</label></li>`).join('\n')}
         </ul>
         <div class="pick-out" hidden>
           <p>Unchecked artists are hidden in this browser only. To remove them for everyone, send Claude this:</p>
@@ -240,7 +248,7 @@ ${wallArtists.map(a => `          <li><label><input type="checkbox" value="${slu
       </div>
     </details>
   </div>
-  <p class="status" aria-live="polite" data-idle="${nWorks} works. ${nImages} images.">${nWorks} works. ${nImages} images.</p>
+  <p class="status" aria-live="polite" data-idle="${wallWorks} works. ${wallImages} images.">${wallWorks} works. ${wallImages} images.</p>
 </header>
 <main class="room">
 <div class="wall">
@@ -260,4 +268,4 @@ ${renderWall()}
 fs.writeFileSync(path.join(dir, 'index.html'), html);
 fs.mkdirSync(path.join(dir, 'wall'), { recursive: true });
 fs.writeFileSync(path.join(dir, 'wall', 'index.html'), wallHtml);
-console.log(`touchgrass/index.html: ${log.length} log rows, ${artists.length} artists, ${nWorks} works, ${nImages} images, ${leads.artists.length} leads. wall/index.html: ${nWorks} cells`);
+console.log(`touchgrass/index.html: ${log.length} log rows, ${artists.length} artists, ${nWorks} works, ${nImages} images, ${leadArtists.length} leads. wall/index.html: ${wallWorks} cells`);

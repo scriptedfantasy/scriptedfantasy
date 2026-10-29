@@ -17,6 +17,12 @@
   function setGroup(on) { list.classList.toggle('grouped', on); group.checked = on; }
   setSize(Number(recall('tg-wall-size')) || parseInt(getComputedStyle(root).getPropertyValue('--cell'), 10));
   setGroup(recall('tg-wall-group') === '1');
+
+  // Leads (artists found through group shows) can be switched off as a whole.
+  const leadsBox = document.querySelector('.show-leads');
+  const shown = s => !s.closest('[hidden]') && !(list.classList.contains('no-leads') && s.classList.contains('lead'));
+  function setLeads(on) { list.classList.toggle('no-leads', !on); if (leadsBox) leadsBox.checked = on; }
+  setLeads(recall('tg-wall-leads') !== '0');
   size.addEventListener('input', () => { setSize(size.value); store('tg-wall-size', size.value); });
   group.addEventListener('change', () => { setGroup(group.checked); store('tg-wall-group', group.checked ? '1' : '0'); });
 
@@ -32,14 +38,18 @@
     sections.forEach(sec => { sec.hidden = hide.includes(sec.dataset.artist); });
     boxes.forEach(b => { b.checked = !hide.includes(b.value); });
     pick.querySelector('.pick-n').textContent = `${boxes.length - hide.length}/${boxes.length}`;
-    const names = boxes.filter(b => !b.checked).map(b => b.parentElement.textContent.trim());
+    const names = boxes.filter(b => !b.checked).map(b => b.dataset.name);
     outBox.hidden = !names.length;
     outText.value = `Touch Grass: set these artists to out: ${names.join(', ')}.`;
-    const shown = screens.filter(s => !s.closest('[hidden]'));
-    idle = `${shown.length} works. ${shown.filter(s => s.dataset.img).length} images.`;
-    show(null);
+    recount();
     store('tg-hidden', JSON.stringify(hide));
   }
+  function recount() {
+    const on = screens.filter(shown);
+    idle = `${on.length} works. ${on.filter(s => s.dataset.img).length} images.`;
+    show(null);
+  }
+  if (leadsBox) leadsBox.addEventListener('change', () => { setLeads(leadsBox.checked); store('tg-wall-leads', leadsBox.checked ? '1' : '0'); recount(); });
   const hidden = () => boxes.filter(b => !b.checked).map(b => b.value);
   pick.addEventListener('change', e => { if (e.target.matches('.pick-list input')) setHidden(hidden()); });
   pick.addEventListener('click', e => {
@@ -69,7 +79,7 @@
   function step(by) {
     for (let n = 1; n <= screens.length; n++) {
       const i = (current + by * n + screens.length * n) % screens.length;
-      if (!screens[i].closest('[hidden]')) return open(i);
+      if (shown(screens[i])) return open(i);
     }
   }
   function open(i) {
