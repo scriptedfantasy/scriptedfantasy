@@ -333,9 +333,9 @@ TG.research = {
       "notes": "Pointed out by Lukas. Details beyond the title and venue are unconfirmed because 0xfff.love and justopensource.io are blocked from this session.",
       "works": [
         {
-          "title": "Tall Grass",
-          "year": null,
-          "medium": "to confirm",
+          "title": "Tall Grass (Hidden From View)",
+          "year": "2026",
+          "medium": "A hidden on-chain landscape walked with zero-knowledge proofs, with 32 collectible entities",
           "where": "Shown at The Pixel Prize (Just Open Source)",
           "nature": [
             "flora",
@@ -343,8 +343,9 @@ TG.research = {
           ],
           "why": "Grass itself, the exhibition's title subject.",
           "named_in_brief": false,
-          "verified": false,
+          "verified": true,
           "sources": [
+            "https://tallgrass.0xfff.love/",
             "https://www.0xfff.love/",
             "https://www.justopensource.io/the-pixel-prize"
           ],
@@ -569,8 +570,8 @@ TG.research = {
           }
         },
         {
-          "title": "Liberator Vase",
-          "year": "2016",
+          "title": "Liberator Vases",
+          "year": "2016-",
           "medium": "Set of three 3D-printed vases made from the STL files of the Liberator 3D-printed gun, shown holding a flower (sunflower)",
           "where": "'Liminal Laws' solo exhibition, MU Artspace, Eindhoven (2016); Galloire lists a 'Liberator Vase I' (2023)",
           "nature": [
@@ -580,6 +581,7 @@ TG.research = {
           "named_in_brief": false,
           "verified": true,
           "sources": [
+            "https://placesiveneverbeen.com/liberator-vases",
             "https://all3dp.com/liberator-vase-3d-printed-gun/",
             "https://galloire.com/gallery/artists/addie-wagenknecht/"
           ],
@@ -2119,12 +2121,23 @@ TG.research = {
             "page": "https://web.archive.org/web/20260310095826/https://load-gallery.com/artists/david-lisser",
             "url": "https://framerusercontent.com/images/5S31dM9JM4zSW1SsM0RWOpYB1oQ.png"
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "A26",
+      "artist": "David Young",
+      "as_listed": [],
+      "name_note": "Not on the brief. Flowers (2018) was first filed under David Lisser by mistake; Kate Vass Galerie credits it to David Young.",
+      "practice": "Trains GANs on small sets of his own photographs.",
+      "status": "longlist",
+      "notes": "",
+      "works": [
         {
           "title": "Flowers",
           "year": "2018",
-          "medium": "GAN images trained on his own photographs of flowers taken on a farm in Bovina, NY",
-          "where": "Discussed in Kate Vass Galerie essay 'When Code Blooms'",
+          "medium": "GAN images trained on his own photographs of flowers taken on his farm in Bovina, NY",
+          "where": "Kate Vass Galerie (essay \"When Code Blooms\" and prints)",
           "nature": [
             "flora"
           ],
@@ -2132,15 +2145,21 @@ TG.research = {
           "named_in_brief": false,
           "verified": true,
           "sources": [
-            "https://www.katevassgalerie.com/blog/when-code-blooms"
+            "https://www.katevassgalerie.com/blog/when-code-blooms",
+            "https://www.katevassgalerie.com/print/p/david-young-flowers-b2215822"
           ],
           "id": "W074",
-          "status": "candidate"
+          "status": "candidate",
+          "image": {
+            "file": "images/W074.jpg",
+            "page": "https://www.katevassgalerie.com/print/p/david-young-flowers-b2215822",
+            "url": "https://images.squarespace-cdn.com/content/v1/63a2ce0664014f2264b055d4/70e4797a-2081-432a-8180-bbd0c597bf2f/b22_001582_02.jpg"
+          }
         }
       ]
     },
     {
-      "id": "A26",
+      "id": "A27",
       "artist": "Sarah Friend",
       "as_listed": [
         "sarah friend - touch grass"
@@ -2224,7 +2243,7 @@ TG.research = {
       ]
     },
     {
-      "id": "A27",
+      "id": "A28",
       "artist": "Claire Silver",
       "as_listed": [
         "Claire Silver"
@@ -2236,7 +2255,7 @@ TG.research = {
       "works": []
     },
     {
-      "id": "A28",
+      "id": "A29",
       "artist": "Holly Herndon & Mat Dryhurst",
       "as_listed": [
         "Holly Herdnon and Matt Dryhurst"
@@ -2273,7 +2292,7 @@ TG.research = {
       ]
     },
     {
-      "id": "A29",
+      "id": "A30",
       "artist": "Sasha Stiles",
       "as_listed": [
         "Sasha Stiles"
@@ -2357,7 +2376,7 @@ TG.research = {
       ]
     },
     {
-      "id": "A30",
+      "id": "A31",
       "artist": "Niceaunties",
       "as_listed": [
         "Niceaunties"
@@ -2394,7 +2413,7 @@ TG.research = {
       ]
     },
     {
-      "id": "A31",
+      "id": "A32",
       "artist": "Pindar Van Arman",
       "as_listed": [
         "Pindar Van Armin"
@@ -2431,7 +2450,7 @@ TG.research = {
       ]
     },
     {
-      "id": "A32",
+      "id": "A33",
       "artist": "Charles Csuri",
       "as_listed": [
         "Charles Csuri"
@@ -2496,7 +2515,7 @@ TG.research = {
           "verified": true,
           "sources": [
             "https://csuriproject.osu.edu/index.php/Detail/objects/751",
-            "https://csuriproject.osu.edu/index.php/Detail/objects/748"
+            "https://csuriproject.osu.edu/index.php/Detail/objects/530"
           ],
           "id": "W086",
           "status": "candidate",
@@ -2509,7 +2528,7 @@ TG.research = {
       ]
     },
     {
-      "id": "A33",
+      "id": "A34",
       "artist": "Alexander Reben",
       "as_listed": [
         "Alex Reben"
@@ -2548,7 +2567,7 @@ TG.research = {
       ]
     },
     {
-      "id": "A34",
+      "id": "A35",
       "artist": "Obvious",
       "as_listed": [
         "Obvious"
@@ -2612,7 +2631,7 @@ TG.research = {
       ]
     },
     {
-      "id": "A35",
+      "id": "A36",
       "artist": "Amelia Winger-Bearskin",
       "as_listed": [
         "Amelia Winger-Bearskin"
@@ -2720,7 +2739,7 @@ TG.research = {
       ]
     },
     {
-      "id": "A36",
+      "id": "A37",
       "artist": "Daniel Ambrosi",
       "as_listed": [
         "Daniel Ambrosi"
@@ -2807,7 +2826,7 @@ TG.research = {
       ]
     },
     {
-      "id": "A37",
+      "id": "A38",
       "artist": "Jesse Woolston",
       "as_listed": [
         "Jesse Woolston"
@@ -2854,7 +2873,7 @@ TG.research = {
           "named_in_brief": false,
           "verified": false,
           "sources": [
-            "https://thehouseoffineart.com/artworks/5029"
+            "https://thehouseoffineart.com/artworks/5028"
           ],
           "id": "W098",
           "status": "candidate",
@@ -2867,7 +2886,7 @@ TG.research = {
       ]
     },
     {
-      "id": "A38",
+      "id": "A39",
       "artist": "Scott Eaton",
       "as_listed": [
         "Scott Eaton"
@@ -2879,7 +2898,7 @@ TG.research = {
       "works": []
     },
     {
-      "id": "A39",
+      "id": "A40",
       "artist": "Ting Song",
       "as_listed": [
         "Ting Song"
@@ -2970,7 +2989,7 @@ TG.research = {
       ]
     },
     {
-      "id": "A40",
+      "id": "A41",
       "artist": "Lillian Schwartz",
       "as_listed": [
         "Lillian Schwartz"
@@ -3002,7 +3021,7 @@ TG.research = {
       ]
     },
     {
-      "id": "A41",
+      "id": "A42",
       "artist": "Botto",
       "as_listed": [
         "Botto"
@@ -3014,7 +3033,7 @@ TG.research = {
       "works": []
     },
     {
-      "id": "A42",
+      "id": "A43",
       "artist": "Noper",
       "as_listed": [
         "Noper"
@@ -3026,7 +3045,7 @@ TG.research = {
       "works": []
     },
     {
-      "id": "A43",
+      "id": "A44",
       "artist": "Eko33",
       "as_listed": [
         "Ekko33"
@@ -3081,7 +3100,7 @@ TG.research = {
       ]
     },
     {
-      "id": "A44",
+      "id": "A45",
       "artist": "Roope Rainisto",
       "as_listed": [
         "Roope Rainisto"
@@ -3163,7 +3182,7 @@ TG.research = {
       ]
     },
     {
-      "id": "A45",
+      "id": "A46",
       "artist": "Gene Kogan",
       "as_listed": [
         "Gene Kogan"
@@ -3175,7 +3194,7 @@ TG.research = {
       "works": []
     },
     {
-      "id": "A46",
+      "id": "A47",
       "artist": "Sarp Kerem Yavuz",
       "as_listed": [
         "Sarp Kerem Yavuz"
@@ -3211,7 +3230,7 @@ TG.research = {
       ]
     },
     {
-      "id": "A47",
+      "id": "A48",
       "artist": "Ivona Tau",
       "as_listed": [
         "Ivana Tau"
@@ -3234,7 +3253,7 @@ TG.research = {
           "named_in_brief": false,
           "verified": true,
           "sources": [
-            "https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/47559451843736372481830899747083495530740509927607212916086401422976582942725"
+            "https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/47559451843736372481830899747083495530740509927607212916086401421877071314949"
           ],
           "id": "W110",
           "status": "candidate",
@@ -3257,7 +3276,7 @@ TG.research = {
           "named_in_brief": false,
           "verified": true,
           "sources": [
-            "https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/47559451843736372481830899747083495530740509927607212916086401421877071314949"
+            "https://opensea.io/assets/ethereum/0xf4d4c212e4d461cf23d5f16782c2fb3e9baa1dc3/0"
           ],
           "id": "W111",
           "status": "candidate",
@@ -3281,7 +3300,7 @@ TG.research = {
           "named_in_brief": false,
           "verified": false,
           "sources": [
-            "https://opensea.io/assets/ethereum/0xf4d4c212e4d461cf23d5f16782c2fb3e9baa1dc3/0"
+            "https://opensea.io/assets/ethereum/0xf4d4c212e4d461cf23d5f16782c2fb3e9baa1dc3/2"
           ],
           "id": "W112",
           "status": "candidate",
@@ -3295,7 +3314,7 @@ TG.research = {
       ]
     },
     {
-      "id": "A48",
+      "id": "A49",
       "artist": "ClownVamp",
       "as_listed": [
         "ClownVamp"
@@ -3333,7 +3352,7 @@ TG.research = {
       ]
     },
     {
-      "id": "A49",
+      "id": "A50",
       "artist": "Ganbrood",
       "as_listed": [
         "Ganbrood"
@@ -3345,7 +3364,7 @@ TG.research = {
       "works": []
     },
     {
-      "id": "A50",
+      "id": "A51",
       "artist": "Kevin Abosch",
       "as_listed": [
         "Kevin Abosh"
@@ -3407,7 +3426,7 @@ TG.research = {
       ]
     },
     {
-      "id": "A51",
+      "id": "A52",
       "artist": "Alkan Avcıoğlu",
       "as_listed": [
         "Alkan Avcioglu"
@@ -3466,7 +3485,7 @@ TG.research = {
       ]
     },
     {
-      "id": "A52",
+      "id": "A53",
       "artist": "DeepBlack",
       "as_listed": [
         "Deepblack"
@@ -3478,7 +3497,7 @@ TG.research = {
       "works": []
     },
     {
-      "id": "A53",
+      "id": "A54",
       "artist": "Sougwen Chung",
       "as_listed": [
         "Sougwen Chung"
@@ -3561,7 +3580,7 @@ TG.research = {
       ]
     },
     {
-      "id": "A54",
+      "id": "A55",
       "artist": "Jake Elwes",
       "as_listed": [
         "Jake Elwes"
@@ -3599,7 +3618,7 @@ TG.research = {
       ]
     },
     {
-      "id": "A55",
+      "id": "A56",
       "artist": "Brendan Dawes",
       "as_listed": [
         "Brenden Dawes"
@@ -3657,7 +3676,7 @@ TG.research = {
       ]
     },
     {
-      "id": "A56",
+      "id": "A57",
       "artist": "Casey Reas",
       "as_listed": [
         "Casey Raes"
@@ -3742,7 +3761,7 @@ TG.research = {
       ]
     },
     {
-      "id": "A57",
+      "id": "A58",
       "artist": "Jakob Kudsk Steensen",
       "as_listed": [
         "Jakob Kudsk Steensen"
@@ -3855,7 +3874,7 @@ TG.research = {
       ]
     },
     {
-      "id": "A58",
+      "id": "A59",
       "artist": "Monica Rizzolli",
       "as_listed": [
         "(added by Lukas in place of Vanessa Rosa)"
