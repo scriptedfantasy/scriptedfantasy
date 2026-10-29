@@ -1,11 +1,24 @@
-// The wall names the work under the pointer and opens one work large. Everything it shows is already in the HTML.
+// The wall sizes and groups its grid, names the work under the pointer, and opens one work large. Everything it shows is already in the HTML.
 (() => {
-  const list = document.querySelector('.screens');
-  const screens = [...list.children];
+  const list = document.querySelector('.wall');
+  const screens = [...list.querySelectorAll('.screen')];
   const status = document.querySelector('.status');
   const viewer = document.querySelector('.viewer');
   const face = viewer.querySelector('.viewer-face');
   const text = viewer.querySelector('.viewer-text');
+
+  // Size and grouping. Each viewer's choice is remembered in this browser only.
+  const size = document.querySelector('.size');
+  const group = document.querySelector('.group');
+  const root = document.documentElement;
+  const store = (k, v) => { try { localStorage.setItem(k, v); } catch (e) {} };
+  const recall = k => { try { return localStorage.getItem(k); } catch (e) { return null; } };
+  function setSize(px) { root.style.setProperty('--cell', `${px}px`); size.value = px; }
+  function setGroup(on) { list.classList.toggle('grouped', on); group.checked = on; }
+  setSize(Number(recall('tg-wall-size')) || parseInt(getComputedStyle(root).getPropertyValue('--cell'), 10));
+  setGroup(recall('tg-wall-group') === '1');
+  size.addEventListener('input', () => { setSize(size.value); store('tg-wall-size', size.value); });
+  group.addEventListener('change', () => { setGroup(group.checked); store('tg-wall-group', group.checked ? '1' : '0'); });
 
   // Status bar: the caption of the screen under the pointer or focus.
   const idle = status.dataset.idle;

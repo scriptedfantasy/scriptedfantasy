@@ -102,20 +102,29 @@ ${renderLonglist()}
 </body>
 </html>
 `;
-// The wall: every work in one grid. Works without an image show an empty cell.
+// The wall: every work in one grid, in artist order. Works without an image show an empty cell.
+// Each artist is a section, so the page can show one flat grid or group it by artist.
 function renderWall() {
-  return artists.flatMap(a => a.works.map(w => {
-    const line = [w.title + (w.year ? `, ${w.year}` : ''), w.where].filter(Boolean).map(esc).join('. ');
-    const links = (w.sources || []).map(u =>
-      `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(host(u))}</a>`).join(' ');
-    const face = w.image
-      ? `<img src="/touchgrass/${esc(w.image.file)}" alt="" loading="lazy" decoding="async">`
-      : '';
-    return `<li class="screen ${w.image ? 'on' : 'off'}" id="${esc(w.id)}"${w.image ? ` data-img="/touchgrass/${esc(w.image.file)}" data-page="${esc(w.image.page)}"` : ''}>
+  return artists.filter(a => a.works.length).map(a => {
+    const cells = a.works.map(w => {
+      const line = [w.title + (w.year ? `, ${w.year}` : ''), w.where].filter(Boolean).map(esc).join('. ');
+      const links = (w.sources || []).map(u =>
+        `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(host(u))}</a>`).join(' ');
+      const face = w.image
+        ? `<img src="/touchgrass/${esc(w.image.file)}" alt="" loading="lazy" decoding="async">`
+        : '';
+      return `<li class="screen ${w.image ? 'on' : 'off'}" id="${esc(w.id)}"${w.image ? ` data-img="/touchgrass/${esc(w.image.file)}" data-page="${esc(w.image.page)}"` : ''}>
   <figure><a class="cell" href="#${esc(w.id)}" aria-label="${esc(w.id)} ${esc(a.artist)}, ${esc(w.title)}">${face}</a>
   <figcaption><span class="cap"><b>${esc(w.id)}</b> ${esc(a.artist)}. ${line}.</span> <span class="links">${links}</span></figcaption></figure>
 </li>`;
-  })).join('\n');
+    }).join('\n');
+    return `<section class="artist" aria-label="${esc(a.artist)}">
+<h2><span>${esc(a.id)} ${esc(a.artist)}</span><span>${a.works.length}</span></h2>
+<ol class="cells">
+${cells}
+</ol>
+</section>`;
+  }).join('\n');
 }
 
 const wallHtml = `<!DOCTYPE html>
@@ -124,7 +133,7 @@ const wallHtml = `<!DOCTYPE html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Touch Grass Wall</title>
-<meta name="description" content="Touch Grass: Nature's Representation Online. Every work on the longlist as a screen in a wall: ${nWorks} screens, ${nImages} on.">
+<meta name="description" content="Touch Grass: Nature's Representation Online. Every work on the longlist in one grid: ${nWorks} works, ${nImages} with images.">
 <link rel="canonical" href="https://scriptedfantasy.net/touchgrass/wall/">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,600;1,400&display=swap">
 <link rel="stylesheet" href="/touchgrass/wall.css">
@@ -132,12 +141,16 @@ const wallHtml = `<!DOCTYPE html>
 <body>
 <header class="bar">
   <h1><a href="/touchgrass/">Touch Grass</a> / Wall</h1>
-  <p class="status" aria-live="polite" data-idle="${nWorks} screens. ${nImages} on.">${nWorks} screens. ${nImages} on.</p>
+  <div class="controls">
+    <label>size <input type="range" class="size" min="40" max="480" step="4" value="120"></label>
+    <label><input type="checkbox" class="group"> by artist</label>
+  </div>
+  <p class="status" aria-live="polite" data-idle="${nWorks} works. ${nImages} images.">${nWorks} works. ${nImages} images.</p>
 </header>
 <main class="room">
-  <ol class="screens">
+<div class="wall">
 ${renderWall()}
-  </ol>
+</div>
 </main>
 <dialog class="viewer" aria-label="Work">
   <div class="viewer-face"></div>
@@ -152,4 +165,4 @@ ${renderWall()}
 fs.writeFileSync(path.join(dir, 'index.html'), html);
 fs.mkdirSync(path.join(dir, 'wall'), { recursive: true });
 fs.writeFileSync(path.join(dir, 'wall', 'index.html'), wallHtml);
-console.log(`touchgrass/index.html: ${log.length} log rows, ${artists.length} artists, ${nWorks} works, ${nImages} images. wall/index.html: ${nWorks} screens`);
+console.log(`touchgrass/index.html: ${log.length} log rows, ${artists.length} artists, ${nWorks} works, ${nImages} images. wall/index.html: ${nWorks} cells`);

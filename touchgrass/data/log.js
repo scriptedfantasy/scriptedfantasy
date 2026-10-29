@@ -57,5 +57,8 @@ TG.log = [
   { who: 'CLAUDE', say: 'The wall is at /touchgrass/wall. Point at a screen to read its caption; click it to open the work large. Every work has its own link.' },
   { who: 'LUKAS', say: 'Remove the bend. Remove the rounded TV cases: edges, not rounded corners. Remove the screen simulation.' },
   { dir: 'Claude flattens the wall into a plain grid. Each image runs edge to edge with square corners. Works without an image are empty cells.' },
-  { who: 'CLAUDE', say: 'Done. The wall is a flat grid now.', open: true },
+  { who: 'CLAUDE', say: 'Done. The wall is a flat grid now.' },
+  { who: 'LUKAS', say: 'I need to change the image size on the grid. And group the images by artist.' },
+  { dir: 'Claude adds a size slider and a "by artist" switch to the top of the wall. Each browser remembers its own setting.' },
+  { who: 'CLAUDE', say: 'Done. The slider runs from 40 to 480 pixels per image. "By artist" gives each artist a heading and their own row.', open: true },
 ];

@@ -1,34 +1,49 @@
 /* The wall: one cell per work in a strict grid, against the subject. */
+/* --cell is the width of one image; the size slider sets it. */
 :root {
   --ink: #000;
   --paper: #fff;
   --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
-  --cell: 92px;
+  --cell: 120px;
   --gap: 6px;
   color-scheme: light;
 }
 
 html { background: var(--paper); }
 body { margin: 0; background: var(--paper); color: var(--ink); font: 12px/1.5 var(--mono); }
-h1, p, ol, figure { margin: 0; padding: 0; font: inherit; }
+h1, h2, p, ol, figure { margin: 0; padding: 0; font: inherit; }
 a { color: var(--ink); text-underline-offset: 2px; }
 a:focus-visible, button:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
 
-/* top bar */
+/* top bar: title, controls, the caption of the work under the pointer */
 .bar {
-  position: fixed; inset: 0 0 auto; z-index: 2;
-  display: flex; justify-content: space-between; gap: 2ch;
+  position: sticky; top: 0; z-index: 2;
+  display: flex; flex-wrap: wrap; align-items: center; column-gap: 3ch; row-gap: 6px;
   padding: 12px max(16px, env(safe-area-inset-right, 0px)) 12px max(16px, env(safe-area-inset-left, 0px));
-  background: color-mix(in srgb, var(--paper) 88%, transparent);
+  background: color-mix(in srgb, var(--paper) 92%, transparent);
 }
 .bar h1 { font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; white-space: nowrap; }
-.status { min-width: 0; text-align: right; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.controls { display: flex; flex-wrap: wrap; align-items: center; gap: 3ch; }
+.controls label { display: inline-flex; align-items: center; gap: 1ch; cursor: pointer; white-space: nowrap; }
+.controls input { accent-color: var(--ink); margin: 0; }
+.size { width: 14ch; }
+.status { flex: 1 1 24ch; min-width: 0; text-align: right; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 
-/* the room */
-.room { min-height: 100vh; box-sizing: border-box; padding: 64px 24px 48px; display: grid; grid-template-columns: minmax(0, 1fr); align-items: center; }
-.screens {
-  list-style: none; position: relative; width: 100%; max-width: 1680px; margin: 0 auto;
-  display: grid; grid-template-columns: repeat(auto-fill, minmax(var(--cell), 1fr)); gap: var(--gap);
+/* the wall: one flat grid by default. Artist sections and their lists dissolve into it. */
+.room { padding: 12px 24px 48px; }
+.wall, .wall.grouped .cells {
+  list-style: none; margin: 0; padding: 0;
+  display: grid; grid-template-columns: repeat(auto-fill, min(var(--cell), 100%)); gap: var(--gap);
+}
+.artist, .cells { display: contents; }
+.artist h2 { display: none; }
+
+/* grouped: a heading and a grid per artist */
+.wall.grouped { display: grid; grid-template-columns: minmax(0, 1fr); gap: 28px; }
+.wall.grouped .artist { display: grid; gap: 8px; }
+.wall.grouped .artist h2 {
+  display: flex; gap: 2ch; margin: 0; font: inherit; font-weight: 600;
+  text-transform: uppercase; letter-spacing: 0.06em;
 }
 .screen { min-width: 0; }
 
@@ -61,6 +76,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--ink); outline-o
 .viewer-nav [data-close] { margin-left: auto; }
 
 @media (max-width: 760px) {
-  :root { --cell: 64px; --gap: 4px; }
-  .room { padding: 56px 16px 32px; align-items: start; }
+  :root { --cell: 72px; --gap: 4px; }
+  .room { padding: 8px 16px 32px; }
+  .status { flex-basis: 100%; text-align: left; }
 }
