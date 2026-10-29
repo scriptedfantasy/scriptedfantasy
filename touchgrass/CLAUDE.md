@@ -10,7 +10,8 @@ This folder is served at https://scriptedfantasy.net/touchgrass/ (GitHub Pages, 
 - `data/research.js`: the longlist, with artists, candidate works and source links.
 - `data/brief.js`: the artist list as Lukas first sent it, verbatim. Do not edit.
 - `images/`: one image per work (`W001.jpg`), resized to 800px JPEG, shown on the public longlist. Lukas chose to commit them (29.10.2026).
-- `build.js`: writes `index.html` from the data. Run `node touchgrass/build.js` after every data change and commit both. The site has no build step on deploy, and the PRD requires all content in the HTML.
+- `build.js`: writes `index.html` and `wall/index.html` from the data.
+- `wall/`, `wall.css`, `wall.js`: the image viewer, one screen per work in a curved grid (after the Architect's room in The Matrix, not a copy). Works without an image show snow. `#W001` opens a work. Run `node touchgrass/build.js` after every data change and commit both. The site has no build step on deploy, and the PRD requires all content in the HTML.
 - `board.css`: styles.
 
 ## Working rules from Lukas

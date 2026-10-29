@@ -83,6 +83,7 @@ const html = `<!DOCTYPE html>
   <h1>Touch Grass</h1>
   <p>Nature's Representation Online</p>
   <p>Process board. Curated by Lukas and Claude.</p>
+  <p><a href="/touchgrass/wall/">Wall</a>: every work on a screen.</p>
 </header>
 <section aria-labelledby="h-log">
   <h2 id="h-log">Log</h2>
@@ -101,5 +102,54 @@ ${renderLonglist()}
 </body>
 </html>
 `;
+// The wall: every work on a screen, in a grid. Works without an image show a dead screen.
+function renderWall() {
+  return artists.flatMap(a => a.works.map(w => {
+    const line = [w.title + (w.year ? `, ${w.year}` : ''), w.where].filter(Boolean).map(esc).join('. ');
+    const links = (w.sources || []).map(u =>
+      `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(host(u))}</a>`).join(' ');
+    const face = w.image
+      ? `<img src="/touchgrass/${esc(w.image.file)}" alt="" loading="lazy" decoding="async">`
+      : `<span class="static" aria-hidden="true"></span>`;
+    return `<li class="screen ${w.image ? 'on' : 'off'}" id="${esc(w.id)}"${w.image ? ` data-img="/touchgrass/${esc(w.image.file)}" data-page="${esc(w.image.page)}"` : ''}>
+  <figure><a class="tube" href="#${esc(w.id)}" aria-label="${esc(w.id)} ${esc(a.artist)}, ${esc(w.title)}">${face}</a>
+  <figcaption><span class="cap"><b>${esc(w.id)}</b> ${esc(a.artist)}. ${line}.</span> <span class="links">${links}</span></figcaption></figure>
+</li>`;
+  })).join('\n');
+}
+
+const wallHtml = `<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Touch Grass Wall</title>
+<meta name="description" content="Touch Grass: Nature's Representation Online. Every work on the longlist as a screen in a wall: ${nWorks} screens, ${nImages} on.">
+<link rel="canonical" href="https://scriptedfantasy.net/touchgrass/wall/">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="/touchgrass/wall.css">
+</head>
+<body>
+<header class="bar">
+  <h1><a href="/touchgrass/">Touch Grass</a> / Wall</h1>
+  <p class="status" aria-live="polite" data-idle="${nWorks} screens. ${nImages} on.">${nWorks} screens. ${nImages} on.</p>
+</header>
+<main class="room">
+  <ol class="screens">
+${renderWall()}
+  </ol>
+</main>
+<dialog class="viewer" aria-label="Work">
+  <div class="viewer-face"></div>
+  <div class="viewer-text"></div>
+  <nav class="viewer-nav"><button type="button" data-go="-1">&lt; prev</button><button type="button" data-go="1">next &gt;</button><button type="button" data-close>close</button></nav>
+</dialog>
+<script src="/touchgrass/wall.js" defer></script>
+</body>
+</html>
+`;
+
 fs.writeFileSync(path.join(dir, 'index.html'), html);
-console.log(`touchgrass/index.html: ${log.length} log rows, ${artists.length} artists, ${nWorks} works, ${nImages} images`);
+fs.mkdirSync(path.join(dir, 'wall'), { recursive: true });
+fs.writeFileSync(path.join(dir, 'wall', 'index.html'), wallHtml);
+console.log(`touchgrass/index.html: ${log.length} log rows, ${artists.length} artists, ${nWorks} works, ${nImages} images. wall/index.html: ${nWorks} screens`);
