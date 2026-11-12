@@ -6239,10 +6239,10 @@ TG.research = {
       "id": "A102",
       "artist": "Ken Goldberg",
       "as_listed": [],
-      "name_note": "Lead: found through group shows (29.10.2026), not on the original brief.",
+      "name_note": "Found through group shows (29.10.2026); added to the list by Lukas on 12.11.2026.",
       "practice": "Artist and UC Berkeley robotics professor working on telerobotics and networked art.",
-      "status": "lead",
-      "notes": "Practice line from general knowledge; the Telegarden page names him as creator.",
+      "status": "longlist",
+      "notes": "",
       "via_shows": [
         "ICCC'21 Art Exhibition (2021)"
       ],
@@ -6253,15 +6253,16 @@ TG.research = {
       ],
       "works": [
         {
-          "title": "Telegarden (with Joseph Santarromana)",
+          "title": "The Telegarden",
           "year": "1995-2004",
-          "medium": "networked telerobotic installation",
-          "where": "USC, then Ars Electronica Center, Linz (from 1996)",
+          "medium": "Networked telerobotic installation: a living garden that web users could view, plant and water through an industrial robot arm",
+          "where": "Online from June 1995 at the University of Southern California; from September 1996 in the lobby of the Ars Electronica Center, Linz, online 24 hours a day until August 2004. Co-directed with Joseph Santarromana",
           "nature": [],
-          "why": "Real community garden whose plants internet users viewed, planted and watered via a robot arm.",
-          "named_in_brief": false,
-          "verified": false,
+          "why": "A real garden tended by an online cooperative of more than 9,000 members in its first year.",
+          "named_in_brief": true,
+          "verified": true,
           "sources": [
+            "https://goldberg.berkeley.edu/garden/Ars/",
             "https://en.wikipedia.org/wiki/Telegarden"
           ],
           "id": "W203",
