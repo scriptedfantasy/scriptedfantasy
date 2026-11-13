@@ -53,7 +53,7 @@ function renderLonglist() {
       const bits = [w.title + (w.year ? `, ${w.year}` : ''), w.where].filter(Boolean).map(esc).join('. ');
       const img = w.image
         ? `<a class="img" href="${esc(w.image.page)}" target="_blank" rel="noopener"><img src="/touchgrass/${esc(w.image.file)}" alt="${esc(w.title)}, ${esc(a.artist)}" loading="lazy"></a>` : '';
-      return `<li id="${esc(w.id)}">${w.verified ? '' : '* '}${bits}.${w.named_in_brief ? ' [brief]' : ''}<span class="links">${links}</span>${img}</li>`;
+      return `<li id="${esc(w.id)}">${w.verified ? '' : '* '}${bits.replace(/\.$/, '')}.${w.named_in_brief ? ' [brief]' : ''}<span class="links">${links}</span>${img}</li>`;
     }).join('');
     return `<li class="artist" id="${esc(a.id)}" data-artist="${slug(a.artist)}">
   <p class="artist-head"><span>${esc(a.artist)}</span><span>${esc(a.status)}</span></p>
@@ -71,7 +71,7 @@ function renderLeads() {
       const bits = [w.title + (w.year ? `, ${w.year}` : ''), w.why].filter(Boolean).map(esc).join('. ');
       const img = w.image
         ? `<a class="img" href="${esc(w.image.page)}" target="_blank" rel="noopener"><img src="/touchgrass/${esc(w.image.file)}" alt="${esc(w.title)}, ${esc(a.artist)}" loading="lazy"></a>` : '';
-      return `<li id="${esc(w.id)}">${bits}.<span class="links">${links}</span>${img}</li>`;
+      return `<li id="${esc(w.id)}">${bits.replace(/\.$/, '')}.<span class="links">${links}</span>${img}</li>`;
     }).join('');
     const via = (a.via_shows || []).length
       ? `<p class="via">${a.shown_with.length ? `With ${a.shown_with.map(esc).join(', ')} in` : 'In'} ${a.via_shows.map(esc).join('; ')}.</p>` : '';
@@ -86,7 +86,7 @@ function renderShows() {
     const bits = [s.title + (s.year ? `, ${s.year}` : ''), s.venue].filter(Boolean).map(esc).join('. ');
     const ours = s.our_artists.length ? ` With ${s.our_artists.map(esc).join(', ')}.` : '';
     const link = s.url ? `<span class="links"><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(host(s.url))}</a></span>` : '';
-    return `<li>${bits}.${ours}${link}</li>`;
+    return `<li>${bits.replace(/\.$/, '')}.${ours}${link}</li>`;
   }).join('');
 }
 

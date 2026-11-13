@@ -2,7 +2,7 @@
 // status (artist): longlist | in | maybe | out. status (work): candidate | selected | rejected.
 window.TG = window.TG || {};
 TG.research = {
-  "updated": "2026-10-29",
+  "updated": "2026-11-13",
   "artists": [
     {
       "id": "A01",
@@ -1898,6 +1898,52 @@ TG.research = {
             "page": "https://entangledothers.studio/beneath-the-neural-waves/",
             "url": "https://entangledothers.studio/wp-content/uploads/2021/03/btnw_2-0_render_underwater.jpg"
           }
+        },
+        {
+          "title": "Structures of Being",
+          "year": "",
+          "medium": "projection mapping on the facade of Casa Batlló",
+          "where": "Lumen Prize 2025, finalist, Moving Image Award",
+          "nature": [
+            "flora",
+            "fauna"
+          ],
+          "why": "Neural networks trained on the natural forms that inspired Gaudí, mapped onto Casa Batlló. Music by Robert M. Thomas.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2025-moving-image-finalists/sofiacrespo-1"
+          ],
+          "id": "W067",
+          "status": "candidate",
+          "image": {
+            "file": "images/W067.jpg",
+            "page": "https://lumenprize.org/2025-moving-image-finalists/sofiacrespo-1",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/684033a9462e5f1fab02bcc8/6899e7e28afc9e1987c58bc3/1755242176851/Sofia+Crespo+-+Structures+of+Being+3.jpg?format=1500w"
+          }
+        },
+        {
+          "title": "Perpetual Present",
+          "year": "",
+          "medium": "machine learning, 3D printing, robotics",
+          "where": "Lumen Prize 2025, finalist, Experiential Award",
+          "nature": [
+            "fauna",
+            "ecology"
+          ],
+          "why": "The animals of the Altamira cave paintings, most now extinct, re-imagined with machine learning, 3D printing and robotics. Also a Nature & Climate finalist.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2025-experiential-award-finalists/sofia-crespo-3"
+          ],
+          "id": "W068",
+          "status": "candidate",
+          "image": {
+            "file": "images/W068.jpg",
+            "page": "https://lumenprize.org/2025-experiential-award-finalists/sofia-crespo-3",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/68403726c1705f27cd191c60/689a0938558b707665dd8ef0/1755245296748/sofia_crespo___perpetual_present___still__detail__jpg.jpeg?format=1500w"
+          }
         }
       ]
     },
@@ -1928,10 +1974,10 @@ TG.research = {
             "https://verse.works/artworks/5db28778-8077-47ed-b5af-b9bb57054ba9/931663184",
             "https://verse.works/artworks/5db28778-8077-47ed-b5af-b9bb57054ba9/931663151"
           ],
-          "id": "W067",
+          "id": "W069",
           "status": "candidate",
           "image": {
-            "file": "images/W067.jpg",
+            "file": "images/W069.jpg",
             "page": "https://verse.works/artworks/5db28778-8077-47ed-b5af-b9bb57054ba9/931663184",
             "url": "https://versecontent.com/image/source/static%2Fuploads%2F0x29c9e04e05c5d261836e458bc5b779a7de3c58d6%2F20dfdd1a-981b-412f-aecd-0f74f91ec70e.png"
           }
@@ -1951,10 +1997,10 @@ TG.research = {
             "https://verse.works/series/latentscapes-by-helena-sarin",
             "https://artistsarejerks-site.pages.dev/artists/helena-sarin"
           ],
-          "id": "W068",
+          "id": "W070",
           "status": "candidate",
           "image": {
-            "file": "images/W068.jpg",
+            "file": "images/W070.jpg",
             "page": "https://verse.works/series/latentscapes-by-helena-sarin",
             "url": "https://versecontent.com/image/w1400/static%2Fbp_uploads_339a72fd-6b67-44f8-9bd1-763e99e2127d.png@jpeg"
           }
@@ -1989,10 +2035,10 @@ TG.research = {
             "https://verisart.com/blog/creating-physical-to-digital-solutions---aaron-the-earliest-ai-program-for-artmaking-by-harold-cohen-a-selling-exhibition-with-sothebys",
             "https://verisart.com/blog/certifying-a-pioneer-harold-cohens-aaron-at-art-basel-zero-10"
           ],
-          "id": "W069",
+          "id": "W071",
           "status": "candidate",
           "image": {
-            "file": "images/W069.jpg",
+            "file": "images/W071.jpg",
             "page": "https://www.sothebys.com/en/buy/_0309-06-i23-3370-a3e2",
             "url": "https://sothebys-md.brightspotcdn.com/dims4/default/3193ec0/2147483647/strip/true/crop/5466x4914+0+0/resize/2048x1841!/quality/90/?url=http%3A%2F%2Fsothebys-brightspot.s3.amazonaws.com%2Fmedia-desk%2F8a%2Fc3%2F573c30f540749c480aef1bd1462d%2Fd2xz5-1-crop.jpg"
           }
@@ -2015,10 +2061,10 @@ TG.research = {
             "https://gazell.io/products/aarons-garden-2",
             "https://gazelliarthouse.com/artists/harold-cohen/biography"
           ],
-          "id": "W070",
+          "id": "W072",
           "status": "candidate",
           "image": {
-            "file": "images/W070.jpg",
+            "file": "images/W072.jpg",
             "page": "https://art.gazelliarthouse.com/products/aarons-garden",
             "url": "http://art.gazelliarthouse.com/cdn/shop/files/HC0079-2.jpg?v=1754651026"
           }
@@ -2040,10 +2086,10 @@ TG.research = {
             "https://ocula.com/art-galleries/gazelli-art-house/art-fairs/art-sg-2024/",
             "https://whitney.org/exhibitions/harold-cohen-aaron?section=3"
           ],
-          "id": "W071",
+          "id": "W073",
           "status": "candidate",
           "image": {
-            "file": "images/W071.jpg",
+            "file": "images/W073.jpg",
             "page": "https://whitney.org/exhibitions/harold-cohen-aaron?section=3",
             "url": "https://whitneymedia.org/assets/image/829164/RS73495_Harold-Cohen-AARON-for-KCat-2021_web.jpg"
           }
@@ -2063,10 +2109,10 @@ TG.research = {
             "https://collections.vam.ac.uk/item/O114802",
             "https://api.vam.ac.uk/v2/object/O114802"
           ],
-          "id": "W072",
+          "id": "W074",
           "status": "candidate",
           "image": {
-            "file": "images/W072.jpg",
+            "file": "images/W074.jpg",
             "page": "https://collections.vam.ac.uk/item/O114802",
             "url": "https://framemark.vam.ac.uk/collections/2010EL6973/full/!600,/0/default.jpg"
           }
@@ -2102,10 +2148,10 @@ TG.research = {
             "https://www.arabbank.ch/about-us/art-by-arab-bank/artist/cezar-mocan/",
             "https://spam-index.com/artists/cezar-mocan/"
           ],
-          "id": "W073",
+          "id": "W075",
           "status": "candidate",
           "image": {
-            "file": "images/W073.jpg",
+            "file": "images/W075.jpg",
             "page": "https://cezar.io/world-upstream",
             "url": "https://cezar.io/assets/images/world-upstream/1.jpg"
           }
@@ -2125,10 +2171,10 @@ TG.research = {
             "https://www.lumenprize.com/2021-winners/student-award-winner",
             "https://artlecture.com/project/10904"
           ],
-          "id": "W074",
+          "id": "W076",
           "status": "candidate",
           "image": {
-            "file": "images/W074.jpg",
+            "file": "images/W076.jpg",
             "page": "https://www.lumenprize.com/2021-winners/student-award-winner",
             "url": "http://static1.squarespace.com/static/65e7176a61627736e02f6c4a/65f474a6c9a7564c5ee0180e/65f474a6c9a7564c5ee01815/1710772540623/CezarMocan_ArcadiaInc_Still1%2Bcopy.jpg?format=1500w"
           }
@@ -2163,10 +2209,10 @@ TG.research = {
             "https://www.raster.art/artist/david-lisser/about",
             "https://medium.com/@spenser.dickerson/disintegration-light-and-the-digital-bloom-with-david-lisser-4b5836dbb149"
           ],
-          "id": "W075",
+          "id": "W077",
           "status": "candidate",
           "image": {
-            "file": "images/W075.jpg",
+            "file": "images/W077.jpg",
             "page": "https://web.archive.org/web/20260310095826/https://load-gallery.com/artists/david-lisser",
             "url": "https://framerusercontent.com/images/5S31dM9JM4zSW1SsM0RWOpYB1oQ.png"
           }
@@ -2197,10 +2243,10 @@ TG.research = {
             "https://www.katevassgalerie.com/blog/when-code-blooms",
             "https://www.katevassgalerie.com/print/p/david-young-flowers-b2215822"
           ],
-          "id": "W076",
+          "id": "W078",
           "status": "candidate",
           "image": {
-            "file": "images/W076.jpg",
+            "file": "images/W078.jpg",
             "page": "https://www.katevassgalerie.com/print/p/david-young-flowers-b2215822",
             "url": "https://images.squarespace-cdn.com/content/v1/63a2ce0664014f2264b055d4/70e4797a-2081-432a-8180-bbd0c597bf2f/b22_001582_02.jpg"
           }
@@ -2235,10 +2281,10 @@ TG.research = {
             "https://www.bitforms.art/artwork/gentle-automata-touching-grass",
             "https://www.electricartefacts.art/artwork/sarah-friend-gentle-automata-touching-grass"
           ],
-          "id": "W077",
+          "id": "W079",
           "status": "candidate",
           "image": {
-            "file": "images/W077.jpg",
+            "file": "images/W079.jpg",
             "page": "https://www.bitforms.art/artwork/gentle-automata-touching-grass",
             "url": "https://www.bitforms.art/wp-content/uploads/2023/02/2_sf-gentle_automata_hr-scaled.jpg"
           }
@@ -2258,10 +2304,10 @@ TG.research = {
           "sources": [
             "https://19.piksel.no/2019/11/21/remembering-network/"
           ],
-          "id": "W078",
+          "id": "W080",
           "status": "candidate",
           "image": {
-            "file": "images/W078.jpg",
+            "file": "images/W080.jpg",
             "page": "https://gazelliarthouse.com/artworks/14110-sarah-friend-remembering-network-2019/",
             "url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/gazelli/images/view/41a594f406d379fec42ca47d8a3bc3cbj/gazelliarthouse-sarah-friend-remembering-network-2019.jpg"
           }
@@ -2281,10 +2327,10 @@ TG.research = {
             "https://www.trinitysquarevideo.com/programming/vitrine-lifeforms-by-sarah-friend/",
             "https://holo.mg/stream/sarah-friend-lifeforms-nft-blockchain-cryptoart"
           ],
-          "id": "W079",
+          "id": "W081",
           "status": "candidate",
           "image": {
-            "file": "images/W079.jpg",
+            "file": "images/W081.jpg",
             "page": "https://artthescience.com/magazine/?p=11834",
             "url": "https://artthescience.com/magazine/wp-content/uploads/2021/12/Resize_lifeform3-small.jpg"
           }
@@ -2330,10 +2376,10 @@ TG.research = {
             "https://daily.xyz/exhibition/10062",
             "https://www.yewknee.com/blog/herndon-dryhurst-studio-infinite-images-and-the-latent-camera"
           ],
-          "id": "W080",
+          "id": "W082",
           "status": "candidate",
           "image": {
-            "file": "images/W080.jpg",
+            "file": "images/W082.jpg",
             "page": "https://verse.works/artworks/f53bd4cb-92f5-47e8-980f-5cb9954e093f/1",
             "url": "https://versecontent.com/image/w3840/static%2Fuploads%2F0x177c5a25b3b1e32e6e66ff4c243ce6f713d15ece%2F107c42ca-c43e-473e-b9fc-9e313b99f360.png@jpeg"
           }
@@ -2368,10 +2414,10 @@ TG.research = {
             "https://artbasel.com/stories/sasha-stiles-how-technology-renews-relationship-with-storytelling",
             "https://en.wikipedia.org/wiki/Sasha_Stiles"
           ],
-          "id": "W081",
+          "id": "W083",
           "status": "candidate",
           "image": {
-            "file": "images/W081.jpg",
+            "file": "images/W083.jpg",
             "page": "https://www.artforum.com/interviews/sasha-stiles-90255",
             "url": "https://www.artforum.com/wp-content/uploads/2023/03/featured00_large-33.jpg?w=650"
           }
@@ -2392,10 +2438,10 @@ TG.research = {
             "https://verse.works/artworks/d32c5052-48b1-40de-9c7e-313bf98a9223/1",
             "https://verse.works/artworks/d32c5052-48b1-40de-9c7e-313bf98a9223/3"
           ],
-          "id": "W082",
+          "id": "W084",
           "status": "candidate",
           "image": {
-            "file": "images/W082.jpg",
+            "file": "images/W084.jpg",
             "page": "https://verse.works/artworks/d32c5052-48b1-40de-9c7e-313bf98a9223/1",
             "url": "https://versecontent.com/image/w1400/static%2Fuploads%2F0xe5cb13e7af618cff8d0bc5657127d487ab8fcada%2Ffe012d9f-1985-4ea2-a37c-ab27a95aa2bb.png@jpeg"
           }
@@ -2414,10 +2460,10 @@ TG.research = {
             "https://www.katevassgalerie.com/news/museum-of-art-light-acquires-sasha-stiles",
             "https://infiniteobjects.com/products/cadaf-stiles-the-wind-on-my-lips"
           ],
-          "id": "W083",
+          "id": "W085",
           "status": "candidate",
           "image": {
-            "file": "images/W083.jpg",
+            "file": "images/W085.jpg",
             "page": "https://infiniteobjects.com/products/cadaf-stiles-the-wind-on-my-lips",
             "url": "http://infiniteobjects.com/cdn/shop/files/4_SashaStiles_TheWindinMyHair_situ.png?v=1729899004"
           }
@@ -2451,10 +2497,10 @@ TG.research = {
             "https://thehouseoffineart.com/artworks/6399/",
             "https://www.lumenprize.com/impact-award-finalists-2024/niceaunties"
           ],
-          "id": "W084",
+          "id": "W086",
           "status": "candidate",
           "image": {
-            "file": "images/W084.jpg",
+            "file": "images/W086.jpg",
             "page": "https://thehouseoffineart.com/artworks/6399/",
             "url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/hofa/images/view/45269bceb1511d7c0f9f3e7c89c0fd0fg.gif"
           }
@@ -2488,10 +2534,10 @@ TG.research = {
             "https://newatlas.com/robot-art-2018-competition-winners-gallery/55548",
             "https://pindar-vanarman-xjyl.squarespace.com/feedback/tag/cezanne"
           ],
-          "id": "W085",
+          "id": "W087",
           "status": "candidate",
           "image": {
-            "file": "images/W085.jpg",
+            "file": "images/W087.jpg",
             "page": "https://newatlas.com/robot-art-2018-competition-winners-gallery/55548",
             "url": "https://assets.newatlas.com/dims4/default/b1cdb03/2147483647/strip/true/crop/1200x960+0+0/resize/2880x2304!/format/webp/quality/90/?url=https%3A%2F%2Fnewatlas-brightspot.s3.ap-southeast-2.amazonaws.com%2Farchive%2Frobot-art-3.jpg"
           }
@@ -2526,10 +2572,10 @@ TG.research = {
             "https://digitalartarchive.at/database/work/4930",
             "https://sciencenode.org/spotlight/charles-csuris-hummingbird-gives-computer-animation-its-wings.php"
           ],
-          "id": "W086",
+          "id": "W088",
           "status": "candidate",
           "image": {
-            "file": "images/W086.jpg",
+            "file": "images/W088.jpg",
             "page": "https://www.katevassgalerie.com/blog/charles-csuri-art",
             "url": "https://images.squarespace-cdn.com/content/v1/63a2ce0664014f2264b055d4/1671626827716-I3NSKUX3X4VHFNL83OB6/HummingbirdCroppedCsuri-31+%28002%29.jpg?format=1500w"
           }
@@ -2548,7 +2594,7 @@ TG.research = {
           "sources": [
             "https://csuriproject.osu.edu/index.php/Browse/objects/view/images/key/60c5a24b86e0d8619bc20f1a365e6f9f/sort/Identifier"
           ],
-          "id": "W087",
+          "id": "W089",
           "status": "candidate"
         },
         {
@@ -2566,10 +2612,10 @@ TG.research = {
             "https://csuriproject.osu.edu/index.php/Detail/objects/751",
             "https://csuriproject.osu.edu/index.php/Detail/objects/530"
           ],
-          "id": "W088",
+          "id": "W090",
           "status": "candidate",
           "image": {
-            "file": "images/W088.jpg",
+            "file": "images/W090.jpg",
             "page": "https://web.archive.org/web/2021/https://csuriproject.osu.edu/index.php/Detail/objects/751",
             "url": "https://web.archive.org/web/20250505150355id_/https://csuriproject.osu.edu/media/osu/images/4/75632_ca_object_representations_media_444_large.jpg"
           }
@@ -2605,10 +2651,10 @@ TG.research = {
             "https://www.cjamesgallery.com/fairs/strangerevolution",
             "https://gizmodo.com/bob-ross-processed-by-a-neural-network-is-the-most-soot-1794080760"
           ],
-          "id": "W089",
+          "id": "W091",
           "status": "candidate",
           "image": {
-            "file": "images/W089.jpg",
+            "file": "images/W091.jpg",
             "page": "https://www.engadget.com/2017-04-06-ai-on-joy-of-painting-on-lsd.html",
             "url": "https://www.engadget.com/engadget/2017-04-06-ai-on-joy-of-painting-on-lsd/Screen+Shot+2017-04-06+at+1.33.03+PM.png.jpg"
           }
@@ -2645,10 +2691,10 @@ TG.research = {
             "https://www.sothebys.com/en/auctions/ecatalogue/2019/contemporary-art-day-n10150/lot.462.html",
             "https://pmc.ncbi.nlm.nih.gov/articles/PMC7660416"
           ],
-          "id": "W090",
+          "id": "W092",
           "status": "candidate",
           "image": {
-            "file": "images/W090.jpg",
+            "file": "images/W092.jpg",
             "page": "https://obvious-art.com/collection-electric-dreams-of-ukiyo/",
             "url": "https://cdn.sanity.io/images/ccct9dns/production/c09d339e274c0452aa931d2783d8a050d413df8f-1687x2500.webp"
           }
@@ -2669,10 +2715,10 @@ TG.research = {
             "https://obvious-art.com/portfolio/parietal-burner-3/",
             "https://news.artnet.com/art-world/obvious-cave-art-graffiti-mashup-1928105"
           ],
-          "id": "W091",
+          "id": "W093",
           "status": "candidate",
           "image": {
-            "file": "images/W091.jpg",
+            "file": "images/W093.jpg",
             "page": "https://obvious-art.com/parietal-burners",
             "url": "https://cdn.sanity.io/images/ccct9dns/production/8dbb3428c8a297a92bca68ff4640ba59cf1136aa-1066x858.webp?fm=jpg&q=90"
           }
@@ -2707,10 +2753,10 @@ TG.research = {
             "https://whitney.org/exhibitions/amelia-winger-bearskin",
             "https://whitneymedia.org/assets/generic_file/2293/Amelia_Winger-Bearskin_-_Sunrise_Sunset_Announcement.pdf"
           ],
-          "id": "W092",
+          "id": "W094",
           "status": "candidate",
           "image": {
-            "file": "images/W092.jpg",
+            "file": "images/W094.jpg",
             "page": "https://whitney.org/exhibitions/amelia-winger-bearskin",
             "url": "https://whitneymedia.org/assets/image/828433/winger-bearksin_sunset.png"
           }
@@ -2731,10 +2777,10 @@ TG.research = {
           "sources": [
             "https://kadist.org/work/i-would-like-to-be-midnight-i-would-like-to-be-sky/"
           ],
-          "id": "W093",
+          "id": "W095",
           "status": "candidate",
           "image": {
-            "file": "images/W093.jpg",
+            "file": "images/W095.jpg",
             "page": "https://skabmagovat.fi/en/?p=8944",
             "url": "https://skabmagovat.fi/wp-content/uploads/2024/12/i-would.webp"
           }
@@ -2755,10 +2801,10 @@ TG.research = {
           "sources": [
             "https://tropeztropez.de/en/amelia-winger-bearskin-en/"
           ],
-          "id": "W094",
+          "id": "W096",
           "status": "candidate",
           "image": {
-            "file": "images/W094.jpg",
+            "file": "images/W096.jpg",
             "page": "https://tropeztropez.de/en/amelia-winger-bearskin-en/",
             "url": "https://tropeztropez.de/wp-content/uploads/2024/05/DSC09623.jpg"
           }
@@ -2777,10 +2823,10 @@ TG.research = {
           "sources": [
             "https://nxtmuseum.com/artist/midnight-to-body-amelia-winger-bearskin"
           ],
-          "id": "W095",
+          "id": "W097",
           "status": "candidate",
           "image": {
-            "file": "images/W095.jpg",
+            "file": "images/W097.jpg",
             "page": "https://nxtmuseum.com/artist/midnight-to-body-amelia-winger-bearskin",
             "url": "https://admin.nxtmuseum.com/content/uploads/2024/05/Midnight-To-Body-by-Amelia-Winger-Bearskin-scaled.jpg"
           }
@@ -2816,10 +2862,10 @@ TG.research = {
             "https://www.robilantvoena.com/news/rv-launch-unique-nfts-daniel-ambrosi-artworks",
             "https://ocula.com/art-galleries/robilant-voena-london/exhibitions/daniel-ambrosi-ai-and-the-landscapes-of-capab/"
           ],
-          "id": "W096",
+          "id": "W098",
           "status": "candidate",
           "image": {
-            "file": "images/W096.jpg",
+            "file": "images/W098.jpg",
             "page": "https://www.theartnewspaper.com/2023/11/06/ai-captures-capability-brown-landscape",
             "url": "https://cdn.sanity.io/images/cxgd3urn/production/a333e7826dd830864c4400354c7eed699df932ac-609x609.jpg?rect=0,123,609,365&w=1200&h=720&q=85&fit=crop&auto=format"
           }
@@ -2839,10 +2885,10 @@ TG.research = {
           "sources": [
             "https://www.1stdibs.com/nft/art/mining-nightfall-quintet-cube/id-n_A9W6l3UVHm"
           ],
-          "id": "W097",
+          "id": "W099",
           "status": "candidate",
           "image": {
-            "file": "images/W097.jpg",
+            "file": "images/W099.jpg",
             "page": "https://www.1stdibs.com/nft/art/mining-nightfall-quintet-cube/id-n_A9W6l3UVHm",
             "url": "https://a.1stdibscdn.com/dist/nft/Daniel+Ambrosi/MiningNightfallQuintetCube_PosterFrame.jpg?disable=upscale&auto=webp&quality=60&width=768&format=jpg"
           }
@@ -2864,10 +2910,10 @@ TG.research = {
             "https://issuu.com/robilantvoena/docs/daniel_ambrosi_central_park",
             "https://www.meer.com/en/100248-central-park"
           ],
-          "id": "W098",
+          "id": "W100",
           "status": "candidate",
           "image": {
-            "file": "images/W098.jpg",
+            "file": "images/W100.jpg",
             "page": "https://www.meer.com/en/100248-central-park",
             "url": "https://www.meer.com/attachments/45dbe6f98b6a81e2197496f005509746da73eea8/store/fill/860/645/ad9b5b06ac6435b073de4458ee1b456d890bc38d35815648071de9fe8359/Daniel-Ambrosi-Central-Park-exhibition-view-Courtesy-of-Robilant-plus-Voena-Gallery.jpg"
           }
@@ -2902,10 +2948,10 @@ TG.research = {
             "https://thehouseoffineart.com/artworks/5028",
             "https://thehouseoffineart.com/artists/271-jesse-woolston/works/5028"
           ],
-          "id": "W099",
+          "id": "W101",
           "status": "candidate",
           "image": {
-            "file": "images/W099.jpg",
+            "file": "images/W101.jpg",
             "page": "https://thehouseoffineart.com/artworks/5028",
             "url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/hofa/images/view/05c7a3007aecd9a20df59250dfffa701g.gif"
           }
@@ -2924,10 +2970,10 @@ TG.research = {
           "sources": [
             "https://thehouseoffineart.com/artworks/5028"
           ],
-          "id": "W100",
+          "id": "W102",
           "status": "candidate",
           "image": {
-            "file": "images/W100.jpg",
+            "file": "images/W102.jpg",
             "page": "https://thehouseoffineart.com/artworks/5028/",
             "url": "https://static-assets.artlogic.net/w_1200,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/hofa/images/view/05c7a3007aecd9a20df59250dfffa701g.gif"
           }
@@ -2973,7 +3019,7 @@ TG.research = {
           "sources": [
             "https://sites.google.com/view/2025aiart-gallery/artworks/roomc/c08"
           ],
-          "id": "W101",
+          "id": "W103",
           "status": "candidate"
         },
         {
@@ -2990,7 +3036,7 @@ TG.research = {
           "sources": [
             "https://sites.google.com/view/2025aiart-gallery/artworks/roomf/f10"
           ],
-          "id": "W102",
+          "id": "W104",
           "status": "candidate"
         },
         {
@@ -3010,10 +3056,10 @@ TG.research = {
             "https://www.sixthtone.com/news/1009835/poetry-bots-and-psychedelic-buddhas-meet-chinas-top-nft-artist",
             "https://medium.com/cortexlabs/the-artwork-%E7%89%A1%E4%B8%B9%E4%BA%ADr%C3%AAve%E4%B9%8B%E6%A0%87%E7%9B%AE%E8%9D%B6%E6%81%8B%E8%8A%B1-the-info-techs-penetration-of-song-ting-in-collaboration-with-136135f713fd"
           ],
-          "id": "W103",
+          "id": "W105",
           "status": "candidate",
           "image": {
-            "file": "images/W103.jpg",
+            "file": "images/W105.jpg",
             "page": "https://news.cgtn.com/news/2022-12-29/China-s-top-digital-artist-fuses-new-genre-with-traditional-culture--1g9GrbN7H8I/index.html",
             "url": "https://video.cgtn.com/news/2022-12-29/China-s-top-digital-artist-fuses-new-genre-with-traditional-culture--1g9GrbN7H8I/video/53c485058aa145c4abb8890a597a54d9/53c485058aa145c4abb8890a597a54d9-750.png?t=20230116195332048"
           }
@@ -3032,7 +3078,7 @@ TG.research = {
           "sources": [
             "https://sites.google.com/view/2025aiart-gallery/artworks/roomb"
           ],
-          "id": "W104",
+          "id": "W106",
           "status": "candidate"
         }
       ]
@@ -3064,7 +3110,7 @@ TG.research = {
             "https://www.thehenryford.org/collections/explore/artifact/537621",
             "https://cinemaproject.org/archive/screenings/2011/fall/lillian-schwartz"
           ],
-          "id": "W105",
+          "id": "W107",
           "status": "candidate"
         }
       ]
@@ -3121,10 +3167,10 @@ TG.research = {
             "https://artblocks.io/collections/curated/projects/0x99a9b7c1116f9ceeb1652de04d5969cce509b069/418",
             "https://verse.works/series/neural-sediments-by-eko33"
           ],
-          "id": "W106",
+          "id": "W108",
           "status": "candidate",
           "image": {
-            "file": "images/W106.jpg",
+            "file": "images/W108.jpg",
             "page": "https://artblocks.io/collections/curated/projects/0x99a9b7c1116f9ceeb1652de04d5969cce509b069/418",
             "url": "https://media-proxy.artblocks.io/1/0x99a9b7c1116f9ceeb1652de04d5969cce509b069/418000074.png"
           }
@@ -3143,7 +3189,7 @@ TG.research = {
           "sources": [
             "https://www.raster.art/artwork/delicate-season-by-eko33/about"
           ],
-          "id": "W107",
+          "id": "W109",
           "status": "candidate"
         }
       ]
@@ -3175,10 +3221,10 @@ TG.research = {
             "https://noorderlicht.com/en/whats-on/pixel-perceptions/life-in-west-america",
             "https://thehouseoffineart.com/artists/287/"
           ],
-          "id": "W108",
+          "id": "W110",
           "status": "candidate",
           "image": {
-            "file": "images/W108.jpg",
+            "file": "images/W110.jpg",
             "page": "https://ucrarts.ucr.edu/ai-post-photography/roope-rainisto/",
             "url": "https://ucrarts.ucr.edu/wp-content/uploads/2023/09/rainisto-4.jpg"
           }
@@ -3198,10 +3244,10 @@ TG.research = {
           "sources": [
             "https://80.lv/articles/breathtaking-landscapes-made-by-an-ai"
           ],
-          "id": "W109",
+          "id": "W111",
           "status": "candidate",
           "image": {
-            "file": "images/W109.jpg",
+            "file": "images/W111.jpg",
             "page": "https://80.lv/articles/breathtaking-landscapes-made-by-an-ai",
             "url": "https://cdn.80.lv/api/upload/meta/18208/images/61d5c088efd74/contain_1200x630.jpg"
           }
@@ -3220,10 +3266,10 @@ TG.research = {
           "sources": [
             "https://nxt.mercedes-benz.com/node/43"
           ],
-          "id": "W110",
+          "id": "W112",
           "status": "candidate",
           "image": {
-            "file": "images/W110.jpg",
+            "file": "images/W112.jpg",
             "page": "https://verse.works/series/symbiosis-by-roope-rainisto",
             "url": "https://versecontent.com/image/w1400/static%2Fuploads%2F0x11b5a9b3d3541163cc2fa533110054aa6179825e%2F07c36951-eb4b-4b1b-aabc-1d6d42ba1ac7.jpeg@jpeg"
           }
@@ -3268,10 +3314,10 @@ TG.research = {
             "https://www.dailysabah.com/arts/ai-driven-cats-of-topkapi-captures-istanbuls-iconic-street-cats/news",
             "https://www.dha.com.tr/kultur-sanat/sarp-kerem-yavuz-imzali-topkapinin-kedileri-trendyol-sanatta-2531296"
           ],
-          "id": "W111",
+          "id": "W113",
           "status": "candidate",
           "image": {
-            "file": "images/W111.jpg",
+            "file": "images/W113.jpg",
             "page": "https://www.dailysabah.com/arts/ai-driven-cats-of-topkapi-captures-istanbuls-iconic-street-cats/news",
             "url": "https://idsb.tmgrup.com.tr/ly/uploads/images/2024/11/13/thumbs/800x531/354813.jpg"
           }
@@ -3304,10 +3350,10 @@ TG.research = {
           "sources": [
             "https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/47559451843736372481830899747083495530740509927607212916086401421877071314949"
           ],
-          "id": "W112",
+          "id": "W114",
           "status": "candidate",
           "image": {
-            "file": "images/W112.jpg",
+            "file": "images/W114.jpg",
             "page": "https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/47559451843736372481830899747083495530740509927607212916086401421877071314949",
             "url": "https://i2c.seadn.io/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/b2f945e23064e4d21ac859e9606a0b/1bb2f945e23064e4d21ac859e9606a0b.png?w=1000"
           }
@@ -3327,10 +3373,10 @@ TG.research = {
           "sources": [
             "https://opensea.io/assets/ethereum/0xf4d4c212e4d461cf23d5f16782c2fb3e9baa1dc3/0"
           ],
-          "id": "W113",
+          "id": "W115",
           "status": "candidate",
           "image": {
-            "file": "images/W113.jpg",
+            "file": "images/W115.jpg",
             "page": "https://opensea.io/assets/ethereum/0xf4d4c212e4d461cf23d5f16782c2fb3e9baa1dc3/0",
             "url": null,
             "screenshot": true
@@ -3351,10 +3397,10 @@ TG.research = {
           "sources": [
             "https://opensea.io/assets/ethereum/0xf4d4c212e4d461cf23d5f16782c2fb3e9baa1dc3/2"
           ],
-          "id": "W114",
+          "id": "W116",
           "status": "candidate",
           "image": {
-            "file": "images/W114.jpg",
+            "file": "images/W116.jpg",
             "page": "https://opensea.io/assets/ethereum/0xf4d4c212e4d461cf23d5f16782c2fb3e9baa1dc3/2",
             "url": null,
             "screenshot": true
@@ -3390,10 +3436,10 @@ TG.research = {
             "https://nftnow.com/features/how-clownvamp-is-bringing-queer-visibility-to-web3/",
             "https://www.binance.com/bg/square/post/666862"
           ],
-          "id": "W115",
+          "id": "W117",
           "status": "candidate",
           "image": {
-            "file": "images/W115.jpg",
+            "file": "images/W117.jpg",
             "page": "https://verse.works/artworks/2ab7fbc3-f635-48c5-9268-cfcb6ac9ccea/3",
             "url": "https://versecontent.com/image/w1400/static%2Fuploads%2F0xd8934c24d9700605cb0fd7cd0c594d8e21ce7fc3%2F00b978ad-32dc-4c93-aeaa-efd75428fb1c.jpeg@jpeg"
           }
@@ -3439,10 +3485,10 @@ TG.research = {
             "https://hypebeast.com/2018/2/forever-rose-worlds-most-valuable-crypto-artwork",
             "https://petapixel.com/2018/02/15/crypto-art-rose-photo-sold-1000000"
           ],
-          "id": "W116",
+          "id": "W118",
           "status": "candidate",
           "image": {
-            "file": "images/W116.jpg",
+            "file": "images/W118.jpg",
             "page": "https://hypebeast.com/2018/2/forever-rose-worlds-most-valuable-crypto-artwork",
             "url": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2018%2F02%2Fforever-rose-worlds-most-valuable-crypto-artwork-0.jpg?w=1440&cbr=1&q=90&fit=max"
           }
@@ -3464,10 +3510,10 @@ TG.research = {
             "https://amp.cnn.com/cnn/style/article/potato-photo-million-euros",
             "https://amateurphotographer.com/latest/photo-news/the-photo-of-a-potato-that-sold-for-e1m-over-a-few-glasses-of-wine"
           ],
-          "id": "W117",
+          "id": "W119",
           "status": "candidate",
           "image": {
-            "file": "images/W117.jpg",
+            "file": "images/W119.jpg",
             "page": "https://amp.cnn.com/cnn/style/article/potato-photo-million-euros",
             "url": "https://media.cnn.com/api/v1/images/stellar/prod/160127131550-kevin-abosch-potato.jpg?q=x_0,y_0,h_900,w_1599,c_fill/w_800"
           }
@@ -3501,10 +3547,10 @@ TG.research = {
             "https://boredpanda.com/digital-art-overpopulated-symphonies-alkan-avcioglu",
             "https://verse.works/alkan-avcioglu"
           ],
-          "id": "W118",
+          "id": "W120",
           "status": "candidate",
           "image": {
-            "file": "images/W118.jpg",
+            "file": "images/W120.jpg",
             "page": "https://designyoutrust.com/2024/12/overpopulated-symphonies-the-striking-ai-photography-project-by-alkan-avcioglu/",
             "url": "https://designyoutrust.com/wp-content/uploads/2024/12/Alkan-Avcioglu-Overpopulated-Symphonies-Symphony-No.-1-in-D-Major-Op.-3-Presto-Convergence-2023-Alkan-Avcioglu.jpg"
           }
@@ -3523,10 +3569,10 @@ TG.research = {
           "sources": [
             "https://aspreystudio.com/pages/bee-wild-charity-exhibition"
           ],
-          "id": "W119",
+          "id": "W121",
           "status": "candidate",
           "image": {
-            "file": "images/W119.jpg",
+            "file": "images/W121.jpg",
             "page": "https://aspreystudio.com/pages/bee-wild-charity-exhibition",
             "url": "https://aspreystudio.com/cdn/shop/files/Alkan_Avcioglu_Earth_Misread_Digital_artwork_and_print._Courtesy_of_the_artist-small.png?v=1747133693&width=3840"
           }
@@ -3571,10 +3617,10 @@ TG.research = {
           "sources": [
             "https://sougwen.com/project/florarearingagriculturalnetwork"
           ],
-          "id": "W120",
+          "id": "W122",
           "status": "candidate",
           "image": {
-            "file": "images/W120.jpg",
+            "file": "images/W122.jpg",
             "page": "https://web.archive.org/web/20200919115721/https://sougwen.com/project/florarearingagriculturalnetwork",
             "url": "https://web.archive.org/web/2020id_/https://sougwen.com/wp-content/uploads/2020/08/sougwen-2020_FRAN3.png"
           }
@@ -3595,10 +3641,10 @@ TG.research = {
             "https://sougwen.com/?p=727",
             "https://en.wikipedia.org/wiki/Sougwen_Chung"
           ],
-          "id": "W121",
+          "id": "W123",
           "status": "candidate",
           "image": {
-            "file": "images/W121.jpg",
+            "file": "images/W123.jpg",
             "page": "https://web.archive.org/web/20191212130524/https://sougwen.com/project/exquisite-corpus",
             "url": "https://web.archive.org/web/2020id_/https://sougwen.com/wp-content/uploads/2019/11/sougwen-19_exquisiteCorpus05.jpg"
           }
@@ -3618,10 +3664,10 @@ TG.research = {
             "https://sougwen.com/project/omniaperomnia",
             "https://issues.org/sougwen-chung/"
           ],
-          "id": "W122",
+          "id": "W124",
           "status": "candidate",
           "image": {
-            "file": "images/W122.jpg",
+            "file": "images/W124.jpg",
             "page": "https://issues.org/sougwen-chung/",
             "url": "https://issues.org/wp-content/uploads/2018/10/sougwen-2018_omniaPaintings_02-crop.jpg"
           }
@@ -3656,10 +3702,10 @@ TG.research = {
             "https://gazell.io/products/cusp",
             "https://www.zabludowiczcollection.com/displays/view/jake-elwes"
           ],
-          "id": "W123",
+          "id": "W125",
           "status": "candidate",
           "image": {
-            "file": "images/W123.jpg",
+            "file": "images/W125.jpg",
             "page": "https://gazelliarthouse.com/artworks/8260-jake-elwes-cusp-2019",
             "url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/gazelli/images/view/6339c08cb69599adec999acb6040534cp/gazelliarthouse-jake-elwes-cusp-2019.png"
           }
@@ -3692,10 +3738,10 @@ TG.research = {
           "sources": [
             "https://dev.brendandawes.com/projects/amongsttheleaves"
           ],
-          "id": "W124",
+          "id": "W126",
           "status": "candidate",
           "image": {
-            "file": "images/W124.jpg",
+            "file": "images/W126.jpg",
             "page": "https://dev.brendandawes.com/projects/amongsttheleaves",
             "url": "https://dev.brendandawes.com/media/pages/projects/amongsttheleaves/fe5770f947-1756211354/p1000160-1600x-q80.jpg"
           }
@@ -3714,10 +3760,10 @@ TG.research = {
           "sources": [
             "https://brendandawes.com/projects/"
           ],
-          "id": "W125",
+          "id": "W127",
           "status": "candidate",
           "image": {
-            "file": "images/W125.jpg",
+            "file": "images/W127.jpg",
             "page": "https://brendandawes.com/projects/flocksherdsschools",
             "url": "https://brendandawes.com/media/pages/projects/flocksherdsschools/6cdfcd5d57-1742223950/pfu-016_main_alt_b-1600x-q80.jpg"
           }
@@ -3753,10 +3799,10 @@ TG.research = {
             "https://meer.com/en/52049-casey-reas",
             "https://cf-v3.seditionart.com/magazine/casey-reas-compressed-cinema"
           ],
-          "id": "W126",
+          "id": "W128",
           "status": "candidate",
           "image": {
-            "file": "images/W126.jpg",
+            "file": "images/W128.jpg",
             "page": "https://meer.com/en/52049-casey-reas",
             "url": "https://www.meer.com/attachments/7a2a79ddd386378060d58e7472118f3a578ec353/store/fill/860/645/ac996f772ec5ab46bfdae2b496bf610b1d45e717c8b751c2429c231587c5/Casey-Reas-Courtesy-of-DAM-Gallery.jpg"
           }
@@ -3776,10 +3822,10 @@ TG.research = {
           "sources": [
             "https://www.aiartonline.com/community/casey-reas/"
           ],
-          "id": "W127",
+          "id": "W129",
           "status": "candidate",
           "image": {
-            "file": "images/W127.jpg",
+            "file": "images/W129.jpg",
             "page": "https://www.aiartonline.com/community/casey-reas/",
             "url": "https://farm5.staticflickr.com/4908/31340512547_53b9cf998f_b.jpg"
           }
@@ -3799,10 +3845,10 @@ TG.research = {
           "sources": [
             "https://unitlondon.com/2024-04-19/casey-reas-garden-of-earthly-delights"
           ],
-          "id": "W128",
+          "id": "W130",
           "status": "candidate",
           "image": {
-            "file": "images/W128.jpg",
+            "file": "images/W130.jpg",
             "page": "https://unitlondon.com/2024-04-19/casey-reas-garden-of-earthly-delights",
             "url": "https://res.cloudinary.com/unit-london/images/f_webp,q_auto/v1713441785/Casey-Reas-Earthly-Delights/Casey-Reas-Earthly-Delights.png?_i=AA"
           }
@@ -3837,10 +3883,10 @@ TG.research = {
             "https://www.serpentinegalleries.org/whats-on/jakob-kudsk-steensen-catharsis/",
             "https://clotmag.com/news/exhibition-catharsis-by-jakob-kudsk-steensen-serpentine-galleries"
           ],
-          "id": "W129",
+          "id": "W131",
           "status": "candidate",
           "image": {
-            "file": "images/W129.jpg",
+            "file": "images/W131.jpg",
             "page": "https://www.serpentinegalleries.org/whats-on/jakob-kudsk-steensen-catharsis/",
             "url": "https://d37zoqglehb9o7.cloudfront.net/uploads/2020/03/hero_image12._jakob_kudsk_steensen_catharsis_2019-20_c_2020_courtesy_of_the_artist_rs_0.jpg"
           }
@@ -3863,10 +3909,10 @@ TG.research = {
             "https://www.wallpaper.com/art/jakob-kudsk-steensen-berl-berl-vr-exhibition-halle-am-berghain-berlin",
             "https://www.the-berliner.com/art/berl-berl-berghain-review/"
           ],
-          "id": "W130",
+          "id": "W132",
           "status": "candidate",
           "image": {
-            "file": "images/W130.jpg",
+            "file": "images/W132.jpg",
             "page": "https://www.wallpaper.com/art/jakob-kudsk-steensen-berl-berl-vr-exhibition-halle-am-berghain-berlin",
             "url": "https://cdn.mos.cms.futurecdn.net/qpRxV8uv6PtNFoEcWoo8Nf-2560-80.jpg"
           }
@@ -3887,10 +3933,10 @@ TG.research = {
           "sources": [
             "https://wikipedia.com/wiki/Draft:Jakob_Kudsk_Steensen"
           ],
-          "id": "W131",
+          "id": "W133",
           "status": "candidate",
           "image": {
-            "file": "images/W131.jpg",
+            "file": "images/W133.jpg",
             "page": "https://www.jakobsteensen.com/re-animated",
             "url": "https://images.squarespace-cdn.com/content/v1/573604122b8ddea9122c6ee9/1578771655289-QY0VK1XFWUMA3IJ3IU8S/1_Reanimated_wide.jpg"
           }
@@ -3912,12 +3958,37 @@ TG.research = {
             "https://www.e-flux.com/announcements/275567/jakob-kudsk-steensenthe-deep-listener",
             "https://www.serpentinegalleries.org/watch/azure-blue-damselflies-from-the-deep-listener-jakob-kudsk-steensen/"
           ],
-          "id": "W132",
+          "id": "W134",
           "status": "candidate",
           "image": {
-            "file": "images/W132.jpg",
+            "file": "images/W134.jpg",
             "page": "https://www.e-flux.com/announcements/275567/jakob-kudsk-steensenthe-deep-listener",
             "url": "https://images.e-flux.com/test/9896e683-b0b0-4f6b-b954-0e20a5d0ff6f?width=1200&height=630"
+          }
+        },
+        {
+          "title": "Terratic Animism",
+          "year": "2016-2017",
+          "medium": "Virtual reality",
+          "where": "Lumen Prize 2017, shortlist, VR/AR Award",
+          "nature": [
+            "landscape",
+            "flora",
+            "fauna"
+          ],
+          "why": "Room-scale VR work set in a 500x500 m digital winter forest, made during a MASS MoCA residency. Artist's site dates it 2017; other sources 2016.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://www.thenationalnews.com/arts-culture/art/the-2017-lumen-prize-for-digital-arts-shortlist-announced-1.625244",
+            "https://jakobsteensen.com/terratic-animism"
+          ],
+          "id": "W135",
+          "status": "candidate",
+          "image": {
+            "file": "images/W135.jpg",
+            "page": "https://jakobsteensen.com/terratic-animism",
+            "url": "https://static1.squarespace.com/static/573604122b8ddea9122c6ee9/t/5f8c6bb8dc63b1540ada3c7c/1500053133934/TerraticAnimism.1080p.26mbs.00_01_03_18.Still006.jpg?format=1500w"
           }
         }
       ]
@@ -3950,10 +4021,10 @@ TG.research = {
             "https://www.artblocks.io/curated/articles/in-conversation-with-monica-rizzolli",
             "https://heni.com/news/article/trending-monica-rizzolli-the-generative-artist-whose-work-has-been-acquired-by-lacma"
           ],
-          "id": "W133",
+          "id": "W136",
           "status": "candidate",
           "image": {
-            "file": "images/W133.jpg",
+            "file": "images/W136.jpg",
             "page": "https://artblocks.io/project/159",
             "url": "https://media-proxy.artblocks.io/1/0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270/159000810.png?t=1767495992"
           }
@@ -3985,10 +4056,10 @@ TG.research = {
             "https://verse.works/series/https-internet-flowers-by-mika-ben-amar",
             "https://internet.flowers/"
           ],
-          "id": "W134",
+          "id": "W137",
           "status": "candidate",
           "image": {
-            "file": "images/W134.jpg",
+            "file": "images/W137.jpg",
             "page": "https://verse.works/series/https-internet-flowers-by-mika-ben-amar",
             "url": "https://versecontent.com/image/w1400/static%2F2d55fbbf-c1e4-4041-80f7-7de2ddc8eec3.jpeg@jpeg"
           }
@@ -4024,10 +4095,10 @@ TG.research = {
             "https://feralfile.com/exhibitions/feralverse-1qa",
             "https://feralfile.com/api/series?exhibitionID=87528bfb-3b46-4e68-ae55-9ba214d52a4d"
           ],
-          "id": "W135",
+          "id": "W138",
           "status": "candidate",
           "image": {
-            "file": "images/W135.jpg",
+            "file": "images/W138.jpg",
             "page": "https://feralfile.com/exhibitions/feralverse-1qa",
             "url": "https://imagedelivery.net/iCRs13uicXIPOWrnuHbaKA/c2a8de10-137b-44a8-4d4d-db1d6b6c6500/l"
           }
@@ -4043,7 +4114,8 @@ TG.research = {
       "status": "lead",
       "notes": "Resurrecting the Sublime is a scent installation; not mainly a screen work.",
       "via_shows": [
-        "AI: More than Human (2019)"
+        "AI: More than Human (2019)",
+        "Lumen Prize 2019 (winner, Rapoport Award for Women in Art & Tech)"
       ],
       "shown_with": [
         "Anna Ridler"
@@ -4061,10 +4133,10 @@ TG.research = {
           "sources": [
             "https://www.daisyginsberg.com/work/the-substitute"
           ],
-          "id": "W136",
+          "id": "W139",
           "status": "candidate",
           "image": {
-            "file": "images/W136.jpg",
+            "file": "images/W139.jpg",
             "page": "https://www.daisyginsberg.com/work/the-substitute",
             "url": "https://www.daisyginsberg.com/img/work/nmbe_thesubstitute__n__9859_photography_nelly_rodriguez.jpg"
           }
@@ -4079,12 +4151,13 @@ TG.research = {
           "named_in_brief": false,
           "verified": false,
           "sources": [
-            "https://www.barbican.org.uk/sites/default/files/documents/2019-07/FINAL%20AI%20More%20than%20Human%20exhibition%20release%20280219.pdf"
+            "https://www.barbican.org.uk/sites/default/files/documents/2019-07/FINAL%20AI%20More%20than%20Human%20exhibition%20release%20280219.pdf",
+            "https://lumenprize.org/2019-winners/alexandra-daisy-ginsberg-dr-christina-agapakis/ginkgo-bioworks-sissel-tolaas"
           ],
-          "id": "W137",
+          "id": "W140",
           "status": "candidate",
           "image": {
-            "file": "images/W137.jpg",
+            "file": "images/W140.jpg",
             "page": "https://www.daisyginsberg.com/work/resurrecting-the-sublime",
             "url": "https://www.daisyginsberg.com/img/work/mzo_agapakis_-_daisy_ginsberg_-_tolaas__1547.jpg"
           }
@@ -4120,10 +4193,10 @@ TG.research = {
           "sources": [
             "https://nftcalendar.io/event/chain-reaction/"
           ],
-          "id": "W138",
+          "id": "W141",
           "status": "candidate",
           "image": {
-            "file": "images/W138.jpg",
+            "file": "images/W141.jpg",
             "page": "https://feralfile.com/exhibitions/chain-reaction-tan",
             "url": "https://imagedelivery.net/iCRs13uicXIPOWrnuHbaKA/98483f08-4325-4396-2a90-e6998e754000/l"
           }
@@ -4166,10 +4239,10 @@ TG.research = {
           "sources": [
             "https://www.newexhibitions.com/e/64383"
           ],
-          "id": "W139",
+          "id": "W142",
           "status": "candidate",
           "image": {
-            "file": "images/W139.jpg",
+            "file": "images/W142.jpg",
             "page": "https://www.newexhibitions.com/e/64383",
             "url": "https://www.newexhibitions.com/uploads/0/4/large/664d23a990e38.jpeg"
           }
@@ -4186,10 +4259,10 @@ TG.research = {
           "sources": [
             "https://www.artrabbit.com/events/andee-collard-the-machine-garden"
           ],
-          "id": "W140",
+          "id": "W143",
           "status": "candidate",
           "image": {
-            "file": "images/W140.jpg",
+            "file": "images/W143.jpg",
             "page": "https://www.lowellryanprojects.com/andee-collard-the-machine-garden",
             "url": "https://images.squarespace-cdn.com/content/v1/5bbecfcb0b77bd3129a11ff7/2ef4fecc-427c-4726-9cd1-c1e9f698f7ab/Lowell_Ryan_Projects_Andee_Collard_installs_011.jpg?format=1500w"
           }
@@ -4232,10 +4305,10 @@ TG.research = {
           "sources": [
             "https://load-gallery.com/exhibitions-index/neo-botanica"
           ],
-          "id": "W141",
+          "id": "W144",
           "status": "candidate",
           "image": {
-            "file": "images/W141.jpg",
+            "file": "images/W144.jpg",
             "page": "https://load-gallery.com/exhibitions-index/neo-botanica",
             "url": "https://framerusercontent.com/images/PuO6hCgzaFsVDsGetRyFsCTKkc.png"
           }
@@ -4278,10 +4351,10 @@ TG.research = {
           "sources": [
             "https://www.stirworld.com/see-features-digital-flora-a-conversation-with-artist-andrea-philippon"
           ],
-          "id": "W142",
+          "id": "W145",
           "status": "candidate",
           "image": {
-            "file": "images/W142.jpg",
+            "file": "images/W145.jpg",
             "page": "https://www.stirworld.com/see-features-digital-flora-a-conversation-with-artist-andrea-philippon",
             "url": "https://www.stirworld.com/images/article_gallery/digital-garden-aranea-rosa-2022-image-digital-garden-andr-eacute-a-philippon-stirworld-221215055145.jpg"
           }
@@ -4313,10 +4386,10 @@ TG.research = {
           "sources": [
             "https://forbes.es/forbes-women/441065/hortensia-la-obra-de-arte-invitada-a-rosewood-villa-magna-de-madrid-es-el-epitome-de-la-creatividad-contemporanea/"
           ],
-          "id": "W143",
+          "id": "W146",
           "status": "candidate",
           "image": {
-            "file": "images/W143.jpg",
+            "file": "images/W146.jpg",
             "page": "https://forbes.es/forbes-women/441065/hortensia-la-obra-de-arte-invitada-a-rosewood-villa-magna-de-madrid-es-el-epitome-de-la-creatividad-contemporanea/",
             "url": "https://forbes.es/wp-content/uploads/2024/04/Rosewood-Villa-Magna.jpg"
           }
@@ -4350,10 +4423,10 @@ TG.research = {
           "sources": [
             "https://docs.google.com/document/d/1eUq4uM2D7rwENGy2m2WfsN5ty3cclpX6dSL4_NF5rwE/export?format=pdf"
           ],
-          "id": "W144",
+          "id": "W147",
           "status": "candidate",
           "image": {
-            "file": "images/W144.jpg",
+            "file": "images/W147.jpg",
             "page": "https://objkt.com/tokens/KT1SpbgRrJh8xTVYEgx8ak2GHHijejvziiDq/3",
             "url": "https://assets.objkt.media/file/assets-003/bafkreiecbc2ss5ebe7lf5s7x4p4l67yggcui7fevy67tjnkpq7n3qofkau/artifact"
           }
@@ -4387,7 +4460,7 @@ TG.research = {
           "sources": [
             "https://kunst-und-natur.de/files/Museum-Sinclair-Haus/Blattwerke/Blattwerke_11/19_illusion_natur_blattwerke_11.pdf"
           ],
-          "id": "W145",
+          "id": "W148",
           "status": "candidate"
         }
       ]
@@ -4403,7 +4476,8 @@ TG.research = {
       "via_shows": [
         "Neo Botanica: An Atlas of Artificially Generated Flora (2025)",
         "Ecotone (2022)",
-        "Le monde selon l'IA / The World According to AI (2025)"
+        "Le monde selon l'IA / The World According to AI (2025)",
+        "Lumen Prize 2025 (finalist, Hybrid)"
       ],
       "shown_with": [
         "Linda Dounia",
@@ -4436,10 +4510,10 @@ TG.research = {
           "sources": [
             "https://www.expanded.art/artists/aur%C3%A8ce-vettier"
           ],
-          "id": "W146",
+          "id": "W149",
           "status": "candidate",
           "image": {
-            "file": "images/W146.jpg",
+            "file": "images/W149.jpg",
             "page": "https://aurecevettier.com/en/works/sur-nature/unknown-samples-mid-altitude",
             "url": "https://aurecevettier.com/media/pages/works/sur-nature/unknown-samples-mid-altitude/c509723490-1786430537/aurece-vettier-av-2021-u-84-unknown-samples-mid-altitude.jpg"
           }
@@ -4456,10 +4530,10 @@ TG.research = {
           "sources": [
             "https://load-gallery.com/exhibitions/neo-botanica/aurece-vettier"
           ],
-          "id": "W147",
+          "id": "W150",
           "status": "candidate",
           "image": {
-            "file": "images/W147.jpg",
+            "file": "images/W150.jpg",
             "page": "https://aurecevettier.com/en/works/sur-reality/an-impromptu-encounter-in-a-hemp-field-attempt",
             "url": "https://aurecevettier.com/media/pages/works/sur-reality/an-impromptu-encounter-in-a-hemp-field-attempt/e318c98735-1786445763/aurece-vettier-av-2024-u-687-an-impromptu-encounter-in-a-hemp-field-attempt.jpg"
           }
@@ -4477,10 +4551,10 @@ TG.research = {
             "https://feralfile.com/exhibitions/ecotone-swo",
             "https://feralfile.com/api/series?exhibitionID=e7f6f9b9-4b65-4764-9d24-e9a94aaa263d"
           ],
-          "id": "W148",
+          "id": "W151",
           "status": "candidate",
           "image": {
-            "file": "images/W148.jpg",
+            "file": "images/W151.jpg",
             "page": "https://feralfile.com/exhibitions/ecotone-swo",
             "url": "https://imagedelivery.net/5BJzhBHeVhlhbn58hvcXAQ/23047187-b35e-4167-3b7f-c0d0eec22800/l"
           }
@@ -4497,10 +4571,10 @@ TG.research = {
           "sources": [
             "https://blogs.nvidia.com/blog/ai-art-gtc-paris-2025"
           ],
-          "id": "W149",
+          "id": "W152",
           "status": "candidate",
           "image": {
-            "file": "images/W149.jpg",
+            "file": "images/W152.jpg",
             "page": "https://aurecevettier.com/en/works/sur-reality/a-bearded-man-crossing-a-forest-surrounded-by-flocks-of-yellow-butterflies",
             "url": "https://aurecevettier.com/media/pages/works/sur-reality/a-bearded-man-crossing-a-forest-surrounded-by-flocks-of-yellow-butterflies/e70d6af4bf-1787059798/aurece-vettier-av-2024-u-642-a-bearded-man-crossing-a-forest-surrounded-by-flock.jpg"
           }
@@ -4517,12 +4591,35 @@ TG.research = {
           "sources": [
             "https://aurecevettier.com/en/works/sur-nature"
           ],
-          "id": "W150",
+          "id": "W153",
           "status": "candidate",
           "image": {
-            "file": "images/W150.jpg",
+            "file": "images/W153.jpg",
             "page": "https://aurecevettier.com/en/works/sur-nature/areal-collect-128",
             "url": "https://aurecevettier.com/media/pages/works/sur-nature/areal-collect-128/c1361a4868-1786429792/aurece-vettier-av-2021-u-143-areal-collect-128.jpg"
+          }
+        },
+        {
+          "title": "la traversée de la forêt (crossing the forest)",
+          "year": "2025",
+          "medium": "tapestry, bronze, oil painting, AI imagery",
+          "where": "Lumen Prize 2025, finalist, Hybrid Award",
+          "nature": [
+            "landscape",
+            "flora"
+          ],
+          "why": "A 380 x 160 cm Jacquard tapestry of a forest crossing, made from an AI-generated image, with bronzes and paintings. macLYON, until July 2025.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2025-hybrid-award-finalists/aurce-vettier"
+          ],
+          "id": "W154",
+          "status": "candidate",
+          "image": {
+            "file": "images/W154.jpg",
+            "page": "https://lumenprize.org/2025-hybrid-award-finalists/aurce-vettier",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/68403696b7862a2213a1990d/689a06277330326305cc837b/1755244216802/aure_ce_vettier_la_traverse_e_de_la_fore_t_1_jpg.jpeg?format=1500w"
           }
         }
       ]
@@ -4554,10 +4651,10 @@ TG.research = {
           "sources": [
             "https://carlagannis.com/blog/the-garden-of-emoji-delights/"
           ],
-          "id": "W151",
+          "id": "W155",
           "status": "candidate",
           "image": {
-            "file": "images/W151.jpg",
+            "file": "images/W155.jpg",
             "page": "https://carlagannis.com/blog/the-garden-of-emoji-delights/",
             "url": "https://carlagannis.com/blog/wp-content/uploads/2013/12/CGannis_GED.jpg"
           }
@@ -4592,10 +4689,10 @@ TG.research = {
           "sources": [
             "https://feralfile.com/exhibitions/reflections-in-the-water-9ov"
           ],
-          "id": "W152",
+          "id": "W156",
           "status": "candidate",
           "image": {
-            "file": "images/W152.jpg",
+            "file": "images/W156.jpg",
             "page": "https://feralfile.com/exhibitions/reflections-in-the-water-9ov",
             "url": "https://imagedelivery.net/5BJzhBHeVhlhbn58hvcXAQ/8b5cc1c3-763d-4c67-c769-19250d742c00/width=1280,format=jpeg"
           }
@@ -4632,10 +4729,10 @@ TG.research = {
           "sources": [
             "https://www.cathsimard.com/from-nowhere-to-somewhere/"
           ],
-          "id": "W153",
+          "id": "W157",
           "status": "candidate",
           "image": {
-            "file": "images/W153.jpg",
+            "file": "images/W157.jpg",
             "page": "https://www.cathsimard.com/from-nowhere-to-somewhere/",
             "url": "http://static1.squarespace.com/static/5810f3fabe65949686a9d9d8/t/65ec9a12aabf23152cfdec64/1710004769810/china+low.png?format=1500w"
           }
@@ -4652,10 +4749,10 @@ TG.research = {
           "sources": [
             "https://www.cathsimard.com/"
           ],
-          "id": "W154",
+          "id": "W158",
           "status": "candidate",
           "image": {
-            "file": "images/W154.jpg",
+            "file": "images/W158.jpg",
             "page": "https://www.cathsimard.com/",
             "url": "https://images.squarespace-cdn.com/content/v1/5810f3fabe65949686a9d9d8/1565646092015-51520HUADN90TASK2LMZ/Torres+Del+Paine+Night-1.jpg?format=1500w"
           }
@@ -4692,10 +4789,10 @@ TG.research = {
           "sources": [
             "https://websiteswebsiteswebsites.net/works/chia-amisola.html"
           ],
-          "id": "W155",
+          "id": "W159",
           "status": "candidate",
           "image": {
-            "file": "images/W155.jpg",
+            "file": "images/W159.jpg",
             "page": "https://paruparo.cloud",
             "url": "https://paruparo.cloud/og-image.png"
           }
@@ -4742,10 +4839,10 @@ TG.research = {
             "https://www.crosslucid.zone/",
             "https://www.arshake.com/en/umwelt/"
           ],
-          "id": "W156",
+          "id": "W160",
           "status": "candidate",
           "image": {
-            "file": "images/W156.jpg",
+            "file": "images/W160.jpg",
             "page": "https://www.arshake.com/en/umwelt/",
             "url": "https://www.arshake.com/wp-content/uploads/2024/09/The-Way-of-Flowers_Seed-3053284983_CROSSLUCID-2023_cover.jpg"
           }
@@ -4762,10 +4859,10 @@ TG.research = {
           "sources": [
             "https://www.crosslucid.zone/"
           ],
-          "id": "W157",
+          "id": "W161",
           "status": "candidate",
           "image": {
-            "file": "images/W157.jpg",
+            "file": "images/W161.jpg",
             "page": "https://www.crosslucid.zone/",
             "url": "https://freight.cargo.site/w/1500/i/O2133341094288328654279584820996/OW_Whale.png"
           }
@@ -4808,10 +4905,10 @@ TG.research = {
           "sources": [
             "https://load-gallery.com/exhibitions-index/neo-botanica"
           ],
-          "id": "W158",
+          "id": "W162",
           "status": "candidate",
           "image": {
-            "file": "images/W158.jpg",
+            "file": "images/W162.jpg",
             "page": "https://load-gallery.com/exhibitions-index/neo-botanica",
             "url": "https://framerusercontent.com/images/weRUsLleHjM7Fhjvi8CT3T5GXMc.png"
           }
@@ -4828,10 +4925,10 @@ TG.research = {
           "sources": [
             "https://load-gallery.com/exhibitions-index/neo-botanica"
           ],
-          "id": "W159",
+          "id": "W163",
           "status": "candidate",
           "image": {
-            "file": "images/W159.jpg",
+            "file": "images/W163.jpg",
             "page": "https://load-gallery.com/exhibitions-index/neo-botanica",
             "url": "https://framerusercontent.com/images/s0mETBYadZTcNuCdpYfXgHTbs.png"
           }
@@ -4848,10 +4945,10 @@ TG.research = {
           "sources": [
             "https://load-gallery.com/exhibitions-index/neo-botanica"
           ],
-          "id": "W160",
+          "id": "W164",
           "status": "candidate",
           "image": {
-            "file": "images/W160.jpg",
+            "file": "images/W164.jpg",
             "page": "https://load-gallery.com/exhibitions-index/neo-botanica",
             "url": "https://framerusercontent.com/images/M0WpWHNhKUpB7hkxd7gdGXnQ.png"
           }
@@ -4883,10 +4980,10 @@ TG.research = {
           "sources": [
             "https://kunst-und-natur.de/files/Museum-Sinclair-Haus/Blattwerke/Blattwerke_11/19_illusion_natur_blattwerke_11.pdf"
           ],
-          "id": "W161",
+          "id": "W165",
           "status": "candidate",
           "image": {
-            "file": "images/W161.jpg",
+            "file": "images/W165.jpg",
             "page": "https://www.driessensverstappen.nl/landscape/Kennemerduinen/scenes.html",
             "url": "https://www.driessensverstappen.nl/landscape/Kennemerduinen/pics/scene-E.jpg"
           }
@@ -4920,10 +5017,10 @@ TG.research = {
           "sources": [
             "https://kunst-und-natur.de/files/Museum-Sinclair-Haus/Blattwerke/Blattwerke_11/19_illusion_natur_blattwerke_11.pdf"
           ],
-          "id": "W162",
+          "id": "W166",
           "status": "candidate",
           "image": {
-            "file": "images/W162.jpg",
+            "file": "images/W166.jpg",
             "page": "https://www.eelcobrand.nl/mov.html",
             "url": "https://www.eelcobrand.nl/onewebmedia/FLmovi_2018__stills.jpg"
           }
@@ -4940,10 +5037,10 @@ TG.research = {
           "sources": [
             "https://kunst-und-natur.de/files/Museum-Sinclair-Haus/Blattwerke/Blattwerke_11/19_illusion_natur_blattwerke_11.pdf"
           ],
-          "id": "W163",
+          "id": "W167",
           "status": "candidate",
           "image": {
-            "file": "images/W163.jpg",
+            "file": "images/W167.jpg",
             "page": "https://www.eelcobrand.nl/movi4.html",
             "url": "https://i.vimeocdn.com/video/214462293-4d59ecfc93aa07a495499a093fb2995266f9e131d106fc46a0e7ff8b2419111d-d_1280"
           }
@@ -4986,10 +5083,10 @@ TG.research = {
           "sources": [
             "https://load-gallery.com/exhibitions-index/neo-botanica"
           ],
-          "id": "W164",
+          "id": "W168",
           "status": "candidate",
           "image": {
-            "file": "images/W164.jpg",
+            "file": "images/W168.jpg",
             "page": "https://load-gallery.com/exhibitions-index/neo-botanica",
             "url": "https://framerusercontent.com/images/RAafQJBoVqtDqOlpJSGRyKZqv0.png"
           }
@@ -5006,10 +5103,10 @@ TG.research = {
           "sources": [
             "https://load-gallery.com/exhibitions-index/neo-botanica"
           ],
-          "id": "W165",
+          "id": "W169",
           "status": "candidate",
           "image": {
-            "file": "images/W165.jpg",
+            "file": "images/W169.jpg",
             "page": "https://load-gallery.com/exhibitions-index/neo-botanica",
             "url": "https://framerusercontent.com/images/HPRIdS7asMXjrq8WN3ucEGFwwmU.png"
           }
@@ -5026,10 +5123,10 @@ TG.research = {
           "sources": [
             "https://load-gallery.com/exhibitions-index/neo-botanica"
           ],
-          "id": "W166",
+          "id": "W170",
           "status": "candidate",
           "image": {
-            "file": "images/W166.jpg",
+            "file": "images/W170.jpg",
             "page": "https://load-gallery.com/exhibitions-index/neo-botanica",
             "url": "https://framerusercontent.com/images/giJuWByjYLbrjTa7kGt99vmuY.png"
           }
@@ -5089,10 +5186,10 @@ TG.research = {
           "sources": [
             "https://www.artblocks.io/collection/memories-of-qilin-by-emily-xie"
           ],
-          "id": "W167",
+          "id": "W171",
           "status": "candidate",
           "image": {
-            "file": "images/W167.jpg",
+            "file": "images/W171.jpg",
             "page": "https://www.artblocks.io/collection/memories-of-qilin-by-emily-xie",
             "url": "https://media-proxy.artblocks.io/1/0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270/282000212.png"
           }
@@ -5123,10 +5220,10 @@ TG.research = {
             "https://fuseworks.it/works/artificial-botany",
             "https://www.creativeapplications.net/project/xxi-century-herbario-novo-artificial-botany-by-fuse"
           ],
-          "id": "W168",
+          "id": "W172",
           "status": "candidate",
           "image": {
-            "file": "images/W168.jpg",
+            "file": "images/W172.jpg",
             "page": "https://fuseworks.it/works/artificial-botany",
             "url": "https://cdn.fuseworks.it/cdn-cgi/image/w=1200,h=630,fit=cover,q=80/https://admin.fuseworks.it/uploads/Artificial-Botany_Marignana_10.jpg"
           }
@@ -5158,10 +5255,10 @@ TG.research = {
           "sources": [
             "https://www.artshelp.com/mei-tamazawa/"
           ],
-          "id": "W169",
+          "id": "W173",
           "status": "candidate",
           "image": {
-            "file": "images/W169.jpg",
+            "file": "images/W173.jpg",
             "page": "https://www.artshelp.com/mei-tamazawa/",
             "url": "https://storage.ghost.io/c/87/0b/870b9c99-bf9f-42c3-afa2-9a4381bd2715/content/media/2026/03/SnapInsta.to_AQM28fIFH8KoE0Ul76nVBTdbEA8YaHJnbWlHQOVqJt8w4CuwfrU-fj-d3xWV6jxwrgcLXJDVokcpUKdWfLhTQu0RETj-zhDn0LXnViI_thumb.jpg"
           }
@@ -5201,10 +5298,10 @@ TG.research = {
           "sources": [
             "https://www.gordoncheung.com/news/110-new-collection-exhibition-impressions-nottingham-castle-museum-art-gallery-nottingham-uk/"
           ],
-          "id": "W170",
+          "id": "W174",
           "status": "candidate",
           "image": {
-            "file": "images/W170.jpg",
+            "file": "images/W174.jpg",
             "page": "https://www.gordoncheung.com/news/110-new-collection-exhibition-impressions-nottingham-castle-museum-art-gallery-nottingham-uk/",
             "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy,q_auto/ws-artlogicwebsite0759/usr/library/images/main/news/110/impressions-2570.jpg"
           }
@@ -5241,10 +5338,10 @@ TG.research = {
           "sources": [
             "https://chatonsky.net/earth/"
           ],
-          "id": "W171",
+          "id": "W175",
           "status": "candidate",
           "image": {
-            "file": "images/W171.jpg",
+            "file": "images/W175.jpg",
             "page": "https://chatonsky.net/earth/",
             "url": "https://chatonsky.net/folio/wp-content/uploads/2019/04/mini.jpg"
           }
@@ -5278,10 +5375,10 @@ TG.research = {
           "sources": [
             "https://www.grettalouw.com/works/einen-riesigen-schwarm.php"
           ],
-          "id": "W172",
+          "id": "W176",
           "status": "candidate",
           "image": {
-            "file": "images/W172.jpg",
+            "file": "images/W176.jpg",
             "page": "https://www.grettalouw.com/works/einen-riesigen-schwarm.php",
             "url": "https://www.grettalouw.com/images/einen-riesigen-schwarm/ERS1.jpg"
           }
@@ -5324,10 +5421,10 @@ TG.research = {
           "sources": [
             "https://load-gallery.com/exhibitions-index/neo-botanica"
           ],
-          "id": "W173",
+          "id": "W177",
           "status": "candidate",
           "image": {
-            "file": "images/W173.jpg",
+            "file": "images/W177.jpg",
             "page": "https://load-gallery.com/exhibitions-index/neo-botanica",
             "url": "https://framerusercontent.com/images/bnWi71qUx60ouiBxxGqiYJlWRM.png"
           }
@@ -5344,10 +5441,10 @@ TG.research = {
           "sources": [
             "https://load-gallery.com/exhibitions-index/neo-botanica"
           ],
-          "id": "W174",
+          "id": "W178",
           "status": "candidate",
           "image": {
-            "file": "images/W174.jpg",
+            "file": "images/W178.jpg",
             "page": "https://load-gallery.com/exhibitions-index/neo-botanica",
             "url": "https://framerusercontent.com/images/NzHUHBeEZjDzgMfwRISwfOvic.png"
           }
@@ -5390,10 +5487,10 @@ TG.research = {
           "sources": [
             "https://load-gallery.com/exhibitions-index/neo-botanica"
           ],
-          "id": "W175",
+          "id": "W179",
           "status": "candidate",
           "image": {
-            "file": "images/W175.jpg",
+            "file": "images/W179.jpg",
             "page": "https://load-gallery.com/exhibitions-index/neo-botanica",
             "url": "https://framerusercontent.com/images/3h7uKIIyouYmwgr4RCHGENprI.png"
           }
@@ -5410,10 +5507,10 @@ TG.research = {
           "sources": [
             "https://load-gallery.com/exhibitions-index/neo-botanica"
           ],
-          "id": "W176",
+          "id": "W180",
           "status": "candidate",
           "image": {
-            "file": "images/W176.jpg",
+            "file": "images/W180.jpg",
             "page": "https://load-gallery.com/exhibitions-index/neo-botanica",
             "url": "https://framerusercontent.com/images/MKEZEcffrZiZdbMEwB6OoMyNBJc.png"
           }
@@ -5430,10 +5527,10 @@ TG.research = {
           "sources": [
             "https://load-gallery.com/exhibitions-index/neo-botanica"
           ],
-          "id": "W177",
+          "id": "W181",
           "status": "candidate",
           "image": {
-            "file": "images/W177.jpg",
+            "file": "images/W181.jpg",
             "page": "https://load-gallery.com/exhibitions-index/neo-botanica",
             "url": "https://framerusercontent.com/images/F7gwsxXSjI8OB9jESbpj1rFc.png"
           }
@@ -5450,10 +5547,10 @@ TG.research = {
           "sources": [
             "https://load-gallery.com/exhibitions-index/neo-botanica"
           ],
-          "id": "W178",
+          "id": "W182",
           "status": "candidate",
           "image": {
-            "file": "images/W178.jpg",
+            "file": "images/W182.jpg",
             "page": "https://load-gallery.com/exhibitions-index/neo-botanica",
             "url": "https://framerusercontent.com/images/157Fjluu8Ghqz48noeoHq2BbOSM.png"
           }
@@ -5488,10 +5585,10 @@ TG.research = {
             "https://feralfile.com/exhibitions/field-guide-sss",
             "https://feralfile.com/api/series?exhibitionID=93a54158-f984-415b-95e8-bf2519e7ac38"
           ],
-          "id": "W179",
+          "id": "W183",
           "status": "candidate",
           "image": {
-            "file": "images/W179.jpg",
+            "file": "images/W183.jpg",
             "page": "https://feralfile.com/exhibitions/field-guide-sss",
             "url": "https://imagedelivery.net/5BJzhBHeVhlhbn58hvcXAQ/c0b1566d-3ba3-4d29-c73b-6d91a444d500/l"
           }
@@ -5509,10 +5606,10 @@ TG.research = {
             "https://feralfile.com/exhibitions/field-guide-sss",
             "https://feralfile.com/api/series?exhibitionID=93a54158-f984-415b-95e8-bf2519e7ac38"
           ],
-          "id": "W180",
+          "id": "W184",
           "status": "candidate",
           "image": {
-            "file": "images/W180.jpg",
+            "file": "images/W184.jpg",
             "page": "https://feralfile.com/exhibitions/field-guide-sss",
             "url": "https://imagedelivery.net/5BJzhBHeVhlhbn58hvcXAQ/7dc744f1-a8d4-441d-5281-bbea1ffc8e00/l"
           }
@@ -5549,10 +5646,10 @@ TG.research = {
           "sources": [
             "https://www.jacquesperconte.com/oe?265"
           ],
-          "id": "W181",
+          "id": "W185",
           "status": "candidate",
           "image": {
-            "file": "images/W181.jpg",
+            "file": "images/W185.jpg",
             "page": "https://www.jacquesperconte.com/oe?265",
             "url": "https://www.jacquesperconte.com/_i/265/52662261158_2b84f860f0.jpg"
           }
@@ -5570,10 +5667,10 @@ TG.research = {
             "https://www.jacquesperconte.com/",
             "https://en.wikipedia.org/wiki/Jacques_Perconte"
           ],
-          "id": "W182",
+          "id": "W186",
           "status": "candidate",
           "image": {
-            "file": "images/W182.jpg",
+            "file": "images/W186.jpg",
             "page": "https://www.jacquesperconte.com/oe?244",
             "url": "https://www.jacquesperconte.com/_i/244/49874933392_92ced73be6_b.jpg"
           }
@@ -5590,10 +5687,10 @@ TG.research = {
           "sources": [
             "https://en.wikipedia.org/wiki/Jacques_Perconte"
           ],
-          "id": "W183",
+          "id": "W187",
           "status": "candidate",
           "image": {
-            "file": "images/W183.jpg",
+            "file": "images/W187.jpg",
             "page": "https://www.jacquesperconte.com/oe?28",
             "url": "https://www.jacquesperconte.com/_i/28/6666572319_c88dc3b08f_b.jpg"
           }
@@ -5610,10 +5707,10 @@ TG.research = {
           "sources": [
             "https://www.jacquesperconte.com/"
           ],
-          "id": "W184",
+          "id": "W188",
           "status": "candidate",
           "image": {
-            "file": "images/W184.jpg",
+            "file": "images/W188.jpg",
             "page": "https://www.jacquesperconte.com/oe?195",
             "url": "https://www.jacquesperconte.com/_i/195/21694227209_7e166cc6cb_b.jpg"
           }
@@ -5667,10 +5764,10 @@ TG.research = {
           "sources": [
             "https://detroitartreview.com/2025/08/infinite-images-the-art-of-algorithms-toledo-museum-of-art/"
           ],
-          "id": "W185",
+          "id": "W189",
           "status": "candidate",
           "image": {
-            "file": "images/W185.jpg",
+            "file": "images/W189.jpg",
             "page": "https://detroitartreview.com/2025/08/infinite-images-the-art-of-algorithms-toledo-museum-of-art/",
             "url": "https://detroitartreview.com/wp-content/uploads/2025/08/Algorithm-7-Tarbell-videoframe_174623.png"
           }
@@ -5688,10 +5785,10 @@ TG.research = {
             "https://feralfile.com/exhibitions/field-guide-sss",
             "https://feralfile.com/api/series?exhibitionID=93a54158-f984-415b-95e8-bf2519e7ac38"
           ],
-          "id": "W186",
+          "id": "W190",
           "status": "candidate",
           "image": {
-            "file": "images/W186.jpg",
+            "file": "images/W190.jpg",
             "page": "https://feralfile.com/exhibitions/field-guide-sss",
             "url": "https://imagedelivery.net/5BJzhBHeVhlhbn58hvcXAQ/6bb0b173-bf85-4f02-e06b-076b795a2200/l"
           }
@@ -5709,10 +5806,10 @@ TG.research = {
             "https://feralfile.com/exhibitions/field-guide-sss",
             "https://feralfile.com/api/series?exhibitionID=93a54158-f984-415b-95e8-bf2519e7ac38"
           ],
-          "id": "W187",
+          "id": "W191",
           "status": "candidate",
           "image": {
-            "file": "images/W187.jpg",
+            "file": "images/W191.jpg",
             "page": "https://feralfile.com/exhibitions/field-guide-sss",
             "url": "https://imagedelivery.net/5BJzhBHeVhlhbn58hvcXAQ/f0b27eb9-745c-409c-b517-a1afc7545000/l"
           }
@@ -5746,10 +5843,10 @@ TG.research = {
           "sources": [
             "https://www.las-art.foundation/programme/nimiia-cetii-2018"
           ],
-          "id": "W188",
+          "id": "W192",
           "status": "candidate",
           "image": {
-            "file": "images/W188.jpg",
+            "file": "images/W192.jpg",
             "page": "https://www.las-art.foundation/programme/nimiia-cetii-2018",
             "url": "https://cdn.sanity.io/images/sp7kseaf/production-20-01-25/f6be28c7e4250793156d2184b897883270a89e55-5333x3000.tif?w=1920&q=80&fm=jpg"
           }
@@ -5784,10 +5881,10 @@ TG.research = {
             "https://rightclicksave.com/article/epoch-gallery-and-blockchains-new-ecology",
             "https://epoch.gallery/cryosphere"
           ],
-          "id": "W189",
+          "id": "W193",
           "status": "candidate",
           "image": {
-            "file": "images/W189.jpg",
+            "file": "images/W193.jpg",
             "page": "https://rightclicksave.com/article/epoch-gallery-and-blockchains-new-ecology",
             "url": "https://assets.rcs-cdn.com/img/e47c04dc-3f48-4bc3-a619-ebdc974c9c37/83b62d3d62cb9e39?w=2000&f=auto&sig=dd74f873183255f606d58d76a81d50c5"
           }
@@ -5830,10 +5927,10 @@ TG.research = {
           "sources": [
             "https://load-gallery.com/exhibitions-index/neo-botanica"
           ],
-          "id": "W190",
+          "id": "W194",
           "status": "candidate",
           "image": {
-            "file": "images/W190.jpg",
+            "file": "images/W194.jpg",
             "page": "https://load-gallery.com/exhibitions-index/neo-botanica",
             "url": "https://framerusercontent.com/images/PNFSfkHRxK2gdjebcToECMkc.jpeg"
           }
@@ -5850,10 +5947,10 @@ TG.research = {
           "sources": [
             "https://www.behance.net/jimlinear"
           ],
-          "id": "W191",
+          "id": "W195",
           "status": "candidate",
           "image": {
-            "file": "images/W191.jpg",
+            "file": "images/W195.jpg",
             "page": "https://www.behance.net/jimlinear",
             "url": "https://mir-s3-cdn-cf.behance.net/projects/max_808/1bec82153079761.Y3JvcCw3NTQsNTg5LDM1OCw2OQ.jpg"
           }
@@ -5890,10 +5987,10 @@ TG.research = {
           "sources": [
             "https://jeudepaume.org/wp-content/uploads/2023/04/DP-IA.pdf"
           ],
-          "id": "W192",
+          "id": "W196",
           "status": "candidate",
           "image": {
-            "file": "images/W192.jpg",
+            "file": "images/W196.jpg",
             "page": "https://jeudepaume.org/wp-content/uploads/2023/04/DP-IA.pdf",
             "url": null
           }
@@ -5927,10 +6024,10 @@ TG.research = {
           "sources": [
             "https://kunst-und-natur.de/files/Museum-Sinclair-Haus/Blattwerke/Blattwerke_11/19_illusion_natur_blattwerke_11.pdf"
           ],
-          "id": "W193",
+          "id": "W197",
           "status": "candidate",
           "image": {
-            "file": "images/W193.jpg",
+            "file": "images/W197.jpg",
             "page": "https://joanielemercier.com/paysages-possibles/",
             "url": "https://joanielemercier.com/wp-content/uploads/2021/08/MSH_JLemercier_Paypos_mhf3031.jpg"
           }
@@ -5947,10 +6044,10 @@ TG.research = {
           "sources": [
             "https://kunst-und-natur.de/files/Museum-Sinclair-Haus/Blattwerke/Blattwerke_11/19_illusion_natur_blattwerke_11.pdf"
           ],
-          "id": "W194",
+          "id": "W198",
           "status": "candidate",
           "image": {
-            "file": "images/W194.jpg",
+            "file": "images/W198.jpg",
             "page": "https://joanielemercier.com/montagne-wireframe/",
             "url": "https://joanielemercier.com/wp-content/uploads/2019/02/LONG_export_XAVC_S_LONG.MP4_snapshot_10.24_2017.01.16_15.29.44-1024x576.jpg"
           }
@@ -5993,10 +6090,10 @@ TG.research = {
           "sources": [
             "https://load-gallery.com/exhibitions-index/neo-botanica"
           ],
-          "id": "W195",
+          "id": "W199",
           "status": "candidate",
           "image": {
-            "file": "images/W195.jpg",
+            "file": "images/W199.jpg",
             "page": "https://load-gallery.com/exhibitions-index/neo-botanica",
             "url": "https://framerusercontent.com/images/DJ1kIxknYsZNOEKXnabmpPHqQ.png"
           }
@@ -6013,10 +6110,10 @@ TG.research = {
           "sources": [
             "https://load-gallery.com/exhibitions-index/neo-botanica"
           ],
-          "id": "W196",
+          "id": "W200",
           "status": "candidate",
           "image": {
-            "file": "images/W196.jpg",
+            "file": "images/W200.jpg",
             "page": "https://load-gallery.com/exhibitions-index/neo-botanica",
             "url": "https://framerusercontent.com/images/lF4wazja59AElu4owUoTIgKmsY.png"
           }
@@ -6032,14 +6129,15 @@ TG.research = {
       "status": "lead",
       "notes": "Title not confirmed; only the Lumen winners page was opened.",
       "via_shows": [
-        "Lumen Prize 2021 (winners)"
+        "Lumen Prize 2021 (winners)",
+        "Lumen Prize 2021 (shortlist, Global South Award)"
       ],
       "shown_with": [
         "Cezar Mocan"
       ],
       "works": [
         {
-          "title": "Waterfall (title from image filename; unconfirmed)",
+          "title": "El Salto (The Jump / The Waterfall)",
           "year": "2021 or earlier",
           "medium": "experimental video",
           "where": "Lumen Prize 2021, Moving Image Award",
@@ -6048,12 +6146,13 @@ TG.research = {
           "named_in_brief": false,
           "verified": false,
           "sources": [
-            "https://lumenprize.org/2021-winners"
+            "https://lumenprize.org/2021-winners",
+            "https://web.archive.org/web/20220615031727/https://www.lumenprize.com/2021-global-south-shortlist"
           ],
-          "id": "W197",
+          "id": "W201",
           "status": "candidate",
           "image": {
-            "file": "images/W197.jpg",
+            "file": "images/W201.jpg",
             "page": "https://lumenprize.org/2021-winners/nordic-award-winner-tmtd4",
             "url": "http://static1.squarespace.com/static/65e7176a61627736e02f6c4a/65f474a6c9a7564c5ee0180e/65f4778dbbce140c90f67a43/1710520611355/Waterfall.png?format=1500w"
           }
@@ -6089,10 +6188,10 @@ TG.research = {
           "sources": [
             "https://en.wikipedia.org/wiki/Julian_Charri%C3%A8re"
           ],
-          "id": "W198",
+          "id": "W202",
           "status": "candidate",
           "image": {
-            "file": "images/W198.jpg",
+            "file": "images/W202.jpg",
             "page": "https://julian-charriere.net/projects/towards-no-earthly-pole",
             "url": "https://julian-charriere.net/media/pages/projects/towards-no-earthly-pole/033abae6bc-1671025348/14_julian-charriere-towards-no-earthly-pole-2019-film-still-copyright-the-artist-vg-bild-kunst-bonn-germany.jpg"
           }
@@ -6125,10 +6224,10 @@ TG.research = {
             "https://feralfile.com/exhibitions/feralverse-1qa",
             "https://feralfile.com/api/series?exhibitionID=87528bfb-3b46-4e68-ae55-9ba214d52a4d"
           ],
-          "id": "W199",
+          "id": "W203",
           "status": "candidate",
           "image": {
-            "file": "images/W199.jpg",
+            "file": "images/W203.jpg",
             "page": "https://feralfile.com/exhibitions/feralverse-1qa",
             "url": "https://imagedelivery.net/iCRs13uicXIPOWrnuHbaKA/a19fa65f-3e36-421b-41e3-c038668a2000/l"
           }
@@ -6167,10 +6266,10 @@ TG.research = {
           "sources": [
             "https://www.justineemard.com/supraorganism/"
           ],
-          "id": "W200",
+          "id": "W204",
           "status": "candidate",
           "image": {
-            "file": "images/W200.jpg",
+            "file": "images/W204.jpg",
             "page": "https://www.justineemard.com/supraorganism/",
             "url": "https://justineemard.com/wp-content/uploads/2023/01/Jutsine-Emard@KIKK22_photographe_quentin_chevrier-11-e1674466988849.jpg"
           }
@@ -6205,10 +6304,10 @@ TG.research = {
           "sources": [
             "https://en.wikipedia.org/wiki/Katja_Novitskova"
           ],
-          "id": "W201",
+          "id": "W205",
           "status": "candidate",
           "image": {
-            "file": "images/W201.jpg",
+            "file": "images/W205.jpg",
             "page": "https://katjanovitskova.com/serie/approximation",
             "url": "https://cdn.prod.website-files.com/5ffef7846bca58e9b0671256/6031300da557c301821d9172_Katja%20Novitskova%20Approximation%20Mars%20I-p-1600.jpeg"
           }
@@ -6225,10 +6324,10 @@ TG.research = {
           "sources": [
             "https://en.wikipedia.org/wiki/Katja_Novitskova"
           ],
-          "id": "W202",
+          "id": "W206",
           "status": "candidate",
           "image": {
-            "file": "images/W202.jpg",
+            "file": "images/W206.jpg",
             "page": "https://katjanovitskova.com/exhibition/venice-biennale-2017",
             "url": "https://cdn.prod.website-files.com/5ffef7846bca58e9b0671256/69fef4f712e91aa7e8a89ebb_47_If_Only_You_Could_See_What_I%27ve_Seen_With_Your_Eyes_photo_by_Anu_Vahtra_MG_8798-web.jpg"
           }
@@ -6265,10 +6364,10 @@ TG.research = {
             "https://goldberg.berkeley.edu/garden/Ars/",
             "https://en.wikipedia.org/wiki/Telegarden"
           ],
-          "id": "W203",
+          "id": "W207",
           "status": "candidate",
           "image": {
-            "file": "images/W203.jpg",
+            "file": "images/W207.jpg",
             "page": "https://en.wikipedia.org/wiki/Telegarden",
             "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Telegarden.jpg"
           }
@@ -6311,10 +6410,10 @@ TG.research = {
           "sources": [
             "https://www.raster.art/artwork/botanical-ghosts-by-leonardo-solaas/about"
           ],
-          "id": "W204",
+          "id": "W208",
           "status": "candidate",
           "image": {
-            "file": "images/W204.jpg",
+            "file": "images/W208.jpg",
             "page": "https://objkt.com/tokens/KT1U6EHmNxJTkvaWJ4ThczG4FSDaHC21ssvi/1532384",
             "url": "https://assets.objkt.media/file/assets-003/QmXZ584wXEPnh6oJTBLQtfs43o8XCd6Q3Dy1NjzFmGktkz/display"
           }
@@ -6331,10 +6430,10 @@ TG.research = {
           "sources": [
             "https://www.raster.art/artwork/flowers-of-the-north-by-leonardo-solaas/about"
           ],
-          "id": "W205",
+          "id": "W209",
           "status": "candidate",
           "image": {
-            "file": "images/W205.jpg",
+            "file": "images/W209.jpg",
             "page": "https://objkt.com/tokens/KT1KEa8z6vWXDJrVqtMrAeDVzsvxat3kHaCE/372487",
             "url": "https://assets.objkt.media/file/assets-003/QmVMvAXBnQN86DEtYEgXdjzLiCLwHMKmv3aL2bpiGsdaP6/display"
           }
@@ -6351,10 +6450,10 @@ TG.research = {
           "sources": [
             "https://www.brightmoments.io/quarterly/leonardo-solaas"
           ],
-          "id": "W206",
+          "id": "W210",
           "status": "candidate",
           "image": {
-            "file": "images/W206.jpg",
+            "file": "images/W210.jpg",
             "page": "https://www.brightmoments.io/quarterly/leonardo-solaas",
             "url": "http://static1.squarespace.com/static/615b9047b8a1f00feaa5ad34/62b9ee772d900b515234f3d4/655e6fe30bbe2574651217e8/1725307983759/21816181_x5.jpg?format=1500w"
           }
@@ -6401,10 +6500,10 @@ TG.research = {
           "sources": [
             "https://websiteswebsiteswebsites.net/works/lia.html"
           ],
-          "id": "W207",
+          "id": "W211",
           "status": "candidate",
           "image": {
-            "file": "images/W207.jpg",
+            "file": "images/W211.jpg",
             "page": "https://liaworks.com/theprojects/mira/",
             "url": "https://www.liaworks.com/wp-content/uploads/2026/01/Mira-01.jpg"
           }
@@ -6421,10 +6520,10 @@ TG.research = {
           "sources": [
             "https://gazelliarthouse.com/exhibitions/184/works/artworks-17453-lia-floral-greetings-2023"
           ],
-          "id": "W208",
+          "id": "W212",
           "status": "candidate",
           "image": {
-            "file": "images/W208.jpg",
+            "file": "images/W212.jpg",
             "page": "https://gazelliarthouse.com/exhibitions/184/works/artworks-17453-lia-floral-greetings-2023",
             "url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/gazelli/images/view/15fcacbffad0a5f0354ebfbecaf26505j/gazelliarthouse-lia-floral-greetings-2023.jpg"
           }
@@ -6460,10 +6559,10 @@ TG.research = {
           "sources": [
             "https://www.lilianafarber.com/terram-in-aspectu"
           ],
-          "id": "W209",
+          "id": "W213",
           "status": "candidate",
           "image": {
-            "file": "images/W209.jpg",
+            "file": "images/W213.jpg",
             "page": "https://www.lilianafarber.com/terram-in-aspectu",
             "url": "https://static.wixstatic.com/media/995e88_ebb2e9024cf344ea913325ad76be859c~mv2.jpg/v1/fill/w_1500,h_1000,al_c/995e88_ebb2e9024cf344ea913325ad76be859c~mv2.jpg"
           }
@@ -6506,10 +6605,10 @@ TG.research = {
           "sources": [
             "https://load-gallery.com/exhibitions-index/neo-botanica"
           ],
-          "id": "W210",
+          "id": "W214",
           "status": "candidate",
           "image": {
-            "file": "images/W210.jpg",
+            "file": "images/W214.jpg",
             "page": "https://load-gallery.com/exhibitions-index/neo-botanica",
             "url": "https://framerusercontent.com/images/MZzmE04B5FyYcL506HzIYySUewQ.png"
           }
@@ -6526,10 +6625,10 @@ TG.research = {
           "sources": [
             "https://load-gallery.com/exhibitions-index/neo-botanica"
           ],
-          "id": "W211",
+          "id": "W215",
           "status": "candidate",
           "image": {
-            "file": "images/W211.jpg",
+            "file": "images/W215.jpg",
             "page": "https://load-gallery.com/exhibitions-index/neo-botanica",
             "url": "https://framerusercontent.com/images/WaNre7qQqA0rxdyXnh3zXAkqhSw.png"
           }
@@ -6546,10 +6645,10 @@ TG.research = {
           "sources": [
             "https://load-gallery.com/exhibitions-index/neo-botanica"
           ],
-          "id": "W212",
+          "id": "W216",
           "status": "candidate",
           "image": {
-            "file": "images/W212.jpg",
+            "file": "images/W216.jpg",
             "page": "https://load-gallery.com/exhibitions-index/neo-botanica",
             "url": "https://framerusercontent.com/images/sR8IwmHbfaBJ8Ske7RDYdIhKtY.png"
           }
@@ -6566,10 +6665,10 @@ TG.research = {
           "sources": [
             "https://load-gallery.com/exhibitions-index/neo-botanica"
           ],
-          "id": "W213",
+          "id": "W217",
           "status": "candidate",
           "image": {
-            "file": "images/W213.jpg",
+            "file": "images/W217.jpg",
             "page": "https://load-gallery.com/exhibitions-index/neo-botanica",
             "url": "https://framerusercontent.com/images/xhb98ST8zJgQNPDHPXFdscUDnOw.png"
           }
@@ -6605,10 +6704,10 @@ TG.research = {
           "sources": [
             "https://www.majapetric.com/"
           ],
-          "id": "W214",
+          "id": "W218",
           "status": "candidate",
           "image": {
-            "file": "images/W214.jpg",
+            "file": "images/W218.jpg",
             "page": "https://www.majapetric.com/",
             "url": "https://images.squarespace-cdn.com/content/v1/588d9dd3440243895c46b28f/99fe6f72-6243-4f62-ad09-afc62d160c86/0_specimens_of_time_val_d_anniviers_viewer2.jpg"
           }
@@ -6625,10 +6724,10 @@ TG.research = {
           "sources": [
             "https://www.majapetric.com/"
           ],
-          "id": "W215",
+          "id": "W219",
           "status": "candidate",
           "image": {
-            "file": "images/W215.jpg",
+            "file": "images/W219.jpg",
             "page": "https://www.majapetric.com/",
             "url": "https://images.squarespace-cdn.com/content/v1/588d9dd3440243895c46b28f/1779824534718-B8GBHCTVOBVWVFQE3ZLU/the_glitched_sublime_arctic_poppies_robot6.jpg"
           }
@@ -6664,10 +6763,10 @@ TG.research = {
           "sources": [
             "https://news.pedaily.cn/20241023/95814.shtml"
           ],
-          "id": "W216",
+          "id": "W220",
           "status": "candidate",
           "image": {
-            "file": "images/W216.jpg",
+            "file": "images/W220.jpg",
             "page": "https://marclee.io/en/speculative-evolution/",
             "url": "https://marclee.io/wp-content/uploads/Speculative-Evolution_File-Festival-Sao-Paulo.jpg"
           }
@@ -6702,10 +6801,10 @@ TG.research = {
             "https://whitney.org/exhibitions/marina-zurkow-parting-worlds/art?section=1",
             "https://vimeo.com/38033069"
           ],
-          "id": "W217",
+          "id": "W221",
           "status": "candidate",
           "image": {
-            "file": "images/W217.jpg",
+            "file": "images/W221.jpg",
             "page": "https://vimeo.com/38033069",
             "url": "https://i.vimeocdn.com/video/261544140-374901b3a28626e9815805fac5c3abb5c93c7a2196c4db3a3b1e21b720fa8dcf-d?f=webp"
           }
@@ -6722,10 +6821,10 @@ TG.research = {
           "sources": [
             "https://nftcalendar.io/event/chain-reaction/"
           ],
-          "id": "W218",
+          "id": "W222",
           "status": "candidate",
           "image": {
-            "file": "images/W218.jpg",
+            "file": "images/W222.jpg",
             "page": "https://verse.works/artworks/81d1cc18-209a-44ae-a189-acf082960917/360173026",
             "url": "https://versecontent.com/image/w1400/static%2Fuploads%2F0xc4f0ee96676d3de800b9725eb628de1c5a0cbea1%2F1ba5e4ed-3c25-4263-922b-07d3c6bd5677.jpeg@jpeg"
           }
@@ -6768,10 +6867,10 @@ TG.research = {
           "sources": [
             "https://hubemag.com/journey-through-a-dreamlike-ai-generated-landscape"
           ],
-          "id": "W219",
+          "id": "W223",
           "status": "candidate",
           "image": {
-            "file": "images/W219.jpg",
+            "file": "images/W223.jpg",
             "page": "https://hubemag.com/journey-through-a-dreamlike-ai-generated-landscape",
             "url": "https://hubemag.com/wp-content/uploads/2024/07/Journey-through-a-dreamlike-AI-generated-landscape_hube.jpg"
           }
@@ -6788,10 +6887,10 @@ TG.research = {
           "sources": [
             "https://mrkism.com/prints/index.html"
           ],
-          "id": "W220",
+          "id": "W224",
           "status": "candidate",
           "image": {
-            "file": "images/W220.jpg",
+            "file": "images/W224.jpg",
             "page": "https://mrkism.com/prints/index.html",
             "url": "https://live.staticflickr.com/65535/52307792047_6491f73ae9_h.jpg"
           }
@@ -6834,10 +6933,10 @@ TG.research = {
           "sources": [
             "https://load-gallery.com/exhibitions-index/neo-botanica"
           ],
-          "id": "W221",
+          "id": "W225",
           "status": "candidate",
           "image": {
-            "file": "images/W221.jpg",
+            "file": "images/W225.jpg",
             "page": "https://load-gallery.com/exhibitions-index/neo-botanica",
             "url": "https://framerusercontent.com/images/uBwf1NlkdY31NrgPbaNkZp3ErQ.jpg"
           }
@@ -6854,10 +6953,10 @@ TG.research = {
           "sources": [
             "https://load-gallery.com/exhibitions-index/neo-botanica"
           ],
-          "id": "W222",
+          "id": "W226",
           "status": "candidate",
           "image": {
-            "file": "images/W222.jpg",
+            "file": "images/W226.jpg",
             "page": "https://load-gallery.com/exhibitions-index/neo-botanica",
             "url": "https://framerusercontent.com/images/W2O9RUYVVFIOQhGVT7cRX6zC8t8.png"
           }
@@ -6920,10 +7019,10 @@ TG.research = {
             "https://onassis.org/whats-on/festival-you-and-ai-through-the-algorithmic-lens/artworks/learning-to-see",
             "https://aeon.co/videos/a-neural-network-that-keeps-seeing-art-where-we-see-mundane-objects"
           ],
-          "id": "W223",
+          "id": "W227",
           "status": "candidate",
           "image": {
-            "file": "images/W223.jpg",
+            "file": "images/W227.jpg",
             "page": "https://aeon.co/videos/a-neural-network-that-keeps-seeing-art-where-we-see-mundane-objects",
             "url": "https://images.aeonmedia.co/images/a3603fe4-8625-4ab6-b618-6f5ec9a85898/gloomy-sunday-v4.jpg?width=1200&quality=75&format=jpeg"
           }
@@ -6940,10 +7039,10 @@ TG.research = {
           "sources": [
             "https://onassis.org/whats-on/festival-you-and-ai-through-the-algorithmic-lens/artworks/deep-meditations"
           ],
-          "id": "W224",
+          "id": "W228",
           "status": "candidate",
           "image": {
-            "file": "images/W224.jpg",
+            "file": "images/W228.jpg",
             "page": "https://memo.tv/projects/2018/deep-meditations/",
             "url": "https://media.superradiance.net/cdn-cgi/image/width=1600,fit=scale-down,format=jpeg,onerror=redirect/memotv/projects/2018/deep-meditations/images/deep-meditations.jpg"
           }
@@ -6960,10 +7059,10 @@ TG.research = {
           "sources": [
             "https://unitlondon.com/voices/the-perfect-error"
           ],
-          "id": "W225",
+          "id": "W229",
           "status": "candidate",
           "image": {
-            "file": "images/W225.jpg",
+            "file": "images/W229.jpg",
             "page": "https://unitlondon.com/voices/the-perfect-error",
             "url": "https://res.cloudinary.com/unit-london/images/f_jpg,q_auto/v1689765637/memo-HI-RES/memo-HI-RES.jpeg"
           }
@@ -6980,10 +7079,10 @@ TG.research = {
           "sources": [
             "https://www.memo.tv/works/distributed-consciousness/"
           ],
-          "id": "W226",
+          "id": "W230",
           "status": "candidate",
           "image": {
-            "file": "images/W226.jpg",
+            "file": "images/W230.jpg",
             "page": "https://www.memo.tv/works/distributed-consciousness/",
             "url": "https://media.superradiance.net/cdn-cgi/image/width=1200,fit=scale-down,format=auto,onerror=redirect/memotv/projects/2021/distributed-consciousness-nft/gallery/msa_distribconsc%20-%20critter_2048px_0074.jpg"
           }
@@ -7000,10 +7099,10 @@ TG.research = {
           "sources": [
             "https://www.memo.tv/works/learning-to-see/"
           ],
-          "id": "W227",
+          "id": "W231",
           "status": "candidate",
           "image": {
-            "file": "images/W227.jpg",
+            "file": "images/W231.jpg",
             "page": "https://memo.tv/projects/2017/gloomy-sunday/",
             "url": "https://media.superradiance.net/cdn-cgi/image/width=1600,fit=scale-down,format=jpeg,onerror=redirect/memotv/projects/2017/gloomy-sunday/gallery/01_Gloomy%20Sunday%20still%20003.jpg"
           }
@@ -7020,10 +7119,10 @@ TG.research = {
           "sources": [
             "https://www.memo.tv/works/learning-to-see/"
           ],
-          "id": "W228",
+          "id": "W232",
           "status": "candidate",
           "image": {
-            "file": "images/W228.jpg",
+            "file": "images/W232.jpg",
             "page": "https://memo.tv/projects/2018/mountains/",
             "url": "https://media.superradiance.net/cdn-cgi/image/width=1600,fit=scale-down,format=jpeg,onerror=redirect/memotv/projects/2018/mountains/images/mountains-vimeo-thumbnail.jpg"
           }
@@ -7041,10 +7140,10 @@ TG.research = {
             "https://memo.tv/projects/2024/superradiance/",
             "https://gazelliarthouse.com/exhibitions/200-subject-to-change-group-show/"
           ],
-          "id": "W229",
+          "id": "W233",
           "status": "candidate",
           "image": {
-            "file": "images/W229.jpg",
+            "file": "images/W233.jpg",
             "page": "https://memo.tv/projects/2024/superradiance/",
             "url": "https://media.superradiance.net/cdn-cgi/image/width=1200,fit=scale-down,format=auto,onerror=redirect/superradiance/projects/2024/superradiance/images/superradiance_clouds.jpg"
           }
@@ -7078,10 +7177,10 @@ TG.research = {
           "sources": [
             "https://kunst-und-natur.de/files/Museum-Sinclair-Haus/Blattwerke/Blattwerke_11/19_illusion_natur_blattwerke_11.pdf"
           ],
-          "id": "W230",
+          "id": "W234",
           "status": "candidate",
           "image": {
-            "file": "images/W230.jpg",
+            "file": "images/W234.jpg",
             "page": "https://www.michaelreisch.com/archive-1991-2015/1/",
             "url": "https://www.michaelreisch.com/site/assets/files/1073/1_020.jpg"
           }
@@ -7115,10 +7214,10 @@ TG.research = {
           "sources": [
             "https://kunst-und-natur.de/files/Museum-Sinclair-Haus/Blattwerke/Blattwerke_11/19_illusion_natur_blattwerke_11.pdf"
           ],
-          "id": "W231",
+          "id": "W235",
           "status": "candidate",
           "image": {
-            "file": "images/W231.jpg",
+            "file": "images/W235.jpg",
             "page": "https://www.aeroplastics.net/artworks/14105-miguel-chevalier-trans-natures-2015/",
             "url": "https://static-assets.artlogic.net/w_1300,h_1000,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/aeroplastics/images/view/a4999ad776d9c1c87c1938b23b60357ej/aeroplastics-miguel-chevalier-trans-natures-2015.jpg"
           }
@@ -7150,10 +7249,10 @@ TG.research = {
           "sources": [
             "https://zkm.de/en/artwork/liquid-views"
           ],
-          "id": "W232",
+          "id": "W236",
           "status": "candidate",
           "image": {
-            "file": "images/W232.jpg",
+            "file": "images/W236.jpg",
             "page": "https://zkm.de/en/artwork/liquid-views",
             "url": "https://zkm.de/system/files/field_media_image/2024/12/31/170448/ZKM000250065.jpg"
           }
@@ -7195,10 +7294,10 @@ TG.research = {
             "https://nancybakercahill.com/work/stone-speaks",
             "https://fluxprojects.org/productions/stone-speaks/"
           ],
-          "id": "W233",
+          "id": "W237",
           "status": "candidate",
           "image": {
-            "file": "images/W233.jpg",
+            "file": "images/W237.jpg",
             "page": "https://nancybakercahill.com/work/stone-speaks",
             "url": "https://nancybakercahill.com/wp-content/uploads/2022/11/stonespeaksfb.png"
           }
@@ -7215,10 +7314,10 @@ TG.research = {
           "sources": [
             "https://whitney.org/exhibitions/cento"
           ],
-          "id": "W234",
+          "id": "W238",
           "status": "candidate",
           "image": {
-            "file": "images/W234.jpg",
+            "file": "images/W238.jpg",
             "page": "https://whitney.org/exhibitions/cento",
             "url": "https://whitneymedia.org/assets/image/829436/cento_diptych.jpg"
           }
@@ -7262,10 +7361,10 @@ TG.research = {
             "https://www.raster.art/artwork/never-the-same-by-nat-sarkissian/about",
             "https://cure3.co.uk/artworks/494/"
           ],
-          "id": "W235",
+          "id": "W239",
           "status": "candidate",
           "image": {
-            "file": "images/W235.jpg",
+            "file": "images/W239.jpg",
             "page": "https://cure3.co.uk/artworks/494/",
             "url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/cure3/images/view/ba149d92d4fc826fcae3b2e9a6b15f0fj.jpg"
           }
@@ -7282,10 +7381,10 @@ TG.research = {
           "sources": [
             "https://www.vertufineart.com/artists/233/works"
           ],
-          "id": "W236",
+          "id": "W240",
           "status": "candidate",
           "image": {
-            "file": "images/W236.jpg",
+            "file": "images/W240.jpg",
             "page": "https://www.vertufineart.com/artists/233/works",
             "url": "https://static-assets.artlogic.net/w_1200,h_630,c_fill,f_auto,fl_lossy,q_auto/artlogicstorage/vertufineart/images/view/e1b0a13a96c2f38d5db73ba1576e3493/vertufineart-nat-sarkissian-in-deep-spring-5-2024.jpg"
           }
@@ -7319,10 +7418,10 @@ TG.research = {
           "sources": [
             "https://rightclicksave.com/article/epoch-gallery-and-blockchains-new-ecology"
           ],
-          "id": "W237",
+          "id": "W241",
           "status": "candidate",
           "image": {
-            "file": "images/W237.jpg",
+            "file": "images/W241.jpg",
             "page": "https://www.adn.com/arts/books/2022/07/02/book-review-in-wintermoot-a-graphic-novel-that-shape-shifts-disorients-and-challenges-readers",
             "url": "https://www.adn.com/resizer/v2/DNAOZR6IMNBVXBW54XX7DV32TI.png?smart=true&auth=2589bd44e58a8f381570f0b2fb6c40240abb23eb121102515a68e5e4306ed979&width=1200&height=630"
           }
@@ -7339,7 +7438,7 @@ TG.research = {
           "sources": [
             "https://rightclicksave.com/article/epoch-gallery-and-blockchains-new-ecology"
           ],
-          "id": "W238",
+          "id": "W242",
           "status": "candidate"
         }
       ]
@@ -7372,10 +7471,10 @@ TG.research = {
           "sources": [
             "https://nathanielstern.art/artwork/giverny-of-the-midwest/"
           ],
-          "id": "W239",
+          "id": "W243",
           "status": "candidate",
           "image": {
-            "file": "images/W239.jpg",
+            "file": "images/W243.jpg",
             "page": "https://nathanielstern.art/artwork/giverny-of-the-midwest/",
             "url": "https://nathanielstern.art/newsite/wp-content/uploads/2012/12/viewer-+-detail-middle-wall1-scaled.jpg"
           }
@@ -7392,10 +7491,10 @@ TG.research = {
           "sources": [
             "https://nathanielstern.art/artwork/rippling-images/"
           ],
-          "id": "W240",
+          "id": "W244",
           "status": "candidate",
           "image": {
-            "file": "images/W240.jpg",
+            "file": "images/W244.jpg",
             "page": "https://nathanielstern.art/artwork/rippling-images/",
             "url": "https://nathanielstern.art/newsite/wp-content/uploads/2014/06/xsmall-200x130-surfacing.jpg"
           }
@@ -7431,10 +7530,10 @@ TG.research = {
           "sources": [
             "https://en.wikipedia.org/wiki/Neri_Oxman"
           ],
-          "id": "W241",
+          "id": "W245",
           "status": "candidate",
           "image": {
-            "file": "images/W241.jpg",
+            "file": "images/W245.jpg",
             "page": "https://commons.wikimedia.org/wiki/File:Oxman-Silk_pavilion_installation.png",
             "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Oxman-Silk_pavilion_installation.png"
           }
@@ -7451,10 +7550,10 @@ TG.research = {
           "sources": [
             "https://en.wikipedia.org/wiki/Neri_Oxman"
           ],
-          "id": "W242",
+          "id": "W246",
           "status": "candidate",
           "image": {
-            "file": "images/W242.jpg",
+            "file": "images/W246.jpg",
             "page": "https://www.designboom.com/technology/mit-media-lab-mediated-matter-group-aguahoja-pavilion-03-28-2019/",
             "url": "https://www.designboom.com/twitterimages/uploads/2019/03/mit-media-lab-mediated-matter-group-aguahoja-pavilion-designboom-Fb.jpg"
           }
@@ -7490,10 +7589,10 @@ TG.research = {
           "sources": [
             "https://www.nicolassassoon.com/WTRFLLS.html"
           ],
-          "id": "W243",
+          "id": "W247",
           "status": "candidate",
           "image": {
-            "file": "images/W243.jpg",
+            "file": "images/W247.jpg",
             "page": "https://www.nicolassassoon.com/WTRFLLS.html",
             "url": "https://www.nicolassassoon.com/IMAGES/WTRFLL_0.gif"
           }
@@ -7557,10 +7656,10 @@ TG.research = {
           "sources": [
             "https://onlineonly.christies.com/s/augmented-intelligence/owen-mcateer-b-1986-26/250108"
           ],
-          "id": "W244",
+          "id": "W248",
           "status": "candidate",
           "image": {
-            "file": "images/W244.jpg",
+            "file": "images/W248.jpg",
             "page": "https://onlineonly.christies.com/s/augmented-intelligence/owen-mcateer-b-1986-26/250108",
             "url": "https://www.christies.com/img/LotImages/2025/NYR/2025_NYR_23942_0026_000(owen_mcateer_motus_art_seiche_d6523112061345).jpg?mode=max"
           }
@@ -7602,10 +7701,10 @@ TG.research = {
           "sources": [
             "https://websiteswebsiteswebsites.net/works/petra-cortright.html"
           ],
-          "id": "W245",
+          "id": "W249",
           "status": "candidate",
           "image": {
-            "file": "images/W245.jpg",
+            "file": "images/W249.jpg",
             "page": "https://www.petracortright.com/works/selected_show/system_landscapes_1.html",
             "url": "https://www.petracortright.com/works/selected_show/b.gif"
           }
@@ -7622,7 +7721,7 @@ TG.research = {
           "sources": [
             "https://artspace.com/petra-cortright/gracie"
           ],
-          "id": "W246",
+          "id": "W250",
           "status": "candidate"
         },
         {
@@ -7637,10 +7736,10 @@ TG.research = {
           "sources": [
             "https://www.1301pe.com/past-exhibitions-1/2019/1/19/lucky-duck-lights-out"
           ],
-          "id": "W247",
+          "id": "W251",
           "status": "candidate",
           "image": {
-            "file": "images/W247.jpg",
+            "file": "images/W251.jpg",
             "page": "https://contemporaryartlibrary.org/project/petra-cortright-at-1301pe-los-angeles-4266",
             "url": "https://cdn.contemporaryartlibrary.org/store/image/26307/imagefile/xlarge-67958934cc85c71f46ed88260c6b0e60.jpg"
           }
@@ -7657,10 +7756,10 @@ TG.research = {
           "sources": [
             "https://foxyproduction.com/exhibitions/petra-cortright-2023-06-16"
           ],
-          "id": "W248",
+          "id": "W252",
           "status": "candidate",
           "image": {
-            "file": "images/W248.jpg",
+            "file": "images/W252.jpg",
             "page": "https://foxyproduction.com/exhibitions/petra-cortright-2023-06-16",
             "url": "https://cdn.sanity.io/images/y7df71pe/production/a5a48ae5495994d135b50d236fc9f0cce3b748c0-6720x4480.jpg?w=1400"
           }
@@ -7703,10 +7802,10 @@ TG.research = {
           "sources": [
             "https://load-gallery.com/exhibitions-index/neo-botanica"
           ],
-          "id": "W249",
+          "id": "W253",
           "status": "candidate",
           "image": {
-            "file": "images/W249.jpg",
+            "file": "images/W253.jpg",
             "page": "https://load-gallery.com/exhibitions-index/neo-botanica",
             "url": "https://framerusercontent.com/images/Ge7592Gba6lHoUfVKoPk61LxEo0.png"
           }
@@ -7741,10 +7840,10 @@ TG.research = {
             "https://www.serpentinegalleries.org/whats-on/pierre-huyghe-uumwelt/",
             "https://brooklynrail.org/2019/02/artseen/Pierre-HuygheUUmwelt/"
           ],
-          "id": "W250",
+          "id": "W254",
           "status": "candidate",
           "image": {
-            "file": "images/W250.jpg",
+            "file": "images/W254.jpg",
             "page": "https://brooklynrail.org/2019/02/artseen/Pierre-HuygheUUmwelt/",
             "url": "https://studio.brooklynrail.org/assets/1e13187e-8fca-4380-b47c-c0d860bf5ef4.jpg"
           }
@@ -7783,10 +7882,10 @@ TG.research = {
             "https://feralfile.com/exhibitions/harbingers-vgb",
             "https://feralfile.com/api/series?exhibitionID=91483129-948d-417d-b18a-34969eb5cbdf"
           ],
-          "id": "W251",
+          "id": "W255",
           "status": "candidate",
           "image": {
-            "file": "images/W251.jpg",
+            "file": "images/W255.jpg",
             "page": "https://feralfile.com/exhibitions/harbingers-vgb",
             "url": "https://imagedelivery.net/5BJzhBHeVhlhbn58hvcXAQ/caa8c0be-2d1e-4b33-c2cb-b8cda4e79700/l"
           }
@@ -7804,10 +7903,10 @@ TG.research = {
             "https://feralfile.com/exhibitions/harbingers-vgb",
             "https://feralfile.com/api/series?exhibitionID=91483129-948d-417d-b18a-34969eb5cbdf"
           ],
-          "id": "W252",
+          "id": "W256",
           "status": "candidate",
           "image": {
-            "file": "images/W252.jpg",
+            "file": "images/W256.jpg",
             "page": "https://feralfile.com/exhibitions/harbingers-vgb",
             "url": "https://imagedelivery.net/5BJzhBHeVhlhbn58hvcXAQ/ea5a09be-cf1f-408d-9903-60f5ab387e00/l"
           }
@@ -7824,10 +7923,10 @@ TG.research = {
           "sources": [
             "https://www.pinaryoldas.info/Ecosystem-of-Excess-2014"
           ],
-          "id": "W253",
+          "id": "W257",
           "status": "candidate",
           "image": {
-            "file": "images/W253.jpg",
+            "file": "images/W257.jpg",
             "page": "https://www.pinaryoldas.info/Ecosystem-of-Excess-2014",
             "url": "https://payload.cargocollective.com/1/0/10589/10336044/prt_450x301_1443471010_2x.jpg"
           }
@@ -7844,10 +7943,10 @@ TG.research = {
           "sources": [
             "https://www.pinaryoldas.info/The-Very-Loud-Chamber-Orchestra-of-Endangered-Species-2013"
           ],
-          "id": "W254",
+          "id": "W258",
           "status": "candidate",
           "image": {
-            "file": "images/W254.jpg",
+            "file": "images/W258.jpg",
             "page": "https://www.pinaryoldas.info/The-Very-Loud-Chamber-Orchestra-of-Endangered-Species-2013",
             "url": "https://payload.cargocollective.com/1/0/10589/10440782/prt_450x298_1443402115_2x.jpg"
           }
@@ -7885,10 +7984,10 @@ TG.research = {
           "sources": [
             "https://quayola.com/work/remains/"
           ],
-          "id": "W255",
+          "id": "W259",
           "status": "candidate",
           "image": {
-            "file": "images/W255.jpg",
+            "file": "images/W259.jpg",
             "page": "https://quayola.com/work/remains/",
             "url": "https://quayola.com/wp-content/uploads/2023/05/Quayola_Remains_Chaumont-sur-Loire_008-1-scaled-e1686330618510.jpg"
           }
@@ -7905,10 +8004,10 @@ TG.research = {
           "sources": [
             "https://quayola.com/jardins-dete/"
           ],
-          "id": "W256",
+          "id": "W260",
           "status": "candidate",
           "image": {
-            "file": "images/W256.jpg",
+            "file": "images/W260.jpg",
             "page": "https://quayola.com/jardins-dete/",
             "url": "https://quayola.com/wp-content/uploads/2023/05/Quayola_Jardins-dEte_023-scaled.jpg"
           }
@@ -7944,10 +8043,10 @@ TG.research = {
           "sources": [
             "https://www.random-international.com/rain-room"
           ],
-          "id": "W257",
+          "id": "W261",
           "status": "candidate",
           "image": {
-            "file": "images/W257.jpg",
+            "file": "images/W261.jpg",
             "page": "https://www.random-international.com/rain-room",
             "url": "https://images.squarespace-cdn.com/content/v1/663ca532b3e3797d82159fe2/a7ad32f2-8097-40b4-a2b3-efa464d2cf80/RAIN+ROOM%2C+2012++.jpeg?format=1500w"
           }
@@ -7964,10 +8063,10 @@ TG.research = {
           "sources": [
             "https://www.random-international.com/swarm-study-/-i"
           ],
-          "id": "W258",
+          "id": "W262",
           "status": "candidate",
           "image": {
-            "file": "images/W258.jpg",
+            "file": "images/W262.jpg",
             "page": "https://www.random-international.com/swarm-study-/-i",
             "url": "https://images.squarespace-cdn.com/content/v1/663ca532b3e3797d82159fe2/da20db85-9cf5-4b31-acb3-e0b6b44c451c/Swarm+Study+1.jpeg?format=1500w"
           }
@@ -8002,10 +8101,10 @@ TG.research = {
             "https://kunst-und-natur.de/images/downloads/MSH_Waelder_Begleitheft.pdf",
             "https://kunst-und-natur.de/images/downloads/240228_Waelder_EK_erstinfo_presse.pdf"
           ],
-          "id": "W259",
+          "id": "W263",
           "status": "candidate",
           "image": {
-            "file": "images/W259.jpg",
+            "file": "images/W263.jpg",
             "page": "https://blogg.sh.se/artspace/?p=956",
             "url": "https://blogg.sh.se/artspace/wp-content/uploads/2025/10/af3-1.jpg"
           }
@@ -8038,10 +8137,10 @@ TG.research = {
             "https://nxtmuseum.com/exhibition/realtime",
             "https://clotmag.com/news/exhibition-realtime-at-nxt-museum-beyond-boundary-pushing-technologies"
           ],
-          "id": "W260",
+          "id": "W264",
           "status": "candidate",
           "image": {
-            "file": "images/W260.jpg",
+            "file": "images/W264.jpg",
             "page": "https://nxtmuseum.com/exhibition/realtime",
             "url": "https://admin.nxtmuseum.com/content/uploads/2024/05/Decohering-Delineation-by-Entangled-Others-scaled.jpg"
           }
@@ -8074,10 +8173,10 @@ TG.research = {
             "https://robertina.net/aqualformings-interweaving-the-subaqueous/",
             "https://www.arshake.com/en/umwelt/"
           ],
-          "id": "W261",
+          "id": "W265",
           "status": "candidate",
           "image": {
-            "file": "images/W261.jpg",
+            "file": "images/W265.jpg",
             "page": "https://robertina.net/aqualformings-interweaving-the-subaqueous/",
             "url": "https://i0.wp.com/robertina.net/wp-content/uploads/2025/09/fe813-aquaformations_robertina-sebjanic-sofia-crespo-feileacan-mccormickphoto-nejcketis.jpg?fit=1200%2C800&ssl=1"
           }
@@ -8094,10 +8193,10 @@ TG.research = {
           "sources": [
             "https://robertina.net/aquatocene/"
           ],
-          "id": "W262",
+          "id": "W266",
           "status": "candidate",
           "image": {
-            "file": "images/W262.jpg",
+            "file": "images/W266.jpg",
             "page": "https://robertina.net/aquatocene/",
             "url": "https://i0.wp.com/robertina.net/wp-content/uploads/2025/09/cbdc0-aquatocene-by-robertina-sebjanic-new1.jpg?fit=1200%2C917&ssl=1"
           }
@@ -8131,7 +8230,7 @@ TG.research = {
           "sources": [
             "https://kunst-und-natur.de/images/downloads/240228_Waelder_EK_erstinfo_presse.pdf"
           ],
-          "id": "W263",
+          "id": "W267",
           "status": "candidate"
         }
       ]
@@ -8159,10 +8258,10 @@ TG.research = {
           "sources": [
             "https://www.rotondes.lu/en/archives/subassemblies"
           ],
-          "id": "W264",
+          "id": "W268",
           "status": "candidate",
           "image": {
-            "file": "images/W264.jpg",
+            "file": "images/W268.jpg",
             "page": "https://www.ryoichikurokawa.com/project/sa.html",
             "url": "https://www.ryoichikurokawa.com/project/images/sa/sa_photo_04.jpg"
           }
@@ -8199,10 +8298,10 @@ TG.research = {
             "https://gallery400.uic.edu/exhibition/portal-online-screenings-sara-ludy",
             "https://highlike.org/?p=85195"
           ],
-          "id": "W265",
+          "id": "W269",
           "status": "candidate",
           "image": {
-            "file": "images/W265.jpg",
+            "file": "images/W269.jpg",
             "page": "https://highlike.org/?p=85195",
             "url": "https://highlike.org/media/2017/07/Sara-Lundy-Deep-Pond.jpg"
           }
@@ -8219,10 +8318,10 @@ TG.research = {
           "sources": [
             "https://digiart21.org/art/cloud-relief-1-cloud-relief-2"
           ],
-          "id": "W266",
+          "id": "W270",
           "status": "candidate",
           "image": {
-            "file": "images/W266.jpg",
+            "file": "images/W270.jpg",
             "page": "https://digiart21.org/art/cloud-relief-1-cloud-relief-2",
             "url": "https://images.squarespace-cdn.com/content/v1/56eb27558a65e2c2a033b13c/1459643810779-D8QG3N0LDBZ91E1900NV/DigiArt_Blog1.jpg"
           }
@@ -8255,10 +8354,10 @@ TG.research = {
             "https://feralfile.com/exhibitions/feralverse-1qa",
             "https://feralfile.com/api/series?exhibitionID=87528bfb-3b46-4e68-ae55-9ba214d52a4d"
           ],
-          "id": "W267",
+          "id": "W271",
           "status": "candidate",
           "image": {
-            "file": "images/W267.jpg",
+            "file": "images/W271.jpg",
             "page": "https://feralfile.com/exhibitions/feralverse-1qa",
             "url": "https://cdn.feralfileassets.com/thumbnails/a97afdeb-236a-4f49-94cb-0cf83e104e56/1678443891"
           }
@@ -8292,7 +8391,7 @@ TG.research = {
           "sources": [
             "https://sites.google.com/view/2025aiart-gallery/artworks/roomb/b12"
           ],
-          "id": "W268",
+          "id": "W272",
           "status": "candidate"
         }
       ]
@@ -8333,7 +8432,7 @@ TG.research = {
           "sources": [
             "https://creativeapplications.net/nft/spaceplant-spacefiller"
           ],
-          "id": "W269",
+          "id": "W273",
           "status": "candidate"
         }
       ]
@@ -8374,10 +8473,10 @@ TG.research = {
           "sources": [
             "https://load-gallery.com/exhibitions-index/neo-botanica"
           ],
-          "id": "W270",
+          "id": "W274",
           "status": "candidate",
           "image": {
-            "file": "images/W270.jpg",
+            "file": "images/W274.jpg",
             "page": "https://load-gallery.com/exhibitions-index/neo-botanica",
             "url": "https://framerusercontent.com/images/uRp4dqHYV3MzddJpBGMnPANaR5M.png"
           }
@@ -8394,10 +8493,10 @@ TG.research = {
           "sources": [
             "https://load-gallery.com/exhibitions-index/neo-botanica"
           ],
-          "id": "W271",
+          "id": "W275",
           "status": "candidate",
           "image": {
-            "file": "images/W271.jpg",
+            "file": "images/W275.jpg",
             "page": "https://load-gallery.com/exhibitions-index/neo-botanica",
             "url": "https://framerusercontent.com/images/MvWxhv45Slm6GDbRoTKmCl1Btaw.png"
           }
@@ -8434,10 +8533,10 @@ TG.research = {
             "https://noorderlicht.com/en/whats-on/pixel-perceptions/impossible-installations",
             "https://www.synchrodogs.com/"
           ],
-          "id": "W272",
+          "id": "W276",
           "status": "candidate",
           "image": {
-            "file": "images/W272.jpg",
+            "file": "images/W276.jpg",
             "page": "https://www.synchrodogs.com/",
             "url": "https://cdn.sanity.io/images/dm3b9k31/production/9f11ff8d9c01e82d4421ace69ee6c93ba2f87f6e-1500x1000.jpg"
           }
@@ -8471,10 +8570,10 @@ TG.research = {
           "sources": [
             "https://en.wikipedia.org/wiki/Tamiko_Thiel"
           ],
-          "id": "W273",
+          "id": "W277",
           "status": "candidate",
           "image": {
-            "file": "images/W273.jpg",
+            "file": "images/W277.jpg",
             "page": "https://www.tamikothiel.com/unexpectedgrowth/",
             "url": "https://www.tamikothiel.com/unexpectedgrowth/media/UnexpectedGrowth_10p_800w.jpg"
           }
@@ -8491,10 +8590,10 @@ TG.research = {
           "sources": [
             "https://en.wikipedia.org/wiki/Tamiko_Thiel"
           ],
-          "id": "W274",
+          "id": "W278",
           "status": "candidate",
           "image": {
-            "file": "images/W274.jpg",
+            "file": "images/W278.jpg",
             "page": "https://www.tamikothiel.com/AR/clouding-green.html",
             "url": "https://www.tamikothiel.com/AR/cg/CloudingGreen_Google-39.4percent_500w.jpg"
           }
@@ -8538,10 +8637,10 @@ TG.research = {
             "https://load-gallery.com/exhibitions-index/neo-botanica",
             "https://cifra.com/project/face-of-universe-2"
           ],
-          "id": "W275",
+          "id": "W279",
           "status": "candidate",
           "image": {
-            "file": "images/W275.jpg",
+            "file": "images/W279.jpg",
             "page": "https://cifra.com/project/face-of-universe-2",
             "url": null
           }
@@ -8558,10 +8657,10 @@ TG.research = {
           "sources": [
             "https://www.pocko.com/news/giantcryptoplants"
           ],
-          "id": "W276",
+          "id": "W280",
           "status": "candidate",
           "image": {
-            "file": "images/W276.jpg",
+            "file": "images/W280.jpg",
             "page": "https://www.pocko.com/news/giantcryptoplants",
             "url": "http://static1.squarespace.com/static/665875562fe6256a62486efb/6682dc520abac80911626cf4/6939859b0449a66d16b5dbfc/1765379979683/SnapInsta.to_539997502_18518718592044332_5857676682329748456_n.jpg?format=1500w"
           }
@@ -8595,10 +8694,10 @@ TG.research = {
           "sources": [
             "https://www.barbican.org.uk/sites/default/files/documents/2019-07/FINAL%20AI%20More%20than%20Human%20exhibition%20release%20280219.pdf"
           ],
-          "id": "W277",
+          "id": "W281",
           "status": "candidate",
           "image": {
-            "file": "images/W277.jpg",
+            "file": "images/W281.jpg",
             "page": "https://www.teamlab.art/ew/whatloving-kyoto/",
             "url": "https://teamlab-site.imagewave.pictures/b5EBo9Uo-OK6SM09ZTkEZQ/d24cf7a2-c30c-41d9-7613-f3f40fbc5500/width=1200,format=jpeg"
           }
@@ -8632,10 +8731,10 @@ TG.research = {
           "sources": [
             "https://kunst-und-natur.de/images/downloads/240228_Waelder_EK_erstinfo_presse.pdf"
           ],
-          "id": "W278",
+          "id": "W282",
           "status": "candidate",
           "image": {
-            "file": "images/W278.jpg",
+            "file": "images/W282.jpg",
             "page": "https://www.geobodies.org/art-and-videos/forest-mind",
             "url": "https://geobodies.org/wp-content/uploads/2022/03/aav-FM-gallery-4-aspect-ratio-770-433.jpg"
           }
@@ -8686,10 +8785,10 @@ TG.research = {
           "sources": [
             "https://kunst-und-natur.de/files/Museum-Sinclair-Haus/Blattwerke/Blattwerke_11/19_illusion_natur_blattwerke_11.pdf"
           ],
-          "id": "W279",
+          "id": "W283",
           "status": "candidate",
           "image": {
-            "file": "images/W279.jpg",
+            "file": "images/W283.jpg",
             "page": "https://history.siggraph.org/artwork/vera-molnar-variations-sainte-victoire",
             "url": "https://history.siggraph.org/wp-content/uploads/2017/08/1996_Molnar_VariationsSainte-Victoire.jpg"
           }
@@ -8735,10 +8834,10 @@ TG.research = {
           "sources": [
             "https://www.artblocks.io/collection/anticyclone-by-william-mapan"
           ],
-          "id": "W280",
+          "id": "W284",
           "status": "candidate",
           "image": {
-            "file": "images/W280.jpg",
+            "file": "images/W284.jpg",
             "page": "https://www.artblocks.io/collection/anticyclone-by-william-mapan",
             "url": "https://media-proxy.artblocks.io/1/0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270/304000184.png"
           }
@@ -8782,12 +8881,3669 @@ TG.research = {
             "https://load-gallery.com/exhibitions-index/neo-botanica",
             "https://www.thisiscolossal.com/2025/03/zachary-corzine-faux-flora/"
           ],
-          "id": "W281",
+          "id": "W285",
           "status": "candidate",
           "image": {
-            "file": "images/W281.jpg",
+            "file": "images/W285.jpg",
             "page": "https://www.thisiscolossal.com/2025/03/zachary-corzine-faux-flora/",
             "url": "https://www.thisiscolossal.com/wp-content/uploads/2025/03/corzine-2.gif"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A147",
+      "artist": "Jon McCormack",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2016 (winner, Still Image Award)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Fifty Sisters",
+          "year": "2015",
+          "medium": "Algorithmically generated still images (50 prints, 1m x 1m)",
+          "where": "Lumen Prize 2016, winner, Still Image Award",
+          "nature": [
+            "flora"
+          ],
+          "why": "Fifty images of plant-like forms derived from oil company logos; commissioned for the Ars Electronica Museum, Linz.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2016-winner/still-image-award-winner-2016"
+          ],
+          "id": "W286",
+          "status": "candidate",
+          "image": {
+            "file": "images/W286.jpg",
+            "page": "https://lumenprize.org/2016-winner/still-image-award-winner-2016",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/6606a62dde220053d806f982/6613a71113cf3542a483f99f/1712564077711/shell0-1000x0-c-default.jpeg?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A148",
+      "artist": "Matteo Zamagni, Daniel Ben Hur and David Li",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2016 (winner, VR/AR Award)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Nature Abstraction",
+          "year": "2016",
+          "medium": "Virtual reality",
+          "where": "Lumen Prize 2016, winner, VR/AR Award",
+          "nature": [
+            "other: fractal planets"
+          ],
+          "why": "An immersive VR experience of three fractal planets (Birth, Communion, Aether) with scores for relaxation; fractals also processed through Google Deep Dream.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2016-winner/vrar-award-winner-2016"
+          ],
+          "id": "W287",
+          "status": "candidate",
+          "image": {
+            "file": "images/W287.jpg",
+            "page": "https://lumenprize.org/2016-winner/vrar-award-winner-2016",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/6606a62dde220053d806f982/6613a76f74c1c4241ded4393/1712564169079/Matteo-Zamagni-Birth-e1519304846796-1000x0-c-default.jpeg?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A149",
+      "artist": "boredomresearch",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2016 (winner, Moving Image Award)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "AfterGlow",
+          "year": "2016",
+          "medium": "Real-time generative artwork",
+          "where": "Lumen Prize 2016, winner, Moving Image Award",
+          "nature": [
+            "ecology",
+            "other: natural systems"
+          ],
+          "why": "Animate Projects commission funded by the Wellcome Trust; real-time artwork informed by scientific modelling of natural systems.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2016-winner/moving-image-award-winner-2016"
+          ],
+          "id": "W288",
+          "status": "candidate",
+          "image": {
+            "file": "images/W288.jpg",
+            "page": "https://lumenprize.org/2016-winner/moving-image-award-winner-2016",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/6606a62dde220053d806f982/6613a8a3396af0627ff48611/1712564510196/afterglow-1000x0-c-default.png?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A150",
+      "artist": "Sylvia Grace Borda and John M Lynch",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2016 (winner, Web-Based Award)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Farm Tableaux",
+          "year": "2015",
+          "medium": "Google Street View photography",
+          "where": "Lumen Prize 2016, winner, Web-Based Award",
+          "nature": [
+            "landscape",
+            "other: farming"
+          ],
+          "why": "Series of staged tableaux of farmers performing routine activities, explorable within Google Street View landscapes.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2016-winner/web-based-award-winner-2016"
+          ],
+          "id": "W289",
+          "status": "candidate",
+          "image": {
+            "file": "images/W289.jpg",
+            "page": "https://lumenprize.org/2016-winner/web-based-award-winner-2016",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/6606a62dde220053d806f982/6613a6abe736e841c34543a6/1712563975515/RondrisoFarms26-1000x0-c-default.jpeg?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A151",
+      "artist": "Andy Lomas",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2014 (winner, Gold Award)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Cellular Forms",
+          "year": "2014",
+          "medium": "Generative 3D simulation / video",
+          "where": "Lumen Prize 2014, winner, Gold Award",
+          "nature": [
+            "other: organic growth"
+          ],
+          "why": "Uses a simplified model of cell growth inspired by Turing, Haeckel and D'Arcy Thompson to generate three-dimensional structures.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2014-winners/gold-award-winner-2014"
+          ],
+          "id": "W290",
+          "status": "candidate",
+          "image": {
+            "file": "images/W290.jpg",
+            "page": "https://lumenprize.org/2014-winners/gold-award-winner-2014",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/6606a64556e8210d7b7f420d/6613b1afa42a333ee9f43de9/1712566807072/Screen-Shot-2017-11-09-at-18.24.07-1000x0-c-default+%281%29.png?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A152",
+      "artist": "Ginevra Boni",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2013 (winner, People's Choice Award)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Wilderness",
+          "year": "2013",
+          "medium": "Digital image",
+          "where": "Lumen Prize 2013, winner, People's Choice Award",
+          "nature": [
+            "flora",
+            "landscape"
+          ],
+          "why": "Digital image of a woman lying in grass, holding leaves. The Lumen page gives only the title and artist.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2013-winners/peoples-choice-award-winner-2013"
+          ],
+          "id": "W291",
+          "status": "candidate",
+          "image": {
+            "file": "images/W291.jpg",
+            "page": "https://lumenprize.org/2013-winners/peoples-choice-award-winner-2013",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/6606a6526927714ab67b4e1d/6613b2a91844ce6782720154/1712567010897/Wilderness-1000x0-c-default.jpeg?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A153",
+      "artist": "Eduardo Nava",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2016 (shortlist, Interactive)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "The Tree",
+          "year": "2016",
+          "medium": "Digital (category: Still image)",
+          "where": "Lumen Prize 2016, shortlist, Interactive",
+          "nature": [
+            "flora"
+          ],
+          "why": "On the 2016 Lumen shortlist; no description found yet.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://web.archive.org/web/20160914193345/http://lumenprize.com/newsarticle/2016-shortlist-announced"
+          ],
+          "id": "W292",
+          "status": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "A154",
+      "artist": "Caroline Ward, Squirrel Nation, Erinma Ochu and Louie O'Grady",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2016 (longlist)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Nature's Switch",
+          "year": "2016",
+          "medium": "",
+          "where": "Lumen Prize 2016, longlist",
+          "nature": [
+            "ecology"
+          ],
+          "why": "On the 2016 Lumen longlist; no description found yet.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://web.archive.org/web/20160819191034/http://lumenprize.com/newsarticle/2016-longlist-revealed"
+          ],
+          "id": "W293",
+          "status": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "A155",
+      "artist": "Wendy Wischer",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2016 (longlist)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Reversing Tides",
+          "year": "2016",
+          "medium": "",
+          "where": "Lumen Prize 2016, longlist",
+          "nature": [
+            "other: ocean"
+          ],
+          "why": "On the 2016 Lumen longlist; no description found yet.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://web.archive.org/web/20160819191034/http://lumenprize.com/newsarticle/2016-longlist-revealed"
+          ],
+          "id": "W294",
+          "status": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "A156",
+      "artist": "Kenji Williams",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2016 (longlist)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "BELLA GAIA Virtual Reality Experience",
+          "year": "2016",
+          "medium": "Virtual reality",
+          "where": "Lumen Prize 2016, longlist",
+          "nature": [
+            "landscape",
+            "other: Earth from space"
+          ],
+          "why": "On the 2016 Lumen longlist; no description found yet.",
+          "named_in_brief": false,
+          "verified": false,
+          "sources": [
+            "https://web.archive.org/web/20160819191034/http://lumenprize.com/newsarticle/2016-longlist-revealed"
+          ],
+          "id": "W295",
+          "status": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "A157",
+      "artist": "Thijs Biersteker",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2017 (winner, Gold Award (Interactive))",
+        "Lumen Prize 2022 (longlist, Futures Award)",
+        "Lumen Prize 2025 (finalist, Performance & Music)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Plastic Reflectic",
+          "year": "2017",
+          "medium": "Interactive installation",
+          "where": "Lumen Prize 2017, winner, Gold Award (Interactive)",
+          "nature": [
+            "ecology",
+            "other: ocean"
+          ],
+          "why": "Interactive installation that animates the plastic soup; viewers' plastic-use behaviour changes the display.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2017-winners/gold-award-2017"
+          ],
+          "id": "W296",
+          "status": "candidate",
+          "image": {
+            "file": "images/W296.jpg",
+            "page": "https://lumenprize.org/2017-winners/gold-award-2017",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/6606a61f74b40d6e9ec7613d/6613a464a949913cbc270764/1712563393741/Plastic-reflectic-interactive-installation-1000x0-c-default.jpeg?format=1500w"
+          }
+        },
+        {
+          "title": "Econtinuum",
+          "year": "2022",
+          "medium": "Interactive installation",
+          "where": "Lumen Prize 2022, longlist, Futures Award",
+          "nature": [
+            "flora",
+            "ecology"
+          ],
+          "why": "Tree roots communicate with visitors as if beneath their feet in a forest, inviting them into the ecosystem.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://web.archive.org/web/20230313212559/https://www.lumenprize.com/2022-futures-award-longlist"
+          ],
+          "id": "W297",
+          "status": "candidate",
+          "image": {
+            "file": "images/W297.jpg",
+            "page": "https://web.archive.org/web/20230313212559/https://www.lumenprize.com/2022-futures-award-longlist",
+            "url": "https://web.archive.org/web/20230313212559/https://images.squarespace-cdn.com/content/v1/5f60a71007b83749e747639c/b0b7a770-cf34-49be-9920-279622f41760/Econtiniuum+1.jpeg"
+          }
+        },
+        {
+          "title": "Memories of the Melted",
+          "year": "2025",
+          "medium": "generative model, performance, installation",
+          "where": "Lumen Prize 2025, finalist, Performance & Music Award",
+          "nature": [
+            "landscape",
+            "ecology",
+            "other: ice"
+          ],
+          "why": "A real-time model of the Rhône Glacier, from the 1890s to the 2100 forecast, projected on an ice-like slab that drips faster as the visitor raises the temperature. For the 2025 International Year of Glaciers.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2025-performance-music-award-finalists/thijsbiersteker"
+          ],
+          "id": "W298",
+          "status": "candidate",
+          "image": {
+            "file": "images/W298.jpg",
+            "page": "https://lumenprize.org/2025-performance-music-award-finalists/thijsbiersteker",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/6840357b48756e7b00439079/689ee21508290a7e5fea96de/1755244276910/54399842250_a7552e039e_o_jpg.jpeg?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A158",
+      "artist": "Damien Borowik",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2017 (shortlist, Still Image Award)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Cherry Blossom and Mountains",
+          "year": "2017",
+          "medium": "Acrylic ink marker drawing on paper, five layers, made with a handcrafted drawing machine",
+          "where": "Lumen Prize 2017, shortlist, Still Image Award",
+          "nature": [
+            "flora",
+            "landscape"
+          ],
+          "why": "Drawing made with one of the artist's handcrafted machines using acrylic ink markers; about 20 hours to make. Saatchi Art lists it as acrylic on paper.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://www.thenationalnews.com/arts-culture/art/the-2017-lumen-prize-for-digital-arts-shortlist-announced-1.625244",
+            "https://www.saatchiart.com/art/Painting-Cherry-Blossom-and-Mountains/918196/4102416/view"
+          ],
+          "id": "W299",
+          "status": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "A159",
+      "artist": "ITHACA",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2017 (shortlist, Placemaking Special Commendation Award)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "The Storm",
+          "year": "2017",
+          "medium": "Audio-reactive LED light installation",
+          "where": "Lumen Prize 2017, shortlist, Placemaking Special Commendation Award",
+          "nature": [
+            "weather"
+          ],
+          "why": "Audio-reactive light installation with sixteen feet of cloud covering billowing from ceiling to floor over 6,000 programmed LEDs.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://www.thenationalnews.com/arts-culture/art/the-2017-lumen-prize-for-digital-arts-shortlist-announced-1.625244"
+          ],
+          "id": "W300",
+          "status": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "A160",
+      "artist": "New Reality Company",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2018 (winner, XR (VR/AR) Award)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Tree",
+          "year": "2017",
+          "medium": "Location-based virtual reality experience",
+          "where": "Lumen Prize 2018, winner, XR (VR/AR) Award",
+          "nature": [
+            "flora"
+          ],
+          "why": "Viewer's arms become branches and body the trunk of a rainforest tree in VR.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2018-winners/new-reality-company"
+          ],
+          "id": "W301",
+          "status": "candidate",
+          "image": {
+            "file": "images/W301.jpg",
+            "page": "https://lumenprize.org/2018-winners/new-reality-company",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/6606a61178dd51369b416024/6606c11c6ab5be5c1c1cd31f/1711718821180/VR-AR-Award-Tree-1000x0-c-default.jpeg?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A161",
+      "artist": "Cesar & Lois",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2018 (winner, BCS Artificial Intelligence Award)",
+        "Lumen Prize 2025 (finalist, Nature & Climate)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Degenerative Cultures",
+          "year": "2018",
+          "medium": "Installation with living slime mould, AI",
+          "where": "Lumen Prize 2018, winner, BCS Artificial Intelligence Award",
+          "nature": [
+            "other: slime mould"
+          ],
+          "why": "Living slime mould consumes a physical book while an AI algorithm acting as a digital fungus corrupts online text. Shown in the Uncommon Natures exhibition, Brighton.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2018-winners/cesar-lois",
+            "https://brighton.ac.uk/about-us/news-and-events/news/2018/09-12-slime-mould-books-and-artificial-intelligence.aspx"
+          ],
+          "id": "W302",
+          "status": "candidate",
+          "image": {
+            "file": "images/W302.jpg",
+            "page": "https://lumenprize.org/2018-winners/cesar-lois",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/6606a61178dd51369b416024/6606c08ef1cf21462183357b/1711718676868/AI-Award-Degenerative-Cultures6-1000x0-c-default.jpeg?format=1500w"
+          }
+        },
+        {
+          "title": "Being hyphaenated (Ser hifanizado)",
+          "year": "",
+          "medium": "living sculpture, sensors",
+          "where": "Lumen Prize 2025, finalist, Nature & Climate Award",
+          "nature": [
+            "flora",
+            "ecology",
+            "other: fungi"
+          ],
+          "why": "An artwork-as-ecosystem: living beings and fungi connected through respiration and CO2 sensing.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2025-nature-climate-award-finalists/cesar-lois"
+          ],
+          "id": "W303",
+          "status": "candidate",
+          "image": {
+            "file": "images/W303.jpg",
+            "page": "https://lumenprize.org/2025-nature-climate-award-finalists/cesar-lois",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/684038978a3f7f160cac0b5b/689aee10425e456b6c31960a/1755245536891/01_being_hyphae_installation_shot_jpeg.jpeg?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A162",
+      "artist": "Felicity Hammond",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2018 (winner, Rapoport Award for Women in Digital Art)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "In Defence of Industry",
+          "year": "2018",
+          "medium": "Digital imagery",
+          "where": "Lumen Prize 2018, winner, Rapoport Award for Women in Digital Art",
+          "nature": [
+            "landscape"
+          ],
+          "why": "Examines the relationship between the region's industrial history and the wider Cumbrian landscape.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2018-winners/felicity-hammond"
+          ],
+          "id": "W304",
+          "status": "candidate",
+          "image": {
+            "file": "images/W304.jpg",
+            "page": "https://lumenprize.org/2018-winners/felicity-hammond",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/6606a61178dd51369b416024/6606bf529b14887c4bf6ecb3/1711718387167/Women-in-Digital-Award-InDefenceofIndustryweb-1-1000x0-c-default.jpeg?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A163",
+      "artist": "Baum & Leahy",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2019 (shortlist, 3D/Interactive Award)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Microbiocene",
+          "year": "2018-2019",
+          "medium": "3D-printed monument installation",
+          "where": "Lumen Prize 2019, shortlist, 3D/Interactive Award",
+          "nature": [
+            "other: microbes",
+            "other: sea sediment"
+          ],
+          "why": "Monument 3D-printed from sea sediment, made with the Royal Netherlands Institute for Sea Research, inscribed with a microbe-centric account of Earth's history.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://www.seditionart.com/magazine/lumen-prize-shortlist-2019",
+            "https://nextnature.net/2019/07/microbiocene"
+          ],
+          "id": "W305",
+          "status": "candidate",
+          "image": {
+            "file": "images/W305.jpg",
+            "page": "https://nextnature.net/2019/07/microbiocene",
+            "url": "https://cms.nextnature.net/media/pages/magazine/story/2019/microbiocene/48fa7caa59-1767880141/BaumLeahy_Microbiocene_3_2018.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A164",
+      "artist": "Fragmentin",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2019 (shortlist, 3D/Interactive Award)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Displuvium",
+          "year": "2019",
+          "medium": "Water installation with simulated rainfall",
+          "where": "Lumen Prize 2019, shortlist, 3D/Interactive Award",
+          "nature": [
+            "weather",
+            "other: water"
+          ],
+          "why": "Water-filled pool inspired by Roman atriums where visitors watch rainfall on the surface; about human attempts to control weather.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://www.seditionart.com/magazine/lumen-prize-shortlist-2019",
+            "https://refresh.zhdk.ch/refresh-2/exhibition/displivium/"
+          ],
+          "id": "W306",
+          "status": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "A165",
+      "artist": "Cassie McQuater",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2019 (winner, Moving Image Award)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Love Birds, Night Birds, Devil-Birds",
+          "year": "2019",
+          "medium": "Interactive video game installation",
+          "where": "Lumen Prize 2019, winner, Moving Image Award",
+          "nature": [
+            "fauna"
+          ],
+          "why": "Nonlinear fairy tale in game form.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2019-winners/cassie-mcquater"
+          ],
+          "id": "W307",
+          "status": "candidate",
+          "image": {
+            "file": "images/W307.jpg",
+            "page": "https://lumenprize.org/2019-winners/cassie-mcquater",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/6606a60245e66065f7018332/6606a79854ce2c5c31a17342/1711713340041/Love-Birds-Night-Birds-Devil-Birds-1000x0-c-default.jpeg?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A166",
+      "artist": "Daan Roosegaarde",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2021 (shortlist, 3D/Interactive Award)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "GROW",
+          "year": "2016-2021",
+          "medium": "Film of light installation over agricultural fields",
+          "where": "Lumen Prize 2021, shortlist, 3D/Interactive Award",
+          "nature": [
+            "flora",
+            "landscape"
+          ],
+          "why": "Lumen describes it as an homage to the beauty of agriculture, a film premiere showing red and blue waves of light over an enormous field.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://web.archive.org/web/20230512094101/https://www.lumenprize.com/2021-3d/interactive-shortlist"
+          ],
+          "id": "W308",
+          "status": "candidate",
+          "image": {
+            "file": "images/W308.jpg",
+            "page": "https://web.archive.org/web/20230512094101/https://www.lumenprize.com/2021-3d/interactive-shortlist",
+            "url": "https://web.archive.org/web/20230512094101/https://images.squarespace-cdn.com/content/v1/5f60a71007b83749e747639c/1629456523207-TLBN5SUBL5P1J92LTPT3/GROW+Daan+Roosegaarde+Lumen+Prize+2021.jpeg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A167",
+      "artist": "David Gumbs",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2021 (shortlist, Global South Award)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Blossoms",
+          "year": "2021",
+          "medium": "Interactive immersive video installation",
+          "where": "Lumen Prize 2021, shortlist, Global South Award",
+          "nature": [
+            "ecology",
+            "other: ocean"
+          ],
+          "why": "Interactive immersive video installation focused on the consequences of global warming for Caribbean island ecosystems and the threat of rising sea levels.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://web.archive.org/web/20220615031727/https://www.lumenprize.com/2021-global-south-shortlist"
+          ],
+          "id": "W309",
+          "status": "candidate",
+          "image": {
+            "file": "images/W309.jpg",
+            "page": "https://web.archive.org/web/20220615031727/https://www.lumenprize.com/2021-global-south-shortlist",
+            "url": "https://web.archive.org/web/20220615031727/https://images.squarespace-cdn.com/content/v1/5f60a71007b83749e747639c/1631262458352-AAHHHVGWV1U230TVT711/Blossoms+David+Gumbs+Lumen+Prize+2021.jpeg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A168",
+      "artist": "André Mestre and Felipe Otondo",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2021 (shortlist, Global South Award)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Soundlapse",
+          "year": "2021",
+          "medium": "Immersive sound installation",
+          "where": "Lumen Prize 2021, shortlist, Global South Award",
+          "nature": [
+            "ecology"
+          ],
+          "why": "An immersive installation designed to capture the passage of time and the sound of ecosystems at the edge of cities.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://web.archive.org/web/20220615031727/https://www.lumenprize.com/2021-global-south-shortlist"
+          ],
+          "id": "W310",
+          "status": "candidate",
+          "image": {
+            "file": "images/W310.jpg",
+            "page": "https://web.archive.org/web/20220615031727/https://www.lumenprize.com/2021-global-south-shortlist",
+            "url": "https://web.archive.org/web/20220615031727/https://images.squarespace-cdn.com/content/v1/5f60a71007b83749e747639c/1631260948898-L8MD7837FTIV5I9C7DFS/Soundlapse+2021+Lumen+Prize+Shortlist.jpeg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A169",
+      "artist": "DISNOVATION.ORG",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2022 (shortlist, Futures Award)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Life Support System",
+          "year": "2021",
+          "medium": "Installation, automated cultivation, LED grow lights, live stream, software",
+          "where": "Lumen Prize 2022, shortlist, Futures Award",
+          "nature": [
+            "flora",
+            "ecology"
+          ],
+          "why": "Ecosystem services estimation experiment: an installation with automated plant cultivation that estimates orders of magnitude of ecosystem services supporting planetary life processes.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://web.archive.org/web/20230803211220/https://www.lumenprize.com/2022-futures-award-shortlist",
+            "https://lss.earth"
+          ],
+          "id": "W311",
+          "status": "candidate",
+          "image": {
+            "file": "images/W311.jpg",
+            "page": "https://web.archive.org/web/20230313212559/https://www.lumenprize.com/2022-futures-award-longlist",
+            "url": "https://web.archive.org/web/20230313212559/https://images.squarespace-cdn.com/content/v1/5f60a71007b83749e747639c/ecbadff8-914e-4ad7-a5c5-8d79b9184504/Life+Support+System+1.jpeg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A170",
+      "artist": "Kofele Community, Hussein Watta, Sylvia Grace Borda & J. Keith Donnelly",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2022 (shortlist, Futures Award)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Living Earth Climate Observation Artworks",
+          "year": "2022",
+          "medium": "Earth observation artworks made of tree seedlings, tracked by satellite",
+          "where": "Lumen Prize 2022, shortlist, Futures Award",
+          "nature": [
+            "flora",
+            "landscape",
+            "ecology"
+          ],
+          "why": "Artists and the Oromo community in Ethiopia make earth-observation artworks from tree seedlings, tracked by satellites and monitored by the community on Google Earth.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://web.archive.org/web/20230803211220/https://www.lumenprize.com/2022-futures-award-shortlist"
+          ],
+          "id": "W312",
+          "status": "candidate",
+          "image": {
+            "file": "images/W312.jpg",
+            "page": "https://web.archive.org/web/20230313212559/https://www.lumenprize.com/2022-futures-award-longlist",
+            "url": "https://web.archive.org/web/20230313212559/https://images.squarespace-cdn.com/content/v1/5f60a71007b83749e747639c/193830c5-f65a-4e34-8c0c-15a6f1008053/Living+Earth+Climate+Observation+Artworks+1.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A171",
+      "artist": "Michael Sedbon",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2022 (shortlist, Futures Award)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Cryptographic Beings",
+          "year": "2022",
+          "medium": "Living algae, digital data storage",
+          "where": "Lumen Prize 2022, shortlist, Futures Award",
+          "nature": [
+            "flora",
+            "other: algae"
+          ],
+          "why": "Uses the algae's light-dependent floating and sinking behaviour, reduced to binary states, to store digital data on vegetal media.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://web.archive.org/web/20230803211220/https://www.lumenprize.com/2022-futures-award-shortlist"
+          ],
+          "id": "W313",
+          "status": "candidate",
+          "image": {
+            "file": "images/W313.jpg",
+            "page": "https://web.archive.org/web/20230313212559/https://www.lumenprize.com/2022-futures-award-longlist",
+            "url": "https://web.archive.org/web/20230313212559/https://images.squarespace-cdn.com/content/v1/5f60a71007b83749e747639c/2215c70a-c0b7-4124-a808-3844b8dc3fc3/Cryptographic+Beings.jpeg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A172",
+      "artist": "Rian Ciela Hammond",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2022 (shortlist, Moving Image Award)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Root Picker",
+          "year": "2022",
+          "medium": "Video, shown with a bioreactor of wetland fungal cultures",
+          "where": "Lumen Prize 2022, shortlist, Moving Image Award",
+          "nature": [
+            "flora",
+            "other: fungi",
+            "ecology"
+          ],
+          "why": "A queer nature documentary shown with a bioreactor incubating wetland fungal cultures that transform steroids from wild yams into hormones.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://web.archive.org/web/2023/https://www.lumenprize.com/2022-moving-image-award-shortlist",
+            "https://rianhammond.com/rootp.html"
+          ],
+          "id": "W314",
+          "status": "candidate",
+          "image": {
+            "file": "images/W314.jpg",
+            "page": "https://rianhammond.com/rootp.html",
+            "url": "https://rianhammond.com/img/rootp/rp1.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A173",
+      "artist": "Audrey Briot",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2022 (longlist, 3D/Interactive Award)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Stymphalian Birds",
+          "year": "2022",
+          "medium": "Haptic/sound installation with feathers",
+          "where": "Lumen Prize 2022, longlist, 3D/Interactive Award",
+          "nature": [
+            "fauna"
+          ],
+          "why": "Complex haptic interactions with feathers are sonified, combining traditional handcrafts, digital technologies, chemical processes and natural elements.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://web.archive.org/web/20220802193557/https://www.lumenprize.com/20223d/interactive-award-longlist"
+          ],
+          "id": "W315",
+          "status": "candidate",
+          "image": {
+            "file": "images/W315.jpg",
+            "page": "https://web.archive.org/web/20220802193557/https://www.lumenprize.com/20223d/interactive-award-longlist",
+            "url": "https://web.archive.org/web/20220802193557/https://images.squarespace-cdn.com/content/v1/5f60a71007b83749e747639c/1658081961909-O5AZ736S1VOOHDM00CBB/Stymphalian+Birds.jpeg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A174",
+      "artist": "Theresa Schubert",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2022 (longlist, 3D/Interactive Award)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Hylē",
+          "year": "2022",
+          "medium": "Real-time WebGL point clouds with algae sensor data",
+          "where": "Lumen Prize 2022, longlist, 3D/Interactive Award",
+          "nature": [
+            "flora",
+            "other: algae",
+            "landscape"
+          ],
+          "why": "Real-time rendered point clouds of a supercomputing centre and a forest, interfaced with algae sensor data.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://web.archive.org/web/20220802193557/https://www.lumenprize.com/20223d/interactive-award-longlist",
+            "https://www.theresaschubert.com/hyle-longlisted-for-the-lumen-art-award-22/"
+          ],
+          "id": "W316",
+          "status": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "A175",
+      "artist": "Liz Waugh McManus, Kristine Diekman & Lisa Mansfield",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2022 (longlist, 3D/Interactive Award)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "1.5 Degrees of Concern",
+          "year": "2022",
+          "medium": "Interactive sonic narrative with embodied interaction",
+          "where": "Lumen Prize 2022, longlist, 3D/Interactive Award",
+          "nature": [
+            "ecology"
+          ],
+          "why": "Interactive sonic narrative about historical and speculative climate crises, creating dialogues between past, present and future worlds.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://web.archive.org/web/20220802193557/https://www.lumenprize.com/20223d/interactive-award-longlist"
+          ],
+          "id": "W317",
+          "status": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "A176",
+      "artist": "Dorsey Kaufmann",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2022 (longlist, 3D/Interactive Award)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Ripple Effect",
+          "year": "2022",
+          "medium": "Installation with water, light and sound",
+          "where": "Lumen Prize 2022, longlist, 3D/Interactive Award",
+          "nature": [
+            "other: water",
+            "ecology"
+          ],
+          "why": "Reveals water contamination by making water vibrate with sound and light according to chemical concentrations detected in a community's water.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://web.archive.org/web/20220802193557/https://www.lumenprize.com/20223d/interactive-award-longlist"
+          ],
+          "id": "W318",
+          "status": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "A177",
+      "artist": "Glenn Marshall",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2022 (longlist, Moving Image Award)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "The Crow",
+          "year": "2022",
+          "medium": "AI-generated animation",
+          "where": "Lumen Prize 2022, longlist, Moving Image Award",
+          "nature": [
+            "fauna",
+            "landscape"
+          ],
+          "why": "AI transforms a dancer into a crow that moves through a barren landscape to its death.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://web.archive.org/web/20220728071936/https://www.lumenprize.com/2022-moving-image-award-longlist"
+          ],
+          "id": "W319",
+          "status": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "A178",
+      "artist": "Dillon Marsh",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2022 (winner, Still Image Award)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "For What It's Worth",
+          "year": "2021-2022",
+          "medium": "Photography and CGI",
+          "where": "Lumen Prize 2022, winner, Still Image Award",
+          "nature": [
+            "landscape"
+          ],
+          "why": "Photographs of copper mines in South Africa with rendered spheres showing the scaled copper mass removed from each.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2022-winners/still-image-award-winner",
+            "https://dillonmarsh.com"
+          ],
+          "id": "W320",
+          "status": "candidate",
+          "image": {
+            "file": "images/W320.jpg",
+            "page": "https://lumenprize.org/2022-winners/still-image-award-winner",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/65f468294aefd72cc72f3bfe/65f468dc3dab887eb0035181/1710518530915/ookiep_mine_jpg.jpeg?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A179",
+      "artist": "Gong Yining and Sun Aijia",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2022 (winner, HUA Award)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Melting Myth",
+          "year": "2022",
+          "medium": "Documentation and experimentation, interactive",
+          "where": "Lumen Prize 2022, winner, HUA Award",
+          "nature": [
+            "flora"
+          ],
+          "why": "Explores the melting boundaries between nature and industry, with plants as a response to the spread of civilization.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2022-winners/hua-award-winner"
+          ],
+          "id": "W321",
+          "status": "candidate",
+          "image": {
+            "file": "images/W321.jpg",
+            "page": "https://lumenprize.org/2022-winners/hua-award-winner",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/65f468294aefd72cc72f3bfe/65f468ddccfa556f05212f87/1710517434094/Melting%2BMyth.png?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A180",
+      "artist": "Maximilian Seeger",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2022 (winner, Student Award)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Jewels of the Sea",
+          "year": "2022",
+          "medium": "Generative 3D models, interactive",
+          "where": "Lumen Prize 2022, winner, Student Award",
+          "nature": [
+            "other: diatoms"
+          ],
+          "why": "Generatively calculates 3D models of diatoms and lets viewers explore them interactively.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2022-winners/hua-award"
+          ],
+          "id": "W322",
+          "status": "candidate",
+          "image": {
+            "file": "images/W322.jpg",
+            "page": "https://lumenprize.org/2022-winners/hua-award",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/65f468294aefd72cc72f3bfe/65f468df97b2e127a5504139/1710517355088/Jewels%2BOf%2Bthe%2BSea.png?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A181",
+      "artist": "Sophia Ioannou Gjerding",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2022 (winner, Nordic Award)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Homage to Airway",
+          "year": "2022",
+          "medium": "Image-based work",
+          "where": "Lumen Prize 2022, winner, Nordic Award",
+          "nature": [
+            "fauna"
+          ],
+          "why": "Starts from a 1920s photograph of Airway, a dog who was part pet, part lab animal to two anesthesiologists. Focus is on the status of images.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2022-winners/nordic-award-winner"
+          ],
+          "id": "W323",
+          "status": "candidate",
+          "image": {
+            "file": "images/W323.jpg",
+            "page": "https://lumenprize.org/2022-winners/nordic-award-winner",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/65f468294aefd72cc72f3bfe/65f468d20fe9c976804e0ded/1710518897526/Homage%2Bto%2BAirway.jpeg?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A182",
+      "artist": "Gaëtan Robillard",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2023 (winner, BCS Futures Award)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Critical Climate Machine",
+          "year": "2023",
+          "medium": "Data sculpture and sound installation",
+          "where": "Lumen Prize 2023, winner, BCS Futures Award",
+          "nature": [
+            "ecology",
+            "weather"
+          ],
+          "why": "Quantifies and reveals mechanisms of misinformation about global warming through data sculpture and sound.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2023-winners/2023-bcs-futures-award-winner"
+          ],
+          "id": "W324",
+          "status": "candidate",
+          "image": {
+            "file": "images/W324.jpg",
+            "page": "https://lumenprize.org/2023-winners/2023-bcs-futures-award-winner",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/65f2d261541a067a866ce38d/65f46053b4f1866650675945/1732198453764/Critical%2BClimate%2Bby%2BMachine%2BGae%CC%88tan%2BRobillard+%286%29.jpeg?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A183",
+      "artist": "UchanSun",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2023 (winner, Student Award)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Hyborg Agency",
+          "year": "2023",
+          "medium": "Interactive installation, online",
+          "where": "Lumen Prize 2023, winner, Student Award",
+          "nature": [
+            "flora",
+            "landscape"
+          ],
+          "why": "Interactive installation featuring an immersive online forest linked to a Discord community, a parallel world for AI agents driven by large language models.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2023-winners/2023-student-award-winner"
+          ],
+          "id": "W325",
+          "status": "candidate",
+          "image": {
+            "file": "images/W325.jpg",
+            "page": "https://lumenprize.org/2023-winners/2023-student-award-winner",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/65f2d261541a067a866ce38d/65f4608ba744b93567111d91/1732198439835/Hyborg%2BAgency+%285%29.png?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A184",
+      "artist": "Alice Bucknell",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2023 (shortlist)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "The Alluvials (Chapter 1: California pilled)",
+          "year": "2023",
+          "medium": "4K video and game, Unreal Engine, GTA 5 modding, Stable Diffusion",
+          "where": "Lumen Prize 2023, shortlist",
+          "nature": [
+            "ecology",
+            "fauna",
+            "landscape"
+          ],
+          "why": "Film and video game in which more-than-human characters including the LA River and P-22 explore water scarcity and the terraformed environment of Los Angeles.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://www.annkakultys.com/phygital/lumen-prize-shortlisted-artists-2023/"
+          ],
+          "id": "W326",
+          "status": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "A185",
+      "artist": "Axl Le",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2023 (shortlist)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "The Six Realms of Reincarnation (六道轮回图)",
+          "year": "2023",
+          "medium": "Video, Cinema 4D, Octane",
+          "where": "Lumen Prize 2023, shortlist",
+          "nature": [
+            "landscape",
+            "fauna"
+          ],
+          "why": "Fuses ecological themes with the six Buddhist realms in six vertically arranged windows of imagined worlds.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://www.annkakultys.com/phygital/lumen-prize-shortlisted-artists-2023/"
+          ],
+          "id": "W327",
+          "status": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "A186",
+      "artist": "Bridget DeFranco",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2023 (shortlist)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Eco logical system 01",
+          "year": "2021",
+          "medium": "Real-time generative video game system, Maya, Unity",
+          "where": "Lumen Prize 2023, shortlist",
+          "nature": [
+            "ecology",
+            "flora",
+            "fauna"
+          ],
+          "why": "Infinite-duration game where each organism sprite has a lifespan, population input and output, as an ecosystem.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://www.annkakultys.com/phygital/lumen-prize-shortlisted-artists-2023/"
+          ],
+          "id": "W328",
+          "status": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "A187",
+      "artist": "Kim Laybourn",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2023 (shortlist)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "The Animate Landscape",
+          "year": "2023",
+          "medium": "Video, field recordings with Blender 3D animation",
+          "where": "Lumen Prize 2023, shortlist",
+          "nature": [
+            "landscape",
+            "flora"
+          ],
+          "why": "Pairs full-resolution field recordings of natural environments with 3D animation in which moss and plants move, treating the landscape as main character.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://www.annkakultys.com/phygital/lumen-prize-shortlisted-artists-2023/"
+          ],
+          "id": "W329",
+          "status": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "A188",
+      "artist": "Kyle McDonald",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2023 (shortlist)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Amends",
+          "year": "2022-2023",
+          "medium": "Website and NFTs of three glass sculptures",
+          "where": "Lumen Prize 2023, shortlist",
+          "nature": [
+            "ecology",
+            "other: soil"
+          ],
+          "why": "Three hand-crafted glass blocks filled with carbon-removal materials, priced to match the carbon debt of NFT marketplaces; partnered with Nori, Tradewater and Project Vesta.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://www.annkakultys.com/phygital/lumen-prize-shortlisted-artists-2023/",
+            "https://amends.pages.dev"
+          ],
+          "id": "W330",
+          "status": "candidate",
+          "image": {
+            "file": "images/W330.jpg",
+            "page": "https://amends.pages.dev",
+            "url": "https://amends.pages.dev/images/card.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A189",
+      "artist": "Aiwen Ding and Zhi Geng",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2026 (finalist, Legacy Futures)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Throat of the Wind (风喉)",
+          "year": "",
+          "medium": "site-specific sound installation",
+          "where": "Lumen Prize 2026, finalist, Legacy Futures Award",
+          "nature": [
+            "landscape",
+            "weather"
+          ],
+          "why": "Sound installation built from a discarded wind turbine blade at Anguli Nao, a lake on the North China plateau that dried up by 2004 after one of China's early wind power projects was built there.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2026-legacy-future-finalists/aiwen-ding-and-zhi-geng"
+          ],
+          "id": "W331",
+          "status": "candidate",
+          "image": {
+            "file": "images/W331.jpg",
+            "page": "https://lumenprize.org/2026-legacy-future-finalists/aiwen-ding-and-zhi-geng",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/6a3933444365927d1bd71e0f/6a6338529a31ba3563e33dd6/1789390328747/AIWEN+DING+-+%E9%A3%8E%E5%96%89+Throat+of+the+Wind+2.jpeg?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A190",
+      "artist": "Antigoni Tsagkaropoulou",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2026 (finalist, Legacy Futures)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "In The Wild",
+          "year": "",
+          "medium": "video installation with a living aquatic ecosystem",
+          "where": "Lumen Prize 2026, finalist, Legacy Futures Award",
+          "nature": [
+            "ecology",
+            "flora",
+            "other: water"
+          ],
+          "why": "An 18-minute film shown inside a walk-through wetland of living plants, modelled on the Kalochori Wetland, the Axios Delta and the Ballona Wetlands where it was shot. Premiered at the 9th Thessaloniki Biennale.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2026-legacy-future-finalists/antigoni-tsagkaropoulou"
+          ],
+          "id": "W332",
+          "status": "candidate",
+          "image": {
+            "file": "images/W332.jpg",
+            "page": "https://lumenprize.org/2026-legacy-future-finalists/antigoni-tsagkaropoulou",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/6a3933444365927d1bd71e0f/6a6230e442212f0ca3a9937a/1787054716544/Antigoni+Tsagkaropoulou+-+In+The+Wild+2+%282%29.jpeg?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A191",
+      "artist": "Benjamin Bardou",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2026 (finalist, Legacy Futures)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Memory of Brittany No.2",
+          "year": "",
+          "medium": "volumetric video, point clouds",
+          "where": "Lumen Prize 2026, finalist, Legacy Futures Award",
+          "nature": [
+            "landscape"
+          ],
+          "why": "The memory of a place in Brittany, recalled through volumetric video and point clouds.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2026-legacy-future-finalists/benjamin-bardou"
+          ],
+          "id": "W333",
+          "status": "candidate",
+          "image": {
+            "file": "images/W333.jpg",
+            "page": "https://lumenprize.org/2026-legacy-future-finalists/benjamin-bardou",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/6a3933444365927d1bd71e0f/6a622f9a6987392bca486577/1787054721959/Benjamin+Bardou+-+Memory+of+Brittany+No.2+3.jpeg?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A192",
+      "artist": "Kordae Jatafa Henry",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2026 (finalist, Legacy Futures)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "IF NOT NOW",
+          "year": "",
+          "medium": "speculative short film, expanded cinema",
+          "where": "Lumen Prize 2026, finalist, Legacy Futures Award",
+          "nature": [
+            "ecology",
+            "landscape"
+          ],
+          "why": "Film set at the threshold of ecological collapse; landscape, animal traces and weather patterns run through a father and son's ritual for survival.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2026-legacy-future-finalists/kordae-jatafa-henry"
+          ],
+          "id": "W334",
+          "status": "candidate",
+          "image": {
+            "file": "images/W334.jpg",
+            "page": "https://lumenprize.org/2026-legacy-future-finalists/kordae-jatafa-henry",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/6a3933444365927d1bd71e0f/6a6228ce8cea607c38ddd74d/1789390400859/Kordae+Henry+-+IF+NOT+NOW+1.png?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A193",
+      "artist": "Ryuta Aoki",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2026 (finalist, Legacy Futures)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Alternative Computations: Worlds Otherwise Calculated",
+          "year": "",
+          "medium": "installation, sound",
+          "where": "Lumen Prize 2026, finalist, Legacy Futures Award",
+          "nature": [
+            "weather",
+            "flora"
+          ],
+          "why": "Quantum noise falls as rain in an installation of tatami and reeds, with rods tracing the 28 Lunar Mansions; a sonic ecology restarts every 28 minutes.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2026-legacy-future-finalists/ryuta-aoki"
+          ],
+          "id": "W335",
+          "status": "candidate",
+          "image": {
+            "file": "images/W335.jpg",
+            "page": "https://lumenprize.org/2026-legacy-future-finalists/ryuta-aoki",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/6a3933444365927d1bd71e0f/6a60e3387b7cb36406a1a3d5/1789390423542/Ryuta+Aoki+-+Alternative+Computations+%E2%80%94+Worlds+Otherwise+Calculated+_files.jpeg?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A194",
+      "artist": "Dotdotdot",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2026 (finalist, Systems & Structures)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Sea Oasis: Survival Architecture",
+          "year": "2025",
+          "medium": "installation, 3D-printed reef structures, generative AI",
+          "where": "Lumen Prize 2026, finalist, Systems & Structures Award",
+          "nature": [
+            "ecology",
+            "other: marine / coral reef"
+          ],
+          "why": "Made with University of Padua researchers working on marine restoration in the Venice Lagoon: generative AI predicts the ecological effect of reef restoration. Shown at the 2025 Venice Architecture Biennale.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2026-systems-and-structures/dotdotdot"
+          ],
+          "id": "W336",
+          "status": "candidate",
+          "image": {
+            "file": "images/W336.jpg",
+            "page": "https://lumenprize.org/2026-systems-and-structures/dotdotdot",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/6a39346dd92b362bd3420dc4/6a677e102737eb6425e32c4e/1791294205664/Dotdotdot-+Sea+Oasis+-+Survival+Architecture3.jpeg?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A195",
+      "artist": "MindPalace",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2026 (finalist, Systems & Structures)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "The Breath of Mother India",
+          "year": "",
+          "medium": "agent-based simulation",
+          "where": "Lumen Prize 2026, finalist, Systems & Structures Award",
+          "nature": [
+            "ecology",
+            "other: air"
+          ],
+          "why": "A physarum swarm shaped like India that feeds on eleven years of PM2.5 air pollution readings and burns brighter as the air gets worse.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2026-systems-and-structures/mindpalace"
+          ],
+          "id": "W337",
+          "status": "candidate",
+          "image": {
+            "file": "images/W337.jpg",
+            "page": "https://lumenprize.org/2026-systems-and-structures/mindpalace",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/6a39346dd92b362bd3420dc4/6a677c73803e587aeaac0f0b/1787580069596/R+Venkatraman+-+The+Breath+of+Mother+India+.jpeg?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A196",
+      "artist": "X. A. Li",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2026 (finalist, Systems & Structures)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "In Satiation",
+          "year": "",
+          "medium": "multi-channel site-responsive video installation",
+          "where": "Lumen Prize 2026, finalist, Systems & Structures Award",
+          "nature": [
+            "landscape"
+          ],
+          "why": "Patches of ground filmed across the American desert, where light, wind and insects slowly move, processed by a machine learning pipeline into real estate copy.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2026-systems-and-structures/x-a-li"
+          ],
+          "id": "W338",
+          "status": "candidate",
+          "image": {
+            "file": "images/W338.jpg",
+            "page": "https://lumenprize.org/2026-systems-and-structures/x-a-li",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/6a39346dd92b362bd3420dc4/6a6777f0667268660071b49b/1787580124013/xali_insatiation_01.jpeg?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A197",
+      "artist": "Edward Burtynsky and Alkan Avcıoğlu",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "Alkan Avcıoğlu is set to out on his own; this is a collaboration with Edward Burtynsky.",
+      "via_shows": [
+        "Lumen Prize 2026 (finalist, Systems & Structures)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Hypertopographics",
+          "year": "",
+          "medium": "series",
+          "where": "Lumen Prize 2026, finalist, Systems & Structures Award",
+          "nature": [
+            "landscape",
+            "ecology"
+          ],
+          "why": "Images of landscapes shaped by industrial production, extraction and computation rather than by nature.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2026-systems-and-structures/edward-burtynsky-alkan-avcolu"
+          ],
+          "id": "W339",
+          "status": "candidate",
+          "image": {
+            "file": "images/W339.jpg",
+            "page": "https://lumenprize.org/2026-systems-and-structures/edward-burtynsky-alkan-avcolu",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/6a39346dd92b362bd3420dc4/6a6749927c55fb069853bc7d/1787580175519/Alkan+Avc%C4%B1og%CC%86lu-+Hypertopographics+.jpeg?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A198",
+      "artist": "SIOUMING WU",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2026 (finalist, Systems & Structures)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Red",
+          "year": "",
+          "medium": "immersive audiovisual installation",
+          "where": "Lumen Prize 2026, finalist, Systems & Structures Award",
+          "nature": [
+            "ecology"
+          ],
+          "why": "Taiwan's real-time environmental radiation monitoring data turned into spatial sound and light that shifts between red and green.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2026-systems-and-structures/siouming-wu"
+          ],
+          "id": "W340",
+          "status": "candidate",
+          "image": {
+            "file": "images/W340.jpg",
+            "page": "https://lumenprize.org/2026-systems-and-structures/siouming-wu",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/6a39346dd92b362bd3420dc4/6a677a82b90fe55784697cc5/1789745568615/SIOUMING+WU-++Red+2.jpeg?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A199",
+      "artist": "Jules + Mungi",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2026 (finalist, Systems & Structures)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Birds",
+          "year": "",
+          "medium": "participatory on-chain installation",
+          "where": "Lumen Prize 2026, finalist, Systems & Structures Award",
+          "nature": [
+            "fauna"
+          ],
+          "why": "A network of 100 Birds that migrate between Homes, Away states and Sanctuaries as viewers observe them on Ethereum; after one million observations the Birds leave for good.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2026-systems-and-structures/jules-mungi"
+          ],
+          "id": "W341",
+          "status": "candidate",
+          "image": {
+            "file": "images/W341.jpg",
+            "page": "https://lumenprize.org/2026-systems-and-structures/jules-mungi",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/6a39346dd92b362bd3420dc4/6a6776f5928ae57491e97c00/1790252365257/2026+finalists+%281%29.png?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A200",
+      "artist": "Theo Triantafyllidis",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2026 (finalist, Systems & Structures)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Drift Lattice",
+          "year": "",
+          "medium": "real-time simulation",
+          "where": "Lumen Prize 2026, finalist, Systems & Structures Award",
+          "nature": [
+            "fauna",
+            "ecology",
+            "other: ocean"
+          ],
+          "why": "An underwater ecosystem of crabs, fish, diving birds, seaweed and plastic debris, driven by real-time data from climate and ocean monitoring networks.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2026-systems-and-structures/theo-triantafyllidis"
+          ],
+          "id": "W342",
+          "status": "candidate",
+          "image": {
+            "file": "images/W342.jpg",
+            "page": "https://lumenprize.org/2026-systems-and-structures/theo-triantafyllidis",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/6a39346dd92b362bd3420dc4/6a6744706d47936d3eed1f07/1787580220279/Theo+Triantafyllidis-+Drift+Lattice+2.jpeg?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A201",
+      "artist": "Superflux",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2026 (finalist, Systems & Structures)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Nobody Told Me Rivers Dream",
+          "year": "",
+          "medium": "speculative sensors, installation",
+          "where": "Lumen Prize 2026, finalist, Systems & Structures Award",
+          "nature": [
+            "ecology",
+            "other: water"
+          ],
+          "why": "Speculative sensors attend to the River Thames as a source of ecological intelligence: the river prompts the humans.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2026-systems-and-structures/superflux"
+          ],
+          "id": "W343",
+          "status": "candidate",
+          "image": {
+            "file": "images/W343.jpg",
+            "page": "https://lumenprize.org/2026-systems-and-structures/superflux",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/6a39346dd92b362bd3420dc4/6a67329ce599ed7f809380f7/1787580245915/Superflux-+Nobody+Told+Me+Rivers+Dream+3.jpeg?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A202",
+      "artist": "Shaheer Tarar",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2026 (finalist, Systems & Structures)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "(moth) in relay",
+          "year": "",
+          "medium": "live net art, https://moth-in-relay.net",
+          "where": "Lumen Prize 2026, finalist, Systems & Structures Award",
+          "nature": [
+            "fauna"
+          ],
+          "why": "The moth found in the Harvard Mark II relay in 1947, the first computer 'bug', reanimated to fly across data centres, cable landing stations and hyperlinks.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2026-systems-and-structures/shaheer-tarar",
+            "https://moth-in-relay.net/"
+          ],
+          "id": "W344",
+          "status": "candidate",
+          "image": {
+            "file": "images/W344.jpg",
+            "page": "https://lumenprize.org/2026-systems-and-structures/shaheer-tarar",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/6a39346dd92b362bd3420dc4/6a67309f3dc9b6631c6c1b85/1789997117212/Shaheer+Tarar-+%28moth%29+in+relay+2.png?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A203",
+      "artist": "Peijing Mou",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2026 (finalist, Systems & Structures)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Trout Telephone",
+          "year": "",
+          "medium": "telematic installation",
+          "where": "Lumen Prize 2026, finalist, Systems & Structures Award",
+          "nature": [
+            "fauna",
+            "ecology",
+            "other: water"
+          ],
+          "why": "A communication system for rainbow trout and steelhead cut off from each other by Devil's Gate Dam in the Arroyo Seco watershed, Los Angeles.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2026-systems-and-structures/peijing-mou"
+          ],
+          "id": "W345",
+          "status": "candidate",
+          "image": {
+            "file": "images/W345.jpg",
+            "page": "https://lumenprize.org/2026-systems-and-structures/peijing-mou",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/6a39346dd92b362bd3420dc4/6a672fbae65ccc60973cb8e0/1787580273542/Peijing+Mou+-+Trout+Telephone+2.png?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A204",
+      "artist": "Maria Kuptsova and Sergey Kostyrko",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2026 (finalist, Systems & Structures)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "AEVUM",
+          "year": "",
+          "medium": "bioreactor installation, real-time audiovisual",
+          "where": "Lumen Prize 2026, finalist, Systems & Structures Award",
+          "nature": [
+            "other: living organism"
+          ],
+          "why": "The slime mould Physarum polycephalum, grown in a bioreactor, acts as the computer that composes the sound and image.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2026-systems-and-structures/maria-kuptsova-and-sergey-kostyrko"
+          ],
+          "id": "W346",
+          "status": "candidate",
+          "image": {
+            "file": "images/W346.jpg",
+            "page": "https://lumenprize.org/2026-systems-and-structures/maria-kuptsova-and-sergey-kostyrko",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/6a39346dd92b362bd3420dc4/6a636fbc954f9b24f11b8172/1787580295828/Maria+Kuptsova+-+AEVUM+3.jpeg?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A205",
+      "artist": "Lukas Truniger and Bruce Yoder",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2026 (finalist, Experiential Innovation)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Implausible rainbows: an exercise in skyscaping",
+          "year": "",
+          "medium": "light and sound installation",
+          "where": "Lumen Prize 2026, finalist, Experiential Innovation Award",
+          "nature": [
+            "weather",
+            "other: sky"
+          ],
+          "why": "Synthetic rainbows, halos and coronae made with collimated light and optics, moving slowly through the room.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2026-experiential-innovation/lukas-truniger-bruce-yoder"
+          ],
+          "id": "W347",
+          "status": "candidate",
+          "image": {
+            "file": "images/W347.jpg",
+            "page": "https://lumenprize.org/2026-experiential-innovation/lukas-truniger-bruce-yoder",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/6a3934ad6efaa56d33230ab1/6a68b72c43fb246c46216d16/1787054887462/Lukas+Truniger+-+Implausible+rainbows-+an+exercise+in+skyscaping+2.jpeg?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A206",
+      "artist": "Sumio Kobayashi",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2026 (finalist, Experiential Innovation)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Aquatic Score for a Performing Goldfish",
+          "year": "",
+          "medium": "computer vision, piano",
+          "where": "Lumen Prize 2026, finalist, Experiential Innovation Award",
+          "nature": [
+            "fauna",
+            "other: water"
+          ],
+          "why": "A goldfish swims over a score placed under water; when it touches a note, the computer plays it.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2026-experiential-innovation/sumio-kobayashi"
+          ],
+          "id": "W348",
+          "status": "candidate",
+          "image": {
+            "file": "images/W348.jpg",
+            "page": "https://lumenprize.org/2026-experiential-innovation/sumio-kobayashi",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/6a3934ad6efaa56d33230ab1/6a68a3910a9886657a3ec4d5/1787055130259/2026+finalists+%289%29.png?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A207",
+      "artist": "Claudia Bueno",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2026 (finalist, Experiential Innovation)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Pulse",
+          "year": "",
+          "medium": "light installation, 60 illuminated glass panels",
+          "where": "Lumen Prize 2026, finalist, Experiential Innovation Award",
+          "nature": [
+            "flora",
+            "fauna",
+            "other: marine / coral reef"
+          ],
+          "why": "Aquarium-like installation at Meow Wolf's Omega Mart, Las Vegas: hand-drawn nautilus spirals, coral, vines and plants that sway and pulse in light.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2026-experiential-innovation/claudia-bueno"
+          ],
+          "id": "W349",
+          "status": "candidate",
+          "image": {
+            "file": "images/W349.jpg",
+            "page": "https://lumenprize.org/2026-experiential-innovation/claudia-bueno",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/6a3934ad6efaa56d33230ab1/6a689ad729aa7d43c2a8f436/1787055195572/Claudia+Bueno-+Pulse.jpeg?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A208",
+      "artist": "Simon Lazarus",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2026 (finalist, Experiential Innovation)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "DIYAUTO ORCHESTRA",
+          "year": "",
+          "medium": "generative audiovisual mural, biomaterial instruments",
+          "where": "Lumen Prize 2026, finalist, Experiential Innovation Award",
+          "nature": [
+            "other: living organism"
+          ],
+          "why": "Sculpture-instruments made with living micro-organisms played alongside generative code. With musician S8jfou.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2026-experiential-innovation/simon-lazarus-84"
+          ],
+          "id": "W350",
+          "status": "candidate",
+          "image": {
+            "file": "images/W350.jpg",
+            "page": "https://lumenprize.org/2026-experiential-innovation/simon-lazarus-84",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/6a3934ad6efaa56d33230ab1/6a6899b1dbf85a39f54fd457/1787055200487/Simon+Lazarus-+DIYAUTO+ORCHESTRA+3.png?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A209",
+      "artist": "Susanne Fagerlund",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2025 (finalist, Still Image)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Specimen #1 - #6",
+          "year": "2023",
+          "medium": "digital images",
+          "where": "Lumen Prize 2025, finalist, Still Image Award",
+          "nature": [
+            "fauna",
+            "flora"
+          ],
+          "why": "Animals, plants and digital hybrid species made from the image archive of living, endangered and extinct species at Gothenburg's Natural History Museum, with the Hasselblad Foundation. Part of 'The Mad Gardener'.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2025-still-image-finalists/susanne-fagerlund"
+          ],
+          "id": "W351",
+          "status": "candidate",
+          "image": {
+            "file": "images/W351.jpg",
+            "page": "https://lumenprize.org/2025-still-image-finalists/susanne-fagerlund",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/684030a822b8ae765a3a34e1/6874f01d6f96502738a4c2a8/1756302046465/icon.jpg?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A210",
+      "artist": "Jeremy Kamal",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2025 (finalist, Moving Image)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Mojo: The Floods",
+          "year": "",
+          "medium": "animated CGI short film",
+          "where": "Lumen Prize 2025, finalist, Moving Image Award",
+          "nature": [
+            "ecology",
+            "landscape",
+            "other: water"
+          ],
+          "why": "A speculative ecology where a trap producer controls a whole watershed from his mixing board. Also a Nature & Climate finalist.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2025-moving-image-finalists/jeremykamal"
+          ],
+          "id": "W352",
+          "status": "candidate",
+          "image": {
+            "file": "images/W352.jpg",
+            "page": "https://lumenprize.org/2025-moving-image-finalists/jeremykamal",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/684033a9462e5f1fab02bcc8/6899eab891b3d225a1e2d9f5/1755250729500/Mojo-+The+Floods+Jeremy+Kamal.png?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A211",
+      "artist": "Entangled Others",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2025 (finalist, Moving Image)",
+        "Lumen Prize 2025 (finalist, Hybrid)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "self-contained",
+          "year": "",
+          "medium": "moving image series",
+          "where": "Lumen Prize 2025, finalist, Moving Image Award",
+          "nature": [
+            "other: artificial life"
+          ],
+          "why": "Image data crossbred and mutated like DNA, as a way of looking at encoding in living organisms. Also a Nature & Climate finalist.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2025-moving-image-finalists/entangled-others-2"
+          ],
+          "id": "W353",
+          "status": "candidate",
+          "image": {
+            "file": "images/W353.jpg",
+            "page": "https://lumenprize.org/2025-moving-image-finalists/entangled-others-2",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/684033a9462e5f1fab02bcc8/689edb5f7cb61e6b5f92914a/1755250648337/Entangled+Others+-+Self-contained+4.jpeg?format=1500w"
+          }
+        },
+        {
+          "title": "Liquid Strata",
+          "year": "",
+          "medium": "artificial life simulation, installation",
+          "where": "Lumen Prize 2025, finalist, Hybrid Award",
+          "nature": [
+            "other: ocean",
+            "other: artificial life"
+          ],
+          "why": "Marine snow, the organic particles drifting to the ocean floor, as an artificial life simulation, made with oceanographer Joan Llort.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2025-hybrid-award-finalists/entangled-others"
+          ],
+          "id": "W354",
+          "status": "candidate",
+          "image": {
+            "file": "images/W354.jpg",
+            "page": "https://lumenprize.org/2025-hybrid-award-finalists/entangled-others",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/68403696b7862a2213a1990d/6899ffcf8743640b8c22dfe3/1755244276810/Screenshot+2025-08-11+at+15.37.03.png?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A212",
+      "artist": "Carlos Velandia and Angélica Restrepo",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2025 (finalist, Moving Image)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "This is not your Garden (Este no es tu jardín)",
+          "year": "",
+          "medium": "fulldome animation, Unity",
+          "where": "Lumen Prize 2025, finalist, Moving Image Award",
+          "nature": [
+            "flora",
+            "ecology",
+            "landscape"
+          ],
+          "why": "Ecosystems of Bogotá's disappearing wetlands, páramos and old forests rebuilt from 3D scans of surviving specimens; plants take back agency.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2025-moving-image-finalists/carlos-velandia-and-anglica-restrepo"
+          ],
+          "id": "W355",
+          "status": "candidate",
+          "image": {
+            "file": "images/W355.jpg",
+            "page": "https://lumenprize.org/2025-moving-image-finalists/carlos-velandia-and-anglica-restrepo",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/684033a9462e5f1fab02bcc8/6899f1c38a487b6f4f08fd00/1755002740453/This+is+not+your+Garden+Carlos+Velandia.jpeg?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A213",
+      "artist": "Amu",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2025 (finalist, Performance & Music)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Body-Go-Round",
+          "year": "",
+          "medium": "mixed reality performance",
+          "where": "Lumen Prize 2025, finalist, Performance & Music Award",
+          "nature": [
+            "other: water"
+          ],
+          "why": "Dance with projection mapping following water as it melts, flows and evaporates.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2025-performance-music-award-finalists/amu"
+          ],
+          "id": "W356",
+          "status": "candidate",
+          "image": {
+            "file": "images/W356.jpg",
+            "page": "https://lumenprize.org/2025-performance-music-award-finalists/amu",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/6840357b48756e7b00439079/687e49a4e8ffb10e68629f39/1755243976782/Screenshot+2025-07-21+at+15.11.24.png?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A214",
+      "artist": "Laura Mannelli and Sonia Killmann",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2025 (finalist, Performance & Music)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Umweltraum((a))",
+          "year": "",
+          "medium": "immersive sound installation with live performance",
+          "where": "Lumen Prize 2025, finalist, Performance & Music Award",
+          "nature": [
+            "fauna",
+            "ecology"
+          ],
+          "why": "An artificial sound-marsh of synthetic creatures, after Jakob von Uexküll's idea of the Umwelt, the perceptual world of another animal.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2025-performance-music-award-finalists/laura-mannelli"
+          ],
+          "id": "W357",
+          "status": "candidate",
+          "image": {
+            "file": "images/W357.jpg",
+            "page": "https://lumenprize.org/2025-performance-music-award-finalists/laura-mannelli",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/6840357b48756e7b00439079/687e3d617c37a470edc4ca25/1756303802478/Screenshot+2025-08-27+at+14.52.55.png?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A215",
+      "artist": "Yiming Cheng",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2025 (finalist, Fashion & Design)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "The Bleaching Skin",
+          "year": "",
+          "medium": "thermochromic accessories",
+          "where": "Lumen Prize 2025, finalist, Fashion & Design Award",
+          "nature": [
+            "other: marine / coral reef",
+            "ecology"
+          ],
+          "why": "Wearables that bleach with heat like coral does under global warming.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2025-fashion-design-award-finalists/yiming-cheng"
+          ],
+          "id": "W358",
+          "status": "candidate",
+          "image": {
+            "file": "images/W358.jpg",
+            "page": "https://lumenprize.org/2025-fashion-design-award-finalists/yiming-cheng",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/6840344f4524a111cd272f93/687655e1bab4cc78ce2383fa/1755244156826/the+Bleaching+Skin+Yiming+Cheng+.jpeg?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A216",
+      "artist": "Auroboros (Paula Sello and Alissa Aulbekova)",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2025 (finalist, Hybrid)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Biomimicry",
+          "year": "",
+          "medium": "grown couture, VFX, film",
+          "where": "Lumen Prize 2025, finalist, Hybrid Award",
+          "nature": [
+            "other: crystal growth"
+          ],
+          "why": "A gown of salt crystals that grows on the singer Tsunaina over 6-12 hours and falls away like petals, with a digital counterpart.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2025-hybrid-award-finalists/paula-sello"
+          ],
+          "id": "W359",
+          "status": "candidate",
+          "image": {
+            "file": "images/W359.jpg",
+            "page": "https://lumenprize.org/2025-hybrid-award-finalists/paula-sello",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/68403696b7862a2213a1990d/689a02c9e3a8e03f2ca5eb3e/1755511676280/ai_da_robot_biomimicryjpg_jpg.jpeg?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A217",
+      "artist": "Lundahl & Seitl",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2025 (finalist, Hybrid)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "River Biographies",
+          "year": "",
+          "medium": "multi-sensory installation",
+          "where": "Lumen Prize 2025, finalist, Hybrid Award",
+          "nature": [
+            "ecology",
+            "other: water"
+          ],
+          "why": "An exhibition built as a living ecosystem of scent, sound and vibration about rivers as exiled parts of the Earth's body.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2025-hybrid-award-finalists/lundahl-seitl"
+          ],
+          "id": "W360",
+          "status": "candidate",
+          "image": {
+            "file": "images/W360.jpg",
+            "page": "https://lumenprize.org/2025-hybrid-award-finalists/lundahl-seitl",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/68403696b7862a2213a1990d/689a01858bd68c59ae1025fe/1755244276825/riverbiographies_liljevalchs2025_se__jpeg.jpeg?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A218",
+      "artist": "Ziwei Wu",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2025 (finalist, Hybrid)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Mimicry",
+          "year": "",
+          "medium": "multi-screen video, artificial life",
+          "where": "Lumen Prize 2025, finalist, Hybrid Award",
+          "nature": [
+            "flora",
+            "fauna",
+            "other: artificial life"
+          ],
+          "why": "Live footage of plants with algorithmically evolved virtual insects that try to blend into them.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2025-hybrid-award-finalists/ziwei-wu"
+          ],
+          "id": "W361",
+          "status": "candidate",
+          "image": {
+            "file": "images/W361.jpg",
+            "page": "https://lumenprize.org/2025-hybrid-award-finalists/ziwei-wu",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/68403696b7862a2213a1990d/689a073829eff30c83e42622/1755244216795/img_3341_jpg.jpeg?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A219",
+      "artist": "evala",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2025 (finalist, Experiential)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Sprout 'fizz'",
+          "year": "",
+          "medium": "128.4.4-channel sound installation",
+          "where": "Lumen Prize 2025, finalist, Experiential Award",
+          "nature": [
+            "flora"
+          ],
+          "why": "Small speakers shaped like sprouts and cables running over floor and walls like ivy.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2025-experiential-award-finalists/evala"
+          ],
+          "id": "W362",
+          "status": "candidate",
+          "image": {
+            "file": "images/W362.jpg",
+            "page": "https://lumenprize.org/2025-experiential-award-finalists/evala",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/68403726c1705f27cd191c60/689ae950f3afbe74f305bfed/1755508685629/sprout_fizz_1407_full_jpg.jpeg?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A220",
+      "artist": "Sophia Bulgakova",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2025 (finalist, Experiential)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "OTHERWORLDS",
+          "year": "",
+          "medium": "XR ritual",
+          "where": "Lumen Prize 2025, finalist, Experiential Award",
+          "nature": [
+            "flora",
+            "other: seasons"
+          ],
+          "why": "Ukrainian pagan spring-to-summer ritual in XR, guided by flowers, trees and seasonal songs.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2025-experiential-award-finalists/sophiabulgakova"
+          ],
+          "id": "W363",
+          "status": "candidate",
+          "image": {
+            "file": "images/W363.jpg",
+            "page": "https://lumenprize.org/2025-experiential-award-finalists/sophiabulgakova",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/68403726c1705f27cd191c60/689a086384ba7b21b096df51/1755253319772/31_01_25_jan_de_groen_iffr_katoenhuis_3d0a5278a_jpg.jpeg?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A221",
+      "artist": "Emil Dam Seidel and Dorotea Saykaly",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2025 (finalist, Experiential)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Telos I",
+          "year": "",
+          "medium": "holographic mixed reality, dance",
+          "where": "Lumen Prize 2025, finalist, Experiential Award",
+          "nature": [
+            "landscape"
+          ],
+          "why": "An AI alone in a mythical landscape after humankind has gone extinct.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2025-experiential-award-finalists/emil-dam-seideldorotea-saykaly"
+          ],
+          "id": "W364",
+          "status": "candidate",
+          "image": {
+            "file": "images/W364.jpg",
+            "page": "https://lumenprize.org/2025-experiential-award-finalists/emil-dam-seideldorotea-saykaly",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/68403726c1705f27cd191c60/689a0a495e8fec5f3ffe8faf/1755245296755/Screenshot+2025-08-11+at+16.24.37.png?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A222",
+      "artist": "Ji He, Guo Xingyue and Li Weiran",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2025 (finalist, Experiential)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Artemis: An Artificial Ecosystem Composed of Bionic Automata",
+          "year": "",
+          "medium": "kinetic installation",
+          "where": "Lumen Prize 2025, finalist, Experiential Award",
+          "nature": [
+            "ecology",
+            "other: artificial life"
+          ],
+          "why": "An artificial ecosystem of cam-driven automatons whose biomorphic forms follow D'Arcy Thompson.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2025-experiential-award-finalists/ji-he"
+          ],
+          "id": "W365",
+          "status": "candidate",
+          "image": {
+            "file": "images/W365.jpg",
+            "page": "https://lumenprize.org/2025-experiential-award-finalists/ji-he",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/68403726c1705f27cd191c60/689a0cd2abb20d34a84084f5/1756301746747/Screenshot+2025-08-11+at+16.32.43.png?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A223",
+      "artist": "Robert Walton, Phillip Wilkinson and CJ Taylor",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2025 (finalist, Experiential)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Flashover",
+          "year": "",
+          "medium": "immersive animation, 14 screens",
+          "where": "Lumen Prize 2025, finalist, Experiential Award",
+          "nature": [
+            "landscape",
+            "ecology"
+          ],
+          "why": "Six animated works about wildfire, built from the memories of volunteer firefighters.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2025-experiential-award-finalists/robert-walton"
+          ],
+          "id": "W366",
+          "status": "candidate",
+          "image": {
+            "file": "images/W366.jpg",
+            "page": "https://lumenprize.org/2025-experiential-award-finalists/robert-walton",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/68403726c1705f27cd191c60/689ae7944e07e41a33941f13/1755512002429/Screenshot+2025-08-12+at+08.06.26.png?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A224",
+      "artist": "Yuxuan Weng",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2025 (finalist, Experiential)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "InsectSync 2.0",
+          "year": "",
+          "medium": "experiential installation",
+          "where": "Lumen Prize 2025, finalist, Experiential Award",
+          "nature": [
+            "fauna"
+          ],
+          "why": "Insect compound vision and tracheal breathing rhythms, modelled on diapause.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2025-experiential-award-finalists/yuxuanweng"
+          ],
+          "id": "W367",
+          "status": "candidate",
+          "image": {
+            "file": "images/W367.jpg",
+            "page": "https://lumenprize.org/2025-experiential-award-finalists/yuxuanweng",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/68403726c1705f27cd191c60/689ae8e14005dc6222c198a6/1755253343461/___1___jpg-1.jpeg?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A225",
+      "artist": "Louis-Paul Caron",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2025 (finalist, Nature & Climate)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Incendies",
+          "year": "",
+          "medium": "32 physical and video works",
+          "where": "Lumen Prize 2025, finalist, Nature & Climate Award",
+          "nature": [
+            "landscape",
+            "ecology"
+          ],
+          "why": "Calm figures against landscapes in flames, about the climate crisis.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2025-nature-climate-award-finalists/louis-paul-caron"
+          ],
+          "id": "W368",
+          "status": "candidate",
+          "image": {
+            "file": "images/W368.jpg",
+            "page": "https://lumenprize.org/2025-nature-climate-award-finalists/louis-paul-caron",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/684038978a3f7f160cac0b5b/689aea73843879265e846494/1755245596789/caron_abribus_framed_jpg.jpeg?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A226",
+      "artist": "Andrey Chugunov",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2025 (finalist, Nature & Climate)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "a space for encapsulation",
+          "year": "",
+          "medium": "photogrammetry, generative sound",
+          "where": "Lumen Prize 2025, finalist, Nature & Climate Award",
+          "nature": [
+            "landscape",
+            "ecology"
+          ],
+          "why": "Scotland's eroding coastlines, where industrial ruins, plastic and organic matter merge, documented through photogrammetry and field recordings.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2025-nature-climate-award-finalists/andreychugunov"
+          ],
+          "id": "W369",
+          "status": "candidate",
+          "image": {
+            "file": "images/W369.jpg",
+            "page": "https://lumenprize.org/2025-nature-climate-award-finalists/andreychugunov",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/684038978a3f7f160cac0b5b/689aeba7747c9e0e570202db/1755253368832/andrey_chugunov_a_space_for_encapsulation_1_png.png?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A227",
+      "artist": "Sissel Marie Tonn",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2025 (finalist, Nature & Climate)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "The Sentinel Self",
+          "year": "",
+          "medium": "interactive simulation",
+          "where": "Lumen Prize 2025, finalist, Nature & Climate Award",
+          "nature": [
+            "ecology"
+          ],
+          "why": "Human immune systems in environments polluted by microplastics, humans as sentinel species.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2025-nature-climate-award-finalists/sisselmarie-tonn"
+          ],
+          "id": "W370",
+          "status": "candidate",
+          "image": {
+            "file": "images/W370.jpg",
+            "page": "https://lumenprize.org/2025-nature-climate-award-finalists/sisselmarie-tonn",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/684038978a3f7f160cac0b5b/689aee8ac3c66c2bc4f26334/1755245536895/screenshot_2022_11_08_212414_png.png?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A228",
+      "artist": "Megaverse",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2025 (finalist, Nature & Climate)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Surge",
+          "year": "",
+          "medium": "performance, motion capture, VR",
+          "where": "Lumen Prize 2025, finalist, Nature & Climate Award",
+          "nature": [
+            "other: water"
+          ],
+          "why": "An immersive performance about water, with motion-captured performers and VR participants.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2025-nature-climate-award-finalists/john-ingle"
+          ],
+          "id": "W371",
+          "status": "candidate",
+          "image": {
+            "file": "images/W371.jpg",
+            "page": "https://lumenprize.org/2025-nature-climate-award-finalists/john-ingle",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/684038978a3f7f160cac0b5b/689aece446060068a67ca077/1755511748693/surge_performance_01_megaverse_png.png?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A229",
+      "artist": "Konstantine Vlasis",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2025 (finalist, Nature & Climate)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "2124",
+          "year": "",
+          "medium": "data sonification for percussion and glacier ice",
+          "where": "Lumen Prize 2025, finalist, Nature & Climate Award",
+          "nature": [
+            "landscape",
+            "other: ice"
+          ],
+          "why": "Projected recession of Iceland's Breiðamerkurjökull glacier sets the tempo; one rhythmic cycle per year.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2025-nature-climate-award-finalists/konstantine-vlasis"
+          ],
+          "id": "W372",
+          "status": "candidate",
+          "image": {
+            "file": "images/W372.jpg",
+            "page": "https://lumenprize.org/2025-nature-climate-award-finalists/konstantine-vlasis",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/684038978a3f7f160cac0b5b/689af1e6843879265e853247/1755245476765/2124_apex_jpg-2.jpeg?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A230",
+      "artist": "Zhang Tianyi",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2025 (finalist, Nature & Climate)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "The Plant Intelligence Plan",
+          "year": "",
+          "medium": "biotechnology",
+          "where": "Lumen Prize 2025, finalist, Nature & Climate Award",
+          "nature": [
+            "flora",
+            "fauna",
+            "ecology"
+          ],
+          "why": "Restores ecological relations between commercially bred crops and animals, based on plant intelligence research.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2025-nature-climate-award-finalists/zhang-tianyi"
+          ],
+          "id": "W373",
+          "status": "candidate",
+          "image": {
+            "file": "images/W373.jpg",
+            "page": "https://lumenprize.org/2025-nature-climate-award-finalists/zhang-tianyi",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/684038978a3f7f160cac0b5b/689af13502d84e50602d2cf2/1755245476773/_________1_jpg-4.jpeg?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A231",
+      "artist": "MORAKANA (Tiri Kananuruk and Sebastián Morales)",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2025 (finalist, Identity & Culture)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Cumulus",
+          "year": "",
+          "medium": "e-paper displays, NOAA satellite data",
+          "where": "Lumen Prize 2025, finalist, Identity & Culture Award",
+          "nature": [
+            "weather",
+            "other: sky"
+          ],
+          "why": "Tracks clouds crossing the Mexico-US border via NOAA satellites, updated every 11 minutes.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2025-identity-culture-award-finalists/tirikananuruk"
+          ],
+          "id": "W374",
+          "status": "candidate",
+          "image": {
+            "file": "images/W374.jpg",
+            "page": "https://lumenprize.org/2025-identity-culture-award-finalists/tirikananuruk",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/684038f1fac3d1477cbcf0a4/6876641097b81d5be8f72e4c/1755511816302/Cumulus+Tiri+Kananuruk+1.jpeg?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A232",
+      "artist": "Amy Karle",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2025 (finalist, Identity & Culture)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "The Golden Archive",
+          "year": "2023-2024",
+          "medium": "time capsule on billion-year media",
+          "where": "Lumen Prize 2025, finalist, Identity & Culture Award",
+          "nature": [
+            "flora",
+            "other: seeds / DNA"
+          ],
+          "why": "Earth's biological and cultural record, including DNA and seeds, embedded on the Moon, with a second edition for deep space.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/2025-identity-culture-award-finalists/amy-karle"
+          ],
+          "id": "W375",
+          "status": "candidate",
+          "image": {
+            "file": "images/W375.jpg",
+            "page": "https://lumenprize.org/2025-identity-culture-award-finalists/amy-karle",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/684038f1fac3d1477cbcf0a4/68766605cf1f7921d7d55fa7/1755245716785/The+Golden+Archive%2C+Amy+Karle%2C+2023-2024+Amy+Karle+1.jpeg?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A233",
+      "artist": "Jaein Lee",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2024 (finalist, Still Image)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Fluid Language",
+          "year": "",
+          "medium": "bio-sonification, generative visuals",
+          "where": "Lumen Prize 2024, finalist, Still Image Award",
+          "nature": [
+            "fauna",
+            "other: organisms"
+          ],
+          "why": "Sounds of gender-neutral organisms, bio-sonified and drawn as a new script.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/still-image-award-2024/jaein-lee"
+          ],
+          "id": "W376",
+          "status": "candidate",
+          "image": {
+            "file": "images/W376.jpg",
+            "page": "https://lumenprize.org/still-image-award-2024/jaein-lee",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/66aa5d4b1cda924b809894ac/66aca5e4aa23857da4460dd1/1722855987261/Fluid+Language+Jaein+Lee+1+.png?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A234",
+      "artist": "Erica Shires",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2024 (finalist, Moving Image)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Data Ghosts",
+          "year": "",
+          "medium": "video, AI, historical photographic processes",
+          "where": "Lumen Prize 2024, finalist, Moving Image Award",
+          "nature": [
+            "flora",
+            "ecology"
+          ],
+          "why": "Cyano-botanists working with old photographic processes and AI trained on natural history archives.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/moving-image-award-finalists-2024/erica-shires"
+          ],
+          "id": "W377",
+          "status": "candidate",
+          "image": {
+            "file": "images/W377.jpg",
+            "page": "https://lumenprize.org/moving-image-award-finalists-2024/erica-shires",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/66b1e24ed0964f228c1f7b52/66b1e549fc2f9c4fdeb18255/1722934727779/Data+Ghosts+Erica+Shires+2.jpeg?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A235",
+      "artist": "Si Yi Shen",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2024 (finalist, Moving Image)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Imagining terrains",
+          "year": "",
+          "medium": "animation, over 10,000 layers",
+          "where": "Lumen Prize 2024, finalist, Moving Image Award",
+          "nature": [
+            "landscape"
+          ],
+          "why": "A speculative landscape of the Australian outback around Broken Hill, from a residency there.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/moving-image-award-finalists-2024/si-yi-shen"
+          ],
+          "id": "W378",
+          "status": "candidate",
+          "image": {
+            "file": "images/W378.jpg",
+            "page": "https://lumenprize.org/moving-image-award-finalists-2024/si-yi-shen",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/66b1e24ed0964f228c1f7b52/66b1e2c17120e172775fb61a/1724093416203/Imagining+terrains+Si+Yi+Shen+2.jpeg?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A236",
+      "artist": "Kat Austen",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2024 (finalist, Interactive Immersive)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "How to Touch a Dragonfly",
+          "year": "",
+          "medium": "4 m dome of 2,100 paper and LED pixels",
+          "where": "Lumen Prize 2024, finalist, Interactive Immersive Award",
+          "nature": [
+            "fauna",
+            "landscape"
+          ],
+          "why": "An ultra-low-resolution dome screen shaped after a dragonfly's eye, showing dragonflies in post-anthropocene landscapes.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/interactive-immersive-award-finalists-2024/kat-austen"
+          ],
+          "id": "W379",
+          "status": "candidate",
+          "image": {
+            "file": "images/W379.jpg",
+            "page": "https://lumenprize.org/interactive-immersive-award-finalists-2024/kat-austen",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/66b1ed5bc344370e9aba3bc1/66b1f8e59edd793686d74dda/1722939748507/How+to+Touch+a+Dragonfly+Kat+Austen+1.jpeg?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A237",
+      "artist": "Harry Yeff and Trung Bao",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2024 (finalist, Interactive Immersive)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Voice of Hiroshima Survivor Trees: Generative Voice Gem",
+          "year": "",
+          "medium": "generative 3D form from hydrophone audio",
+          "where": "Lumen Prize 2024, finalist, Interactive Immersive Award",
+          "nature": [
+            "flora"
+          ],
+          "why": "Hydrophone recordings of a tree that survived the Hiroshima bomb, recorded by Philip Clemo, turned into a generative 'voice gem'.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/interactive-immersive-award-finalists-2024/harry-yeff-and-trung-bao"
+          ],
+          "id": "W380",
+          "status": "candidate",
+          "image": {
+            "file": "images/W380.jpg",
+            "page": "https://lumenprize.org/interactive-immersive-award-finalists-2024/harry-yeff-and-trung-bao",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/66b1ed5bc344370e9aba3bc1/66b1f452bec0074b683836ad/1724095969291/IMG_9794.jpg?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A238",
+      "artist": "Brian House",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2024 (finalist, Futures)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Macrophones",
+          "year": "",
+          "medium": "installation, infrasound",
+          "where": "Lumen Prize 2024, finalist, Futures Award",
+          "nature": [
+            "ecology",
+            "weather"
+          ],
+          "why": "Atmospheric infrasound from calving glaciers, wildfires and ocean currents made audible, to listen to the climate crisis.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/futures-award-finalists-2024/brian-house"
+          ],
+          "id": "W381",
+          "status": "candidate",
+          "image": {
+            "file": "images/W381.jpg",
+            "page": "https://lumenprize.org/futures-award-finalists-2024/brian-house",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/66b0cb36508cbe041e49f511/66b0ed92397f9c0015bbf9d1/1722873367401/Macrophones+Brian+House+1.jpeg?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A239",
+      "artist": "Scenocosme",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2024 (finalist, Futures)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Phytopoiesis",
+          "year": "",
+          "medium": "living plant, AI image generation",
+          "where": "Lumen Prize 2024, finalist, Futures Award",
+          "nature": [
+            "flora"
+          ],
+          "why": "A living plant that responds to touch and generates images and sounds through Stable Diffusion.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/futures-award-finalists-2024/scenocosme"
+          ],
+          "id": "W382",
+          "status": "candidate",
+          "image": {
+            "file": "images/W382.jpg",
+            "page": "https://lumenprize.org/futures-award-finalists-2024/scenocosme",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/66b0cb36508cbe041e49f511/66b0cf0ce5261114a7f922ab/1723645847924/Phytopoiesis+Scenocosme+Gregory+Lasserre+%26+Anais+met+den+Ancxt+1.png?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A240",
+      "artist": "Sputniko!",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2024 (finalist, Futures)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Drone in Search for a Four-Leaf Clover",
+          "year": "",
+          "medium": "drone, image recognition",
+          "where": "Lumen Prize 2024, finalist, Futures Award",
+          "nature": [
+            "flora"
+          ],
+          "why": "A drone with image recognition that searches a clover field for four-leaf clovers.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/futures-award-finalists-2024/sputniko"
+          ],
+          "id": "W383",
+          "status": "candidate",
+          "image": {
+            "file": "images/W383.jpg",
+            "page": "https://lumenprize.org/futures-award-finalists-2024/sputniko",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/66b0cb36508cbe041e49f511/66b0f49fbcac3c082c07121c/1722873153296/Drone+in+Search+for+a+Four-Leaf+Clover+Sputniko%21+1.png?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A241",
+      "artist": "Fangchao Bi",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2024 (finalist, Impact)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Butterfly Plan I",
+          "year": "",
+          "medium": "real-time data visualisation",
+          "where": "Lumen Prize 2024, finalist, Impact Award",
+          "nature": [
+            "fauna",
+            "ecology"
+          ],
+          "why": "Visualises species decline, with butterflies as the indicator.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/impact-award-finalists-2024/fangchao-bi"
+          ],
+          "id": "W384",
+          "status": "candidate",
+          "image": {
+            "file": "images/W384.jpg",
+            "page": "https://lumenprize.org/impact-award-finalists-2024/fangchao-bi",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/66b0f7246522dd077f28878b/66b100a479623d69d0217b67/1723645743323/Butterfly+Plan+I+fangchao+Bi+1.png?format=1500w"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A242",
+      "artist": "Black Void",
+      "as_listed": [],
+      "name_note": "Lead: Lumen Prize finalist (13.11.2026), not on the original brief.",
+      "practice": "",
+      "status": "lead",
+      "notes": "",
+      "via_shows": [
+        "Lumen Prize 2024 (finalist, Impact)"
+      ],
+      "shown_with": [],
+      "works": [
+        {
+          "title": "Twin Cloud",
+          "year": "",
+          "medium": "generative art from satellite climate data",
+          "where": "Lumen Prize 2024, finalist, Impact Award",
+          "nature": [
+            "weather",
+            "ecology"
+          ],
+          "why": "Climate identities for 300 cities from satellite air data, tied to on-chain carbon credits.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://lumenprize.org/impact-award-finalists-2024/black-void"
+          ],
+          "id": "W385",
+          "status": "candidate",
+          "image": {
+            "file": "images/W385.jpg",
+            "page": "https://lumenprize.org/impact-award-finalists-2024/black-void",
+            "url": "https://static1.squarespace.com/static/65e7176a61627736e02f6c4a/66b0f7246522dd077f28878b/66b0ffe68316946e19c80f24/1724093488337/Twin+Cloud+Yixuan+Cai+1.jpeg?format=1500w"
           }
         }
       ]

@@ -89,5 +89,10 @@ TG.log = [
   { who: 'CLAUDE', say: 'The leads are on the wall: 147 works, 141 with an image, each marked "lead" in the corner. The "leads" switch in the bar hides them all. Uncheck any artist to drop them; tick leads on the board to add them to the list.' },
   { date: '12.11.2026' },
   { who: 'LUKAS', say: 'Add this artwork to the list: goldberg.berkeley.edu/garden/Ars' },
-  { who: 'CLAUDE', say: 'The Telegarden, 1995-2004, by Ken Goldberg and Joseph Santarromana, was already among the leads. It is on the list now, with the artist\'s own page as its source: a living garden that anyone online could plant and water through a robot arm, at Ars Electronica in Linz from 1996 to 2004.', open: true },
+  { who: 'CLAUDE', say: 'The Telegarden, 1995-2004, by Ken Goldberg and Joseph Santarromana, was already among the leads. It is on the list now, with the artist\'s own page as its source: a living garden that anyone online could plant and water through a robot arm, at Ars Electronica in Linz from 1996 to 2004.' },
+  { date: '13.11.2026' },
+  { who: 'LUKAS', say: 'Look through the Lumen Prize 2026 finalists and see if any fit. Then find the finalists of previous years and check them too.' },
+  { dir: 'Claude reads the 2026, 2025 and 2024 finalist lists on lumenprize.org. Three researchers go through 2012 to 2023: the winner pages, archived copies of the old Lumen site, press and a gallery listing. Archive pages that start refusing visits are left alone. Claude looks at every image.' },
+  { who: 'CLAUDE', say: 'Fit is yours to judge, so this is every work whose subject is nature: 104 works, now on the wall as leads, 89 with an image. 60 are from 2024 to 2026, where the lists are complete. 44 are from earlier years, where only the winners and parts of the shortlists survive.' },
+  { who: 'CLAUDE', say: 'Three of them are by artists already on the list and sit under their names: Sofia Crespo\'s Structures of Being and Perpetual Present, and Jakob Kudsk Steensen\'s Terratic Animism. Juan Covelli\'s work is now titled El Salto.', open: true },
 ];
